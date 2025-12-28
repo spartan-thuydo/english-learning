@@ -5,7 +5,8 @@ export const API_CONFIG = {
 };
 
 // Lessons path (in public folder for Vite)
-export const LESSONS_PATH = '/lessons/json';
+// Use Vite's BASE_URL to handle both dev and production paths
+export const LESSONS_PATH = `${import.meta.env.BASE_URL}lessons/json`.replace(/\/+/g, '/').replace(/\/$/, '');
 
 // LocalStorage keys
 export const STORAGE_KEYS = {

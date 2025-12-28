@@ -75,37 +75,6 @@ npm run build
 
 The built files will be in the `dist/` folder.
 
-1. Create a new JSON file in `public/lessons/json/` following the schema:
-```json
-{
-  "metadata": {
-    "unit": "Unit X",
-    "title": "Lesson Title",
-    "level": "B1/B2/C1",
-    "topic": "Topic Name"
-  },
-  "vocabulary": [...],
-  "reading": {...},
-  "fillInTheBlanks": {...}
-}
-```
-
-2. Add the lesson to `public/lessons/json/manifest.json`:
-```json
-{
-  "lessons": [
-    {
-      "id": "unique-lesson-id",
-      "fileName": "your-lesson.json"
-    }
-  ]
-}
-```
-
-The app will automatically load the lesson from its metadata.
-
-**Note**: JSON files must be in `public/lessons/json/` for Vite to serve them correctly.
-
 ## Architecture
 
 ### 3-Layer Architecture

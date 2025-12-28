@@ -10,7 +10,7 @@ import './styles/main.css';
  */
 export default function App() {
   return (
-    <Router>
+    <Router basename="/english-learning">
       <div className="app">
         <Routes>
           <Route path={ROUTES.HOME} element={<HomePage />} />
