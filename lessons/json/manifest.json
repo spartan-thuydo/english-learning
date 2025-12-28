@@ -2,7 +2,23 @@
   "lessons": [
     {
       "id": "unit4-should-we-try",
-      "fileName": "unit4-should-we-try.json"
+      "fileName": "unit4-should-we-try.json",
+      "typeLesson": "reading"
+    }, 
+    {
+      "id": "unit4-should-we-try2",
+      "fileName": "unit4-should-we-try2.json",
+      "typeLesson": "reading"
+    }, 
+    {
+      "id": "unit5-test",
+      "fileName": "unit5-test.json",
+      "typeLesson": "listening"
+    },
+    {
+      "id": "unit5-test2",
+      "fileName": "unit5-test2.json",
+      "typeLesson": "listening"
     }
   ]
 }

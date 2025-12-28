@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "unit": "Unit 5",
+    "title": "Test"
+  },
+
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "emerge",
+      "pronunciation": "/ɪˈmɜrdʒ/",
+      "meaning": "xuất hiện",
+      "definition": "To appear or come out from somewhere",
+      "exampleSimple": "The sun emerged from behind the clouds.",
+      "exampleFromReading": {
+        "text": "The debate has emerged about bringing extinct species back to life.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_002",
+      "word": "flock",
+      "pronunciation": "/flɑk/",
+      "meaning": "đàn (chim)",
+      "definition": "A group of birds flying or feeding together",
+      "exampleSimple": "A flock of geese flew overhead.",
+      "exampleFromReading": {
+        "text": "Flying in vast numbers across North America, with potentially many millions within a single flock.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_003",
+      "word": "migration",
+      "pronunciation": "/maɪˈɡreɪʃən/",
+      "meaning": "sự di cư",
+      "definition": "The movement of animals from one region to another, typically seasonal",
+      "exampleSimple": "Bird migration happens twice a year.",
+      "exampleFromReading": {
+        "text": "Their migration was once one of nature's great spectacles.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_004",
+      "word": "spectacle",
+      "pronunciation": "/ˈspɛktəkəl/",
+      "meaning": "cảnh tượng",
+      "definition": "A visually striking performance or display",
+      "exampleSimple": "The fireworks were quite a spectacle.",
+      "exampleFromReading": {
+        "text": "Their migration was once one of nature's great spectacles.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_005",
+      "word": "existence",
+      "pronunciation": "/ɪɡˈzɪstəns/",
+      "meaning": "sự tồn tại",
+      "definition": "The state of being alive or present",
+      "exampleSimple": "Do you believe in the existence of ghosts?",
+      "exampleFromReading": {
+        "text": "The passenger pigeon's existence came to an end on 1 September 1914.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_006",
+      "word": "specimen",
+      "pronunciation": "/ˈspɛsəmɪn/",
+      "meaning": "mẫu vật",
+      "definition": "An individual animal, plant, or item used as an example of its species",
+      "exampleSimple": "The museum has many rare specimens.",
+      "exampleFromReading": {
+        "text": "When the last living specimen died at Cincinnati Zoo.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_007",
+      "word": "premise",
+      "pronunciation": "/ˈprɛmɪs/",
+      "meaning": "giả thuyết",
+      "definition": "A statement or idea that forms the basis for reasoning",
+      "exampleSimple": "The premise of the argument is flawed.",
+      "exampleFromReading": {
+        "text": "The basic premise involves using cloning technology.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_008",
+      "word": "cloning",
+      "pronunciation": "/ˈkloʊnɪŋ/",
+      "meaning": "sự nhân bản",
+      "definition": "The process of creating an identical copy of an organism",
+      "exampleSimple": "Animal cloning is controversial.",
+      "exampleFromReading": {
+        "text": "The basic premise involves using cloning technology to turn the DNA of extinct animals into a fertilised embryo.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_009",
+      "word": "embryo",
+      "pronunciation": "/ˈɛmbrioʊ/",
+      "meaning": "phôi",
+      "definition": "An early stage of development of an organism",
+      "exampleSimple": "The embryo develops into a baby.",
+      "exampleFromReading": {
+        "text": "Turn the DNA of extinct animals into a fertilised embryo.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_010",
+      "word": "trial",
+      "pronunciation": "/ˈtraɪəl/",
+      "meaning": "thử nghiệm",
+      "definition": "A test of performance, qualities, or suitability",
+      "exampleSimple": "The drug is undergoing clinical trials.",
+      "exampleFromReading": {
+        "text": "This cutting-edge technology is being trialled.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_011",
+      "word": "strive",
+      "pronunciation": "/straɪv/",
+      "meaning": "cố gắng",
+      "definition": "To make great efforts to achieve something",
+      "exampleSimple": "We strive to provide excellent service.",
+      "exampleFromReading": {
+        "text": "Genetic scientists are striving to bring back to life.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_012",
+      "word": "carnivore",
+      "pronunciation": "/ˈkɑrnɪˌvɔr/",
+      "meaning": "động vật ăn thịt",
+      "definition": "An animal that feeds on meat",
+      "exampleSimple": "Lions are carnivores.",
+      "exampleFromReading": {
+        "text": "There is no carnivore now in Tasmania that fills the niche which thylacines once occupied.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_013",
+      "word": "occupy",
+      "pronunciation": "/ˈɑkjəˌpaɪ/",
+      "meaning": "chiếm giữ",
+      "definition": "To fill or take up a space or position",
+      "exampleSimple": "The building is occupied by offices.",
+      "exampleFromReading": {
+        "text": "Fills the niche which thylacines once occupied.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_014",
+      "word": "syndrome",
+      "pronunciation": "/ˈsɪndroʊm/",
+      "meaning": "hội chứng",
+      "definition": "A group of symptoms that characterize a disease or condition",
+      "exampleSimple": "He suffers from chronic fatigue syndrome.",
+      "exampleFromReading": {
+        "text": "A dangerously debilitating facial tumour syndrome.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_015",
+      "word": "threaten",
+      "pronunciation": "/ˈθrɛtn/",
+      "meaning": "đe dọa",
+      "definition": "To cause danger or harm to something",
+      "exampleSimple": "Climate change threatens many species.",
+      "exampleFromReading": {
+        "text": "Which threatens the existence of the Tasmanian devils.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_016",
+      "word": "contagious",
+      "pronunciation": "/kənˈteɪdʒəs/",
+      "meaning": "dễ lây lan",
+      "definition": "Able to be transmitted from one person or organism to another",
+      "exampleSimple": "The flu is highly contagious.",
+      "exampleFromReading": {
+        "text": "If that contagious cancer had popped up previously.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_017",
+      "word": "pop up",
+      "pronunciation": "/pɑp ʌp/",
+      "meaning": "xuất hiện bất ngờ",
+      "definition": "To appear suddenly or unexpectedly",
+      "exampleSimple": "New restaurants keep popping up in the area.",
+      "exampleFromReading": {
+        "text": "If that contagious cancer had popped up previously, it would have burned out.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_018",
+      "word": "burn out",
+      "pronunciation": "/bɜrn aʊt/",
+      "meaning": "tắt đi, dừng lại",
+      "definition": "To stop burning or functioning",
+      "exampleSimple": "The fire burned out during the night.",
+      "exampleFromReading": {
+        "text": "It would have burned out in whatever region it started.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_019",
+      "word": "be subjected to",
+      "pronunciation": "/bi səbˈdʒɛktɪd tu/",
+      "meaning": "bị ảnh hưởng bởi",
+      "definition": "To experience or be affected by something unpleasant",
+      "exampleSimple": "They were subjected to harsh treatment.",
+      "exampleFromReading": {
+        "text": "Devils are never again subjected to risks of this kind.",
+        "paragraphId": "para_B"
+      }
+    },
+    {
+      "id": "word_020",
+      "word": "reverse",
+      "pronunciation": "/rɪˈvɜrs/",
+      "meaning": "đảo ngược",
+      "definition": "To change to the opposite direction or effect",
+      "exampleSimple": "Can we reverse the damage?",
+      "exampleFromReading": {
+        "text": "We can reverse this process, bringing species that no longer exist back to life.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_021",
+      "word": "identical",
+      "pronunciation": "/aɪˈdɛntɪkəl/",
+      "meaning": "giống hệt",
+      "definition": "Exactly the same in every detail",
+      "exampleSimple": "The twins look identical.",
+      "exampleFromReading": {
+        "text": "Bringing back something that is 100 per cent identical to a species.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_022",
+      "word": "template",
+      "pronunciation": "/ˈtɛmˌpleɪt/",
+      "meaning": "mẫu",
+      "definition": "A pattern or model used as a guide",
+      "exampleSimple": "Use this document as a template.",
+      "exampleFromReading": {
+        "text": "Take the DNA of existing species as a template.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_023",
+      "word": "insertion",
+      "pronunciation": "/ɪnˈsɜrʃən/",
+      "meaning": "sự chèn vào",
+      "definition": "The action of putting something into something else",
+      "exampleSimple": "The insertion of a clause into the contract.",
+      "exampleFromReading": {
+        "text": "Ready for the insertion of strands of extinct animal DNA.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_024",
+      "word": "hybrid",
+      "pronunciation": "/ˈhaɪbrɪd/",
+      "meaning": "con lai",
+      "definition": "The offspring of two different species or varieties",
+      "exampleSimple": "A mule is a hybrid of a horse and donkey.",
+      "exampleFromReading": {
+        "text": "To create something new; a hybrid, based on the living species.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_025",
+      "word": "die out",
+      "pronunciation": "/daɪ aʊt/",
+      "meaning": "tuyệt chủng",
+      "definition": "To become extinct or cease to exist",
+      "exampleSimple": "Many species have died out.",
+      "exampleFromReading": {
+        "text": "Which looks and acts like the animal which died out.",
+        "paragraphId": "para_C"
+      }
+    },
+    {
+      "id": "word_026",
+      "word": "outcome",
+      "pronunciation": "/ˈaʊtˌkʌm/",
+      "meaning": "kết quả",
+      "definition": "The result or consequence of an action",
+      "exampleSimple": "What was the outcome of the meeting?",
+      "exampleFromReading": {
+        "text": "This complicated process and questionable outcome begs the question.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_027",
+      "word": "beg the question",
+      "pronunciation": "/bɛɡ ðə ˈkwɛsʧən/",
+      "meaning": "đặt ra câu hỏi",
+      "definition": "To raise a point that needs further discussion",
+      "exampleSimple": "This begs the question of whether it's ethical.",
+      "exampleFromReading": {
+        "text": "This complicated process and questionable outcome begs the question.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_028",
+      "word": "point",
+      "pronunciation": "/pɔɪnt/",
+      "meaning": "chỉ ra, điểm",
+      "definition": "To indicate or draw attention to something",
+      "exampleSimple": "He pointed out the mistake.",
+      "exampleFromReading": {
+        "text": "What is the actual point of this technology?",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_029",
+      "word": "breed",
+      "pronunciation": "/brid/",
+      "meaning": "sinh sản",
+      "definition": "To produce offspring or reproduce",
+      "exampleSimple": "Rabbits breed quickly.",
+      "exampleFromReading": {
+        "text": "When it comes to breeding, band-tailed pigeons scatter.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_030",
+      "word": "disturbance",
+      "pronunciation": "/dɪˈstɜrbəns/",
+      "meaning": "sự xáo trộn",
+      "definition": "A disruption or interruption of normal conditions",
+      "exampleSimple": "There was a disturbance in the forest.",
+      "exampleFromReading": {
+        "text": "The lack of disturbance caused by thousands of passenger pigeons wrecking trees.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_031",
+      "word": "evolve",
+      "pronunciation": "/ɪˈvɑlv/",
+      "meaning": "tiến hóa",
+      "definition": "To develop gradually over time",
+      "exampleSimple": "Species evolve to adapt to their environment.",
+      "exampleFromReading": {
+        "text": "Animals which evolved to help regenerate the forest.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_032",
+      "word": "regenerate",
+      "pronunciation": "/rɪˈdʒɛnəˌreɪt/",
+      "meaning": "tái sinh",
+      "definition": "To grow or be renewed",
+      "exampleSimple": "The forest can regenerate naturally.",
+      "exampleFromReading": {
+        "text": "Animals which evolved to help regenerate the forest after a disturbance.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_033",
+      "word": "thrive",
+      "pronunciation": "/θraɪv/",
+      "meaning": "phát triển mạnh",
+      "definition": "To grow or develop successfully",
+      "exampleSimple": "Plants thrive in warm climates.",
+      "exampleFromReading": {
+        "text": "Creating a habitat necessary for a great many other native species to thrive.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_034",
+      "word": "candidate",
+      "pronunciation": "/ˈkændədeɪt/",
+      "meaning": "ứng viên",
+      "definition": "A person or thing that is suitable for a particular role",
+      "exampleSimple": "She is a strong candidate for the job.",
+      "exampleFromReading": {
+        "text": "Another popular candidate for this technology is the woolly mammoth.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_035",
+      "word": "resistance",
+      "pronunciation": "/rɪˈzɪstəns/",
+      "meaning": "sự kháng cự",
+      "definition": "The ability to withstand or oppose something",
+      "exampleSimple": "The bacteria showed resistance to antibiotics.",
+      "exampleFromReading": {
+        "text": "Focusing on cold resistance, the main way in which the extinct woolly mammoth differs.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_036",
+      "word": "pinpoint",
+      "pronunciation": "/ˈpɪnˌpɔɪnt/",
+      "meaning": "xác định chính xác",
+      "definition": "To identify or locate precisely",
+      "exampleSimple": "Scientists pinpointed the cause of the disease.",
+      "exampleFromReading": {
+        "text": "By pinpointing which genetic traits made it possible for mammoths to survive.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_037",
+      "word": "preserve",
+      "pronunciation": "/prɪˈzɜrv/",
+      "meaning": "bảo tồn",
+      "definition": "To keep something in its original state",
+      "exampleSimple": "We must preserve the rainforest.",
+      "exampleFromReading": {
+        "text": "My highest priority would be preserving the endangered Asian elephant.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_038",
+      "word": "adaptation",
+      "pronunciation": "/ˌædæpˈteɪʃən/",
+      "meaning": "sự thích nghi",
+      "definition": "The process of changing to suit different conditions",
+      "exampleSimple": "The animal's adaptation helped it survive.",
+      "exampleFromReading": {
+        "text": "Necessary adaptations would include smaller ears, thicker hair.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_039",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪˌɡeɪt/",
+      "meaning": "giảm nhẹ",
+      "definition": "To make something less severe or serious",
+      "exampleSimple": "We need to mitigate the effects of climate change.",
+      "exampleFromReading": {
+        "text": "This grass growth would reduce temperature, and mitigate emissions from melting permafrost.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_040",
+      "word": "prospect",
+      "pronunciation": "/ˈprɑspɛkt/",
+      "meaning": "triển vọng",
+      "definition": "The possibility or likelihood of something happening",
+      "exampleSimple": "The prospect of success motivated them.",
+      "exampleFromReading": {
+        "text": "While the prospect of bringing extinct animals back to life might capture imaginations.",
+        "paragraphId": "para_F"
+      }
+    },
+    {
+      "id": "word_041",
+      "word": "extinct",
+      "pronunciation": "/ɪkˈstɪŋkt/",
+      "meaning": "tuyệt chủng",
+      "definition": "No longer in existence",
+      "exampleSimple": "Dinosaurs are extinct.",
+      "exampleFromReading": {
+        "text": "Bringing extinct species back to life.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_042",
+      "word": "passenger pigeon",
+      "pronunciation": "/ˈpæsəndʒər ˈpɪdʒən/",
+      "meaning": "chim bồ câu passenger",
+      "definition": "An extinct species of pigeon",
+      "exampleSimple": "The passenger pigeon was once abundant.",
+      "exampleFromReading": {
+        "text": "The passenger pigeon was a legendary species.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_043",
+      "word": "potentially",
+      "pronunciation": "/pəˈtɛnʃəli/",
+      "meaning": "tiềm năng, có khả năng",
+      "definition": "Possibly; with the capacity to develop",
+      "exampleSimple": "This is potentially dangerous.",
+      "exampleFromReading": {
+        "text": "With potentially many millions within a single flock.",
+        "paragraphId": "para_A"
+      }
+    },
+    {
+      "id": "word_044",
+      "word": "scatter",
+      "pronunciation": "/ˈskætər/",
+      "meaning": "rải rác",
+      "definition": "To throw or spread things in different directions",
+      "exampleSimple": "Seeds scattered across the field.",
+      "exampleFromReading": {
+        "text": "Band-tailed pigeons scatter and make maybe one or two nests per hectare.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_045",
+      "word": "wreck",
+      "pronunciation": "/rɛk/",
+      "meaning": "phá hủy",
+      "definition": "To destroy or damage severely",
+      "exampleSimple": "The storm wrecked many buildings.",
+      "exampleFromReading": {
+        "text": "The lack of disturbance caused by thousands of passenger pigeons wrecking trees.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_046",
+      "word": "stagnant",
+      "pronunciation": "/ˈstæɡnənt/",
+      "meaning": "trì trệ",
+      "definition": "Not flowing or moving; inactive",
+      "exampleSimple": "The economy is stagnant.",
+      "exampleFromReading": {
+        "text": "This has left forests stagnant and therefore unwelcoming.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_047",
+      "word": "unwelcoming",
+      "pronunciation": "/ʌnˈwɛlkəmɪŋ/",
+      "meaning": "không chào đón",
+      "definition": "Not friendly or inviting",
+      "exampleSimple": "The place felt cold and unwelcoming.",
+      "exampleFromReading": {
+        "text": "Left forests stagnant and therefore unwelcoming to the plants and animals.",
+        "paragraphId": "para_D"
+      }
+    },
+    {
+      "id": "word_048",
+      "word": "differ",
+      "pronunciation": "/ˈdɪfər/",
+      "meaning": "khác nhau",
+      "definition": "To be unlike or dissimilar",
+      "exampleSimple": "People differ in their opinions.",
+      "exampleFromReading": {
+        "text": "The main way in which the extinct woolly mammoth and its nearest living relative differ.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_049",
+      "word": "priority",
+      "pronunciation": "/praɪˈɔrəti/",
+      "meaning": "sự ưu tiên",
+      "definition": "Something that is more important than other things",
+      "exampleSimple": "Safety is our top priority.",
+      "exampleFromReading": {
+        "text": "My highest priority would be preserving the endangered Asian elephant.",
+        "paragraphId": "para_E"
+      }
+    },
+    {
+      "id": "word_050",
+      "word": "permafrost",
+      "pronunciation": "/ˈpɜrməfrɔst/",
+      "meaning": "băng vĩnh cửu",
+      "definition": "A layer of soil that remains frozen throughout the year",
+      "exampleSimple": "Climate change is melting the permafrost.",
+      "exampleFromReading": {
+        "text": "Mitigate emissions from melting permafrost.",
+        "paragraphId": "para_E"
+      }
+    }
+  ]
+
+}
