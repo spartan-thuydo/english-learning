@@ -1,0 +1,433 @@
+{
+  "metadata": {
+    "unit": "Unit 3",
+    "title": "Volunteering Work"
+  },
+  "vocabulary": [
+    {
+      "word": "Be/ get involved (in sth)",
+      "pronunciation": "",
+      "meaning": "tham gia vào cái gì đó",
+      "definition": "tham gia vào cái gì đó",
+      "id": "word_001",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Involve sth",
+      "pronunciation": "",
+      "meaning": "to include someone or something in an activity:",
+      "definition": "to include someone or something in an activity:",
+      "id": "word_002",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Commitment",
+      "pronunciation": "",
+      "meaning": "sự cam kết",
+      "definition": "sự cam kết",
+      "id": "word_003",
+      "exampleSimple": "",
+      "pos": "noun"
+    },
+    {
+      "word": "Give up sth",
+      "pronunciation": "",
+      "meaning": "từ bỏ cái gì đó",
+      "definition": "từ bỏ cái gì đó",
+      "id": "word_004",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Get back to work",
+      "pronunciation": "",
+      "meaning": "Quay trở lại làm việc",
+      "definition": "Quay trở lại làm việc",
+      "id": "word_005",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Get your hands dirty",
+      "pronunciation": "",
+      "meaning": "làm công việc chân tay/ làm các việc khó khăn",
+      "definition": "làm công việc chân tay/ làm các việc khó khăn",
+      "id": "word_006",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Job applicants",
+      "pronunciation": "",
+      "meaning": "ứng viên",
+      "definition": "ứng viên",
+      "id": "word_007",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Feel valued by other people",
+      "pronunciation": "",
+      "meaning": "cảm thấy được ghi nhận bởi mọi người",
+      "definition": "cảm thấy được ghi nhận bởi mọi người",
+      "id": "word_008",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Potential customers",
+      "pronunciation": "",
+      "meaning": "khách hàng tiềm năng",
+      "definition": "khách hàng tiềm năng",
+      "id": "word_009",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "A conservation project",
+      "pronunciation": "",
+      "meaning": "dự án bảo tồn",
+      "definition": "dự án bảo tồn",
+      "id": "word_010",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Fancy doing sth",
+      "pronunciation": "",
+      "meaning": "to want to do something",
+      "definition": "to want to do something",
+      "id": "word_011",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Keep up with sth",
+      "pronunciation": "",
+      "meaning": "to do whatever is necessary to stay level or equal with someone or something",
+      "definition": "to do whatever is necessary to stay level or equal with someone or something",
+      "id": "word_012",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Host an event",
+      "pronunciation": "",
+      "meaning": "to provide the space and other things necessary for a special event",
+      "definition": "to provide the space and other things necessary for a special event",
+      "id": "word_013",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Section",
+      "pronunciation": "/ˈsɛkʃən/",
+      "meaning": "one of the parts that something is divided into",
+      "definition": "one of the parts that something is divided into",
+      "id": "word_014",
+      "exampleSimple": "",
+      "pos": "verb"
+    },
+    {
+      "word": "Complete the form",
+      "pronunciation": "",
+      "meaning": "hoàn thành mẫu đơn",
+      "definition": "hoàn thành mẫu đơn",
+      "id": "word_015",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Provide training",
+      "pronunciation": "",
+      "meaning": "cung cấp đào tạo",
+      "definition": "cung cấp đào tạo",
+      "id": "word_016",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Tablet",
+      "pronunciation": "/ˈtæblət/",
+      "meaning": "máy tính bảng",
+      "definition": "máy tính bảng",
+      "id": "word_017",
+      "exampleSimple": "",
+      "pos": "verb"
+    },
+    {
+      "word": "Suite",
+      "pronunciation": "/swiːt/",
+      "meaning": "a set of rooms",
+      "definition": "a set of rooms",
+      "id": "word_018",
+      "exampleSimple": "the ambassador's suite",
+      "pos": "noun"
+    },
+    {
+      "word": "Pair",
+      "pronunciation": "/per/",
+      "meaning": "nhóm, đôi, ghép nhóm",
+      "definition": "nhóm, đôi, ghép nhóm",
+      "id": "word_019",
+      "exampleSimple": "The wedding guests were paired boy/girl and groom's party/bride's party.",
+      "pos": "verb"
+    },
+    {
+      "word": "Tend to do something",
+      "pronunciation": "",
+      "meaning": "có xu hướng làm gì đó",
+      "definition": "có xu hướng làm gì đó",
+      "id": "word_020",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Outdated",
+      "pronunciation": "/aʊtˈdeɪtɪd/",
+      "meaning": "lỗi thời",
+      "definition": "lỗi thời",
+      "id": "word_021",
+      "exampleSimple": "His outdated wordprocessing software could not read the files I sent.",
+      "pos": "adjective"
+    },
+    {
+      "word": "Be keen to do something",
+      "pronunciation": "",
+      "meaning": "thích làm gì đó",
+      "definition": "thích làm gì đó",
+      "id": "word_022",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Dismissive",
+      "pronunciation": "/dɪsˈmɪs.ɪv/",
+      "meaning": "thái độ miễn cường, lơ đi, không thích, không để ý",
+      "definition": "thái độ miễn cường, lơ đi, không thích, không để ý",
+      "id": "word_023",
+      "exampleSimple": "",
+      "pos": "adjective"
+    },
+    {
+      "word": "A form of communication",
+      "pronunciation": "",
+      "meaning": "hình thức giao tiếp",
+      "definition": "hình thức giao tiếp",
+      "id": "word_024",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Keep your brain active",
+      "pronunciation": "",
+      "meaning": "giữ cho trí não hoạt động",
+      "definition": "giữ cho trí não hoạt động",
+      "id": "word_025",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Order groceries online",
+      "pronunciation": "/ˈɡroʊ.sɚ.i/",
+      "meaning": "order hàng tạp hóa",
+      "definition": "order hàng tạp hóa",
+      "id": "word_026",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Come in handy",
+      "pronunciation": "",
+      "meaning": "hữu ích, có ích",
+      "definition": "hữu ích, có ích",
+      "id": "word_027",
+      "exampleSimple": "",
+      "pos": ""
+    }
+  ],
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 1: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Be/ get involved (in sth)",
+          "Involve sth",
+          "Commitment",
+          "Give up sth",
+          "Get back to work",
+          "Get your hands dirty",
+          "Job applicants",
+          "Feel valued by other people",
+          "Potential customers"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "Taking a nap is the best way to recharge batteries before …………….",
+            "answer": "getting back to work",
+            "translation": "Ngủ trưa là cách tốt nhất để nạp lại năng lượng trước khi quay lại làm việc."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "This life is so fair. The guys at the top are always willing to ………………. and never stop improving themselves.",
+            "answer": "get their hands dirty",
+            "translation": "Cuộc đời này thật công bằng. Những người ở trên luôn sẵn sàng làm việc chân tay và không ngừng cải thiện bản thân."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "Some people are willing to …………. their free time for a couple of days to do volunteering work.",
+            "answer": "give up",
+            "translation": "Một số người sẵn sàng hy sinh thời gian rảnh trong vài ngày để làm tình nguyện."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "Many ……………… simply don't meet hiring requirements.",
+            "answer": "job applicants",
+            "translation": "Nhiều ứng viên đơn giản không đáp ứng yêu cầu tuyển dụng."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "Many people are struggling with doing what they want because of family ……………….",
+            "answer": "commitments",
+            "translation": "Nhiều người đang vật lộn để làm những gì họ muốn vì các cam kết với gia đình."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "This job ……………… a huge time commitment.",
+            "answer": "involves",
+            "translation": "Công việc này đòi hỏi một cam kết thời gian lớn."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "The couple was having a loud argument, and I was afraid to …………...",
+            "answer": "get involved",
+            "translation": "Cặp đôi đang cãi nhau rất to và tôi sợ tham gia vào."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "A conservation project",
+          "Fancy doing sth",
+          "Keep up with sth",
+          "Host an event",
+          "Section",
+          "Complete the form",
+          "Provide training",
+          "Tablet"
+        ],
+        "questions": [
+          {
+            "id": "fib_008",
+            "sentence": "Technology changes so fast, it's hard to …………………. it.",
+            "answer": "keep up with",
+            "translation": "Công nghệ thay đổi quá nhanh, thật khó để theo kịp nó."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "………………… helps to develop a high level of motivation in a sales force.",
+            "answer": "providing training",
+            "translation": "Cung cấp đào tạo giúp phát triển mức độ động lực cao trong đội ngũ bán hàng."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Have you …………………. your application form yet?",
+            "answer": "completed",
+            "translation": "Bạn đã hoàn thành mẫu đơn chưa?"
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Dad always reads the volunteering …………. of the newspaper.",
+            "answer": "section",
+            "translation": "Bố luôn đọc mục tình nguyện của tờ báo."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Paris has been chosen to …………. the next event.",
+            "answer": "host",
+            "translation": "Paris đã được chọn để tổ chức sự kiện tiếp theo."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "The city council decided to run some …………….. to protect endangered species.",
+            "answer": "conservation project",
+            "translation": "Chúng tôi đang làm việc trong dự án bảo tồn."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "I didn't ………… swimming in that water.",
+            "answer": "fancy",
+            "translation": "Bạn có muốn đi xem phim không?"
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 3: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Suite",
+          "Pair",
+          "Tend to do something",
+          "Outdated",
+          "Be keen to do something",
+          "Dismissive",
+          "A form of communication",
+          "Keep your brain active",
+          "Order groceries online",
+          "Come in handy"
+        ],
+        "questions": [
+          {
+            "id": "fib_015",
+            "sentence": "People don't have enough money to buy their ………….",
+            "answer": "feel valued",
+            "translation": "Điều quan trọng là làm cho nhân viên cảm thấy được đánh giá cao."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "The money that I put aside now will …………  when I want to travel.",
+            "answer": "potential customers",
+            "translation": "Chúng tôi cần thu hút nhiều khách hàng tiềm năng hơn."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "The singer was interviewed in his hotel ………….",
+            "answer": "willingness",
+            "translation": "Sự sẵn lòng giúp đỡ của cô ấy thật đáng ngưỡng mộ."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "Ms. Morris was ………… with Ms. Lindsay, with whom she spent two days learning about various aspects of running a wine business.",
+            "answer": "commitment",
+            "translation": "Anh ấy thể hiện cam kết mạnh mẽ với công việc."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "We ………… to get cold winters and warm, dry summers in this part of the country.",
+            "answer": "involved",
+            "translation": "Tôi đã tham gia vào dự án này từ đầu."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "He's so ………… of anybody else's suggestions.",
+            "answer": "give up",
+            "translation": "Đừng bao giờ từ bỏ ước mơ của bạn."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "Joan wanted to go to a movie but I wasn't ………… (= I didn't want to go).",
+            "answer": "getting back to",
+            "translation": "Tôi mong được quay lại làm việc sau kỳ nghỉ."
+          }
+        ]
+      }
+    ]
+  }
+}

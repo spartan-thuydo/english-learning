@@ -5,7 +5,7 @@ import GameResult from './GameResult.jsx';
 import Button from '../common/Button.jsx';
 import { buildRoute } from '../../constants/routes.js';
 import { GAME_CONFIG, GAME_TYPES } from '../../constants/games.js';
-import { shuffleArray, isCorrectAnswer, calculateScore } from '../../utils/gameUtils.js';
+import { shuffleArray, isCorrectAnswer, calculateScore, scrambleWord } from '../../utils/gameUtils.js';
 
 /**
  * GuessDefinitionGame - Type the correct word from definition
@@ -20,7 +20,9 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
   const [isAnswered, setIsAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
   const [showHint, setShowHint] = useState(false);
+  const [scrambledHint, setScrambledHint] = useState('');
   const [gameComplete, setGameComplete] = useState(false);
 
   const currentQuestion = questions[currentIndex];
@@ -48,6 +50,8 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
 
     if (correct) {
       setCorrectCount(prev => prev + 1);
+    } else {
+      setWrongCount(prev => prev + 1);
     }
   };
 
@@ -56,6 +60,7 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
     setIsAnswered(false);
     setIsCorrect(false);
     setShowHint(false);
+    setScrambledHint('');
 
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(prev => prev + 1);
@@ -65,6 +70,7 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
   };
 
   const handleShowHint = () => {
+    setScrambledHint(scrambleWord(currentQuestion.word));
     setShowHint(true);
   };
 
@@ -75,19 +81,14 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
     setIsAnswered(false);
     setIsCorrect(false);
     setCorrectCount(0);
+    setWrongCount(0);
     setShowHint(false);
+    setScrambledHint('');
     setGameComplete(false);
   };
 
   const handleBackToGames = () => {
     navigate(buildRoute.games(lessonId));
-  };
-
-  const getHint = (word) => {
-    const length = word.length;
-    if (length <= 2) return word[0] + '_';
-    if (length <= 4) return word[0] + '_'.repeat(length - 2) + word[length - 1];
-    return word[0] + word[1] + '_'.repeat(length - 3) + word[length - 1];
   };
 
   if (gameComplete) {
@@ -116,18 +117,22 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
       gameTitle={gameConfig.name}
       gameIcon={gameConfig.icon}
       progress={progress}
-      score={correctCount}
+      currentQuestion={currentIndex + 1}
+      totalQuestions={questions.length}
+      correctCount={correctCount}
+      mistakeCount={wrongCount}
     >
       <div className="guess-definition-game">
-        <div className="guess-definition-game__counter">
-          Question {currentIndex + 1} of {questions.length}
-        </div>
-
         <div className="guess-definition-game__definition">
-          <div className="guess-definition-game__label">Definition:</div>
+          <div className="guess-definition-game__label">
+            Definition:
+          </div>
           <div className="guess-definition-game__text">
             {currentQuestion.meaning}
           </div>
+          {currentQuestion.pos && (
+            <div className="guess-definition-game__pos">({currentQuestion.pos})</div>
+          )}
         </div>
 
         {currentQuestion.example && !isAnswered && (
@@ -141,7 +146,9 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
 
         {showHint && !isAnswered && (
           <div className="guess-definition-game__hint">
-            Hint: {getHint(currentQuestion.word)}
+            <div className="guess-definition-game__scrambled">
+              {scrambledHint}
+            </div>
           </div>
         )}
 
@@ -164,7 +171,7 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
                 onClick={handleShowHint}
                 disabled={showHint}
               >
-                Show Hint
+                💡 Hint
               </Button>
               <Button
                 type="submit"
@@ -200,7 +207,7 @@ export default function GuessDefinitionGame({ lessonId, vocabulary }) {
         {isAnswered && (
           <div className="guess-definition-game__actions">
             <Button variant="primary" onClick={handleNext}>
-              {currentIndex < questions.length - 1 ? 'Next Question' : 'Finish'} (Press Enter)
+              {currentIndex < questions.length - 1 ? 'Next Question' : 'Finish'}
             </Button>
           </div>
         )}

@@ -40,6 +40,7 @@ class LessonService {
           return {
             id: item.id,
             fileName: item.fileName,
+            typeLesson: item.typeLesson,
             unit: lessonData.metadata.unit,
             title: lessonData.metadata.title
           };
@@ -161,11 +162,10 @@ class LessonService {
     if (!lessonData.metadata) {
       throw new Error('Lesson missing metadata');
     }
-    if (!lessonData.vocabulary || !Array.isArray(lessonData.vocabulary)) {
-      throw new Error('Lesson missing vocabulary array');
-    }
-    if (!lessonData.reading || !lessonData.reading.paragraphs) {
-      throw new Error('Lesson missing reading content');
+    // Vocabulary and reading are both optional
+    // Some lessons may only have vocabulary (listening), some only reading, some both
+    if (lessonData.vocabulary && !Array.isArray(lessonData.vocabulary)) {
+      throw new Error('Vocabulary must be an array');
     }
   }
 

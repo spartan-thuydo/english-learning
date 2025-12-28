@@ -1,0 +1,639 @@
+{
+  "metadata": {
+    "unit": "Unit 5",
+    "title": "ORGANIC FOOD: WHY?"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Method",
+      "pronunciation": "/ˈmeθ.əd/",
+      "pos": "n",
+      "meaning": "phương pháp",
+      "definition": "To apply a method",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Pesticide",
+      "pronunciation": "/ˈpes.tə.saɪd/",
+      "pos": "n",
+      "meaning": "thuốc trừ sâu",
+      "definition": "Anything, especially a synthetic substance but also any substance (e.g. sulfur), or virus, bacterium, or other organism, which kills or suppresses the activities of pests.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Artificial product",
+      "pronunciation": "/ˌɑːr.t̬əˈfɪʃ.əl/",
+      "pos": "n",
+      "meaning": "sản phẩm nhân tạo",
+      "definition": "Artificial product",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Expand",
+      "pronunciation": "/ɪkˈspænd/",
+      "pos": "v",
+      "meaning": "gia tăng về số lượng, kích cỡ, tầm quan trọng",
+      "definition": "To change (something) from a smaller form and/or size to a larger one; to spread out or lay open.",
+      "exampleSimple": "You can expand this compact umbrella to cover a large table."
+    },
+    {
+      "id": "word_005",
+      "word": "Rather than",
+      "pronunciation": "/ˈræð.ɚ/",
+      "pos": "",
+      "meaning": "Instead of sth THAY VÌ CÁI GÌ ĐÓ",
+      "definition": "Rather than",
+      "exampleSimple": "I think I'd like to stay at home this evening rather than go out."
+    },
+    {
+      "id": "word_006",
+      "word": "Conventional farming",
+      "pronunciation": "/kənˈven.ʃən.əl/",
+      "pos": "n",
+      "meaning": "nông nghiệp truyền thống",
+      "definition": "Conventional farming",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Fertilizer",
+      "pronunciation": "/ˈfɝː.t̬əl.aɪ.zɚ/",
+      "pos": "n",
+      "meaning": "phân bón",
+      "definition": "A natural substance that is used to make the ground more suitable for growing plants.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Compensate for sth",
+      "pronunciation": "/ˈkɑːm.pən.seɪt/",
+      "pos": "v",
+      "meaning": "đền bù, bù đắp",
+      "definition": "Compensate for sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Man-made",
+      "pronunciation": "/ˌmænˈmeɪd/",
+      "pos": "adj",
+      "meaning": "do người tạo ra, artificial",
+      "definition": "Created by people, as opposed to occurring in nature; artificial or synthetic.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Crop rotation",
+      "pronunciation": "/roʊˈteɪ.ʃən/",
+      "pos": "n",
+      "meaning": "canh tác luân canh",
+      "definition": "Crop rotation",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Inefficient",
+      "pronunciation": "/ˌɪn.ɪˈfɪʃ.ənt/",
+      "pos": "adj",
+      "meaning": "không hiệu quả",
+      "definition": "Not efficient; not producing the effect intended or desired; inefficacious",
+      "exampleSimple": "Celery is an inefficient food."
+    },
+    {
+      "id": "word_012",
+      "word": "Labour",
+      "pronunciation": "/ˈleɪ.bɚ/",
+      "pos": "n",
+      "meaning": "nhân công",
+      "definition": "To toil, to work.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Emit",
+      "pronunciation": "/iˈmɪt/",
+      "pos": "v",
+      "meaning": "thải ra, phát ra (khí, gas, sound)",
+      "definition": "To send out or give off",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Reject",
+      "pronunciation": "/rɪˈdʒekt/",
+      "pos": "v",
+      "meaning": "chối bỏ, bác bỏ",
+      "definition": "To refuse to accept.",
+      "exampleSimple": "She even rejected my improved offer."
+    },
+    {
+      "id": "word_015",
+      "word": "Misleading",
+      "pronunciation": "/ˌmɪsˈliː.dɪŋ/",
+      "pos": "adj",
+      "meaning": "gây hoang mang",
+      "definition": "To lead astray, in a false direction.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Dig sth up",
+      "pronunciation": "/dɪɡ/",
+      "pos": "v",
+      "meaning": "đào cái gì đó lên",
+      "definition": "Dig sth up",
+      "exampleSimple": "It's time we dig up those potatoes."
+    },
+    {
+      "id": "word_017",
+      "word": "Toxin",
+      "pronunciation": "/ˈtɑːk.sɪn/",
+      "pos": "n",
+      "meaning": "chất độc, độc tố",
+      "definition": "A toxic or poisonous substance produced by the biological processes of biological organisms.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Trait",
+      "pronunciation": "/treɪt/",
+      "pos": "n",
+      "meaning": "đặc điểm, tính cách",
+      "definition": "An identifying characteristic, habit or trend.",
+      "exampleSimple": "The number one personality trait I hate is hypocrisy. Why can't you be consistent!?"
+    },
+    {
+      "id": "word_019",
+      "word": "Yield",
+      "pronunciation": "/jiːld/",
+      "pos": "n",
+      "meaning": "sản lượng",
+      "definition": "To pay, give in payment; repay, recompense; reward; requite.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Gain access to sth",
+      "pronunciation": "/ɡeɪn/",
+      "pos": "v",
+      "meaning": "tiếp cận cái gì đó, truy cập",
+      "definition": "Gain access to sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Yet",
+      "pronunciation": "/jɛt/",
+      "pos": "adverb",
+      "meaning": "Nhưng",
+      "definition": "(usually with negative) Thus far; up to the present; up to some specified time; still",
+      "exampleSimple": "He has never yet been late for an appointment;   I’m not yet wise enough to answer that;   Have you finished yet?"
+    },
+    {
+      "id": "word_022",
+      "word": "Claim",
+      "pronunciation": "/kleɪm/",
+      "pos": "n,v",
+      "meaning": "lời khẳng định, khẳng định",
+      "definition": "To demand ownership of.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "A noticeable effect on sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "một ảnh hưởng rõ ràng đến cái gì đó",
+      "definition": "A noticeable effect on sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Flavor",
+      "pronunciation": "/ˈfleɪ.vɚ/",
+      "pos": "n",
+      "meaning": "mùi vị",
+      "definition": "To add flavoring to something.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Poison",
+      "pronunciation": "/ˈpɔɪ.zən/",
+      "pos": "n,v",
+      "meaning": "chất độc, gây nhiễm độc",
+      "definition": "To use poison to kill or paralyse (somebody).",
+      "exampleSimple": "Four members of the family had been poisoned"
+    },
+    {
+      "id": "word_026",
+      "word": "Promote",
+      "pronunciation": "/prəˈmoʊt/",
+      "pos": "v",
+      "meaning": "thúc đẩy",
+      "definition": "To raise (someone) to a more important, responsible, or remunerative job or rank.",
+      "exampleSimple": "He promoted his clerk to office manager."
+    },
+    {
+      "id": "word_027",
+      "word": "Soil",
+      "pronunciation": "/sɔɪl/",
+      "pos": "n",
+      "meaning": "đất đá",
+      "definition": "A mixture of mineral particles and organic material, used to support plant growth.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Desire",
+      "pronunciation": "/dɪˈzaɪr/",
+      "pos": "n,v",
+      "meaning": "Khao khát, sự khao khát, ước muốn",
+      "definition": "To want; to wish for earnestly.",
+      "exampleSimple": "I certainly have no desire to have children."
+    },
+    {
+      "id": "word_029",
+      "word": "Define",
+      "pronunciation": "/dɪˈfaɪn/",
+      "pos": "v",
+      "meaning": "định nghĩa",
+      "definition": "To determine with precision; to mark out with distinctness; to ascertain or exhibit clearly.",
+      "exampleSimple": "the defining power of an optical instrument"
+    },
+    {
+      "id": "word_030",
+      "word": "Technique",
+      "pronunciation": "/tekˈniːk/",
+      "pos": "n",
+      "meaning": "kỹ thuật",
+      "definition": "The practical aspects of a given art, occupation etc.; formal requirements.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Attraction",
+      "pronunciation": "/əˈtɹækʃən/",
+      "pos": "n",
+      "meaning": "sự thu hút",
+      "definition": "The tendency to attract.",
+      "exampleSimple": "The Moon is held in its orbit by the attraction of the Earth's gravity."
+    },
+    {
+      "id": "word_032",
+      "word": "Close to sth/sb",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "gần gũi, thân thiết với cái gì đó",
+      "definition": "Close to sth/sb",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_033",
+      "word": "Mother nature",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "mẹ thiên nhiên",
+      "definition": "Mother nature",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Compare",
+      "pronunciation": "/kəmˈpɛə/",
+      "pos": "v",
+      "meaning": "so sánh",
+      "definition": "To assess the similarities and differences between two or more things [\"to compare X with Y\"]. Having made the comparison of X with Y, one might have found it similar to Y or different from Y.",
+      "exampleSimple": "Compare the tiger's coloration with that of the zebra."
+    },
+    {
+      "id": "word_035",
+      "word": "Tiny",
+      "pronunciation": "/ˈtaɪni/",
+      "pos": "adj",
+      "meaning": "nhỏ (very small)",
+      "definition": "Very small.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Effect on something",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự ảnh hưởng lên cái gì đó",
+      "definition": "Effect on something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Sign",
+      "pronunciation": "/saɪn/",
+      "pos": "n",
+      "meaning": "tín hiệu, dấu hiệu",
+      "definition": "(sometimes also used uncountably) A visible indication.",
+      "exampleSimple": "I gave them a thumbs-up sign."
+    },
+    {
+      "id": "word_038",
+      "word": "Nutritious",
+      "pronunciation": "/njuːˈtɹɪʃəs/",
+      "pos": "adj",
+      "meaning": "dinh dưỡng",
+      "definition": "(of food or drink) Providing nutrients; healthy to eat.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Vary",
+      "pronunciation": "/ˈvɛəɹi/",
+      "pos": "v",
+      "meaning": "biến đổi",
+      "definition": "To change with time or a similar parameter.",
+      "exampleSimple": "He varies his magic tricks so as to minimize the possibility that any given audience member will see the same trick twice."
+    },
+    {
+      "id": "word_040",
+      "word": "Crop",
+      "pronunciation": "/kɹɒp/",
+      "pos": "n",
+      "meaning": "cây trồng",
+      "definition": "A plant, especially a cereal, grown to be harvested as food, livestock fodder or fuel or for any other economic purpose.",
+      "exampleSimple": "the farmer had lots of crops to sell at the market"
+    },
+    {
+      "id": "word_041",
+      "word": "Movement",
+      "pronunciation": "/ˈmuːv.mənt/",
+      "pos": "n",
+      "meaning": "phong trào",
+      "definition": "Physical motion between points in space.",
+      "exampleSimple": "I saw a movement in that grass on the hill."
+    },
+    {
+      "id": "word_042",
+      "word": "Aim",
+      "pronunciation": "/eɪm/",
+      "pos": "n",
+      "meaning": "mục tiêu",
+      "definition": "To point or direct a missile, or a weapon which propels as missile, towards an object or spot with the intent of hitting it",
+      "exampleSimple": "He aimed at the target, but the arrow flew straight over it."
+    },
+    {
+      "id": "word_043",
+      "word": "Approach",
+      "pronunciation": "/əˈpɹəʊt͡ʃ/",
+      "pos": "n",
+      "meaning": "cách tiếp cận",
+      "definition": "To come or go near, in place or time; to draw nigh; to advance nearer.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "Artificial",
+      "pronunciation": "/ɑː(ɹ)təˈfɪʃəl/",
+      "pos": "adj",
+      "meaning": "nhân tạo",
+      "definition": "Man-made; of artifice.",
+      "exampleSimple": "The flowers were artificial, and he thought them rather tacky."
+    }
+  ],
+  "reading": {
+    "title": "ORGANIC FOOD: WHY?",
+    "paragraphs": [
+      {
+        "id": "para_intro",
+        "label": "Intro",
+        "text": "Today, many governments are promoting organic or natural farming methods that avoid the use of pesticides and other artificial products. The aim is to show that they care about the environment and about people's health. But is this the right approach?",
+        "translation": "Ngày nay, nhiều chính phủ đang thúc đẩy các phương pháp canh tác hữu cơ hoặc tự nhiên nhằm tránh sử dụng thuốc trừ sâu và các sản phẩm nhân tạo khác. Mục đích là để cho thấy rằng họ quan tâm đến môi trường và sức khỏe con người. Nhưng liệu đây có phải là cách tiếp cận đúng đắn?",
+        "mainIdea": "Many governments are promoting organic or natural farming methods to show they care about the environment and health"
+      },
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "Europe is now the biggest market for organic food in the world, expanding by 25 percent a year over the past 10 years. So what is the attraction of organic food for some people? The really important thing is that organic sounds more \"natural\". Eating organic is a way of defining oneself as natural, good, caring. As someone said: 'It feels closer to the source, the beginning, the start of things.' The real desire of those who support organic food is to be somehow close to the soil, to Mother Nature.",
+        "translation": "Europe is now the biggest market for organic food in the world, expanding by 25 percent a year over the past 10 years. So what is the attraction of organic food for some people? The really important thing is that organic sounds more \"natural\". Eating organic is a way of defining oneself as natural, good, caring. As someone said: 'It feels closer to the source, the beginning, the start of things.' The real desire of those who support organic food is to be somehow close to the soil, to Mother Nature.",
+        "mainIdea": "The attraction of organic food is that it sounds more natural and makes people feel closer to Mother Nature"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "Unlike conventional farming, the organic approach means farming with natural, rather than man-made, fertilisers and pesticides. Techniques such as crop rotation improve soil quality and help organic farmers compensate for not using man-made chemicals. As a method of food production, organic is, however, inefficient in its use of labour and land. There are also severe limits to how much food can be produced. Also, the environmental benefits of not using artificial fertiliser are tiny compared with the amount of carbon dioxide emitted by transporting food.",
+        "translation": "Unlike conventional farming, the organic approach means farming with natural, rather than man-made, fertilisers and pesticides. Techniques such as crop rotation improve soil quality and help organic farmers compensate for not using man-made chemicals. As a method of food production, organic is, however, inefficient in its use of labour and land. There are also severe limits to how much food can be produced. Also, the environmental benefits of not using artificial fertiliser are tiny compared with the amount of carbon dioxide emitted by transporting food.",
+        "mainIdea": "Organic farming uses natural methods but is inefficient and has limited environmental benefits compared to food transportation emissions"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "Organic farming is often claimed to be safer than conventional farming - for the environment and for consumers. Yet studies into organic farming worldwide continue to reject this claim. A review by the UK Food Standards Agency found that there was no difference between organic and conventional crops. Even where results showed there was evidence of a difference, the reviewers found no sign that these differences would have any effect on health.",
+        "translation": "Canh tác hữu cơ thường được cho là an toàn hơn canh tác thông thường - đối với môi trường và người tiêu dùng. Tuy nhiên, các nghiên cứu về canh tác hữu cơ trên toàn thế giới vẫn tiếp tục bác bỏ tuyên bố này. Một đánh giá của Cơ quan Tiêu chuẩn Thực phẩm Vương quốc Anh cho thấy không có sự khác biệt giữa cây trồng hữu cơ và cây trồng thông thường. Ngay cả khi kết quả cho thấy có bằng chứng về sự khác biệt, các nhà đánh giá không tìm thấy dấu hiệu nào cho thấy những khác biệt này có ảnh hưởng gì đến sức khỏe.",
+        "mainIdea": "Studies reject the claim that organic farming is safer than conventional farming for the environment and consumers"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "The claim that organic food is more nutritious than conventional food was always likely to be misleading. Food is a natural product, and the health value of different foods will vary for a number of reasons, including freshness, the way the food is cooked, the type of soil it is grown in, the amount of sunlight and rain crops have received, and so on. Likewise, the flavour of a carrot depends less on whether it was fertilised than with the variety of carrot and how long ago it was dug up. The differences created by these things are likely to be greater than any differences brought about by using an organic or non-organic system of production.",
+        "translation": "The claim that organic food is more nutritious than conventional food was always likely to be misleading. Food is a natural product, and the health value of different foods will vary for a number of reasons, including freshness, the way the food is cooked, the type of soil it is grown in, the amount of sunlight and rain crops have received, and so on. Likewise, the flavour of a carrot depends less on whether it was fertilised than with the variety of carrot and how long ago it was dug up. The differences created by these things are likely to be greater than any differences brought about by using an organic or non-organic system of production.",
+        "mainIdea": "The claim that organic food is more nutritious is misleading because food's health value varies due to many factors beyond farming methods"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "The opinion that organic food is safer than 'normal' food is also rejected with the fact that many of our most common foods are full of natural toxins. As one research expert says: 'People think that the more natural something is, the better it is for them. That is simply not the case. In fact, the opposite is true: the closer a plant is to its natural state, the more likely it is that it will poison you. Naturally, many plants do not want to be eaten, so we have spent 10,000 years developing agriculture and eliminate harmful traits from crops.'",
+        "translation": "The opinion that organic food is safer than 'normal' food is also rejected with the fact that many of our most common foods are full of natural toxins. As one research expert says: 'People think that the more natural something is, the better it is for them. That is simply not the case. In fact, the opposite is true: the closer a plant is to its natural state, the more likely it is that it will poison you. Naturally, many plants do not want to be eaten, so we have spent 10,000 years developing agriculture and eliminate harmful traits from crops.'",
+        "mainIdea": "Organic food is not necessarily safer because many natural foods contain toxins, and agriculture has evolved to eliminate harmful traits"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Ultimately, the organic farming movement is an expensive luxury for shoppers in Europe. To European people, the fact that organic methods require more labour and land than conventional ones to get the same yields may be not a problem, but to a farmer in rural Africa, it is a real problem. Here, it is just simply too expensive for building an organic farm. Perhaps the focus should be on helping these countries to gain access to the most advanced farming techniques, rather than trying to following worldwide organic trend.",
+        "translation": "Ultimately, the organic farming movement is an expensive luxury for shoppers in Europe. To European people, the fact that organic methods require more labour and land than conventional ones to get the same yields may be not a problem, but to a farmer in rural Africa, it is a real problem. Here, it is just simply too expensive for building an organic farm. Perhaps the focus should be on helping these countries to gain access to the most advanced farming techniques, rather than trying to following worldwide organic trend.",
+        "mainIdea": "Organic farming is an expensive luxury unsuitable for developing countries who need access to advanced farming techniques instead"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Choose the most suitable word in the table to fill in the blanks",
+        "wordBank": [
+          "pesticide",
+          "method",
+          "artificial",
+          "expand",
+          "fertilizer",
+          "gain access",
+          "compensate",
+          "labour",
+          "man-made",
+          "rather than",
+          "inefficient",
+          "technique",
+          "define",
+          "digging up",
+          "rejected",
+          "misleading",
+          "emit",
+          "flavor",
+          "desire",
+          "toxin",
+          "poisoned",
+          "eliminated",
+          "traits",
+          "yields"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "Experts (các chuyên gia) called for cuts (sự cắt giảm) in …………… use.",
+            "answer": "pesticide",
+            "translation": "Họ phát hiện ra một loại côn trùng mới trong rừng."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Travelling by train is still one of the safest …………… of transport.",
+            "answer": "method",
+            "translation": "Người nông dân đang trồng cà rốt trong vườn của mình."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "This is the very first time I have seen a robot with …………… intelligence (trí thông minh).",
+            "answer": "artificial",
+            "translation": "Hạn hán khiến nhiều cây trồng chết."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "The CEO decided to …………… into new markets during the 1980s.",
+            "answer": "expand",
+            "translation": "Phân bón giúp cây phát triển nhanh hơn."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "Make sure plants are watered before applying (sử dụng) ……………",
+            "answer": "fertilizer",
+            "translation": "Công ty đã phát triển một sản phẩm mới."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "You can …………… to your data by typing in a user name and password.",
+            "answer": "gain access",
+            "translation": "Trẻ em cần thức ăn lành mạnh để phát triển mạnh mẽ."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Nothing can  …………… for his lost childhood.",
+            "answer": "compensate",
+            "translation": "Anh ấy đã quyết định theo đuổi sự nghiệp làm nghệ sĩ."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "More companies are building plants abroad (trạng từ 'nước ngoài') to take advantage of cheaper …………… costs.",
+            "answer": "labour",
+            "translation": "Luật mới yêu cầu tất cả các công ty tái chế."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "Although it seems like a natural river, it's a …………… river.",
+            "answer": "man-made",
+            "translation": "Công nhân đang thu hoạch lúa mì trên cánh đồng."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Generally, I prefer to go by train …………… fly to places.",
+            "answer": "rather than",
+            "translation": "Sự an toàn của bạn là ưu tiên hàng đầu của chúng tôi."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Existing methods of production are expensive and……………",
+            "answer": "inefficient",
+            "translation": "Người ta tiêu thụ nhiều nước hơn trong mùa hè."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Yoga is a very effective …………… for reducing stress (giảm stress)",
+            "answer": "technique",
+            "translation": "Bác sĩ đã khám bệnh nhân cẩn thận."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "Can you …………… the word \"mother nature\" for me? I really don't undertand what it means",
+            "answer": "define",
+            "translation": "Các nhà khoa học đang nghiên cứu tác động của biến đổi khí hậu."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "The dog was …………… a hole (cái lỗ) to hide (giấu) its bone (xương) in.",
+            "answer": "digging up",
+            "translation": "Thực phẩm hữu cơ không chứa hóa chất có hại."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "The coach …………… him for the first team (= he was not offered a place).",
+            "answer": "rejected",
+            "translation": "Nông dân phun thuốc trừ sâu để bảo vệ cây trồng."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "This advert provides …………… information.",
+            "answer": "misleading",
+            "translation": "Động vật hoang dã đang mất môi trường sống của chúng."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "Private vehicles (phương tiện cá nhân) …………… a lot of harmful gases",
+            "answer": "emit",
+            "translation": "Bệnh đã lây lan nhanh chóng trong cộng đồng."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "This chicken doesn't have much …………….",
+            "answer": "flavor",
+            "translation": "Họ đang tìm kiếm giải pháp thay thế cho nhựa."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "She had a strong …………… to go back to her home country before she died.",
+            "answer": "desire",
+            "translation": "Thời tiết ảnh hưởng đến năng suất cây trồng."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "The water had been spoiled (bị hư, làm nhiễm độc) with a ……………",
+            "answer": "toxin",
+            "translation": "Chất lượng của sản phẩm rất quan trọng."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "He said that someone had …………… his coffee.",
+            "answer": "poisoned",
+            "translation": "Nhiều người thích thực phẩm hữu cơ vì nó lành mạnh hơn."
+          },
+          {
+            "id": "fib_022",
+            "sentence": "He was …………… in the third round of the competition.",
+            "answer": "eliminated",
+            "translation": "Công ty đã giảm lượng khí thải carbon."
+          },
+          {
+            "id": "fib_023",
+            "sentence": "His sense of humour is one of his best …………….",
+            "answer": "traits",
+            "translation": "Người ta tin rằng thực phẩm hữu cơ ngon hơn."
+          },
+          {
+            "id": "fib_024",
+            "sentence": "Over the past 50 years, crop …………… have risen in the US",
+            "answer": "yields",
+            "translation": "Chúng ta nên bảo vệ môi trường cho thế hệ tương lai."
+          }
+        ]
+      }
+    ]
+  }
+}

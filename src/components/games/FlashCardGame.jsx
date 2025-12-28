@@ -320,7 +320,28 @@ export default function FlashCardGame({ lessonId, vocabulary }) {
     // Reset to show only unlearned cards
     const learned = new Set([...Array.from(knownCards), ...Array.from(reviewCards)]);
     const unlearned = allCards.filter(card => !learned.has(card.word));
-    setCurrentCards(shuffleArray(unlearned));
+
+    if (unlearned.length === 0) {
+      // If no unlearned cards, show complete screen
+      setIsComplete(true);
+    } else {
+      setCurrentCards(shuffleArray(unlearned));
+      setCurrentIndex(0);
+      setIsFlipped(false);
+      setIsComplete(false);
+    }
+    setShowWordListsModal(false);
+  };
+
+  const handleResetAllProgress = () => {
+    if (!confirm('Are you sure you want to reset all progress? This will clear all Known and Review cards.')) {
+      return;
+    }
+
+    // Clear all progress and start fresh
+    setKnownCards(new Set());
+    setReviewCards(new Set());
+    setCurrentCards(shuffleArray(allCards));
     setCurrentIndex(0);
     setIsFlipped(false);
     setIsComplete(false);
@@ -350,7 +371,8 @@ export default function FlashCardGame({ lessonId, vocabulary }) {
     return { known, review, notMarked };
   };
 
-  if (isComplete) {
+  // Check if no cards available to show
+  if (isComplete || currentCards.length === 0) {
     const totalWords = allCards.length;
     const notMarkedCount = allCards.filter(card =>
       !knownCards.has(card.word) && !reviewCards.has(card.word)
@@ -397,9 +419,9 @@ export default function FlashCardGame({ lessonId, vocabulary }) {
               </Button>
               <Button
                 variant="secondary"
-                onClick={handleResetAll}
+                onClick={handleResetAllProgress}
               >
-                Continue Unlearned Cards
+                🔄 Reset All Progress
               </Button>
               <Button
                 variant="secondary"
@@ -423,86 +445,109 @@ export default function FlashCardGame({ lessonId, vocabulary }) {
         gameTitle={gameConfig.name}
         gameIcon={gameConfig.icon}
         progress={progress}
-        showGameControls={true}
-        onResetGame={handleResetAll}
-        onShowWordLists={handleShowWordLists}
-        compactHeader={true}
+        currentQuestion={currentIndex + 1}
+        totalQuestions={currentCards.length}
       >
         <div className="flashcard-game flashcard-game--compact">
-        <div className="flashcard-game__info">
-          <span className="flashcard-game__counter">
-            {currentIndex + 1}/{currentCards.length}
+        {/* Hint Section - Compact */}
+        <div className="flashcard-game__hint-section">
+          <span className="flashcard-game__hint">
+            👆 Tap to flip &nbsp;•&nbsp; 👈👉 Swipe to rate
           </span>
-          <span className="flashcard-game__hint">Tap: flip • Swipe: mark</span>
         </div>
 
-        <div
-          ref={cardRef}
-          className={`flashcard flashcard--compact ${isFlipped ? 'flashcard--flipped' : ''} ${swipeDirection ? `flashcard--swipe-${swipeDirection}` : ''}`}
-          onClick={handleCardClick}
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
-        >
-          <div className="flashcard__inner">
-            <div className="flashcard__front">
-              <div className="flashcard__label">Word</div>
-              <div className="flashcard__content">{currentCard.word}</div>
-              {currentCard.pronunciation && (
-                <div className="flashcard__pronunciation">
-                  /{currentCard.pronunciation}/
-                </div>
-              )}
-            </div>
-            <div className="flashcard__back">
-              <div className="flashcard__label">Definition</div>
-              <div className="flashcard__content">{currentCard.meaning}</div>
-              {currentCard.example && (
-                <div className="flashcard__example">
-                  <strong>Example:</strong>
-                  <p>{currentCard.example}</p>
-                </div>
-              )}
+        {/* Card Section - Main Focus */}
+        <div className="flashcard-game__card-section">
+          <div
+            ref={cardRef}
+            className={`flashcard flashcard--compact ${isFlipped ? 'flashcard--flipped' : ''} ${swipeDirection ? `flashcard--swipe-${swipeDirection}` : ''}`}
+            onClick={handleCardClick}
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+          >
+            <div className="flashcard__inner">
+              <div className="flashcard__front">
+                <div className="flashcard__label">Word</div>
+                <div className="flashcard__content">{currentCard.word}</div>
+                {currentCard.pronunciation && (
+                  <div className="flashcard__pronunciation">
+                    /{currentCard.pronunciation}/
+                  </div>
+                )}
+              </div>
+              <div className="flashcard__back">
+                <div className="flashcard__label">Definition</div>
+                <div className="flashcard__content">{currentCard.meaning}</div>
+                {currentCard.example && (
+                  <div className="flashcard__example">
+                    <strong>Example:</strong>
+                    <p>{currentCard.example}</p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="flashcard-game__actions">
+        {/* Actions Section - Primary Buttons */}
+        <div className="flashcard-game__actions-section">
           <Button
             ref={reviewBtnRef}
             variant="secondary"
             onClick={handleReview}
+            className="flashcard-action-btn flashcard-action-btn--review"
           >
-            ← Need Review
+            <span className="flashcard-action-btn__icon">👈</span>
+            <span className="flashcard-action-btn__text">Review</span>
           </Button>
           <Button
             ref={knowBtnRef}
             variant="primary"
             onClick={handleKnow}
+            className="flashcard-action-btn flashcard-action-btn--know"
           >
-            I Know It →
+            <span className="flashcard-action-btn__text">Know It</span>
+            <span className="flashcard-action-btn__icon">👉</span>
           </Button>
         </div>
 
-        <div className="flashcard-game__stats">
-          <div className="stat stat--success">
-            <span className="stat__value">{knownCards.size}</span>
-            <span className="stat__label">Known</span>
+        {/* Stats & Controls Section - Combined */}
+        <div className="flashcard-game__bottom-bar">
+          <button
+            className="flashcard-control-btn flashcard-control-btn--cta"
+            onClick={handleResetAll}
+            title="Reset to unlearned cards"
+          >
+            🔄
+          </button>
+
+          <div className="flashcard-stat">
+            <span className="flashcard-stat__icon">✓</span>
+            <span className="flashcard-stat__value">{knownCards.size}</span>
           </div>
-          <div className="stat stat--warning">
-            <span className="stat__value">{reviewCards.size}</span>
-            <span className="stat__label">Review</span>
+          <div className="flashcard-stat flashcard-stat--review">
+            <span className="flashcard-stat__icon">↻</span>
+            <span className="flashcard-stat__value">{reviewCards.size}</span>
           </div>
-          <div className="stat stat--neutral">
-            <span className="stat__value">
+          <div className="flashcard-stat flashcard-stat--remaining">
+            <span className="flashcard-stat__icon">◯</span>
+            <span className="flashcard-stat__value">
               {allCards.filter(card => !knownCards.has(card.word) && !reviewCards.has(card.word)).length}
             </span>
-            <span className="stat__label">Not Marked</span>
           </div>
+
+          <button
+            className="flashcard-control-btn flashcard-control-btn--cta"
+            onClick={handleShowWordLists}
+            title="View word lists"
+          >
+            📋
+          </button>
         </div>
       </div>
     </GameLayout>

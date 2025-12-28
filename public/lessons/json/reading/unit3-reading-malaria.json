@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "unit": "Unit 3",
+    "title": "The Battle Against Malaria"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Tropical",
+      "pronunciation": "/ˈtrɒpɪkəl/",
+      "pos": "adj",
+      "meaning": "nhiệt đới",
+      "definition": "relating to the tropics",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Affect",
+      "pronunciation": "/əˈfɛkt/",
+      "pos": "v",
+      "meaning": "ảnh hưởng",
+      "definition": "to have an effect on",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Enormous",
+      "pronunciation": "/ɪˈnɔrməs/",
+      "pos": "adj",
+      "meaning": "to lớn",
+      "definition": "extremely large",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Pass",
+      "pronunciation": "/pæs/",
+      "pos": "v",
+      "meaning": "truyền",
+      "definition": "to transfer from one to another",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Parasites",
+      "pronunciation": "/ˈpærəsaɪts/",
+      "pos": "n",
+      "meaning": "ký sinh trùng",
+      "definition": "organisms living on or in another organism",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Reside",
+      "pronunciation": "/rɪˈzaɪd/",
+      "pos": "v",
+      "meaning": "cư trú",
+      "definition": "to live in a place",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Bite",
+      "pronunciation": "/baɪt/",
+      "pos": "v",
+      "meaning": "cắn",
+      "definition": "to use teeth to cut into",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Enter",
+      "pronunciation": "/ˈɛntər/",
+      "pos": "v",
+      "meaning": "vào",
+      "definition": "to go into",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Skin",
+      "pronunciation": "/skɪn/",
+      "pos": "n",
+      "meaning": "da",
+      "definition": "the outer covering of the body",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Infect",
+      "pronunciation": "/ɪnˈfɛkt/",
+      "pos": "v",
+      "meaning": "lây nhiễm",
+      "definition": "to contaminate with disease",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Emergency",
+      "pronunciation": "/ɪˈmɜrdʒənsi/",
+      "pos": "n",
+      "meaning": "tình trạng khẩn cấp",
+      "definition": "a serious unexpected situation",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Symptom",
+      "pronunciation": "/ˈsɪmptəm/",
+      "pos": "n",
+      "meaning": "triệu chứng",
+      "definition": "a sign of illness",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Headache",
+      "pronunciation": "/ˈhɛdˌeɪk/",
+      "pos": "n",
+      "meaning": "đau đầu",
+      "definition": "pain in the head",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Priority",
+      "pronunciation": "/praɪˈɔrəti/",
+      "pos": "n",
+      "meaning": "ưu tiên",
+      "definition": "something that is more important",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Take medicine",
+      "pronunciation": "/teɪk ˈmɛdɪsɪnz/",
+      "pos": "v",
+      "meaning": "uống thuốc",
+      "definition": "to consume medication",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Disease",
+      "pronunciation": "/dɪˈziz/",
+      "pos": "n",
+      "meaning": "bệnh tật",
+      "definition": "an illness",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Access to",
+      "pronunciation": "/ˈæksɛs tə/",
+      "pos": "n",
+      "meaning": "tiếp cận với",
+      "definition": "the ability to reach or use",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Insecticide",
+      "pronunciation": "/ɪnˈsɛktɪˌsaɪd/",
+      "pos": "n",
+      "meaning": "thuốc diệt côn trùng",
+      "definition": "a substance for killing insects",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Spray",
+      "pronunciation": "/spreɪ/",
+      "pos": "v",
+      "meaning": "phun",
+      "definition": "to disperse liquid in fine droplets",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Prevent",
+      "pronunciation": "/prɪˈvɛnt/",
+      "pos": "v",
+      "meaning": "ngăn chặn",
+      "definition": "to stop something from happening",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Implement",
+      "pronunciation": "/ˈɪmpləmənt/",
+      "pos": "v",
+      "meaning": "thực hiện",
+      "definition": "to put into action",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Afford",
+      "pronunciation": "/əˈfɔrd/",
+      "pos": "v",
+      "meaning": "có khả năng chi trả",
+      "definition": "to have enough money for",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Cooperate",
+      "pronunciation": "/koʊˈɑpəˌreɪt/",
+      "pos": "v",
+      "meaning": "hợp tác",
+      "definition": "to work together",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Attempt",
+      "pronunciation": "/əˈtɛmpt/",
+      "pos": "v",
+      "meaning": "cố gắng",
+      "definition": "to try to do something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Hire",
+      "pronunciation": "/haɪr/",
+      "pos": "v",
+      "meaning": "thuê",
+      "definition": "to employ someone",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Practitioners",
+      "pronunciation": "/prækˈtɪʃənərz/",
+      "pos": "n",
+      "meaning": "người hành nghề",
+      "definition": "people who practice a profession",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "A labor force",
+      "pronunciation": "/ə ˈleɪbər fɔrs/",
+      "pos": "n",
+      "meaning": "lực lượng lao động",
+      "definition": "workers available for employment",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Get rid of",
+      "pronunciation": "/ɡɛt rɪd əv/",
+      "pos": "v",
+      "meaning": "loại bỏ",
+      "definition": "to eliminate or remove",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Occur",
+      "pronunciation": "/əˈkɜr/",
+      "pos": "v",
+      "meaning": "xảy ra",
+      "definition": "to happen",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_030",
+      "word": "Case",
+      "pronunciation": "/keɪs/",
+      "pos": "n",
+      "meaning": "trường hợp",
+      "definition": "an instance of something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Region",
+      "pronunciation": "/ˈridʒən/",
+      "pos": "n",
+      "meaning": "vùng",
+      "definition": "an area or zone",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_032",
+      "word": "Organization",
+      "pronunciation": "/ˌɔrgənəˈzeɪʃən/",
+      "pos": "n",
+      "meaning": "tổ chức",
+      "definition": "an organized group",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_033",
+      "word": "Cycle",
+      "pronunciation": "/ˈsaɪkəl/",
+      "pos": "n",
+      "meaning": "vòng đời, vòng lặp",
+      "definition": "a repeating sequence",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Blood",
+      "pronunciation": "/blʌd/",
+      "pos": "n",
+      "meaning": "máu",
+      "definition": "the red liquid in the body",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_035",
+      "word": "Individual",
+      "pronunciation": "/ˌɪndəˈvɪdʒuəl/",
+      "pos": "n",
+      "meaning": "cá nhân",
+      "definition": "a single person",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Fever",
+      "pronunciation": "/ˈfivər/",
+      "pos": "n",
+      "meaning": "sốt",
+      "definition": "high body temperature",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Chill",
+      "pronunciation": "/tʃɪl/",
+      "pos": "n",
+      "meaning": "cảm lạnh",
+      "definition": "a feeling of cold",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_038",
+      "word": "Sweating",
+      "pronunciation": "/ˈswɛtɪŋ/",
+      "pos": "n",
+      "meaning": "chảy mồ hôi",
+      "definition": "the release of perspiration",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Muscle pains",
+      "pronunciation": "/ˈmʌsəl peɪnz/",
+      "pos": "n",
+      "meaning": "những cơn đau cơ",
+      "definition": "aches in the muscles",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_040",
+      "word": "Medical treatment",
+      "pronunciation": "/ˈmɛdɪkəl ˈtritmənt/",
+      "pos": "n",
+      "meaning": "chữa trị y tế",
+      "definition": "healthcare for illness",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_041",
+      "word": "Spread",
+      "pronunciation": "/sprɛd/",
+      "pos": "v",
+      "meaning": "lan rộng",
+      "definition": "to extend over an area",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_042",
+      "word": "Decline",
+      "pronunciation": "/dɪˈklaɪn/",
+      "pos": "v",
+      "meaning": "giảm",
+      "definition": "to decrease",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_043",
+      "word": "Lay eggs",
+      "pronunciation": "/leɪ ɛgz/",
+      "pos": "v",
+      "meaning": "đẻ trứng",
+      "definition": "to produce eggs",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "Wet",
+      "pronunciation": "/wɛt/",
+      "pos": "adj",
+      "meaning": "ẩm ướt",
+      "definition": "covered with water",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "The Battle Against Malaria",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "Malaria is a serious health problem. It is a leading cause of death in many countries. It occurs mostly in tropical and subtropical parts of the world including parts of Africa, Asia, South America, Central America, and the Middle East. The place most affected by malaria is Africa, south of the Sahara Desert. About 60% of the world's malaria cases and 80% of malaria deaths occur there. Even though the causes of malaria in this region are well understood, international health organizations are finding that controlling it is still an enormous and difficult task.",
+        "translation": "Sốt rét là một vấn đề sức khỏe nghiêm trọng. Nó là nguyên nhân gây tử vong hàng đầu ở nhiều quốc gia. Nó xảy ra chủ yếu ở các vùng nhiệt đới và cận nhiệt đới trên thế giới bao gồm các khu vực của châu Phi, châu Á, Nam Mỹ, Trung Mỹ và Trung Đông. Nơi bị ảnh hưởng nhiều nhất bởi sốt rét là châu Phi, phía nam sa mạc Sahara. Khoảng 60% số ca sốt rét trên thế giới và 80% số ca tử vong do sốt rét xảy ra ở đó. Mặc dù nguyên nhân của bệnh sốt rét trong khu vực này đã được hiểu rõ, các tổ chức y tế quốc tế nhận thấy rằng việc kiểm soát nó vẫn là một nhiệm vụ to lớn và khó khăn.",
+        "mainIdea": "Sốt rét là vấn đề sức khỏe nghiêm trọng, đặc biệt ở châu Phi, và việc kiểm soát nó vẫn là thách thức lớn"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "Because malaria is passed from mosquitoes to people and from people to mosquitoes, we can think of the disease as a 'cycle'. The malaria cycle begins with tiny parasites that reside in the bodies of Anopheles mosquitoes. These deadly parasites cause malaria. When a female mosquito bites a human, the mosquito draws off blood. It also leaves malaria parasites in the human's skin. These parasites quickly multiply inside the human and cause the individual to feel sick.",
+        "translation": "Bởi vì sốt rét được truyền từ muỗi sang người và từ người sang muỗi, chúng ta có thể nghĩ về bệnh này như một 'vòng lặp'. Vòng lặp sốt rét bắt đầu với những ký sinh trùng nhỏ cư trú trong cơ thể muỗi Anopheles. Những ký sinh trùng chết người này gây ra bệnh sốt rét. Khi một con muỗi cái cắn người, muỗi hút máu. Nó cũng để lại ký sinh trùng sốt rét trong da người. Những ký sinh trùng này nhanh chóng nhân lên bên trong người và khiến cá nhân cảm thấy ốm.",
+        "mainIdea": "Sốt rét là một vòng lặp: muỗi Anopheles truyền ký sinh trùng cho người, ký sinh trùng nhân lên và gây bệnh"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "If a mosquito bites a human who is sick with malaria, parasites from the human enter the body of the mosquito. When that mosquito bites another human, it will leave parasites in the other human's skin. In the malaria cycle, humans get parasites from mosquitoes and they also give parasites to mosquitoes.",
+        "translation": "Nếu một con muỗi cắn một người bị bệnh sốt rét, ký sinh trùng từ người đó xâm nhập vào cơ thể muỗi. Khi con muỗi đó cắn một người khác, nó sẽ để lại ký sinh trùng trong da của người khác. Trong vòng lặp sốt rét, con người nhận ký sinh trùng từ muỗi và cũng truyền ký sinh trùng cho muỗi.",
+        "mainIdea": "Vòng lặp sốt rét tiếp tục khi muỗi cắn người bệnh và truyền ký sinh trùng cho người khác"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "Becoming infected with malaria is a medical emergency. The first symptoms of malaria are fever, chills, sweating, intense headache, and muscle pains. Immediate medical treatment must be a priority for people who are infected. They must take medicines that will kill the parasites. If medical treatment is started soon enough, sick individuals can be cured. If they do not, malaria can cause serious illness or even death.",
+        "translation": "Bị nhiễm sốt rét là tình trạng y tế khẩn cấp. Các triệu chứng đầu tiên của sốt rét là sốt, ớn lạnh, đổ mồ hôi, đau đầu dữ dội và đau cơ. Điều trị y tế ngay lập tức phải là ưu tiên hàng đầu cho những người bị nhiễm bệnh. Họ phải uống thuốc để tiêu diệt ký sinh trùng. Nếu điều trị y tế được bắt đầu đủ sớm, người bệnh có thể được chữa khỏi. Nếu không, sốt rét có thể gây bệnh nghiêm trọng hoặc thậm chí tử vong.",
+        "mainIdea": "Sốt rét là tình trạng khẩn cấp với các triệu chứng như sốt, ớn lạnh, cần điều trị ngay để tránh hậu quả nghiêm trọng"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "Malaria in tropical Africa could be controlled in two ways. First, it could be controlled by killing the parasites that cause the disease. If every infected person quickly took malaria medicine, most would be well in a few days. Mosquitoes could not get malaria parasites from healthy individuals, so malaria would not spread. Unfortunately, many people live in far-away villages without access to quick medical care. Another problem is that the ability of quinine (the primary medicine used against malaria) to kill parasites has declined over time. There is hope, however, for a new drug combination, called ACT. It is being used successfully to treat people who have malaria.",
+        "translation": "Sốt rét ở châu Phi nhiệt đới có thể được kiểm soát theo hai cách. Thứ nhất, nó có thể được kiểm soát bằng cách tiêu diệt ký sinh trùng gây bệnh. Nếu mỗi người bị nhiễm bệnh nhanh chóng uống thuốc sốt rét, hầu hết sẽ khỏe trong vài ngày. Muỗi không thể lấy ký sinh trùng sốt rét từ những người khỏe mạnh, vì vậy sốt rét sẽ không lan rộng. Thật không may, nhiều người sống ở các làng xa xôi mà không có quyền tiếp cận chăm sóc y tế nhanh chóng. Một vấn đề khác là khả năng của quinine (thuốc chính được sử dụng chống sốt rét) để tiêu diệt ký sinh trùng đã giảm theo thời gian. Tuy nhiên, có hy vọng cho một liều thuốc kết hợp mới, được gọi là ACT. Nó đang được sử dụng thành công để điều trị những người bị sốt rét.",
+        "mainIdea": "Kiểm soát sốt rét bằng cách tiêu diệt ký sinh trùng gặp khó khăn do thiếu tiếp cận y tế và tính kháng thuốc, nhưng có hy vọng với thuốc ACT mới"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Malaria could also be controlled by stopping the mosquitoes. One way would be to get rid of the pools of water, where they lay their eggs. Also, insecticide could be sprayed in wet areas and around buildings, to kill mosquitoes. Finally, people could be told to sleep under bed nets, to prevent mosquitoes from biting them at night. Bed nets sprayed with insecticide, would both stop and kill mosquitoes.",
+        "translation": "Sốt rét cũng có thể được kiểm soát bằng cách ngăn chặn muỗi. Một cách là loại bỏ các vũng nước, nơi chúng đẻ trứng. Ngoài ra, thuốc diệt côn trùng có thể được phun vào các khu vực ẩm ướt và xung quanh các tòa nhà, để giết muỗi. Cuối cùng, mọi người có thể được khuyên ngủ dưới màng chống muỗi, để ngăn muỗi cắn họ vào ban đêm. Màng chống muỗi được phun thuốc diệt côn trùng sẽ vừa ngăn chặn và giết muỗi.",
+        "mainIdea": "Kiểm soát sốt rét bằng cách ngăn chặn muỗi: loại bỏ vũng nước, phun thuốc diệt côn trùng và sử dụng màng chống muỗi"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "It is very difficult, however, to implement these plans. People in this region are poor and made poorer by malaria because they may be too weak to work. They cannot afford, to pay for medical care, or to buy bed nets. If they are not educated, the people may be unwilling to cooperate with government efforts to help them. Their old beliefs about illness may conflict with modern attempts to cure or prevent malaria.",
+        "translation": "Tuy nhiên, rất khó để thực hiện những kế hoạch này. Người dân ở khu vực này nghèo và nghèo hơn do sốt rét vì họ có thể quá yếu để làm việc. Họ không thể chi trả cho chăm sóc y tế, hoặc mua màng chống muỗi. Nếu họ không được giáo dục, người dân có thể không muốn hợp tác với các nỗ lực của chính phủ để giúp đỡ họ. Niềm tin cũ của họ về bệnh tật có thể xung đột với các nỗ lực hiện đại để chữa trị hoặc ngăn ngừa sốt rét.",
+        "mainIdea": "Thực hiện các kế hoạch kiểm soát sốt rét khó khăn do nghèo đói, thiếu giáo dục và xung đột niềm tin truyền thống"
+      },
+      {
+        "id": "para_h",
+        "label": "H",
+        "text": "There are other problems too. Health ministries do not have the money to hire trained medical practitioners. They do not have the money to buy insecticide and pay a labor force to spray regularly. And the frequent rainfall would make it impossible to get rid of pools of water where mosquitoes lay eggs.",
+        "translation": "Cũng có những vấn đề khác. Bộ Y tế không có tiền để thuê các bác sĩ được đào tạo. Họ không có tiền để mua thuốc diệt côn trùng và trả lương cho lực lượng lao động phun thuốc thường xuyên. Và lượng mưa thường xuyên sẽ khiến việc loại bỏ các vũng nước nơi muỗi đẻ trứng trở nên không thể.",
+        "mainIdea": "Các vấn đề khác bao gồm thiếu ngân sách thuê nhân viên y tế, mua thuốc diệt côn trùng và khó loại bỏ vũng nước do mưa nhiều"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Fill in the blanks - Group 1",
+        "wordBank": [
+          "Tropical",
+          "Affect",
+          "Enormous",
+          "Pass",
+          "Parasites",
+          "Reside"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "Malaria occurs mostly in .................... regions of the world.",
+            "answer": "Tropical",
+            "translation": "Sốt rét xảy ra chủ yếu ở các vùng nhiệt đới trên thế giới."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "The disease can .................... millions of people every year.",
+            "answer": "Affect",
+            "translation": "Căn bệnh này có thể ảnh hưởng đến hàng triệu người mỗi năm."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "Controlling malaria is an .................... task for health organizations.",
+            "answer": "Enormous",
+            "translation": "Kiểm soát sốt rét là một nhiệm vụ to lớn đối với các tổ chức y tế."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "Malaria is .................... from mosquitoes to people.",
+            "answer": "Pass",
+            "translation": "Sốt rét được truyền từ muỗi sang người."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "Tiny .................... cause malaria in humans.",
+            "answer": "Parasites",
+            "translation": "Những ký sinh trùng nhỏ gây ra bệnh sốt rét ở người."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "Malaria parasites .................... in the bodies of Anopheles mosquitoes.",
+            "answer": "Reside",
+            "translation": "Ký sinh trùng sốt rét cư trú trong cơ thể muỗi Anopheles."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Fill in the blanks - Group 2",
+        "wordBank": [
+          "Bite",
+          "Infect",
+          "Emergency",
+          "Symptom",
+          "Fever",
+          "Priority"
+        ],
+        "questions": [
+          {
+            "id": "fib_007",
+            "sentence": "When a mosquito .................... a human, it leaves parasites in the skin.",
+            "answer": "Bite",
+            "translation": "Khi muỗi cắn người, nó để lại ký sinh trùng trong da."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Parasites quickly multiply and .................... the individual.",
+            "answer": "Infect",
+            "translation": "Ký sinh trùng nhanh chóng nhân lên và lây nhiễm cho cá nhân."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "Becoming infected with malaria is a medical .................... .",
+            "answer": "Emergency",
+            "translation": "Bị nhiễm sốt rét là tình trạng y tế khẩn cấp."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "The first .................... of malaria include fever and chills.",
+            "answer": "Symptom",
+            "translation": "Triệu chứng đầu tiên của sốt rét bao gồm sốt và ớn lạnh."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "High .................... is one of the main signs of malaria.",
+            "answer": "Fever",
+            "translation": "Sốt cao là một trong những dấu hiệu chính của sốt rét."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Immediate medical treatment must be a .................... for infected people.",
+            "answer": "Priority",
+            "translation": "Điều trị y tế ngay lập tức phải là ưu tiên cho người bị nhiễm."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Fill in the blanks - Group 3",
+        "wordBank": [
+          "Disease",
+          "Spread",
+          "Prevent",
+          "Insecticide",
+          "Implement",
+          "Cooperate"
+        ],
+        "questions": [
+          {
+            "id": "fib_013",
+            "sentence": "Malaria is a serious .................... that affects many countries.",
+            "answer": "Disease",
+            "translation": "Sốt rét là một căn bệnh nghiêm trọng ảnh hưởng đến nhiều quốc gia."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "If infected people take medicine quickly, malaria will not .................... .",
+            "answer": "Spread",
+            "translation": "Nếu người bị nhiễm uống thuốc nhanh chóng, sốt rét sẽ không lan rộng."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "Bed nets can help .................... mosquitoes from biting people at night.",
+            "answer": "Prevent",
+            "translation": "Màng chống muỗi có thể giúp ngăn chặn muỗi cắn người vào ban đêm."
+          },
+          {
+            "id": "fib_016",
+            "sentence": ".................... can be sprayed to kill mosquitoes.",
+            "answer": "Insecticide",
+            "translation": "Thuốc diệt côn trùng có thể được phun để tiêu diệt muỗi."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "It is difficult to .................... malaria control plans in poor regions.",
+            "answer": "Implement",
+            "translation": "Rất khó để thực hiện các kế hoạch kiểm soát sốt rét ở các vùng nghèo."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "People may be unwilling to .................... with government efforts.",
+            "answer": "Cooperate",
+            "translation": "Người dân có thể không muốn hợp tác với các nỗ lực của chính phủ."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "title": "Task 2: Fill in the blanks - Group 4",
+        "wordBank": [
+          "Afford",
+          "Hire",
+          "Organization"
+        ],
+        "questions": [
+          {
+            "id": "fib_019",
+            "sentence": "Poor people cannot .................... to pay for medical care.",
+            "answer": "Afford",
+            "translation": "Người nghèo không thể chi trả cho chăm sóc y tế."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "Health ministries do not have money to .................... trained medical practitioners.",
+            "answer": "Hire",
+            "translation": "Bộ Y tế không có tiền để thuê các bác sĩ được đào tạo."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "The World Health .................... is helping African nations control malaria.",
+            "answer": "Organization",
+            "translation": "Tổ chức Y tế Thế giới đang giúp các quốc gia châu Phi kiểm soát sốt rét."
+          }
+        ]
+      }
+    ]
+  }
+}

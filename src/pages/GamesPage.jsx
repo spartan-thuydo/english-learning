@@ -60,9 +60,14 @@ export default function GamesPage() {
   return (
     <div className="games-page">
       <header className="games-page__header">
-        <Button variant="secondary" onClick={() => navigate(buildRoute.vocabulary(lessonId))}>
-          ← Back to Vocabulary
-        </Button>
+        <div className="games-page__nav-buttons">
+          <Button variant="secondary" onClick={() => navigate('/')}>
+            ← Home
+          </Button>
+          <Button variant="secondary" onClick={() => navigate(buildRoute.vocabulary(lessonId))}>
+            ← Back to Vocabulary
+          </Button>
+        </div>
 
         <div className="games-page__title-section">
           

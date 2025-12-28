@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "unit": "Unit 2",
+    "title": "PS Camping"
+  },
+  "vocabulary": [
+    {
+      "word": "Audience",
+      "pronunciation": "/ˈɑː.di.əns/",
+      "meaning": "Khán giả",
+      "definition": "Khán giả",
+      "id": "word_001",
+      "exampleSimple": "We joined the audience just as the lights went down.",
+      "pos": "noun"
+    },
+    {
+      "word": "(Open) a retail (chain)",
+      "pronunciation": "/ˈriː.teɪl/",
+      "meaning": "a retail chain ~ chuỗi bán lẻ, open a retail chain ~ mở một chuỗi bán lẻ",
+      "definition": "a retail chain ~ chuỗi bán lẻ, open a retail chain ~ mở một chuỗi bán lẻ",
+      "id": "word_002",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Camping equipment",
+      "pronunciation": "/ɪˈkwɪp.mənt/",
+      "meaning": "Thiết bị cắm trại",
+      "definition": "Camping equipment",
+      "id": "word_003",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Site  campsite",
+      "pronunciation": "/ˈkæmp.saɪt/",
+      "meaning": "Khu  cắm trại tại chỗ",
+      "definition": "Site  campsite",
+      "id": "word_004",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Offer camping holidays",
+      "pronunciation": "",
+      "meaning": "Cung cấp các kỳ nghỉ cắm trại",
+      "definition": "Offer camping holidays",
+      "id": "word_005",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "(Have) exclusive (use of sth)",
+      "pronunciation": "",
+      "meaning": "Có sự sử dụng độc quyền cái gì đó (chỉ dành riêng cho mình)",
+      "definition": "Có sự sử dụng độc quyền cái gì đó (chỉ dành riêng cho mình)",
+      "id": "word_006",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Expand",
+      "pronunciation": "/ɪkˈspænd/",
+      "meaning": "mở rộng",
+      "definition": "mở rộng",
+      "id": "word_007",
+      "exampleSimple": "You can expand this compact umbrella to cover a large table.",
+      "pos": "verb"
+    },
+    {
+      "word": "Upgrade",
+      "pronunciation": "/ʌpˈɡreɪd/",
+      "meaning": "nâng cấp",
+      "definition": "nâng cấp",
+      "id": "word_008",
+      "exampleSimple": "When you upgrade your standard of living, you become addicted to that standard of living.",
+      "pos": "verb"
+    },
+    {
+      "word": "Oven",
+      "pronunciation": "/ˈʌv.ən/",
+      "meaning": "lò vi sóng",
+      "definition": "lò vi sóng",
+      "id": "word_009",
+      "exampleSimple": "",
+      "pos": "noun"
+    },
+    {
+      "word": "Cooking ring",
+      "pronunciation": "",
+      "meaning": "các bạn tra google hình ảnh từ này giúp anh nhé",
+      "definition": "các bạn tra google hình ảnh từ này giúp anh nhé",
+      "id": "word_010",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Mopmɑːpˈbʌk.ɪt/",
+      "pronunciation": "/ bucket \t\t\t\t(n)\t/",
+      "meaning": "Mop ~ cây lau nhà, Bucket ~ cái xô",
+      "definition": "Mop ~ cây lau nhà, Bucket ~ cái xô",
+      "id": "word_011",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Rating",
+      "pronunciation": "/ˈreɪ.t̬ɪŋ/",
+      "meaning": "xếp hạng",
+      "definition": "xếp hạng",
+      "id": "word_012",
+      "exampleSimple": "She is rated fourth in the country.",
+      "pos": "verb"
+    },
+    {
+      "word": "(Offer) superb (facilities)",
+      "pronunciation": "/suːˈpɝːb/",
+      "meaning": "Excellent",
+      "definition": "Excellent",
+      "id": "word_013",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Be fully occupied",
+      "pronunciation": "/ˈɑː.kjə.paɪd/",
+      "meaning": "bận rộn",
+      "definition": "bận rộn",
+      "id": "word_014",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Take advantage of sth",
+      "pronunciation": "/ədˈvæn.t̬ɪdʒ/",
+      "meaning": "Take advantage of sth",
+      "definition": "Take advantage of sth",
+      "id": "word_015",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Well-qualified and enthusiastic staff",
+      "pronunciation": "/ɪnˌθuː.ziˈæs.tɪk/",
+      "meaning": "Các nhân viên đủ tiêu chuẩn và nhiệt tình",
+      "definition": "Các nhân viên đủ tiêu chuẩn và nhiệt tình",
+      "id": "word_016",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Kick off",
+      "pronunciation": "/kɪk/",
+      "meaning": "bắt đầu",
+      "definition": "bắt đầu",
+      "id": "word_017",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Child-friendly",
+      "pronunciation": "/ˌtʃaɪldˈfrend.li/",
+      "meaning": "thân thiện với trẻ em",
+      "definition": "thân thiện với trẻ em",
+      "id": "word_018",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Operate a no-noise rule",
+      "pronunciation": "",
+      "meaning": "Thực hiện, vận hành, … luật lệ “không tiếng ồn”",
+      "definition": "Thực hiện, vận hành, … luật lệ “không tiếng ồn”",
+      "id": "word_019",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Fridge",
+      "pronunciation": "/frɪdʒ/",
+      "meaning": "cái tủ lạnh",
+      "definition": "cái tủ lạnh",
+      "id": "word_020",
+      "exampleSimple": "",
+      "pos": "verb"
+    },
+    {
+      "word": "Do sth in advance",
+      "pronunciation": "/ədˈvæns/",
+      "meaning": "làm cái gì đó trước",
+      "definition": "làm cái gì đó trước",
+      "id": "word_021",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Tent",
+      "pronunciation": "/tent/",
+      "meaning": "Lều",
+      "definition": "Lều",
+      "id": "word_022",
+      "exampleSimple": "We’ll be tented at the campground this weekend.",
+      "pos": "verb"
+    },
+    {
+      "word": "Insure",
+      "pronunciation": "/ɪnˈʃʊr/",
+      "meaning": "Bảo hiểm/ bảo đảm \t\t insurance (n)\t/ɪnˈʃɝː.əns/",
+      "definition": "Bảo hiểm/ bảo đảm \t\t insurance (n)\t/ɪnˈʃɝː.əns/",
+      "id": "word_023",
+      "exampleSimple": "",
+      "pos": "verb"
+    },
+    {
+      "word": "An annual insurance policy",
+      "pronunciation": "/ˈæn.ju.əl/",
+      "meaning": "chính sách bảo hiểm hằng năm",
+      "definition": "chính sách bảo hiểm hằng năm",
+      "id": "word_024",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Take out the low-cost cover",
+      "pronunciation": "",
+      "meaning": "Mua cái gì đó từ một công ty, ngân hàng,…  take out (v)",
+      "definition": "Mua cái gì đó từ một công ty, ngân hàng,…  take out (v)",
+      "id": "word_025",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Make (your holiday) reservation",
+      "pronunciation": "/ˌrez.ɚˈveɪ.ʃən/",
+      "meaning": "Đặt chỗ",
+      "definition": "Đặt chỗ",
+      "id": "word_026",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Be kept informed of sth",
+      "pronunciation": "/ɪnˈfɔːrmd/",
+      "meaning": "Được cho biết về cái gì đó",
+      "definition": "Được cho biết về cái gì đó",
+      "id": "word_027",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Book a luxury tent",
+      "pronunciation": "/ˈlʌk.ʃɚ.i/",
+      "meaning": "Đặt một cái lều sang trọng",
+      "definition": "Đặt một cái lều sang trọng",
+      "id": "word_028",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "(Send sb a thank you) present",
+      "pronunciation": "/ˈprez.ənt/",
+      "meaning": "A gift",
+      "definition": "A gift",
+      "id": "word_029",
+      "exampleSimple": "",
+      "pos": ""
+    },
+    {
+      "word": "Mirror",
+      "pronunciation": "/ Blanket \t\t\t(n)\t/",
+      "meaning": "Mirror ~ cái gương/ Blanket ~ tấm thảm",
+      "definition": "Mirror ~ cái gương/ Blanket ~ tấm thảm",
+      "id": "word_030",
+      "exampleSimple": "",
+      "pos": "verb"
+    }
+  ],
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 1: check the meanings of the following words and do the exercise attached",
+        "wordBank": [
+          "Audience",
+          "(Open) a retail (chain)",
+          "Camping equipment",
+          "Site  campsite",
+          "Offer camping holidays",
+          "(Have) exclusive (use of sth)",
+          "Expand",
+          "Upgrade",
+          "Oven",
+          "Cooking ring",
+          "Mopmɑːpˈbʌk.ɪt/"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "The CEO has the ………………. use of this room",
+            "answer": "exclusive",
+            "translation": "CEO có quyền sử dụng độc quyền căn phòng này."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "The ……………. was so excited with the performance.",
+            "answer": "audience",
+            "translation": "Khán giả rất phấn khích với buổi biểu diễn."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The company is specialized in selling ………………………..",
+            "answer": "camping equipment",
+            "translation": "Công ty chuyên bán thiết bị cắm trại."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "The company started …………………………… in 2000",
+            "answer": "a retail chain",
+            "translation": "Công ty bắt đầu mở chuỗi bán lẻ vào năm 2000."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "They ………….. their retail operations during the 1980s.",
+            "answer": "expanded",
+            "translation": "Họ mở rộng hoạt động bán lẻ trong những năm 1980."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "After buying that hotel, he decided to ……… it from its original three-star rating.",
+            "answer": "upgrade",
+            "translation": "Sau khi mua khách sạn đó, anh ấy quyết định nâng cấp từ mức xếp hạng ba sao ban đầu."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Vinmart+ is one of the biggest ……………. in Viet Nam",
+            "answer": "retail chain",
+            "translation": "Vinmart+ là một trong những chuỗi bán lẻ lớn nhất ở Việt Nam."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "The …………. is in a beautiful location next to the beach.",
+            "answer": "campsite",
+            "translation": "Địa điểm cắm trại nằm ở vị trí đẹp bên cạnh bãi biển."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: check the meanings of the following words and do the exercise attached",
+        "wordBank": [
+          "Rating",
+          "(Offer) superb (facilities)",
+          "Be fully occupied",
+          "Take advantage of sth",
+          "Well-qualified and enthusiastic staff",
+          "Kick off",
+          "Child-friendly",
+          "Operate a no-noise rule",
+          "Fridge",
+          "Do sth in advance"
+        ],
+        "questions": [
+          {
+            "id": "fib_009",
+            "sentence": "This holiday is ………………..",
+            "answer": "rating",
+            "translation": "Khách sạn có xếp hạng năm sao."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "I’m so proud to say that we have ………………… staff",
+            "answer": "superb",
+            "translation": "Khách sạn cung cấp các tiện nghi tuyệt vời."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "This school has a very poor ……………. compared to others in the area.",
+            "answer": "fully occupied",
+            "translation": "Tôi hoàn toàn bận rộn với công việc tuần này."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "The company offers ………….. facilities for camping",
+            "answer": "take advantage of",
+            "translation": "Bạn nên tận dụng ưu đãi này."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "What time does the game ………………?",
+            "answer": "enthusiastic",
+            "translation": "Các nhân viên rất nhiệt tình và có trình độ tốt."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "This holiday is child-friendly, and with this in mind, we ……………",
+            "answer": "kick off",
+            "translation": "Lễ hội sẽ bắt đầu vào tuần tới."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "At that time, I was ……………… taking care of my elderly mother.",
+            "answer": "child-friendly",
+            "translation": "Đây là khu nghỉ dưỡng thân thiện với trẻ em."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "If you're going to come, please let me know ……………….",
+            "answer": "in advance",
+            "translation": "Vui lòng đặt chỗ trước."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 3: check the meanings of the following words and do the exercise attached",
+        "wordBank": [
+          "Tent",
+          "Insure",
+          "An annual insurance policy",
+          "Take out the low-cost cover",
+          "Make (your holiday) reservation",
+          "Be kept informed of sth",
+          "Book a luxury tent",
+          "(Send sb a thank you) present",
+          "Mirror"
+        ],
+        "questions": [
+          {
+            "id": "fib_017",
+            "sentence": "We pitched our ………. near the stream.",
+            "answer": "facilities",
+            "translation": "Khu cắm trại có các tiện nghi tuyệt vời."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "We hadn't ……………. the bicycles against theft.",
+            "answer": "oven",
+            "translation": "Chúng tôi cần một cái lò nướng mới."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "I’m going to …………………. a life insurance policy They sent me a book as a birthday ………….",
+            "answer": "mop",
+            "translation": "Tôi cần cây lau nhà để lau sàn."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "You can ………………… at the price of the standard one with this voucher",
+            "answer": "bucket",
+            "translation": "Hãy đổ đầy nước vào cái xô."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "Please ………………… in advance because the campsite can be fully booked so quickly",
+            "answer": "fridge",
+            "translation": "Hãy bảo quản thức ăn trong tủ lạnh."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import GameLayout from './GameLayout.jsx';
 import GameResult from './GameResult.jsx';
@@ -13,6 +13,7 @@ import { shuffleArray, scrambleWord, isCorrectAnswer, calculateScore } from '../
 export default function WordScrambleGame({ lessonId, vocabulary }) {
   const navigate = useNavigate();
   const gameConfig = GAME_CONFIG[GAME_TYPES.WORD_SCRAMBLE];
+  const inputRef = useRef(null);
 
   const [questions, setQuestions] = useState(() => generateScrambledWords(vocabulary));
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,6 +25,13 @@ export default function WordScrambleGame({ lessonId, vocabulary }) {
 
   const currentQuestion = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;
+
+  // Auto-focus input when question changes
+  useEffect(() => {
+    if (!isAnswered && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [currentIndex, isAnswered]);
 
   // Handle Enter key for next question
   useEffect(() => {
@@ -106,18 +114,21 @@ export default function WordScrambleGame({ lessonId, vocabulary }) {
     >
       <div className="word-scramble-game">
         <div className="word-scramble-game__counter">
-          Word {currentIndex + 1} of {questions.length}
+          {currentIndex + 1}/{questions.length}
         </div>
 
         <div className="word-scramble-game__definition">
-          <div className="word-scramble-game__label">Definition:</div>
+          {currentQuestion.pos && (
+            <div className="word-scramble-game__label">
+              ({currentQuestion.pos})
+            </div>
+          )}
           <div className="word-scramble-game__text">
             {currentQuestion.definition}
           </div>
         </div>
 
         <div className="word-scramble-game__scrambled">
-          <div className="word-scramble-game__label">Scrambled letters:</div>
           <div className="word-scramble-game__letters">
             {currentQuestion.scrambled}
           </div>
@@ -125,13 +136,13 @@ export default function WordScrambleGame({ lessonId, vocabulary }) {
 
         <form onSubmit={handleSubmit} className="word-scramble-game__form">
           <input
+            ref={inputRef}
             type="text"
             className="word-scramble-game__input"
             value={userAnswer}
             onChange={(e) => setUserAnswer(e.target.value)}
             placeholder="Type the word..."
             disabled={isAnswered}
-            autoFocus
           />
 
           {!isAnswered && (
@@ -149,11 +160,11 @@ export default function WordScrambleGame({ lessonId, vocabulary }) {
           <div className="word-scramble-game__feedback">
             {isCorrect ? (
               <div className="feedback feedback--correct">
-                Correct! The word is "{currentQuestion.word}"
+                Correct!
               </div>
             ) : (
               <div className="feedback feedback--wrong">
-                Incorrect. The correct word is "{currentQuestion.word}"
+                {currentQuestion.word}
               </div>
             )}
           </div>
@@ -162,7 +173,7 @@ export default function WordScrambleGame({ lessonId, vocabulary }) {
         {isAnswered && (
           <div className="word-scramble-game__actions">
             <Button variant="primary" onClick={handleNext}>
-              {currentIndex < questions.length - 1 ? 'Next Word' : 'Finish'} (Press Enter)
+              {currentIndex < questions.length - 1 ? 'Next' : 'Finish'}
             </Button>
           </div>
         )}
@@ -181,6 +192,7 @@ function generateScrambledWords(vocabulary, count = 10) {
   return selected.map(item => ({
     word: item.word,
     definition: item.meaning,
+    pos: item.pos,
     scrambled: scrambleWord(item.word)
   }));
 }

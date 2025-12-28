@@ -5,7 +5,8 @@ export const ROUTES = {
   READING: '/lesson/:id/reading',
   VOCABULARY: '/lesson/:id/vocabulary',
   GAMES: '/lesson/:id/games',
-  GAME_PLAY: '/lesson/:id/games/:gameType'
+  GAME_PLAY: '/lesson/:id/games/:gameType',
+  EXERCISE: '/lesson/:id/exercise'
 };
 
 // Helper to build routes
@@ -14,5 +15,6 @@ export const buildRoute = {
   reading: (id) => `/lesson/${id}/reading`,
   vocabulary: (id) => `/lesson/${id}/vocabulary`,
   games: (id) => `/lesson/${id}/games`,
-  gamePlay: (id, gameType) => `/lesson/${id}/games/${gameType}`
+  gamePlay: (id, gameType) => `/lesson/${id}/games/${gameType}`,
+  exercise: (id) => `/lesson/${id}/exercise`
 };

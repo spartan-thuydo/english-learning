@@ -9,6 +9,22 @@ class AudioService {
     this.synthesis = window.speechSynthesis;
     this.currentUtterance = null;
     this.isSupported = 'speechSynthesis' in window;
+    this.voicesLoaded = false;
+
+    // Load voices on initialization
+    if (this.isSupported) {
+      // Trigger voices to load
+      this.synthesis.getVoices();
+
+      // Handle voiceschanged event (for browsers that load voices async)
+      if ('onvoiceschanged' in this.synthesis) {
+        this.synthesis.onvoiceschanged = () => {
+          this.voicesLoaded = true;
+        };
+      } else {
+        this.voicesLoaded = true;
+      }
+    }
   }
 
   /**
@@ -47,6 +63,19 @@ class AudioService {
       utterance.lang = options.lang || AUDIO_CONFIG.TTS_LANG;
       utterance.rate = options.rate || AUDIO_CONFIG.TTS_RATE;
       utterance.pitch = options.pitch || AUDIO_CONFIG.TTS_PITCH;
+
+      // Explicitly select an English voice to ensure correct language on mobile
+      const voices = this.synthesis.getVoices();
+      if (voices.length > 0) {
+        const englishVoice = voices.find(voice =>
+          voice.lang.startsWith('en-') || voice.lang === 'en'
+        );
+
+        if (englishVoice) {
+          utterance.voice = englishVoice;
+          utterance.lang = englishVoice.lang;
+        }
+      }
 
       utterance.onend = () => {
         this.currentUtterance = null;

@@ -34,3 +34,4 @@ pnpm-debug.log*
 # Documentation files (except README.md)
 *.md
 !README.md
+docx_env/

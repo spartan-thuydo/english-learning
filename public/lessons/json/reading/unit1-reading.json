@@ -1,0 +1,729 @@
+{
+  "metadata": {
+    "unit": "Unit 1",
+    "title": "Saving bugs to find new drugs"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Pharmaceutical research",
+      "pronunciation": "/ˌfɑːr.məˈsuː.t̬ɪ.kəl/",
+      "pos": "n",
+      "meaning": "nghiên cứu dược phẩm",
+      "definition": "The scientific study and development of drugs and medicines",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Bug",
+      "pronunciation": "/bʌɡ/",
+      "pos": "n",
+      "meaning": "côn trùng",
+      "definition": "an insect",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Derive",
+      "pronunciation": "/dɪˈraɪv/",
+      "pos": "v",
+      "meaning": "để có được hoặc có được một cái gì đó",
+      "definition": "to get or obtain something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Compound",
+      "pronunciation": "/ˈkɒm.paʊnd/",
+      "pos": "n",
+      "meaning": "hợp chất",
+      "definition": "A substance formed by chemical union of two or more elements",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Primate",
+      "pronunciation": "/ˈpraɪ.meɪt/",
+      "pos": "n",
+      "meaning": "loài linh trưởng",
+      "definition": "A mammal of an order that includes humans, apes, and monkeys",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Rub",
+      "pronunciation": "/rʌb/",
+      "pos": "v",
+      "meaning": "chà xát, thoa cái gì đó lên sth",
+      "definition": "To move something back and forth against a surface",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Rid sb of sth",
+      "pronunciation": "/rɪd/",
+      "pos": "v",
+      "meaning": "loại bỏ, gỡ bỏ cái gì đó khỏi ai đó",
+      "definition": "To remove or eliminate something unwanted from someone",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Intestinal parasites",
+      "pronunciation": "/ˌɪnˈtes.tɪn.əl/",
+      "pos": "adj",
+      "meaning": "phần ruột (ruột non, già)",
+      "definition": "Parasites that live in the intestines",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Have a grasp of sth",
+      "pronunciation": "/ɡræsp/",
+      "pos": "n",
+      "meaning": "để có một sự hiểu biết rõ ràng về sth",
+      "definition": "to have a clear understanding about sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Extraction",
+      "pronunciation": "/ɪkˈstræk.ʃən/",
+      "pos": "n",
+      "meaning": "sự loại bỏ, chiết xuất từ (khỏi) cái gì đó",
+      "definition": "The action of removing or taking out something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Modification",
+      "pronunciation": "/ˌmɑd·ə·fɪˈkeɪ·ʃən/",
+      "pos": "n",
+      "meaning": "sự sửa đổi, thường dùng cho việc cải tiến",
+      "definition": "The action of modifying or changing something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Do sth from scratch",
+      "pronunciation": "/skrætʃ/",
+      "pos": "n",
+      "meaning": "làm việc gì đó từ con số 0, completely from the beginning",
+      "definition": "To do something completely from the beginning",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Hurdle",
+      "pronunciation": "/ˈhɝː.dəl/",
+      "pos": "n",
+      "meaning": "rào cản",
+      "definition": "An obstacle or difficulty",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Mine",
+      "pronunciation": "/maɪn/",
+      "pos": "v",
+      "meaning": "khai thác, đào mỏ",
+      "definition": "To extract minerals or resources from the earth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Scratch",
+      "pronunciation": "/skrætʃ/",
+      "pos": "v",
+      "meaning": "để cắt hoặc làm hỏng bề mặt hoặc da của bạn một chút, làm trầy xước",
+      "definition": "to cut or damage a surface or your skin slightly, làm trầy xước",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Looming health crises",
+      "pronunciation": "/ˈluː.mɪŋ/",
+      "pos": "adj",
+      "meaning": "tiềm ẩn => những cuộc khủng hoảng sức khỏe tiềm ẩn",
+      "definition": "Threatening health crises that appear imminent",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Antibiotic resistance",
+      "pronunciation": "/ˌæn.t̬i.baɪˈɑː.t̬ɪk/",
+      "pos": "n",
+      "meaning": "thuốc kháng sinh => kháng thuốc kháng sinh",
+      "definition": "The ability of bacteria to resist the effects of antibiotics",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Terrestrial domain",
+      "pronunciation": "/təˈres.tri.əl/",
+      "pos": "n",
+      "meaning": "relating to the earth, land => terrestrial domain = lãnh thổ",
+      "definition": "The land-based environment or territory",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Niche",
+      "pronunciation": "/nɪtʃ/",
+      "pos": "n",
+      "meaning": "chỗ hở, khe trống",
+      "definition": "A specialized segment or position",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "A bewildering array of sth",
+      "pronunciation": "/bɪˈwɪl.dər.ɪŋ/",
+      "pos": "n",
+      "meaning": "Một số lượng lớn hoặc nhiều thứ gây nhầm lẫn",
+      "definition": "A confusingly large number or variety of things",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Therapeutic compounds",
+      "pronunciation": "/ˌθer.əˈpjuː.t̬ɪk/",
+      "pos": "n",
+      "meaning": "các hợp chất trị liệu",
+      "definition": "Chemical compounds used for medical treatment",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Larva (larvae)",
+      "pronunciation": "/ˈlɑːr.və/",
+      "pos": "n",
+      "meaning": "ấu trùng, nhộng",
+      "definition": "The immature form of an insect",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Potent",
+      "pronunciation": "/ˈpoʊ.t̬ənt/",
+      "pos": "adj",
+      "meaning": "mạnh mẽ, thuyết phục hoặc hiệu quả",
+      "definition": "powerful, persuasive, or effective",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Venom",
+      "pronunciation": "/ˈven·əm/",
+      "pos": "n",
+      "meaning": "chất độc, nọc độc",
+      "definition": "Poisonous substance secreted by animals",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "A daunting task",
+      "pronunciation": "/ˈdɔn·tɪŋ/",
+      "pos": "n",
+      "meaning": "nhiệm vụ khó khăn, dễ gây nản lòng",
+      "definition": "A task that seems difficult or intimidating",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Secrete",
+      "pronunciation": "/sɪˈkriːt/",
+      "pos": "v",
+      "meaning": "tiết ra",
+      "definition": "To produce and release a substance",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Ubiquity",
+      "pronunciation": "/juːˈbɪk.wə.t̬i/",
+      "pos": "n",
+      "meaning": "thực tế là sth/s.o dường như ở khắp mọi nơi, phổ biến",
+      "definition": "the fact that sth/s.o seems to be everywhere, popular",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Rear in captivity",
+      "pronunciation": "/rɪr/",
+      "pos": "v",
+      "meaning": "nuôi nhốt",
+      "definition": "To breed and raise animals in confinement",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Poison",
+      "pronunciation": "/ˈpɔɪ·zən/",
+      "pos": "n",
+      "meaning": "chất độc",
+      "definition": "A toxic substance",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_030",
+      "word": "Subdue prey",
+      "pronunciation": "/səbˈduː/",
+      "pos": "v",
+      "meaning": "khuất phục, làm yếu",
+      "definition": "To overpower and control prey",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Insert sth into sth",
+      "pronunciation": "/ɪnˈsɝːt/",
+      "pos": "v",
+      "meaning": "chèn, nhét cái gì vào cái gì",
+      "definition": "To place something into something else",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_032",
+      "word": "Pitfall",
+      "pronunciation": "/ˈpɪtˌfɔl/",
+      "pos": "v",
+      "meaning": "các vấn đề hoặc khó khăn có thể xảy ra",
+      "definition": "problems, or difficulties that could potentially happen",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_033",
+      "word": "Precedent",
+      "pronunciation": "/ˈpres.ə.dent/",
+      "pos": "n",
+      "meaning": "tiền lệ",
+      "definition": "An earlier event or action that is used as an example",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Deprive sb of sth",
+      "pronunciation": "/dɪˈpraɪv/",
+      "pos": "v",
+      "meaning": "tước đoạt của ai đó cái gì đó",
+      "definition": "To take something away from someone",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_035",
+      "word": "Sooth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "làm dịu nhẹ",
+      "definition": "To calm or comfort",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Cure",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "chữa trị",
+      "definition": "To heal or make better",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Ailment",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "bệnh tật",
+      "definition": "An illness or disease",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_038",
+      "word": "Characterization",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự mô tả đặc điểm",
+      "definition": "The description of the distinctive features of something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Shift",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự dịch chuyển",
+      "definition": "A change in position or direction",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_040",
+      "word": "Secure",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "bảo đảm, đảm bảo",
+      "definition": "To obtain or achieve something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_041",
+      "word": "Prompt",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "khiến cái gì đó xảy ra",
+      "definition": "To cause something to happen",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_042",
+      "word": "Scratch the surface of sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "biết sơ qua về cái gì đó",
+      "definition": "To deal with only a small part of something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_043",
+      "word": "The ability to do sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "khả năng làm gì đó",
+      "definition": "The capacity or skill to do something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "Diversity",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự đa dạng",
+      "definition": "The state of being diverse or varied",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_045",
+      "word": "Occupy",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "chiếm, chiếm đóng",
+      "definition": "To fill or take up a space or position",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_046",
+      "word": "Evolution",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "sự tiến hóa",
+      "definition": "The gradual development of something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_047",
+      "word": "Defensive and offensive purposes",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "những mục đích tấn công và phòng thủ",
+      "definition": "Purposes related to protection and attack",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_048",
+      "word": "Exceed sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "vượt quá cái gì đó",
+      "definition": "To go beyond or surpass something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_049",
+      "word": "Existence",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự tồn tại",
+      "definition": "The state of being alive or present",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_050",
+      "word": "Investigate",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "điều tra",
+      "definition": "To examine or study something carefully",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_051",
+      "word": "Cancer treatment",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "điều trị ung thư",
+      "definition": "Medical care for cancer",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_052",
+      "word": "Interest sb",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "thu hút sự chú ý của ai đó, làm ai đó hứng thú",
+      "definition": "To attract someone's attention or curiosity",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_053",
+      "word": "Exploit",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "khai thác",
+      "definition": "To make use of and benefit from something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_054",
+      "word": "Serve as sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "phục vụ như là cái gì đó, có chức năng như là cái gì đó",
+      "definition": "To function or act as something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_055",
+      "word": "Point",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "chỉ hướng",
+      "definition": "To direct attention toward something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_056",
+      "word": "Be worth doing sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đáng để làm gì đó",
+      "definition": "To be valuable or beneficial enough to do",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "Saving bugs to find new drugs",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "More drugs than you might think are derived from, or inspired by, compounds found in living things. Looking to nature for the soothing and curing of our ailments is nothing new – we have been doing it for tens of thousands of years. You only have to look at other primates – such as the capuchin monkeys who rub themselves with toxin-oozing millipedes to deter mosquitoes, or the chimpanzees who use noxious forest plants to rid themselves of intestinal parasites – to realise that our ancient ancestors too probably had a basic grasp of medicine.",
+        "translation": "Nhiều loại thuốc hơn bạn nghĩ có nguồn gốc từ, hoặc lấy cảm hứng từ, các hợp chất được tìm thấy trong các sinh vật sống. Nhìn vào thiên nhiên để làm dịu và chữa lành bệnh tật của chúng ta không có gì mới – chúng ta đã làm điều đó trong hàng chục ngàn năm. Bạn chỉ cần nhìn vào các loài linh trưởng khác – chẳng hạn như những con khỉ capuchin tự chà xát mình bằng những con rết hút độc tố để ngăn chặn muỗi, hoặc những con tinh tinh sử dụng cây rừng độc hại để loại bỏ ký sinh trùng đường ruột – để nhận ra rằng tổ tiên cổ xưa của chúng ta cũng có thể đã nắm bắt cơ bản về y học.",
+        "mainIdea": "More drugs than you might think are derived from, or inspired by, compounds found in living things"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "Pharmaceutical science and chemistry built on these ancient foundations and perfected the extraction, characterization, modification and testing of these natural products. Then, for a while, modern pharmaceutical science moved its focus away from nature and into the laboratory, designing chemical compounds from scratch. The main cause of this shift is that although there are plenty of promising chemical compounds in nature, finding them is far from easy. Securing sufficient numbers of the organism in question, isolating and characterizing the compounds of interest, and producing large quantities of these compounds are all significant hurdles.",
+        "translation": "Khoa học dược phẩm và hóa học được xây dựng trên những nền tảng cổ xưa này và hoàn thiện việc chiết xuất, mô tả đặc điểm, sửa đổi và thử nghiệm các sản phẩm tự nhiên này. Sau đó, trong một thời gian, khoa học dược phẩm hiện đại đã chuyển trọng tâm khỏi thiên nhiên vào phòng thí nghiệm, thiết kế các hợp chất hóa học từ đầu. Nguyên nhân chính của sự chuyển đổi này là mặc dù có rất nhiều hợp chất hóa học đầy hứa hẹn trong thiên nhiên, nhưng việc tìm kiếm chúng lại không hề dễ dàng. Đảm bảo số lượng đủ các sinh vật được đề cập, phân lập và mô tả đặc điểm các hợp chất quan tâm, và sản xuất số lượng lớn các hợp chất này đều là những rào cản đáng kể.",
+        "mainIdea": "Pharmaceutical science and chemistry built on these ancient foundations and perfected the extraction, characterization, modification and testing of these natural products"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "Laboratory-based drug discovery has achieved varying levels of success, something which has now prompted the development of new approaches focusing once again on natural products. With the ability to mine genomes for useful compounds, it is now evident that we have barely scratched the surface of nature's molecular diversity. This realization, together with several looming health crises, such as antibiotic resistance, has put bioprospecting – the search for useful compounds in nature – firmly back on the map.",
+        "translation": "Khám phá thuốc dựa trên phòng thí nghiệm đã đạt được những mức độ thành công khác nhau, điều này đã thúc đẩy sự phát triển các phương pháp tiếp cận mới tập trung một lần nữa vào các sản phẩm tự nhiên. Với khả năng khai thác bộ gen để tìm các hợp chất hữu ích, giờ đây rõ ràng là chúng ta mới chỉ biết sơ qua về sự đa dạng phân tử của thiên nhiên. Nhận thức này, cùng với một số cuộc khủng hoảng sức khỏe đang hiện hữu, chẳng hạn như kháng kháng sinh, đã đưa sinh học thăm dò - việc tìm kiếm các hợp chất hữu ích trong thiên nhiên - trở lại một cách chắc chắn.",
+        "mainIdea": "Laboratory-based drug discovery has achieved varying levels of success, something which has now prompted the development of new approaches focusing once again on natural products"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche. Consequently, they have a bewildering array of interactions with other organisms, something which has driven the evolution of an enormous range of very interesting compounds for defensive and offensive purposes. Their remarkable diversity exceeds that of every other group of animals on the planet combined. Yet even though insects are far and away the most diverse animals in existence, their potential as sources of therapeutic compounds is yet to be realised.",
+        "translation": "Côn trùng là những chủ nhân không thể tranh cãi của lãnh thổ trên cạn, nơi chúng chiếm mọi khe trống có thể. Do đó, chúng có một loạt các tương tác gây nhầm lẫn với các sinh vật khác, điều này đã thúc đẩy sự tiến hóa của một loạt các hợp chất rất thú vị cho các mục đích phòng thủ và tấn công. Sự đa dạng đáng chú ý của chúng vượt xa mọi nhóm động vật khác trên hành tinh cộng lại. Tuy nhiên, mặc dù côn trùng là những động vật đa dạng nhất tồn tại, tiềm năng của chúng như nguồn cung cấp các hợp chất trị liệu vẫn chưa được nhận ra.",
+        "mainIdea": "Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "From the tiny proportion of insects that have been investigated, several promising compounds have been identified. For example, alloferon, an antimicrobial compound produced by blow fly larvae, is used as an antiviral and antitumor agent in South Korea and Russia. The larvae of a few other insect species are being investigated for the potent antimicrobial compounds they produce. Meanwhile, a compound from the venom of the wasp Polybia paulista has potential in cancer treatment.",
+        "translation": "Từ tỷ lệ nhỏ các loài côn trùng đã được nghiên cứu, một số hợp chất đầy hứa hẹn đã được xác định. Ví dụ, alloferon, một hợp chất kháng khuẩn được sản xuất bởi ấu trùng ruồi xanh, được sử dụng làm thuốc kháng vi-rút và kháng khối u ở Hàn Quốc và Nga. Ấu trùng của một số loài côn trùng khác đang được điều tra về các hợp chất kháng khuẩn mạnh mẽ mà chúng sản xuất. Trong khi đó, một hợp chất từ nọc độc của ong bắp cày Polybia paulista có tiềm năng trong điều trị ung thư.",
+        "mainIdea": "From the tiny proportion of insects that have been investigated, several promising compounds have been identified"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Why is it that insects have received relatively little attention in bioprospecting? Firstly, there are so many insects that, without some manner of targeted approach, investigating this huge variety of species is a daunting task. Secondly, insects are generally very small, and the glands inside them that secrete potentially useful compounds are smaller still. This can make it difficult to obtain sufficient quantities of the compound for subsequent testing. Thirdly, although we consider insects to be everywhere, the reality of this ubiquity is vast numbers of a few extremely common species. Many insect species are infrequently encountered and very difficult to rear in captivity, which, again, can leave us with insufficient material to work with.",
+        "translation": "Tại sao côn trùng lại nhận được tương đối ít sự chú ý trong sinh học thăm dò? Thứ nhất, có quá nhiều loài côn trùng đến nỗi, nếu không có một cách tiếp cận có mục tiêu nào đó, việc điều tra sự đa dạng lớn này là một nhiệm vụ khó khăn. Thứ hai, côn trùng thường rất nhỏ, và các tuyến bên trong chúng tiết ra các hợp chất có khả năng hữu ích thì còn nhỏ hơn nữa. Điều này có thể gây khó khăn để có được số lượng đủ của hợp chất cho các xét nghiệm tiếp theo. Thứ ba, mặc dù chúng ta cho rằng côn trùng ở khắp mọi nơi, thực tế của sự phổ biến này là số lượng lớn của một số loài cực kỳ phổ biến. Nhiều loài côn trùng hiếm khi gặp phải và rất khó nuôi nhốt, một lần nữa, có thể khiến chúng ta không có đủ vật liệu để làm việc.",
+        "mainIdea": "Why is it that insects have received relatively little attention in bioprospecting? Firstly, there are so many insects that, without some manner of targeted approach, investigating this huge variety of species is a daunting task"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "My colleagues and I at Aberystwyth University in the UK have developed an approach in which we use our knowledge of ecology as a guide to target our efforts. The creatures that particularly interest us are the many insects that secrete powerful poison for subduing prey and keeping it fresh for future consumption. There are even more insects that are masters of exploiting filthy habitats, such as faeces and carcasses, where they are regularly challenged by thousands of micro-organisms. These insects have many antimicrobial compounds for dealing with pathogenic bacteria and fungi, suggesting that there is certainly potential to find many compounds that can serve as or inspire new antibiotics.",
+        "translation": "Các đồng nghiệp của tôi và tôi tại Đại học Aberystwyth ở Anh đã phát triển một phương pháp tiếp cận trong đó chúng tôi sử dụng kiến thức sinh thái của mình làm hướng dẫn để nhắm mục tiêu nỗ lực của chúng tôi. Những sinh vật đặc biệt thu hút chúng tôi là nhiều loài côn trùng tiết ra chất độc mạnh để khuất phục con mồi và giữ nó tươi để tiêu thụ trong tương lai. Thậm chí còn có nhiều côn trùng hơn là bậc thầy khai thác môi trường sống bẩn thỉu, chẳng hạn như phân và xác chết, nơi chúng thường xuyên phải đối mặt với hàng ngàn vi sinh vật. Những côn trùng này có nhiều hợp chất kháng khuẩn để đối phó với vi khuẩn và nấm gây bệnh, cho thấy chắc chắn có tiềm năng tìm thấy nhiều hợp chất có thể phục vụ hoặc truyền cảm hứng cho các loại kháng sinh mới.",
+        "mainIdea": "My colleagues and I at Aberystwyth University in the UK have developed an approach in which we use our knowledge of ecology as a guide to target our efforts"
+      },
+      {
+        "id": "para_h",
+        "label": "H",
+        "text": "Although natural history knowledge points us in the right direction, it doesn't solve the problems associated with obtaining useful compounds from insects. Fortunately, it is now possible to snip out the stretches of the insect's DNA that carry the codes for the interesting compounds and insert them into cell lines that allow larger quantities to be produced. And although the road from isolating and characterizing compounds with desirable qualities to developing a commercial product is very long and full of pitfalls, the variety of successful animal-derived pharmaceuticals on the market demonstrates there is a precedent here that is worth exploring.",
+        "translation": "Mặc dù kiến thức lịch sử tự nhiên chỉ cho chúng ta đúng hướng, nó không giải quyết các vấn đề liên quan đến việc có được các hợp chất hữu ích từ côn trùng. May mắn thay, giờ đây có thể cắt các đoạn DNA của côn trùng mang mã cho các hợp chất thú vị và chèn chúng vào dòng tế bào cho phép sản xuất số lượng lớn hơn. Và mặc dù con đường từ việc phân lập và mô tả đặc điểm các hợp chất có phẩm chất mong muốn đến việc phát triển một sản phẩm thương mại rất dài và đầy rẫy khó khăn, sự đa dạng của các dược phẩm có nguồn gốc động vật thành công trên thị trường cho thấy có một tiền lệ ở đây đáng để khám phá.",
+        "mainIdea": "Although natural history knowledge points us in the right direction, it doesn't solve the problems associated with obtaining useful compounds from insects"
+      },
+      {
+        "id": "para_i",
+        "label": "I",
+        "text": "With every bit of wilderness that disappears, we deprive ourselves of potential medicines. As much as I'd love to help develop a groundbreaking insect-derived medicine, my main motivation for looking at insects in this way is conservation. I sincerely believe that all species, however small and seemingly insignificant, have a right to exist for their own sake. If we can shine a light on the darker recesses of nature's medicine cabinet, exploring the useful chemistry of the most diverse animals on the planet, I believe we can make people think differently about the value of nature.",
+        "translation": "Với mỗi chút hoang dã biến mất, chúng ta tước đoạt chính mình các loại thuốc tiềm năng. Cho dù tôi rất muốn giúp phát triển một loại thuốc có nguồn gốc từ côn trùng mang tính đột phá, động lực chính của tôi khi nhìn vào côn trùng theo cách này là bảo tồn. Tôi thành thật tin rằng tất cả các loài, dù nhỏ bé và dường như không đáng kể, đều có quyền tồn tại vì chính bản thân chúng. Nếu chúng ta có thể chiếu sáng vào những ngóc ngách tối hơn của tủ thuốc thiên nhiên, khám phá hóa học hữu ích của những động vật đa dạng nhất trên hành tinh, tôi tin rằng chúng ta có thể khiến mọi người suy nghĩ khác đi về giá trị của thiên nhiên.",
+        "mainIdea": "With every bit of wilderness that disappears, we deprive ourselves of potential medicines"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Fill in the blanks",
+        "wordBank": [
+          "Pharmaceutical",
+          "Bugs",
+          "Primate",
+          "Rubbed",
+          "Derive",
+          "Compounds"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "The British .................... giant AstraZeneca employs about 5,000 people in the town.",
+            "answer": "Pharmaceutical",
+            "translation": "Công ty dược phẩm khổng lồ của Anh AstraZeneca tuyển dụng khoảng 5.000 người trong thị trấn."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Some tiny white .................... had eaten the leaves of my house plants.",
+            "answer": "Bugs",
+            "translation": "Một số con côn trùng nhỏ màu trắng đã ăn lá cây trong nhà của tôi."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The institute .................... all its money from foreign investments.",
+            "answer": "Derive",
+            "translation": "Viện này có được tất cả tiền từ các khoản đầu tư nước ngoài."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "We hear it all he time: Humans are..................... So we are brother to monkeys?",
+            "answer": "Primate",
+            "translation": "Chúng ta nghe nó mọi lúc: Con người là loài linh trưởng. Vậy chúng ta là anh em với khỉ?"
+          },
+          {
+            "id": "fib_005",
+            "sentence": "he yawned and ....................her eyes sleepily",
+            "answer": "Rubbed",
+            "translation": "Anh ấy ngáp và chà mắt buồn ngủ."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Fill in the blanks - Group 2",
+        "wordBank": [
+          "Have a basic grasp of sth",
+          "Do sth from scratch",
+          "Modification",
+          "Rid",
+          "Extraction",
+          "Intestinal parasites"
+        ],
+        "questions": [
+          {
+            "id": "fib_006",
+            "sentence": "Our aim is to .................... this government of corruption.",
+            "answer": "Rid",
+            "translation": "Mục đích của chúng ta là loại bỏ sự tham nhũng khỏi chính phủ này."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "There is a countless number of....................in our body.",
+            "answer": "Intestinal parasites",
+            "translation": "Có vô số ký sinh trùng đường ruột trong cơ thể chúng ta."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "He has a good ....................of the issues.",
+            "answer": "Have a basic grasp of sth",
+            "translation": "Anh ấy có sự hiểu biết tốt về các vấn đề."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "The ....................of minerals has damaged the countryside.",
+            "answer": "Extraction",
+            "translation": "Việc khai thác khoáng sản đã làm hư hại vùng nông thôn."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "A couple of ....................and the speech will be perfect.",
+            "answer": "Modification",
+            "translation": "Một vài sửa đổi và bài phát biểu sẽ hoàn hảo."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Would it be better to start from.................... with a new system?",
+            "answer": "Do sth from scratch",
+            "translation": "Liệu có tốt hơn khi bắt đầu từ đầu với một hệ thống mới?"
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Fill in the blanks - Group 3",
+        "wordBank": [
+          "Terrestrial domain",
+          "Hurdle",
+          "Mine",
+          "Looming health crises",
+          "Scratch",
+          "Antibiotic resistance"
+        ],
+        "questions": [
+          {
+            "id": "fib_012",
+            "sentence": "Getting a work permit was the first ....................to overcome.",
+            "answer": "Hurdle",
+            "translation": "Vượt qua giấy phép làm việc là rào cản đầu tiên cần vượt qua."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "They are ....................for gold.",
+            "answer": "Mine",
+            "translation": "Họ đang khai thác vàng."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "Be careful not to.................... yourself on the roses.",
+            "answer": "Scratch",
+            "translation": "Hãy cẩn thận đừng để bị hoa hồng làm trầy xước."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "They chatted about football as well as the .................... financial crisis.",
+            "answer": "Looming health crises",
+            "translation": "Họ trò chuyện về bóng đá cũng như cuộc khủng hoảng tài chính đang hiện hữu."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "I'm taking.................... for a throat infection.",
+            "answer": "Antibiotic resistance",
+            "translation": "Tôi đang dùng thuốc kháng sinh cho nhiễm trùng cổ họng."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "A variety of simple .................... life-forms can thrive in a medium of liquid water.",
+            "answer": "Terrestrial domain",
+            "translation": "Nhiều dạng sống trên cạn đơn giản có thể phát triển mạnh trong môi trường nước lỏng."
+          }
+        ]
+      }
+    ]
+  }
+}

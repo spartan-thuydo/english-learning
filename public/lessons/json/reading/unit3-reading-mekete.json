@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "unit": "Unit 3",
+    "title": "The Makete Integrated Rural Transport Project"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Tackle problems",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "giải quyết vấn đề",
+      "definition": "to deal with or solve problems",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Availability",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "tính sẵn có, sự sẵn có",
+      "definition": "the state of being available",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Obtain",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đạt được",
+      "definition": "to get or acquire",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Access to sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự tiếp cận đến cái gì đó",
+      "definition": "the ability to reach or use something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Conventional",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "truyền thống, thông thường",
+      "definition": "traditional or usual",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Strategy",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "chiến lược",
+      "definition": "a plan of action",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Adopt",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "áp dụng, chấp nhận",
+      "definition": "to accept or take up",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Objective",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "mục tiêu",
+      "definition": "a goal or aim",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Assumption",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "giả định",
+      "definition": "something accepted as true without proof",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Virtually",
+      "pronunciation": "",
+      "pos": "adv",
+      "meaning": "gần như",
+      "definition": "almost",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Shape",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hình dạng, tình trạng",
+      "definition": "form or condition",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Road traffic",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "giao thông đường bộ",
+      "definition": "vehicles on roads",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Propose",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đề xuất",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_013"
+    },
+    {
+      "id": "word_014",
+      "word": "Alternative",
+      "pronunciation": "",
+      "pos": "adj/n",
+      "meaning": "thay thế",
+      "definition": "another choice or option",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Restricted",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "bị hạn chế",
+      "definition": "limited or confined",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Rely on",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "dựa vào",
+      "definition": "to depend on",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Slippery",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "trơn trượt",
+      "definition": "smooth and difficult to grip",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Household",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hộ gia đình",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_018"
+    },
+    {
+      "word": "Regarding sth",
+      "pronunciation": "",
+      "pos": "pre",
+      "meaning": "về cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_019"
+    },
+    {
+      "word": "Locality",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "mang tính địa phương",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_020"
+    },
+    {
+      "id": "word_021",
+      "word": "Determine",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "xác định",
+      "definition": "to decide or establish",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Identify",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "xác định, nhận diện",
+      "definition": "to recognize or establish",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Burden",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "gánh nặng",
+      "definition": "a heavy load or responsibility",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Mobility",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự di chuyển",
+      "definition": "ability to move",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Implement",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "thực hiện",
+      "definition": "to put into action",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Export",
+      "pronunciation": "",
+      "pos": "n/v",
+      "meaning": "xuất khẩu",
+      "definition": "to send goods to another country",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Goods",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hàng hóa",
+      "definition": "items for sale or use",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Labour",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "lao động",
+      "definition": "work or workers",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Operation",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hoạt động, vận hành",
+      "definition": "functioning or running",
+      "exampleSimple": ""
+    },
+    {
+      "word": "It makes sense to do sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "hoàn toàn là hợp lí để làm gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_030"
+    },
+    {
+      "word": "Means",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "phương thức",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_031"
+    },
+    {
+      "id": "word_032",
+      "word": "Arduous",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "gian truân",
+      "definition": "difficult and tiring",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_033",
+      "word": "Be willing to do sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "sẵn lòng làm gì đó",
+      "definition": "to be ready to do something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Promotion",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự thúc đẩy",
+      "definition": "encouragement or advancement",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_035",
+      "word": "Degree",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "mức độ",
+      "definition": "extent or level",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Refinement",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự tinh chỉnh",
+      "definition": "improvement or perfection",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Maintenance",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự bảo trì",
+      "definition": "the process of keeping in good condition",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_038",
+      "word": "Fluctuate",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "dao động",
+      "definition": "to change irregularly",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Motorised vehicle",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "phương tiện giao thông cơ giới",
+      "definition": "a vehicle with an engine",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_040",
+      "word": "Carpenter",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "thợ mộc",
+      "definition": "a person who makes wooden objects",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Import",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "nhập khẩu",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_041"
+    },
+    {
+      "id": "word_042",
+      "word": "Poverty",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự nghèo đói",
+      "definition": "the state of being poor",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_043",
+      "word": "Modification",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự sửa đổi",
+      "definition": "a change or alteration",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "Initiative",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sáng kiến",
+      "definition": "a new plan or action",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_045",
+      "word": "Measure",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "biện pháp",
+      "definition": "an action taken to achieve something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_046",
+      "word": "Assist",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "hỗ trợ",
+      "definition": "to help",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_047",
+      "word": "Awareness",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "nhận thức",
+      "definition": "knowledge or perception",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "The Makete Integrated Rural Transport Project",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "The disappointing results of many conventional road transport projects in Africa led some experts to rethink the strategy by which rural transport problems were to be tackled at the beginning of the 1980s. A request for help in improving the availability of transport within the remote Makete District of southwestern Tanzania presented the opportunity to try a new approach. The concept of 'integrated rural transport' was adopted in the task of examining the transport needs of the rural households in the district. The objective was to reduce the time and effort needed to obtain access to essential goods and services through an improved rural transport system. The underlying assumption was that the time saved would be used instead for activities that would improve the social and economic development of the communities. The Makete Integrated Rural Transport Project (MIRTP) started in 1985 with financial support from the Swiss Development Corporation and was co-ordinated with the help of the Tanzanian government.",
+        "translation": "Kết quả đáng thất vọng của nhiều dự án giao thông đường bộ truyền thống ở châu Phi đã khiến một số chuyên gia phải suy nghĩ lại về chiến lược giải quyết các vấn đề giao thông nông thôn vào đầu những năm 1980. Một yêu cầu giúp đỡ trong việc cải thiện tính sẵn có của giao thông trong Quận Makete heo lánh ở tây nam Tanzania đã tạo cơ hội để thử một cách tiếp cận mới. Khái niệm 'giao thông nông thôn tích hợp' đã được áp dụng trong nhiệm vụ xem xét nhu cầu giao thông của các hộ gia đình nông thôn trong quận. Mục tiêu là giảm thời gian và công sức cần thiết để tiếp cận hàng hóa và dịch vụ thiết yếu thông qua hệ thống giao thông nông thôn được cải thiện. Giả định cơ bản là thời gian tiết kiệm được sẽ được sử dụng thay vào đó cho các hoạt động cải thiện sự phát triển xã hội và kinh tế của cộng đồng. Dự án Giao thông Nông thôn Tích hợp Makete (MIRTP) bắt đầu vào năm 1985 với sự hỗ trợ tài chính từ Tập đoàn Phát triển Thụy Sĩ và được phối hợp với sự giúp đỡ của chính phủ Tanzania.",
+        "mainIdea": "Dự án MIRTP được bắt đầu vào năm 1985 với cách tiếp cận mới về giao thông nông thôn tích hợp nhằm cải thiện khả năng tiếp cận hàng hóa và dịch vụ cho người dân Makete"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "Virtually \t\t(adv)\talmost (gần như) Shape\t\t\t(n)\thình dạng Road traffic\t\t(n)\tgiao thông đường bộ Propose \t\t(v)\tđề xuất Slippery\t\t(adj)\ttrơn trượt Household\t\t(n)\thộ gia đình Regarding sth\t(pre)\tabout sth Locality\t\t(n)\tmang tính địa phương When the project began, Makete District was virtually totally isolated during the rainy season. The regional road was in such bad shape that access to the main towns was impossible for about three months of the year. Road traffic was extremely rare within the district, and alternative means of transport were restricted to donkeys in the north of the district. People relied primarily on the paths, which were slippery and dangerous during the rains.",
+        "translation": "Khi dự án bắt đầu, Quận Makete hầu như hoàn toàn bị cô lập trong mùa mưa. Con đường khu vực ở trong tình trạng tồi tệ đến nỗi không thể tiếp cận các thị trấn chính trong khoảng ba tháng trong năm. Giao thông đường bộ cực kỳ hiếm trong quận, và các phương tiện giao thông thay thế bị hạn chế chỉ có lừa ở phía bắc quận. Người dân chủ yếu dựa vào các con đường mòn, vốn trơn trượt và nguy hiểm trong mùa mưa.",
+        "mainIdea": "Quận Makete hoàn toàn bị cô lập trong mùa mưa với đường xá tồi tệ và phương tiện giao thông hạn chế"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "Determine\t\t(v)\txác định Identify\t\t(v)\txác định Mobility\t\t(n)\tsự di chuyển Export\t\t\t(n)\txuất khẩu Goods\t\t\t(n)\thàng hóa Operation\t\t(n)\thoạt động Having determined the main transport needs, possible solutions were identified which might reduce the time and burden. During Phase II, from January to February 1991, a number of approaches were implemented in an effort to improve mobility and access to transport. An improvement of the road network was considered necessary to ensure the import and export of goods to the district. These improvements were carried out using methods that were heavily dependent on labour. In addition to the improvement of roads, these methods provided training in the operation of a mechanical workshop and bus and truck services. However, the difference from the conventional approach was that this time consideration was given to local transport needs outside the road network. Arduous\t\t(adj)\tgian truân It makes sense to do sth\tHoàn toàn là hợp lí để làm gì đó Means\t\t\t(n)\tphương thức Be willing to do sth\t(v)\tsẵn lòng làm gì đó Promotion\t\t(n)\tsự thúc đẩy Most goods were transported along the paths that provide short-cuts up and down the hillsides, but the paths were a real safety risk and made the journey on foot even more arduous. It made sense to improve the paths by building steps, handrails and footbridges. It was uncommon to find means of transport that were more efficient than walking but less technologically advanced than motor vehicles. The use of bicycles was constrained by their high cost and the lack of available spare parts. Oxen were not used at all but donkeys were used by a few households in the northern part of the district. MIRTP focused on what would be most appropriate for the inhabitants of Makete in terms of what was available, how much they could afford and what they were willing to accept. After careful consideration, the project chose the promotion of donkeys - a donkey costs less than a bicycle - and the introduction of a locally manufacturable wheelbarrow.",
+        "translation": "Sau khi xác định các nhu cầu giao thông chính, các giải pháp khả thi đã được xác định có thể giảm thời gian và gánh nặng. Trong Giai đoạn II, từ tháng 1 đến tháng 2 năm 1991, một số cách tiếp cận đã được thực hiện nhằm cải thiện khả năng di chuyển và tiếp cận giao thông. Việc cải thiện mạng lưới đường bộ được coi là cần thiết để đảm bảo nhập khẩu và xuất khẩu hàng hóa cho quận. Những cải tiến này được thực hiện bằng các phương pháp phụ thuộc nhiều vào lao động. Ngoài việc cải thiện đường xá, các phương pháp này còn cung cấp đào tạo trong vận hành xưởng cơ khí và dịch vụ xe buýt và xe tải. Tuy nhiên, sự khác biệt so với cách tiếp cận truyền thống là lần này đã xem xét đến nhu cầu giao thông địa phương ngoài mạng lưới đường bộ. Hầu hết hàng hóa được vận chuyển dọc theo các con đường mòn cung cấp đường tắt lên xuống các sườn đồi, nhưng các con đường mòn là một rủi ro an toàn thực sự và khiến hành trình đi bộ thậm chí còn gian truân hơn. Có ý nghĩa khi cải thiện các con đường bằng cách xây dựng bậc thang, tay vịn và cầu đi bộ. Thật không phổ biến khi tìm thấy phương tiện giao thông hiệu quả hơn đi bộ nhưng ít tiên tiến về mặt công nghệ hơn xe cơ giới. Việc sử dụng xe đạp bị hạn chế do giá thành cao và thiếu phụ tùng thay thế. Bò hoàn toàn không được sử dụng nhưng lừa được sử dụng bởi một số hộ gia đình ở phía bắc quận. MIRTP tập trung vào những gì phù hợp nhất với cư dân Makete về mặt những gì có sẵn, họ có thể chi trả bao nhiêu và họ sẵn lòng chấp nhận điều gì. Sau khi cân nhắc kỹ lưỡng, dự án đã chọn thúc đẩy việc sử dụng lừa - một con lừa có giá thấp hơn một chiếc xe đạp - và giới thiệu xe cút kít có thể sản xuất tại địa phương.",
+        "mainIdea": "Giai đoạn II tập trung vào cải thiện đường xá, đào tạo và giới thiệu phương tiện phù hợp như lừa và xe cút kít dựa trên khả năng chi trả của người dân"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "Degree\t\t(n)\tmức độ Institutionalisation\t(n)\tsự thể chế hóa (áp dụng trên quy mô lớn hơn trên toàn xã hội) At the end of Phase II, it was clear that the selected approaches to Makete’s transport problems had had different degrees of success. Phase III, from March 1991 to March 1993, focused on the refinement and institutionalisation of these activities. The road improvements and accompanying maintenance system had helped make the district centre accessible throughout the year. Essential goods from outside the district had become more readily available at the market, and prices did not fluctuate as much as they had done before. Paths and secondary roads were improved only at the request of communities who were willing to participate in construction and maintenance. However, the improved paths impressed the inhabitants, and requests for assistance greatly increased soon after only a few improvements had been completed. Motorised vehicle\t(n)\tphương tiện giao thông cơ giới Carpenter\t\t(n)\tthợ mộc Import\t\t\t(v)\tnhập khẩu Initiative\t\t(n)\tsáng kiến Measure\t\t(n)\tbiện pháp Assist\t\t\t(v)\thỗ trợ The efforts to improve the efficiency of the existing transport services were not very successful because most of the motorised vehicles in the district broke down and there were no resources to repair them. Even the introduction of low-cost means of transport was difficult because of the general poverty of the district. The locally manufactured wheelbarrows were still too expensive for all but a few of the households. Modifications to the original design by local carpenters cut production time and costs. Other local carpenters have been trained in the new design so that they can respond to requests. Nevertheless, a locally produced wooden wheelbarrow which costs around 5000 Tanzanian shillings (less than US$20) in Makete, and is about one quarter the cost of a metal wheelbarrow, is still too expensive for most people. Donkeys, which were imported to the district, have become more common and contribute, in particular, to the transportation of crops and goods to market. Those who have bought donkeys are mainly from richer households but, with an increased supply through local breeding, donkeys should become more affordable. Meanwhile, local initiatives are promoting the renting out of the existing donkeys. It should be noted, however, that a donkey, which at 20,000 Tanzanian shillings costs less than a bicycle, is still an investment equal to an average household's income over half a year. This clearly illustrates the need for supplementary measures if one wants to assist the rural poor",
+        "translation": "Vào cuối Giai đoạn II, rõ ràng là các cách tiếp cận được lựa chọn cho vấn đề giao thông của Makete đã có mức độ thành công khác nhau. Giai đoạn III, từ tháng 3 năm 1991 đến tháng 3 năm 1993, tập trung vào việc tinh chỉnh và thể chế hóa các hoạt động này. Các cải tiến đường bộ và hệ thống bảo trì đi kèm đã giúp trung tâm quận có thể tiếp cận quanh năm. Hàng hóa thiết yếu từ bên ngoài quận đã trở nên sẵn có hơn tại thị trường, và giá cả không dao động nhiều như trước đây. Đường mòn và đường phụ chỉ được cải thiện theo yêu cầu của cộng đồng sẵn lòng tham gia vào xây dựng và bảo trì. Tuy nhiên, các con đường được cải thiện đã gây ấn tượng với cư dân, và yêu cầu hỗ trợ tăng lên rất nhiều ngay sau khi chỉ có một vài cải tiến được hoàn thành. Những nỗ lực cải thiện hiệu quả của các dịch vụ giao thông hiện có không thành công lắm vì hầu hết các phương tiện cơ giới trong quận đều hỏng và không có nguồn lực để sửa chữa chúng. Ngay cả việc giới thiệu phương tiện giao thông chi phí thấp cũng khó khăn vì sự nghèo nàn chung của quận. Xe cút kít sản xuất tại địa phương vẫn quá đắt đối với tất cả trừ một vài hộ gia đình. Các sửa đổi đối với thiết kế ban đầu bởi thợ mộc địa phương đã cắt giảm thời gian sản xuất và chi phí. Các thợ mộc địa phương khác đã được đào tạo về thiết kế mới để họ có thể đáp ứng yêu cầu. Tuy nhiên, một chiếc xe cút kít gỗ sản xuất tại địa phương có giá khoảng 5000 shilling Tanzania (dưới 20 đô la Mỹ) ở Makete, và khoảng một phần tư giá của xe cút kít kim loại, vẫn quá đắt đối với hầu hết mọi người. Lừa, được nhập khẩu vào quận, đã trở nên phổ biến hơn và đóng góp, đặc biệt, vào việc vận chuyển mùa màng và hàng hóa ra chợ. Những người mua lừa chủ yếu là từ các hộ gia đình giàu có hơn nhưng, với nguồn cung tăng thông qua việc nhân giống tại địa phương, lừa sẽ trở nên phải chăng hơn. Trong khi đó, các sáng kiến địa phương đang thúc đẩy việc cho thuê những con lừa hiện có. Tuy nhiên, cần lưu ý rằng một con lừa, với giá 20.000 shilling Tanzania có giá thấp hơn một chiếc xe đạp, vẫn là một khoản đầu tư bằng thu nhập trung bình của một hộ gia đình trong hơn nửa năm. Điều này rõ ràng minh họa nhu cầu về các biện pháp bổ sung nếu muốn hỗ trợ người nghèo nông thôn.",
+        "mainIdea": "Giai đoạn III cho thấy thành công khác nhau: đường xá được cải thiện nhưng phương tiện vẫn quá đắt đối với người nghèo, đòi hỏi các biện pháp hỗ trợ bổ sung"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "It would have been easy to criticise the MIRTP for using in the early phases a 'top-down' approach, in which decisions were made by experts and officials before being handed down to communities, but it was necessary to start the process from the level of the governmental authorities of the district. It would have been difficult to respond to the requests of villagers and other rural inhabitants without the support and understanding of district authorities.",
+        "translation": "Thật dễ dàng để chỉ trích MIRTP vì đã sử dụng trong giai đoạn đầu một cách tiếp cận 'từ trên xuống', trong đó các quyết định được đưa ra bởi các chuyên gia và quan chức trước khi được trao cho cộng đồng, nhưng cần phải bắt đầu quá trình từ cấp độ chính quyền quận. Sẽ rất khó để đáp ứng yêu cầu của dân làng và cư dân nông thôn khác nếu không có sự hỗ trợ và hiểu biết từ chính quyền quận.",
+        "mainIdea": "Cách tiếp cận từ trên xuống là cần thiết để có sự hỗ trợ từ chính quyền quận"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Today, nobody in the district argues about the importance of improved paths and inexpensive means of transport. But this is the result of dedicated work over a long period, particularly from the officers in charge of community development. They played an essential role in raising awareness and interest among the rural communities. The concept of integrated rural transport is now well established in Tanzania, where a major program of rural transport is just about to start. The experiences from Makete will help in this initiative, and Makete District will act as a reference for future work.",
+        "translation": "Ngày nay, không ai trong quận tranh luận về tầm quan trọng của các con đường được cải thiện và phương tiện giao thông không đắt tiền. Nhưng đây là kết quả của công việc tận tâm trong một thời gian dài, đặc biệt từ các cán bộ phụ trách phát triển cộng đồng. Họ đã đóng một vai trò thiết yếu trong việc nâng cao nhận thức và sự quan tâm giữa các cộng đồng nông thôn. Khái niệm giao thông nông thôn tích hợp hiện đã được thiết lập vững chắc ở Tanzania, nơi một chương trình lớn về giao thông nông thôn sắp bắt đầu. Kinh nghiệm từ Makete sẽ giúp ích trong sáng kiến này, và Quận Makete sẽ hoạt động như một tài liệu tham khảo cho công việc trong tương lai.",
+        "mainIdea": "Thành công của MIRTP đã thiết lập mô hình giao thông nông thôn tích hợp ở Tanzania và trở thành tài liệu tham khảo cho tương lai"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: choose the most suitable word to fill in the blanks",
+        "wordBank": [
+          "conventional",
+          "strategies",
+          "tackling",
+          "adopted",
+          "objectives",
+          "assumption",
+          "alternative",
+          "restricted",
+          "burden"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "They make the ………… that because the product is popular, it must be good.",
+            "answer": "assumption",
+            "translation": "Họ đưa ra giả định rằng vì sản phẩm phổ biến nên nó phải tốt."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Access to the system is now ………… to only the staff of the company",
+            "answer": "restricted",
+            "translation": "Quyền truy cập vào hệ thống hiện chỉ giới hạn cho nhân viên công ty."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "There are many ways of ………… this problem.",
+            "answer": "tackling",
+            "translation": "Có nhiều cách để giải quyết vấn đề này."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "An ………… venue for the concert is being sought.",
+            "answer": "alternative",
+            "translation": "Một địa điểm thay thế cho buổi hòa nhạc đang được tìm kiếm."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "We're working on new ………… to improve situations.",
+            "answer": "strategies",
+            "translation": "Chúng tôi đang nghiên cứu các chiến lược mới để cải thiện tình hình."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "They've ………… a baby girl.",
+            "answer": "adopted",
+            "translation": "Họ đã nhận nuôi một bé gái."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Can we confidently ………… him to get the job done?",
+            "answer": "rely on",
+            "translation": "Chúng ta có thể tự tin dựa vào anh ấy để hoàn thành công việc không?"
+          },
+          {
+            "id": "fib_008",
+            "sentence": "I prefer a more ………… style of dress.",
+            "answer": "conventional",
+            "translation": "Tôi thích phong cách ăn mặc truyền thống hơn."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "My elderly mother worries that she's a ………… to me.",
+            "answer": "burden",
+            "translation": "Mẹ già của tôi lo lắng rằng bà là gánh nặng cho tôi."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Can the sales team achieve its financial …………?",
+            "answer": "objectives",
+            "translation": "Nhóm bán hàng có thể đạt được mục tiêu tài chính không?"
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Vegetable prices ………… according to the season.",
+            "answer": "fluctuate",
+            "translation": "Giá rau quả dao động theo mùa."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "The speech just needs a couple of ………… and it will be perfect.",
+            "answer": "modifications",
+            "translation": "Bài phát biểu chỉ cần một vài sửa đổi và sẽ hoàn hảo."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "Rising energy costs are ………… consumer spending.",
+            "answer": "constraining",
+            "translation": "Chi phí năng lượng tăng đang hạn chế chi tiêu của người tiêu dùng."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "Old houses need a lot of ………….",
+            "answer": "maintenance",
+            "translation": "Nhà cũ cần nhiều bảo trì."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "Long-term cost reductions will be achieved through the ………… of operations (các công việc vận hành).",
+            "answer": "refinement",
+            "translation": "Việc giảm chi phí dài hạn sẽ đạt được thông qua việc tinh chỉnh các hoạt động vận hành."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "…………, homelessness (vô gia cư) and unemployment (thất nghiệp) are all hurdles that need to be focused on.",
+            "answer": "poverty",
+            "translation": "Nghèo, vô gia cư và thất nghiệp đều là những rào cản cần được tập trung."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "The leaflet (Tờ rơi) has been produced with the aim of increasing public ………… of the disease.",
+            "answer": "awareness",
+            "translation": "Tờ rơi đã được sản xuất với mục đích tăng nhận thức của công chúng về căn bệnh."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "Obviously as a sales manager, he'll be very involved in the ………… and marketing of the product.",
+            "answer": "promotion",
+            "translation": "Rõ ràng là với vai trò quản lý bán hàng, anh ấy sẽ rất tham gia vào việc thúc đẩy và tiếp thị sản phẩm."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "A number of approaches have been planned to ………… street crime.",
+            "answer": "tackle",
+            "translation": "Một số cách tiếp cận đã được lên kế hoạch để giải quyết tội phạm đường phố."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "The changes to the system will be ………… next year.",
+            "answer": "implemented",
+            "translation": "Các thay đổi đối với hệ thống sẽ được thực hiện vào năm tới."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "The cost will depend on the amount of ………… involved.",
+            "answer": "labour",
+            "translation": "Chi phí sẽ phụ thuộc vào số lượng lao động liên quan."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -19,6 +19,7 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
   const [gameComplete, setGameComplete] = useState(false);
 
   const currentQuestion = questions[currentIndex];
@@ -44,6 +45,8 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
 
     if (option === currentQuestion.correctAnswer) {
       setCorrectCount(prev => prev + 1);
+    } else {
+      setWrongCount(prev => prev + 1);
     }
   };
 
@@ -64,6 +67,7 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
     setSelectedAnswer(null);
     setIsAnswered(false);
     setCorrectCount(0);
+    setWrongCount(0);
     setGameComplete(false);
   };
 
@@ -97,20 +101,16 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
       gameTitle={gameConfig.name}
       gameIcon={gameConfig.icon}
       progress={progress}
-      score={correctCount}
+      currentQuestion={currentIndex + 1}
+      totalQuestions={questions.length}
+      correctCount={correctCount}
+      mistakeCount={wrongCount}
     >
       <div className="multiple-choice-game">
-        <div className="multiple-choice-game__counter">
-          Question {currentIndex + 1} of {questions.length}
-        </div>
-
         <div className="multiple-choice-game__question">
           <div className="multiple-choice-game__word">
             {currentQuestion.word}
           </div>
-          <p className="multiple-choice-game__prompt">
-            Choose the correct definition:
-          </p>
         </div>
 
         <div className="multiple-choice-game__options">
@@ -151,11 +151,11 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
           <div className="multiple-choice-game__feedback">
             {selectedAnswer === currentQuestion.correctAnswer ? (
               <div className="feedback feedback--correct">
-                Correct! Well done!
+                Correct!
               </div>
             ) : (
               <div className="feedback feedback--wrong">
-                Incorrect. The correct answer is highlighted above.
+                Incorrect
               </div>
             )}
           </div>
@@ -164,7 +164,7 @@ export default function MultipleChoiceGame({ lessonId, vocabulary }) {
         {isAnswered && (
           <div className="multiple-choice-game__actions">
             <Button variant="primary" onClick={handleNext}>
-              {currentIndex < questions.length - 1 ? 'Next Question' : 'Finish'} (Press Enter)
+              {currentIndex < questions.length - 1 ? 'Next' : 'Finish'}
             </Button>
           </div>
         )}

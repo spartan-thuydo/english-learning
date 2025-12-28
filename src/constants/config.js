@@ -1,7 +1,8 @@
 // API Configuration
 export const API_CONFIG = {
   DICTIONARY_API: 'https://api.dictionaryapi.dev/api/v2/entries/en',
-  GOOGLE_TTS_API: 'https://translate.google.com/translate_tts'
+  GOOGLE_TTS_API: 'https://translate.google.com/translate_tts',
+  MYMEMORY_TRANSLATE_API: 'https://api.mymemory.translated.net/get'
 };
 
 // Lessons path (in public folder for Vite)

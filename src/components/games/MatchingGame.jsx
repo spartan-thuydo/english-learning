@@ -13,10 +13,11 @@ import { createMatchingPairs, calculateScore } from '../../utils/gameUtils.js';
 export default function MatchingGame({ lessonId, vocabulary }) {
   const navigate = useNavigate();
   const gameConfig = GAME_CONFIG[GAME_TYPES.MATCHING];
-
-  const [gameData, setGameData] = useState(() => createMatchingPairs(vocabulary, 6));
+  const numPair = 7;
+  const [gameData, setGameData] = useState(() => createMatchingPairs(vocabulary, numPair));
   const [selectedItems, setSelectedItems] = useState([]);
   const [matchedPairs, setMatchedPairs] = useState([]);
+  const [errorItems, setErrorItems] = useState([]);
   const [mistakes, setMistakes] = useState(0);
   const [gameComplete, setGameComplete] = useState(false);
 
@@ -29,7 +30,11 @@ export default function MatchingGame({ lessonId, vocabulary }) {
     if (matchedPairs.includes(item.pairId)) return;
 
     // Don't allow selecting same item twice
-    if (selectedItems.find(s => s.id === item.id)) return;
+    if (selectedItems.find(s => s.id === item.id)) {
+      // Deselect if clicking the same item
+      setSelectedItems(selectedItems.filter(s => s.id !== item.id));
+      return;
+    }
 
     const newSelected = [...selectedItems, item];
 
@@ -47,9 +52,13 @@ export default function MatchingGame({ lessonId, vocabulary }) {
           setTimeout(() => setGameComplete(true), 500);
         }
       } else {
-        // No match
+        // No match - show error state
         setMistakes(prev => prev + 1);
-        setTimeout(() => setSelectedItems([]), 800);
+        setErrorItems([first.id, second.id]);
+        setTimeout(() => {
+          setErrorItems([]);
+          setSelectedItems([]);
+        }, 800);
       }
     } else {
       setSelectedItems(newSelected);
@@ -64,10 +73,15 @@ export default function MatchingGame({ lessonId, vocabulary }) {
     return matchedPairs.includes(item.pairId);
   };
 
+  const isError = (item) => {
+    return errorItems.includes(item.id);
+  };
+
   const handlePlayAgain = () => {
-    setGameData(createMatchingPairs(vocabulary, 6));
+    setGameData(createMatchingPairs(vocabulary, numPair));
     setSelectedItems([]);
     setMatchedPairs([]);
+    setErrorItems([]);
     setMistakes(0);
     setGameComplete(false);
   };
@@ -102,48 +116,72 @@ export default function MatchingGame({ lessonId, vocabulary }) {
       gameTitle={gameConfig.name}
       gameIcon={gameConfig.icon}
       progress={progress}
+      currentQuestion={matchedPairs.length}
+      totalQuestions={totalPairs}
+      correctCount={matchedPairs.length}
+      mistakeCount={mistakes}
     >
       <div className="matching-game">
-        <div className="matching-game__instructions">
-          Click on a word and then its matching definition. Find all pairs!
-        </div>
-
-        <div className="matching-game__stats">
-          <div className="stat">
-            <span className="stat__value">{matchedPairs.length}/{totalPairs}</span>
-            <span className="stat__label">Matched</span>
-          </div>
-          <div className="stat">
-            <span className="stat__value">{mistakes}</span>
-            <span className="stat__label">Mistakes</span>
-          </div>
-        </div>
-
         <div className="matching-game__grid">
-          {items.map(item => {
-            const matched = isMatched(item);
-            const selected = isSelected(item);
-            let className = `matching-game__item matching-game__item--${item.type}`;
+          <div className="matching-game__column matching-game__column--words">
+            {items.filter(item => item.type === 'word').map(item => {
+              const matched = isMatched(item);
+              const selected = isSelected(item);
+              const error = isError(item);
+              let className = `matching-game__item matching-game__item--${item.type}`;
 
-            if (matched) {
-              className += ' matching-game__item--matched';
-            } else if (selected) {
-              className += ' matching-game__item--selected';
-            }
+              if (matched) {
+                className += ' matching-game__item--matched';
+              } else if (error) {
+                className += ' matching-game__item--error';
+              } else if (selected) {
+                className += ' matching-game__item--selected';
+              }
 
-            return (
-              <button
-                key={item.id}
-                className={className}
-                onClick={() => handleItemClick(item)}
-                disabled={matched}
-              >
-                <div className="matching-game__item-content">
-                  {item.content}
-                </div>
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={item.id}
+                  className={className}
+                  onClick={() => handleItemClick(item)}
+                  disabled={matched}
+                >
+                  <div className="matching-game__item-content">
+                    {item.content}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="matching-game__column matching-game__column--definitions">
+            {items.filter(item => item.type === 'definition').map(item => {
+              const matched = isMatched(item);
+              const selected = isSelected(item);
+              const error = isError(item);
+              let className = `matching-game__item matching-game__item--${item.type}`;
+
+              if (matched) {
+                className += ' matching-game__item--matched';
+              } else if (error) {
+                className += ' matching-game__item--error';
+              } else if (selected) {
+                className += ' matching-game__item--selected';
+              }
+
+              return (
+                <button
+                  key={item.id}
+                  className={className}
+                  onClick={() => handleItemClick(item)}
+                  disabled={matched}
+                >
+                  <div className="matching-game__item-content">
+                    {item.content}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
     </GameLayout>

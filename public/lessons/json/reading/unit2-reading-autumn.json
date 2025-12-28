@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "unit": "Unit 2",
+    "title": "AUTUMN LEAVES"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Puzzle",
+      "pronunciation": "/ˈpʌz.əl/",
+      "pos": "n,v",
+      "meaning": "câu đố (nghĩa danh từ), làm bối rối (nghĩa động từ)",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Mystery",
+      "pronunciation": "/ˈmɪs.tər.i/",
+      "pos": "n",
+      "meaning": "bí ẩn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Molecule",
+      "pronunciation": "/ˈmɑː.lɪ.kjuːl/",
+      "pos": "n",
+      "meaning": "phân tử",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Capture",
+      "pronunciation": "/ˈkæp.tʃər/",
+      "pos": "v",
+      "meaning": "bắt lấy, bắt giữ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Convert",
+      "pronunciation": "/kənˈvɜːt/",
+      "pos": "v",
+      "meaning": "chuyển đổi",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Fall",
+      "pronunciation": "/fɑːl/",
+      "pos": "n",
+      "meaning": "mùa thu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Hemisphere",
+      "pronunciation": "/ˈhem.ə.sfɪr/",
+      "pos": "n",
+      "meaning": "bán cầu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Abandon",
+      "pronunciation": "/əˈbæn.dən/",
+      "pos": "v",
+      "meaning": "bỏ, ruồng bỏ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Redundant",
+      "pronunciation": "/rɪˈdʌn.dənt/",
+      "pos": "adj",
+      "meaning": "dư thừa",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Dismantle",
+      "pronunciation": "/dɪˈsmæn.t̬əl/",
+      "pos": "v",
+      "meaning": "tháo rời, tháo gỡ, dỡ bỏ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Deplete",
+      "pronunciation": "/dɪˈpliː.t̬ɪd/",
+      "pos": "adj",
+      "meaning": "sút giảm, rút cạn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Dominate",
+      "pronunciation": "/ˈdɑː.mə.neɪt/",
+      "pos": "v",
+      "meaning": "thống trị",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Unmasking",
+      "pronunciation": "/ʌnˈmæsk/",
+      "pos": "n",
+      "meaning": "sự lộ mặt, sự lộ ra",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Pigment",
+      "pronunciation": "/ˈpɪɡ.mənt/",
+      "pos": "n",
+      "meaning": "sắc tố",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Bother doing sth",
+      "pronunciation": "/ˈbɑː.ðɚ/",
+      "pos": "v",
+      "meaning": "bận tâm làm gì, cố gắng làm gì",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Spectrum",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "quang phổ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Newly minted",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "mới được tạo ra, vừa mới sản xuất",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Withdraw",
+      "pronunciation": "/wɪðˈdrɑː/",
+      "pos": "v",
+      "meaning": "rút, lấy lại",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Preserve",
+      "pronunciation": "/prɪˈzɝːv/",
+      "pos": "v",
+      "meaning": "bảo tồn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Defence",
+      "pronunciation": "/dɪˈfens/",
+      "pos": "n",
+      "meaning": "sự bảo vệ, phòng thủ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Tolerance",
+      "pronunciation": "/ˈtɑː.lɚ.əns/",
+      "pos": "n",
+      "meaning": "sức chịu đựng, sự chịu đựng",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Outweigh",
+      "pronunciation": "/ˌaʊtˈweɪ/",
+      "pos": "v",
+      "meaning": "vượt trội hơn, có nhiều ảnh hưởng hơn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Convince sb to do sth",
+      "pronunciation": "/kənˈvɪns/",
+      "pos": "v",
+      "meaning": "thuyết phục",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Robust",
+      "pronunciation": "/roʊˈbʌst/",
+      "pos": "adj",
+      "meaning": "mạnh, khỏe",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Infestation",
+      "pronunciation": "/ˌɪn.fesˈteɪ.ʃən/",
+      "pos": "n",
+      "meaning": "sự lây nhiễm",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Ascertain",
+      "pronunciation": "/ˌæs.ɚˈteɪn/",
+      "pos": "v",
+      "meaning": "tin chắc rằng, phát hiện",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Paradoxical",
+      "pronunciation": "/ˌper.əˈdɑːk.sɪ.kəl/",
+      "pos": "adj",
+      "meaning": "nghịch lý, mâu thuẫn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Salvage",
+      "pronunciation": "/ˈsæl.vɪdʒ/",
+      "pos": "v",
+      "meaning": "cứu vớt, cứu rỗi",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Acute",
+      "pronunciation": "/əˈkjuːt/",
+      "pos": "adj",
+      "meaning": "nghiêm trọng, cấp tính",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_030",
+      "word": "Intact",
+      "pronunciation": "/ɪnˈtækt/",
+      "pos": "adj",
+      "meaning": "nguyên vẹn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Be vulnerable to",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "dễ bị tổn thương, dễ bị ảnh hưởng bởi cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_032",
+      "word": "Resort to sth",
+      "pronunciation": "/rɪˈzɔːrt/",
+      "pos": "v",
+      "meaning": "phải dùng đến phương án gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_033",
+      "word": "Hue",
+      "pronunciation": "/hjuː/",
+      "pos": "n",
+      "meaning": "sắc thái màu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Overexposure",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "tiếp xúc quá mức",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_035",
+      "word": "Magnificient",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "kỳ vĩ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Precious",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "quý giá",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Twig",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "nhánh cây",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_038",
+      "word": "Reflect",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "thể hiện, là dấu hiệu của cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Belong to sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "thuộc về cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_040",
+      "word": "Make sense",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "dễ hiểu, rõ ràng",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_041",
+      "word": "Manufacture",
+      "pronunciation": "",
+      "pos": "n,v",
+      "meaning": "sản xuất",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_042",
+      "word": "Theory",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "lý thuyết",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_043",
+      "word": "Tolerance to sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "chịu đựng/ chống lại cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "The expense of sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự tiêu thụ cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_045",
+      "word": "Anti-fungal",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "chống lại nấm",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_046",
+      "word": "Anti-herbivore",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "chống lại động vật ăn thực vật",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_047",
+      "word": "Herbivorous insects",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "côn trùng ăn thực vật",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_048",
+      "word": "Mount",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "tạo ra, sản xuất",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_049",
+      "word": "Be prompted to do sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "được thúc đẩy làm gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_050",
+      "word": "Lay",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đặt",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_051",
+      "word": "Host",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "vật chủ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_052",
+      "word": "Be busy doing sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đang bận rộn làm gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_053",
+      "word": "Hypothesis",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "giả thuyết",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_054",
+      "word": "Protect sth from sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "bảo vệ cái gì đó khỏi cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_055",
+      "word": "Evolve",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "tiến hóa",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_056",
+      "word": "Be overwhelmed",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "bị quá tải",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_057",
+      "word": "Nutrient deficiency",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự sụt giảm chất dinh dưỡng",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_058",
+      "word": "Channel sth into sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "chuyển cái gì đó về đâu đó",
+      "definition": "",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "AUTUMN LEAVES",
+    "paragraphs": [
+      {
+        "id": "para_A",
+        "label": "A",
+        "text": "One of the most captivating natural events of the year in many areas throughout North America is the turning of the leaves in the fall. The colours are magnificent, but the question of exactly why some trees turn yellow or orange, and others red or purple, is something which has long puzzled scientists.",
+        "translation": "Một trong những sự kiện tự nhiên hấp dẫn nhất trong năm ở nhiều khu vực trên khắp Bắc Mỹ là sự đổi màu của lá vào mùa thu. Màu sắc thật kỳ vĩ, nhưng câu hỏi về lý do tại sao một số cây chuyển sang màu vàng hoặc cam, và những cây khác chuyển sang màu đỏ hoặc tím, là điều đã làm các nhà khoa học bối rối từ lâu.",
+        "mainIdea": "Sự đổi màu lá mùa thu ở Bắc Mỹ là hiện tượng hấp dẫn nhưng vẫn còn là câu đố cho các nhà khoa học."
+      },
+      {
+        "id": "para_B",
+        "label": "B",
+        "text": "Summer leaves are green because they are full of Chlorophyll, the molecule that captures sunlight converts that energy into new building materials for the tree. As fall approaches in the northern hemisphere, the amount of solar energy available declines considerably. For many trees – evergreen conifers being an exception – the best strategy is to abandon photosynthesis* until the spring. So rather than maintaining the now redundant leaves throughout the winter, the tree saves its precious resources and discards them. But before letting its leaves go, the tree dismantles their Chlorophyll molecules and ships their valuable nitrogen back into the twigs. As Chlorophyll is depleted, other colours that have been dominated by it throughout the summer begin to be revealed. This unmasking explains the autumn colours of yellow and orange, but not the brilliant reds and purples of trees such as the maple or sumac.",
+        "translation": "Lá mùa hè có màu xanh vì chúng đầy chất diệp lục (Chlorophyll), phân tử bắt ánh sáng mặt trời và chuyển đổi năng lượng đó thành vật liệu xây dựng mới cho cây. Khi mùa thu đến gần ở bán cầu bắc, lượng năng lượng mặt trời có sẵn giảm đi đáng kể. Đối với nhiều loại cây - ngoại trừ cây lá kim thường xanh - chiến lược tốt nhất là từ bỏ quá trình quang hợp cho đến mùa xuân. Vì vậy, thay vì duy trì những chiếc lá hiện đã dư thừa trong suốt mùa đông, cây tiết kiệm nguồn tài nguyên quý giá của nó và loại bỏ chúng. Nhưng trước khi để lá rơi, cây tháo rời các phân tử diệp lục của chúng và chuyển nitơ có giá trị của chúng trở lại vào các nhánh cây. Khi diệp lục bị cạn kiệt, các màu khác đã bị thống trị bởi nó trong suốt mùa hè bắt đầu được lộ ra. Sự lộ diện này giải thích cho màu vàng và cam của mùa thu, nhưng không giải thích cho màu đỏ và tím rực rỡ của các loại cây như cây phong hoặc cây sumac.",
+        "mainIdea": "Lá chuyển sang màu vàng và cam vào mùa thu khi diệp lục bị phân hủy, nhưng màu đỏ và tím vẫn chưa được giải thích."
+      },
+      {
+        "id": "para_C",
+        "label": "C",
+        "text": "The source of the red is widely known: it is created by Anthocyanins, water-soluble plant pigments reflecting the red to blue range of the visible spectrum. They belong to a class of sugar-based chemical compounds also known as flavonoids. What's puzzling is that Anthocyanins are actually newly minted, made in the leaves at the same time as the tree is preparing to drop them. But it is hard to make sense of the manufacture of Anthocyanins – why should a tree bother making new chemicals in its leaves when it's already scrambling to withdraw and preserve the ones already there?",
+        "translation": "Nguồn gốc của màu đỏ được biết đến rộng rãi: nó được tạo ra bởi Anthocyanin, sắc tố thực vật hòa tan trong nước phản chiếu phạm vi màu đỏ đến xanh lam của quang phổ ánh sáng nhìn thấy. Chúng thuộc về một nhóm hợp chất hóa học dựa trên đường còn được gọi là flavonoid. Điều khó hiểu là Anthocyanin thực sự được tạo ra mới, được sản xuất trong lá cùng lúc với khi cây đang chuẩn bị thả chúng. Nhưng thật khó để hiểu được việc sản xuất Anthocyanin - tại sao một cây lại bận tâm tạo ra hóa chất mới trong lá của nó khi nó đang vội vã rút và bảo tồn những chất đã có sẵn ở đó?",
+        "mainIdea": "Màu đỏ được tạo ra bởi Anthocyanin, nhưng việc cây sản xuất chúng khi chuẩn bị rụng lá là điều khó hiểu."
+      },
+      {
+        "id": "para_D",
+        "label": "D",
+        "text": "Some theories about Anthocyanins have argued that they might act as a chemical defence against attacks by insects or fungi, or that they might attract fruit-eating birds or increase a leafs tolerance to freezing. However, there are problems with each of these theories, including the fact that leaves are red for such a relatively short period that the expense of energy needed to manufacture the Anthocyanins would outweigh any anti-fungal or anti-herbivore activity achieved.",
+        "translation": "Một số lý thuyết về Anthocyanin cho rằng chúng có thể hoạt động như một lớp bảo vệ hóa học chống lại sự tấn công của côn trùng hoặc nấm, hoặc chúng có thể thu hút các loài chim ăn trái cây hoặc tăng khả năng chịu lạnh của lá. Tuy nhiên, có những vấn đề với mỗi lý thuyết này, bao gồm cả thực tế là lá có màu đỏ trong một khoảng thời gian tương đối ngắn đến mức chi phí năng lượng cần thiết để sản xuất Anthocyanin sẽ vượt trội hơn bất kỳ hoạt động chống nấm hoặc chống động vật ăn cỏ nào đạt được.",
+        "mainIdea": "Các lý thuyết về chức năng bảo vệ của Anthocyanin có vấn đề vì chi phí năng lượng quá cao so với lợi ích."
+      },
+      {
+        "id": "para_E",
+        "label": "E",
+        "text": "It has also been proposed that trees may produce vivid red colours to convince herbivorous insects that they are healthy and robust and would be easily able to mount chemical defences against infestation. If insects paid attention to such advertisements, they might be prompted to lay their eggs on a duller, and presumably less resistant host. The flaw in this theory lies in the lack of proof to support it. No one has as yet ascertained whether more robust trees sport the brightest leaves, or whether insects make choices according to colour intensity.",
+        "translation": "Cũng đã được đề xuất rằng cây có thể tạo ra màu đỏ rực rỡ để thuyết phục côn trùng ăn thực vật rằng chúng khỏe mạnh và mạnh mẽ và có thể dễ dàng tạo ra các biện pháp phòng thủ hóa học chống lại sự lây nhiễm. Nếu côn trùng chú ý đến những quảng cáo như vậy, chúng có thể được thúc đẩy để đặt trứng trên một vật chủ xỉn màu hơn và có lẽ ít kháng cự hơn. Điểm yếu trong lý thuyết này nằm ở việc thiếu bằng chứng để hỗ trợ nó. Chưa ai chứng minh được liệu những cây mạnh mẽ hơn có lá sáng nhất hay liệu côn trùng có đưa ra lựa chọn theo cường độ màu sắc hay không.",
+        "mainIdea": "Lý thuyết về màu đỏ như tín hiệu cảnh báo côn trùng thiếu bằng chứng hỗ trợ."
+      },
+      {
+        "id": "para_F",
+        "label": "F",
+        "text": "Perhaps the most plausible suggestion as to why leaves would go to the trouble of making Anthocyanins when they're busy packing up for the winter is the theory known as the 'Light Screen' hypothesis. It sounds paradoxical, because the idea behind this hypothesis is that the red pigment is made in autumn leaves to protect Chlorophyll, the light-absorbing chemical, from too much light. Why does Chlorophyll need protection when it is the natural world's supreme light absorber? Why protect Chlorophyll at a time when the tree is breaking it down to salvage as much of it as possible?",
+        "translation": "Có lẽ gợi ý hợp lý nhất về lý do tại sao lá lại bận tâm tạo ra Anthocyanin khi chúng đang bận rộn chuẩn bị cho mùa đông là lý thuyết được gọi là giả thuyết 'Màn chắn ánh sáng'. Nó nghe có vẻ nghịch lý, bởi vì ý tưởng đằng sau giả thuyết này là sắc tố đỏ được tạo ra trong lá mùa thu để bảo vệ diệp lục, hóa chất hấp thụ ánh sáng, khỏi quá nhiều ánh sáng. Tại sao diệp lục cần được bảo vệ khi nó là chất hấp thụ ánh sáng tối thượng của thế giới tự nhiên? Tại sao bảo vệ diệp lục vào thời điểm cây đang phân hủy nó để cứu vớt càng nhiều càng tốt?",
+        "mainIdea": "Giả thuyết 'Màn chắn ánh sáng' cho rằng Anthocyanin bảo vệ diệp lục khỏi ánh sáng quá mức, nghe có vẻ nghịch lý."
+      },
+      {
+        "id": "para_G",
+        "label": "G",
+        "text": "Chlorophyll, although exquisitely evolved to capture the energy of sunlight, can sometimes be overwhelmed by it, especially in situations of drought, low temperatures, or nutrient deficiency. Moreover, the problem of oversensitivity to light is even more acute in the fall, when the leaf is busy preparing for winter by dismantling its internal machinery. The energy absorbed by the Chlorophyll molecules of the unstable autumn leaf is not immediately channelled into useful products and processes, as it would be in an intact summer leaf. The weakened fall leaf then becomes vulnerable to the highly destructive effects of the oxygen created by the excited Chlorophyll molecules.",
+        "translation": "Diệp lục, mặc dù đã tiến hóa tinh tế để bắt năng lượng của ánh sáng mặt trời, đôi khi có thể bị quá tải bởi nó, đặc biệt là trong các tình huống hạn hán, nhiệt độ thấp hoặc thiếu chất dinh dưỡng. Hơn nữa, vấn đề quá nhạy cảm với ánh sáng thậm chí còn nghiêm trọng hơn vào mùa thu, khi lá đang bận rộn chuẩn bị cho mùa đông bằng cách tháo rời cơ chế nội bộ của nó. Năng lượng được hấp thụ bởi các phân tử diệp lục của lá mùa thu không ổn định không được chuyển ngay vào các sản phẩm và quy trình hữu ích, như nó sẽ xảy ra trong lá mùa hè nguyên vẹn. Lá mùa thu bị suy yếu sau đó trở nên dễ bị tổn thương trước các tác động hủy hoại cao của oxy được tạo ra bởi các phân tử diệp lục bị kích thích.",
+        "mainIdea": "Diệp lục có thể bị quá tải vào mùa thu khi lá đang tháo rời cơ chế nội bộ, gây ra tác động phá hủy."
+      },
+      {
+        "id": "para_H",
+        "label": "H",
+        "text": "Even if you had never suspected that this is what was going on when leaves turn red, there are clues out there. One is straightforward: on many trees, the leaves that are the reddest are those on the side of the tree which gets most sun. Not only that, but the red is brighter on the upper side of the leaf. It has also been recognised for decades that the best conditions for intense red colours are dry, sunny days and cool nights, conditions that nicely match those that make leaves susceptible to excess light. And finally, trees such as maples usually get much redder the more north you travel in the northern hemisphere. It's colder there, they're more stressed, their Chlorophyll is more sensitive and it needs more sunblock.",
+        "translation": "Ngay cả khi bạn chưa bao giờ nghi ngờ rằng đây là những gì đang xảy ra khi lá chuyển sang màu đỏ, có những manh mối ở ngoài kia. Một manh mối rất đơn giản: trên nhiều cây, những chiếc lá đỏ nhất là những chiếc ở phía cây có nhiều ánh nắng mặt trời nhất. Không chỉ vậy, màu đỏ còn sáng hơn ở mặt trên của lá. Cũng đã được công nhận trong nhiều thập kỷ rằng các điều kiện tốt nhất cho màu đỏ đậm là những ngày khô, nắng và đêm mát mẻ, những điều kiện phù hợp với những điều kiện khiến lá dễ bị ánh sáng dư thừa. Và cuối cùng, những cây như cây phong thường có màu đỏ hơn nhiều khi bạn đi về phía bắc hơn ở bán cầu bắc. Ở đó lạnh hơn, chúng bị căng thẳng hơn, diệp lục của chúng nhạy cảm hơn và nó cần nhiều chất chống nắng hơn.",
+        "mainIdea": "Có nhiều bằng chứng hỗ trợ giả thuyết màn chắn ánh sáng: lá phía có nắng đỏ hơn, điều kiện khô nắng tạo màu đỏ đậm hơn."
+      },
+      {
+        "id": "para_I",
+        "label": "I",
+        "text": "What is still not fully understood, however, is why some trees resort to producing red pigments while others don't bother, and simply reveal their orange or yellow hues. Do these trees have other means at their disposal to prevent overexposure to light in autumn? Their story, though not as spectacular to the eye, will surely turn out to be as subtle and as complex.",
+        "translation": "Tuy nhiên, điều vẫn chưa được hiểu đầy đủ là tại sao một số cây phải dùng đến việc tạo ra sắc tố đỏ trong khi những cây khác không bận tâm và chỉ đơn giản là lộ ra sắc thái màu cam hoặc vàng của chúng. Liệu những cây này có các phương tiện khác để ngăn chặn tiếp xúc quá mức với ánh sáng vào mùa thu không? Câu chuyện của chúng, mặc dù không nổi bật với mắt thường, chắc chắn sẽ hóa ra cũng tinh tế và phức tạp.",
+        "mainIdea": "Vẫn chưa rõ tại sao một số cây tạo sắc tố đỏ còn cây khác chỉ có màu vàng cam, câu chuyện của chúng cũng phức tạp."
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "wordBank": ["Puzzle", "Mystery", "Molecule", "Capture", "Convert", "Fall", "Hemisphere", "Abandon"],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "We were sinking (chìm, trái nghĩa với float – nổi) fast, and the captain gave the order to ………. ship",
+            "answer": "abandon",
+            "translation": "Chúng tôi đang chìm nhanh chóng, và thuyền trưởng đã ra lệnh bỏ tàu."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "It ………. me why she said that.",
+            "answer": "puzzles",
+            "translation": "Điều đó làm tôi bối rối tại sao cô ấy lại nói như vậy."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "Two of the soldiers (chiến binh, binh lính) were killed and the rest (phần còn lại) were ……….",
+            "answer": "captured",
+            "translation": "Hai trong số những người lính đã bị giết và phần còn lại bị bắt."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "Could we ………. the small bedroom into a second bathroom?",
+            "answer": "convert",
+            "translation": "Chúng ta có thể chuyển đổi phòng ngủ nhỏ thành phòng tắm thứ hai không?"
+          },
+          {
+            "id": "fib_005",
+            "sentence": "The ………. was solved when the police discovered the murder weapon.",
+            "answer": "mystery",
+            "translation": "Bí ẩn đã được giải quyết khi cảnh sát phát hiện ra hung khí giết người."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "wordBank": ["Redundant", "Dismantle", "Deplete", "Dominate", "Unmasking", "Pigment", "Bother doing sth"],
+        "questions": [
+          {
+            "id": "fib_006",
+            "sentence": "They work as a group - no one person is allowed to ……….",
+            "answer": "dominate",
+            "translation": "Họ làm việc theo nhóm - không ai được phép thống trị."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Don't ………. making the bed (dọn giường) - i'll do it later.",
+            "answer": "bother",
+            "translation": "Đừng bận tâm dọn giường - tôi sẽ làm sau."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Over the next three years, we will be gradually ………. the company and selling the profitable units.",
+            "answer": "dismantling",
+            "translation": "Trong ba năm tới, chúng tôi sẽ dần dần tháo rời công ty và bán các đơn vị có lợi nhuận."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "In the sentence \"she is a single unmarried woman\", the word \"unmarried\" is ……...",
+            "answer": "redundant",
+            "translation": "Trong câu \"cô ấy là một phụ nữ độc thân chưa kết hôn\", từ \"chưa kết hôn\" là dư thừa."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Measures (biện pháp, giải pháp) have been taken to protect the world's ………. elephant population.",
+            "answer": "depleted",
+            "translation": "Các biện pháp đã được thực hiện để bảo vệ đàn voi đang cạn kiệt của thế giới."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "wordBank": ["Spectrum", "Newly minted", "Withdraw", "Preserve", "Defence", "Tolerance", "Outweigh"],
+        "questions": [
+          {
+            "id": "fib_011",
+            "sentence": "This credit card allows you to ………. up to £200 a day from ATMs",
+            "answer": "withdraw",
+            "translation": "Thẻ tín dụng này cho phép bạn rút tối đa 200 bảng một ngày từ máy ATM."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "My father never showed much ………. towards us children.",
+            "answer": "tolerance",
+            "translation": "Cha tôi chưa bao giờ tỏ ra nhiều sự khoan dung với chúng tôi."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "We want to ………. the character (đặc tính đặc trưng) of the town while improving the facilities.",
+            "answer": "preserve",
+            "translation": "Chúng tôi muốn bảo tồn đặc tính của thị trấn trong khi cải thiện các cơ sở vật chất."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "The benefits of this far ………. any disadvantages.",
+            "answer": "outweigh",
+            "translation": "Lợi ích của điều này vượt trội hơn nhiều so với bất kỳ bất lợi nào."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "These people have died in the ………. of liberty (freedom)",
+            "answer": "defence",
+            "translation": "Những người này đã chết trong sự bảo vệ tự do."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "wordBank": ["Convince sb to do sth", "Robust", "Infestation", "Ascertain", "Paradoxical", "Salvage"],
+        "questions": [
+          {
+            "id": "fib_016",
+            "sentence": "I hope this will ………. you to change your mind.",
+            "answer": "convince",
+            "translation": "Tôi hy vọng điều này sẽ thuyết phục bạn thay đổi ý định."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "He looks ………. and healthy enough.",
+            "answer": "robust",
+            "translation": "Anh ấy trông khỏe mạnh và đủ sức khỏe."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "I ………. that he didn't tell the truth",
+            "answer": "ascertained",
+            "translation": "Tôi đã phát hiện ra rằng anh ấy không nói sự thật."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "After the fire, there wasn't much furniture left worth ……….",
+            "answer": "salvaging",
+            "translation": "Sau vụ cháy, không còn nhiều đồ đạc đáng để cứu vớt."
+          }
+        ]
+      },
+      {
+        "id": "task_5",
+        "wordBank": ["Acute", "Intact", "Be vulnerable to", "Resort to sth", "Hue", "Overexposure"],
+        "questions": [
+          {
+            "id": "fib_020",
+            "sentence": "Older people are especially ………. cold temperatures even inside their homes",
+            "answer": "vulnerable to",
+            "translation": "Người già đặc biệt dễ bị ảnh hưởng bởi nhiệt độ lạnh ngay cả bên trong nhà của họ."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "I had to ………. violence (bạo lực) to get my money.",
+            "answer": "resort to",
+            "translation": "Tôi đã phải dùng đến bạo lực để lấy lại tiền của mình."
+          },
+          {
+            "id": "fib_022",
+            "sentence": "In the caribbean waters, there are fish of every ……….",
+            "answer": "hue",
+            "translation": "Trong vùng nước Caribbean, có cá của mọi sắc thái màu."
+          },
+          {
+            "id": "fib_023",
+            "sentence": "……….. to the sun is unhealthy.",
+            "answer": "Overexposure",
+            "translation": "Tiếp xúc quá mức với mặt trời là không lành mạnh."
+          },
+          {
+            "id": "fib_024",
+            "sentence": "The church was destroyed in the bombing but the altar remained ……….",
+            "answer": "intact",
+            "translation": "Nhà thờ đã bị phá hủy trong vụ đánh bom nhưng bàn thờ vẫn còn nguyên vẹn."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -103,9 +103,11 @@ export default function ReadingPage() {
         </Button>
 
         <div className="reading-page__title-section">
-          <h1>{lesson.metadata.title}</h1>
           <div className="reading-page__meta">
-            <span className="badge">{lesson.metadata.unit}</span>
+            <h1>Reading</h1>
+            <div className="reading-page__unit">
+              <span className="badge">{lesson.metadata.unit}</span>
+            </div>
           </div>
         </div>
 
@@ -128,7 +130,7 @@ export default function ReadingPage() {
         </h2>
 
         <div className="reading-page__tip">
-          💡 <em>Click any word to see its meaning</em>
+          💡 <em>Click or highlight any word or some words to see its meaning</em>
         </div>
 
         <div className="reading-page__paragraphs">

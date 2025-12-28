@@ -17,6 +17,7 @@ export default function VocabularyPage() {
   const [lessonInfo, setLessonInfo] = useState(null);
   const [vocabulary, setVocabulary] = useState([]);
   const [learnedWords, setLearnedWords] = useState([]);
+  const [hasReading, setHasReading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -31,6 +32,10 @@ export default function VocabularyPage() {
       // Load lesson info and vocabulary
       const info = lessonService.getLessonInfo(lessonId);
       const vocab = await lessonService.getVocabulary(lessonId);
+
+      // Check if lesson has reading
+      const lessonData = await lessonService.loadLesson(lessonId);
+      setHasReading(!!lessonData.reading);
 
       // Load progress
       const progress = storageService.getLessonProgress(lessonId);
@@ -100,9 +105,11 @@ export default function VocabularyPage() {
           <Button variant="secondary" onClick={() => navigate('/')}>
             ← Home
           </Button>
-          <Button variant="secondary" onClick={goToReading}>
-            Reading
-          </Button>
+          {hasReading && (
+            <Button variant="secondary" onClick={goToReading}>
+              Reading
+            </Button>
+          )}
         </div>
 
         <div className="vocabulary-page__title-section">
@@ -120,31 +127,6 @@ export default function VocabularyPage() {
           Play Games to Practice →
         </Button>
       </header>
-
-      <div className="vocabulary-page__sticky-controls">
-        <div className="vocabulary-page__progress">
-          <div className="vocabulary-page__stats">
-            <div className="stat">
-              <span className="stat__value">{vocabulary.length}</span>
-              <span className="stat__label">Total</span>
-            </div>
-            <div className="stat">
-              <span className="stat__value">{learnedWords.length}</span>
-              <span className="stat__label">Learned</span>
-            </div>
-            <div className="stat">
-              <span className="stat__value">{progressPercentage}%</span>
-              <span className="stat__label">Progress</span>
-            </div>
-          </div>
-          <div className="vocabulary-page__progress-bar">
-            <div
-              className="vocabulary-page__progress-fill"
-              style={{ width: `${progressPercentage}%` }}
-            />
-          </div>
-        </div>
-      </div>
 
       <div className="vocabulary-page__content">
         <VocabularyList

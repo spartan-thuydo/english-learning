@@ -6,9 +6,7 @@ export const GAME_TYPES = {
   FLASHCARD: 'flashcard',
   MULTIPLE_CHOICE: 'multiple-choice',
   MATCHING: 'matching',
-  WORD_SCRAMBLE: 'word-scramble',
-  GUESS_DEFINITION: 'guess-definition',
-  MEMORY: 'memory'
+  GUESS_DEFINITION: 'guess-definition'
 };
 
 export const GAME_CONFIG = {
@@ -36,14 +34,6 @@ export const GAME_CONFIG = {
     difficulty: 'medium',
     minWords: 4
   },
-  [GAME_TYPES.WORD_SCRAMBLE]: {
-    id: GAME_TYPES.WORD_SCRAMBLE,
-    name: 'Word Scramble',
-    description: 'Unscramble the letters to form the correct word from the given definition.',
-    icon: '🔤',
-    difficulty: 'hard',
-    minWords: 1
-  },
   [GAME_TYPES.GUESS_DEFINITION]: {
     id: GAME_TYPES.GUESS_DEFINITION,
     name: 'Guess by Definition',
@@ -51,14 +41,6 @@ export const GAME_CONFIG = {
     icon: '💭',
     difficulty: 'hard',
     minWords: 1
-  },
-  [GAME_TYPES.MEMORY]: {
-    id: GAME_TYPES.MEMORY,
-    name: 'Memory Game',
-    description: 'Find matching pairs of words and definitions. Train your memory!',
-    icon: '🧠',
-    difficulty: 'medium',
-    minWords: 4
   }
 };
 

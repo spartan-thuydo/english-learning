@@ -20,7 +20,7 @@ class DictionaryService {
       if (vocabulary.length > 0) {
         const found = vocabulary.find(v => v.word.toLowerCase() === normalizedWord);
         if (found) {
-          return this.formatVocabularyResult(found);
+          return await this.formatVocabularyResult(found);
         }
       }
 
@@ -55,13 +55,22 @@ class DictionaryService {
   /**
    * Format vocabulary JSON result
    * @param {Object} vocabItem
-   * @returns {Object} Formatted result
+   * @returns {Promise<Object>} Formatted result
    */
-  formatVocabularyResult(vocabItem) {
+  async formatVocabularyResult(vocabItem) {
+    // If vocabulary already has Vietnamese meaning, use it
+    // Otherwise, translate the definition
+    let vietnameseMeaning = vocabItem.meaning || '';
+
+    if (!vietnameseMeaning && vocabItem.definition) {
+      vietnameseMeaning = await this.translateToVietnamese(vocabItem.definition);
+    }
+
     return {
       word: vocabItem.word,
       pronunciation: vocabItem.pronunciation || '',
-      meaning: vocabItem.meaning || '',
+      partOfSpeech: vocabItem.pos || '',
+      meaning: vietnameseMeaning,
       definition: vocabItem.definition || '',
       examples: [
         vocabItem.exampleSimple,
@@ -90,14 +99,53 @@ class DictionaryService {
     }
 
     const entry = data[0];
-    const meaning = entry.meanings?.[0];
-    const definition = meaning?.definitions?.[0];
+    const meanings = entry.meanings || [];
+
+    // Prioritize common parts of speech over noun
+    // Order: pronoun → verb → adjective → adverb → noun → others
+    const priorityOrder = ['pronoun', 'verb', 'adjective', 'adverb', 'noun'];
+    let meaning = null;
+
+    for (const pos of priorityOrder) {
+      meaning = meanings.find(m => m.partOfSpeech === pos);
+      if (meaning) break;
+    }
+
+    // Fallback to first meaning if no priority match
+    if (!meaning) {
+      meaning = meanings[0];
+    }
+
+    const definitions = meaning?.definitions || [];
+
+    // Get all word variations (base forms by removing suffixes)
+    const wordVariations = this.getWordVariations(word);
+
+    // Try to find a definition with example containing any variation of the word
+    let definition = definitions.find(def => {
+      if (!def.example) return false;
+      const exampleLower = def.example.toLowerCase();
+      // Check if example contains any variation of the word
+      return wordVariations.some(variation =>
+        exampleLower.includes(variation.toLowerCase())
+      );
+    });
+
+    // Fallback to first definition if no match found
+    if (!definition) {
+      definition = definitions[0];
+    }
+
+    const definitionText = definition?.definition || '';
+
+    // Translate definition to Vietnamese
+    const vietnameseMeaning = await this.translateToVietnamese(definitionText);
 
     return {
       word: entry.word,
       pronunciation: entry.phonetic || this.extractPhonetic(entry.phonetics),
-      meaning: '', // API doesn't provide Vietnamese translation
-      definition: definition?.definition || '',
+      meaning: vietnameseMeaning,
+      definition: definitionText,
       examples: definition?.example ? [definition.example] : [],
       partOfSpeech: meaning?.partOfSpeech || '',
       synonyms: definition?.synonyms || [],
@@ -115,6 +163,82 @@ class DictionaryService {
     if (!phonetics || phonetics.length === 0) return '';
     const found = phonetics.find(p => p.text);
     return found?.text || '';
+  }
+
+  /**
+   * Get word variations by removing common suffixes
+   * @param {string} word - Word to get variations for
+   * @returns {Array<string>} Array of word variations
+   */
+  getWordVariations(word) {
+    const variations = [word];
+    const lowerWord = word.toLowerCase();
+
+    // Remove plural suffixes: s, es
+    if (lowerWord.endsWith('es') && lowerWord.length > 3) {
+      variations.push(lowerWord.slice(0, -2)); // watches → watch
+      variations.push(lowerWord.slice(0, -1)); // watches → watche (for safety)
+    } else if (lowerWord.endsWith('s') && lowerWord.length > 2) {
+      variations.push(lowerWord.slice(0, -1)); // spectacles → spectacle
+    }
+
+    // Remove past tense suffixes: ed, d
+    if (lowerWord.endsWith('ed') && lowerWord.length > 3) {
+      variations.push(lowerWord.slice(0, -2)); // played → play
+      variations.push(lowerWord.slice(0, -1)); // played → playe (for safety)
+    } else if (lowerWord.endsWith('d') && lowerWord.length > 2) {
+      variations.push(lowerWord.slice(0, -1)); // used → use
+    }
+
+    // Remove -ing suffix
+    if (lowerWord.endsWith('ing') && lowerWord.length > 4) {
+      variations.push(lowerWord.slice(0, -3)); // running → runn
+      // Try double consonant reduction: running → run
+      const base = lowerWord.slice(0, -3);
+      if (base.length > 1 && base[base.length - 1] === base[base.length - 2]) {
+        variations.push(base.slice(0, -1));
+      }
+    }
+
+    // Remove comparative/superlative: er, est
+    if (lowerWord.endsWith('est') && lowerWord.length > 4) {
+      variations.push(lowerWord.slice(0, -3)); // fastest → fast
+    } else if (lowerWord.endsWith('er') && lowerWord.length > 3) {
+      variations.push(lowerWord.slice(0, -2)); // faster → fast
+    }
+
+    // Return unique variations only
+    return [...new Set(variations)];
+  }
+
+  /**
+   * Translate text to Vietnamese using MyMemory Translation API
+   * @param {string} text - Text to translate
+   * @returns {Promise<string>} Vietnamese translation
+   */
+  async translateToVietnamese(text) {
+    if (!text || text.trim() === '') return '';
+
+    try {
+      const url = `${API_CONFIG.MYMEMORY_TRANSLATE_API}?q=${encodeURIComponent(text)}&langpair=en|vi`;
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error(`Translation API returned ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      // MyMemory API returns translation in responseData.translatedText
+      if (data.responseData && data.responseData.translatedText) {
+        return data.responseData.translatedText;
+      }
+
+      return '';
+    } catch (error) {
+      console.warn('MyMemory translation failed:', error);
+      return ''; // Return empty string on failure, don't block the lookup
+    }
   }
 
   /**
