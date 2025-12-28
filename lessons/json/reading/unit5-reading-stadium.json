@@ -41,7 +41,16 @@
       "exampleSimple": "You drive nails into wood with a hammer."
     },
     {
-      "id": "word_005",
+      "word": "Drive sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "thúc đẩy cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_005"
+    },
+    {
+      "id": "word_006",
       "word": "Capacity",
       "pronunciation": "/kəˈpæsɪti/",
       "pos": "n",
@@ -50,7 +59,7 @@
       "exampleSimple": "There will be a capacity crowd at Busch stadium for the sixth game."
     },
     {
-      "id": "word_006",
+      "id": "word_007",
       "word": "Versatile",
       "pronunciation": "/ˈvɜː.sə.taɪl/",
       "pos": "adj",
@@ -59,7 +68,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_007",
+      "id": "word_008",
       "word": "Fortress",
       "pronunciation": "/ˈfɔːr.trəs/",
       "pos": "n",
@@ -68,7 +77,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_008",
+      "id": "word_009",
       "word": "Convert",
       "pronunciation": "/kənˈvɝːt/",
       "pos": "v",
@@ -77,7 +86,7 @@
       "exampleSimple": "A kettle converts water into steam."
     },
     {
-      "id": "word_009",
+      "id": "word_010",
       "word": "Venue",
       "pronunciation": "/ˈven.juː/",
       "pos": "n",
@@ -86,7 +95,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_010",
+      "id": "word_011",
       "word": "Spectator",
       "pronunciation": "/spekˈteɪ.t̬ɚ/",
       "pos": "n",
@@ -95,7 +104,7 @@
       "exampleSimple": "The cheering spectators watched the fireworks."
     },
     {
-      "id": "word_011",
+      "id": "word_012",
       "word": "Endure",
       "pronunciation": "/ɪnˈdʊr/",
       "pos": "v",
@@ -104,7 +113,7 @@
       "exampleSimple": "The singer's popularity endured for decades."
     },
     {
-      "id": "word_012",
+      "id": "word_013",
       "word": "The fabric of the city",
       "pronunciation": "",
       "pos": "n",
@@ -113,7 +122,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_013",
+      "id": "word_014",
       "word": "Prison",
       "pronunciation": "/ˈprɪz.ən/",
       "pos": "n",
@@ -122,7 +131,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_014",
+      "id": "word_015",
       "word": "Revert to sth",
       "pronunciation": "/rɪˈvɝːt/",
       "pos": "v",
@@ -131,7 +140,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_015",
+      "id": "word_016",
       "word": "Ruin",
       "pronunciation": "/ˈruː.ɪn/",
       "pos": "v,n",
@@ -140,7 +149,7 @@
       "exampleSimple": "With all these purchases, you surely mean to ruin us!"
     },
     {
-      "id": "word_016",
+      "id": "word_017",
       "word": "Embed sth in sth",
       "pronunciation": "/ɪmˈbed/",
       "pos": "v",
@@ -149,7 +158,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_017",
+      "id": "word_018",
       "word": "Intend to do sth/ be intended for sth",
       "pronunciation": "",
       "pos": "v",
@@ -158,7 +167,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_018",
+      "id": "word_019",
       "word": "Concrete",
       "pronunciation": "/ˈkɑːn.kriːt/",
       "pos": "n",
@@ -167,7 +176,7 @@
       "exampleSimple": "I hate grass, so I concreted over my lawn."
     },
     {
-      "id": "word_019",
+      "id": "word_020",
       "word": "Scope",
       "pronunciation": "/skoʊp/",
       "pos": "n",
@@ -176,7 +185,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_020",
+      "id": "word_021",
       "word": "Reinforce",
       "pronunciation": "/ˌriː.ɪnˈfɔːrs/",
       "pos": "v",
@@ -185,7 +194,7 @@
       "exampleSimple": "He reinforced the handle with a metal rod and a bit of tape."
     },
     {
-      "id": "word_021",
+      "id": "word_022",
       "word": "Blueprint",
       "pronunciation": "/ˈbluː.prɪnt/",
       "pos": "n",
@@ -194,7 +203,7 @@
       "exampleSimple": "The architect blueprinted the renovation plan once the client had signed off."
     },
     {
-      "id": "word_022",
+      "id": "word_023",
       "word": "Integrate into sth",
       "pronunciation": "/ˈɪn.t̬ə.ɡreɪt/",
       "pos": "v",
@@ -203,7 +212,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_023",
+      "id": "word_024",
       "word": "Detect",
       "pronunciation": "/dɪˈtekt/",
       "pos": "v",
@@ -212,7 +221,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_024",
+      "id": "word_025",
       "word": "Fit",
       "pronunciation": "/fɪt/",
       "pos": "v",
@@ -221,7 +230,7 @@
       "exampleSimple": "It fits the purpose."
     },
     {
-      "id": "word_025",
+      "id": "word_026",
       "word": "Photovoltaic panel",
       "pronunciation": "/ˌfoʊ.t̬oʊ.vɑːlˈteɪ.ɪk/",
       "pos": "n",
@@ -230,7 +239,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_026",
+      "id": "word_027",
       "word": "Output",
       "pronunciation": "/ˈaʊtpʊt/",
       "pos": "n",
@@ -239,13 +248,184 @@
       "exampleSimple": "We output 1400 units last year."
     },
     {
-      "id": "word_027",
+      "id": "word_028",
       "word": "Acquire",
       "pronunciation": "/əˈkwaɪɚ/",
       "pos": "v",
       "meaning": "gain or obtain sth",
       "definition": "To get.",
       "exampleSimple": ""
+    },
+    {
+      "word": "Form",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hình thức",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_029"
+    },
+    {
+      "word": "Construction",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự xây dựng",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_030"
+    },
+    {
+      "word": "Cathedral",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "nhà thờ lớn",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_031"
+    },
+    {
+      "word": "Railway stations",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "nhà ga xe lửa",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_032"
+    },
+    {
+      "word": "Era",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "thời kỳ",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_033"
+    },
+    {
+      "word": "Modernisation",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự hiện đại hóa",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_034"
+    },
+    {
+      "word": "Interest in sth",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự thích thú, quan tâm về cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_035"
+    },
+    {
+      "word": "Conservation",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự bảo tồn",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_036"
+    },
+    {
+      "word": "Become absorbed into sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "trở thành một phần của cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_037"
+    },
+    {
+      "word": "Situate",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "ở đâu đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_038"
+    },
+    {
+      "word": "Contribute to sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đóng góp vào cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_039"
+    },
+    {
+      "word": "Cater to sb",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "phục vụ cho ai đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_040"
+    },
+    {
+      "word": "A cross-section of society",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "tầng lớp xã hội",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_041"
+    },
+    {
+      "word": "Phenomenon",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hiện tượng",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_042"
+    },
+    {
+      "word": "Proof",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "bằng chứng",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_043"
+    },
+    {
+      "word": "Turbine",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "tua bin",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_044"
+    },
+    {
+      "word": "The former/ latter",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "ám chỉ cái trước/ cái sau (trong 2 cái được nhắc tới)",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_045"
+    },
+    {
+      "word": "Inaugurate",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "khánh thành",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_046"
+    },
+    {
+      "word": "As far back as sth",
+      "pronunciation": "",
+      "pos": "",
+      "meaning": "từ thời ...",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_047"
     }
   ],
   "reading": {
