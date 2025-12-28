@@ -10,7 +10,8 @@
       "meaning": "Khán giả",
       "definition": "Khán giả",
       "id": "word_001",
-      "exampleSimple": ""
+      "exampleSimple": "We joined the audience just as the lights went down.",
+      "pos": "noun"
     },
     {
       "word": "(Open) a retail (chain)",
@@ -18,31 +19,35 @@
       "meaning": "a retail chain ~ chuỗi bán lẻ, open a retail chain ~ mở một chuỗi bán lẻ",
       "definition": "a retail chain ~ chuỗi bán lẻ, open a retail chain ~ mở một chuỗi bán lẻ",
       "id": "word_002",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Camping equipment",
       "pronunciation": "/ɪˈkwɪp.mənt/",
-      "meaning": "",
-      "definition": "",
+      "meaning": "Thiết bị cắm trại",
+      "definition": "Camping equipment",
       "id": "word_003",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Site  campsite",
       "pronunciation": "/ˈkæmp.saɪt/",
-      "meaning": "",
-      "definition": "",
+      "meaning": "Khu  cắm trại tại chỗ",
+      "definition": "Site  campsite",
       "id": "word_004",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Offer camping holidays",
       "pronunciation": "",
-      "meaning": "",
-      "definition": "",
+      "meaning": "Cung cấp các kỳ nghỉ cắm trại",
+      "definition": "Offer camping holidays",
       "id": "word_005",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "(Have) exclusive (use of sth)",
@@ -50,7 +55,8 @@
       "meaning": "Có sự sử dụng độc quyền cái gì đó (chỉ dành riêng cho mình)",
       "definition": "Có sự sử dụng độc quyền cái gì đó (chỉ dành riêng cho mình)",
       "id": "word_006",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Expand",
@@ -58,7 +64,8 @@
       "meaning": "mở rộng",
       "definition": "mở rộng",
       "id": "word_007",
-      "exampleSimple": ""
+      "exampleSimple": "You can expand this compact umbrella to cover a large table.",
+      "pos": "verb"
     },
     {
       "word": "Upgrade",
@@ -66,7 +73,8 @@
       "meaning": "nâng cấp",
       "definition": "nâng cấp",
       "id": "word_008",
-      "exampleSimple": ""
+      "exampleSimple": "When you upgrade your standard of living, you become addicted to that standard of living.",
+      "pos": "verb"
     },
     {
       "word": "Oven",
@@ -74,7 +82,8 @@
       "meaning": "lò vi sóng",
       "definition": "lò vi sóng",
       "id": "word_009",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Cooking ring",
@@ -82,7 +91,8 @@
       "meaning": "các bạn tra google hình ảnh từ này giúp anh nhé",
       "definition": "các bạn tra google hình ảnh từ này giúp anh nhé",
       "id": "word_010",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Mopmɑːpˈbʌk.ɪt/",
@@ -90,7 +100,8 @@
       "meaning": "Mop ~ cây lau nhà, Bucket ~ cái xô",
       "definition": "Mop ~ cây lau nhà, Bucket ~ cái xô",
       "id": "word_011",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Rating",
@@ -98,7 +109,8 @@
       "meaning": "xếp hạng",
       "definition": "xếp hạng",
       "id": "word_012",
-      "exampleSimple": ""
+      "exampleSimple": "She is rated fourth in the country.",
+      "pos": "verb"
     },
     {
       "word": "(Offer) superb (facilities)",
@@ -106,7 +118,8 @@
       "meaning": "Excellent",
       "definition": "Excellent",
       "id": "word_013",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Be fully occupied",
@@ -114,7 +127,8 @@
       "meaning": "bận rộn",
       "definition": "bận rộn",
       "id": "word_014",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Take advantage of sth",
@@ -122,7 +136,8 @@
       "meaning": "Take advantage of sth",
       "definition": "Take advantage of sth",
       "id": "word_015",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Well-qualified and enthusiastic staff",
@@ -130,7 +145,8 @@
       "meaning": "Các nhân viên đủ tiêu chuẩn và nhiệt tình",
       "definition": "Các nhân viên đủ tiêu chuẩn và nhiệt tình",
       "id": "word_016",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Kick off",
@@ -138,7 +154,8 @@
       "meaning": "bắt đầu",
       "definition": "bắt đầu",
       "id": "word_017",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Child-friendly",
@@ -154,7 +171,8 @@
       "meaning": "Thực hiện, vận hành, … luật lệ “không tiếng ồn”",
       "definition": "Thực hiện, vận hành, … luật lệ “không tiếng ồn”",
       "id": "word_019",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Fridge",
@@ -162,7 +180,8 @@
       "meaning": "cái tủ lạnh",
       "definition": "cái tủ lạnh",
       "id": "word_020",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     },
     {
       "word": "Do sth in advance",
@@ -170,7 +189,8 @@
       "meaning": "làm cái gì đó trước",
       "definition": "làm cái gì đó trước",
       "id": "word_021",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Tent",
@@ -178,7 +198,8 @@
       "meaning": "Lều",
       "definition": "Lều",
       "id": "word_022",
-      "exampleSimple": ""
+      "exampleSimple": "We’ll be tented at the campground this weekend.",
+      "pos": "verb"
     },
     {
       "word": "Insure",
@@ -186,7 +207,8 @@
       "meaning": "Bảo hiểm/ bảo đảm \t\t insurance (n)\t/ɪnˈʃɝː.əns/",
       "definition": "Bảo hiểm/ bảo đảm \t\t insurance (n)\t/ɪnˈʃɝː.əns/",
       "id": "word_023",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     },
     {
       "word": "An annual insurance policy",
@@ -194,7 +216,8 @@
       "meaning": "chính sách bảo hiểm hằng năm",
       "definition": "chính sách bảo hiểm hằng năm",
       "id": "word_024",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Take out the low-cost cover",
@@ -202,7 +225,8 @@
       "meaning": "Mua cái gì đó từ một công ty, ngân hàng,…  take out (v)",
       "definition": "Mua cái gì đó từ một công ty, ngân hàng,…  take out (v)",
       "id": "word_025",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Make (your holiday) reservation",
@@ -210,7 +234,8 @@
       "meaning": "Đặt chỗ",
       "definition": "Đặt chỗ",
       "id": "word_026",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Be kept informed of sth",
@@ -218,7 +243,8 @@
       "meaning": "Được cho biết về cái gì đó",
       "definition": "Được cho biết về cái gì đó",
       "id": "word_027",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Book a luxury tent",
@@ -226,7 +252,8 @@
       "meaning": "Đặt một cái lều sang trọng",
       "definition": "Đặt một cái lều sang trọng",
       "id": "word_028",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "(Send sb a thank you) present",
@@ -234,7 +261,8 @@
       "meaning": "A gift",
       "definition": "A gift",
       "id": "word_029",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Mirror",
@@ -242,7 +270,8 @@
       "meaning": "Mirror ~ cái gương/ Blanket ~ tấm thảm",
       "definition": "Mirror ~ cái gương/ Blanket ~ tấm thảm",
       "id": "word_030",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     }
   ],
   "fillInTheBlanks": {

@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "unit": "Unit 3",
+    "title": "Powering Europe with Sahara Solar Energy"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Be regarded as sth",
+      "pronunciation": "/rɪˈɡɑːdid/",
+      "pos": "v",
+      "meaning": "được coi là cái gì đó",
+      "definition": "to be considered as something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Politician",
+      "pronunciation": "/ˌpɒl.ɪˈtɪʃ.ən/",
+      "pos": "n",
+      "meaning": "chính trị gia",
+      "definition": "a person active in politics",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Solar energy",
+      "pronunciation": "/ˈsəʊ.lər ˈen.ə.dʒi/",
+      "pos": "n",
+      "meaning": "năng lượng mặt trời",
+      "definition": "energy from the sun",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Calculate",
+      "pronunciation": "/ˈkæl.kjə.leɪt/",
+      "pos": "v",
+      "meaning": "tính toán",
+      "definition": "to compute or estimate",
+      "exampleSimple": "The cost of the building has been calculated as/at over £5 million."
+    },
+    {
+      "id": "word_005",
+      "word": "Power plant",
+      "pronunciation": "/ˈpaʊə ˌplɑːnt/",
+      "pos": "n",
+      "meaning": "nhà máy năng lượng",
+      "definition": "a facility for generating electricity",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Combine",
+      "pronunciation": "/kəmˈbaɪn/",
+      "pos": "v",
+      "meaning": "kết hợp",
+      "definition": "to join together",
+      "exampleSimple": "I like to travel and make films, and I'm now able to combine the two."
+    },
+    {
+      "id": "word_007",
+      "word": "Skeptical",
+      "pronunciation": "/ˈskep.tɪ.kəl/",
+      "pos": "adj",
+      "meaning": "nghi ngờ",
+      "definition": "having doubts",
+      "exampleSimple": "Many people remain skeptical about/of his claims."
+    },
+    {
+      "id": "word_008",
+      "word": "Comprise",
+      "pronunciation": "/kəmˈpraɪz/",
+      "pos": "v",
+      "meaning": "bao gồm",
+      "definition": "to consist of",
+      "exampleSimple": "The course comprises a class book, a practice book, and a CD."
+    },
+    {
+      "id": "word_009",
+      "word": "Propose",
+      "pronunciation": "/prəˈpəʊz/",
+      "pos": "v",
+      "meaning": "đề nghị, đề xuất",
+      "definition": "to suggest",
+      "exampleSimple": "He proposed dealing directly with the suppliers."
+    },
+    {
+      "id": "word_010",
+      "word": "Source",
+      "pronunciation": "/sɔːs/",
+      "pos": "n",
+      "meaning": "nguồn",
+      "definition": "an origin or supply",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Convert A into B",
+      "pronunciation": "/kənˈvɜːt/",
+      "pos": "v",
+      "meaning": "chuyển hóa A thành B",
+      "definition": "to change from one form to another",
+      "exampleSimple": "Could we convert the small bedroom into a second bathroom?"
+    },
+    {
+      "id": "word_012",
+      "word": "Water pipe",
+      "pronunciation": "/ˈwɔː.tər paɪp/",
+      "pos": "n",
+      "meaning": "ống nước",
+      "definition": "a pipe for carrying water",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Boiler",
+      "pronunciation": "/ˈbɔɪ.lər/",
+      "pos": "n",
+      "meaning": "nồi hơi",
+      "definition": "a device for heating water",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Turbine",
+      "pronunciation": "/ˈtɜː.baɪn/",
+      "pos": "n",
+      "meaning": "tua bin",
+      "definition": "a machine for generating power",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Generate",
+      "pronunciation": "/ˈdʒen.ə.reɪt/",
+      "pos": "v",
+      "meaning": "phát ra, tạo ra",
+      "definition": "to produce or create",
+      "exampleSimple": "The wind farm generates enough electricity for 2,000 homes."
+    },
+    {
+      "id": "word_016",
+      "word": "Estimate",
+      "pronunciation": "/ˈes.tɪ.meɪt/",
+      "pos": "v",
+      "meaning": "ước chừng",
+      "definition": "to judge approximately",
+      "exampleSimple": "They estimate (that) the journey will take at least two weeks."
+    },
+    {
+      "id": "word_017",
+      "word": "Transmit",
+      "pronunciation": "/trænzˈmɪt/",
+      "pos": "v",
+      "meaning": "truyền tải",
+      "definition": "to send or transfer",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Drawback",
+      "pronunciation": "/ˈdrɔː.bæk/",
+      "pos": "n",
+      "meaning": "bất cập",
+      "definition": "a disadvantage",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Efficiency",
+      "pronunciation": "/ɪˈfɪʃ.ən.si/",
+      "pos": "n",
+      "meaning": "độ hiệu quả, tính hiệu quả",
+      "definition": "effectiveness",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Cable",
+      "pronunciation": "/ˈkeɪ.bəl/",
+      "pos": "n",
+      "meaning": "dây cáp",
+      "definition": "a thick wire for transmitting electricity",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Tidal",
+      "pronunciation": "/ˈtaɪ.dəl/",
+      "pos": "adj",
+      "meaning": "thuộc về sóng, liên quan đến sóng",
+      "definition": "relating to tides",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Infrastructure",
+      "pronunciation": "/ˈɪn.frəˌstrʌk.tʃər/",
+      "pos": "n",
+      "meaning": "cơ sở vật chất",
+      "definition": "basic physical systems",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Electrical grid",
+      "pronunciation": "/iˈlek.trɪ.kəl ɡrɪd/",
+      "pos": "n",
+      "meaning": "mạng lưới điện",
+      "definition": "a network for distributing electricity",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Pass a law",
+      "pronunciation": "/pɑːs ə lɔː/",
+      "pos": "v",
+      "meaning": "thông qua bộ luật",
+      "definition": "to approve legislation",
+      "exampleSimple": "The new government has just past a law to protect the right of citizens"
+    },
+    {
+      "id": "word_025",
+      "word": "Aid",
+      "pronunciation": "/eɪd/",
+      "pos": "v",
+      "meaning": "hỗ trợ",
+      "definition": "to help or assist",
+      "exampleSimple": "This project was designed to aid the poor"
+    },
+    {
+      "id": "word_026",
+      "word": "Investor",
+      "pronunciation": "/ɪnˈves.tər/",
+      "pos": "n",
+      "meaning": "nhà đầu tư",
+      "definition": "a person who invests money",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Reach goals",
+      "pronunciation": "/riːtʃ ɡəʊl/",
+      "pos": "v",
+      "meaning": "đạt được mục tiêu",
+      "definition": "to achieve objectives",
+      "exampleSimple": "He tried so hard to reach his goals"
+    },
+    {
+      "id": "word_028",
+      "word": "Operate",
+      "pronunciation": "/ˈɒp.ər.eɪt/",
+      "pos": "v",
+      "meaning": "vận hành",
+      "definition": "to function or run",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Stare at sth",
+      "pronunciation": "/steər/",
+      "pos": "v",
+      "meaning": "nhìn chằm chằm vào cái gì",
+      "definition": "to look fixedly",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "Powering Europe with Sahara Solar Energy",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "For years, the Sahara has been regarded by many Europeans as a terra incognita* of little economic value or importance. But this idea may soon change completely. Politicians and scientists on both sides of the Mediterranean are beginning to focus on the Sahara’s potential to provide power for Europe in the future. They believe the desert’s true value comes from the fact that it is dry and empty. Some areas of the Sahara reach 45 degrees centigrade on many afternoons. It is, in other words, a gigantic natural storehouse of solar energy.",
+        "translation": "Trong nhiều năm, Sa mạc Sahara đã được nhiều người châu Âu coi là vùng đất chưa biết có giá trị kinh tế hoặc tầm quan trọng nhỏ. Nhưng ý tưởng này có thể sớm thay đổi hoàn toàn. Các chính trị gia và nhà khoa học ở cả hai bên Địa Trung Hải đang bắt đầu tập trung vào tiềm năng của Sahara để cung cấp năng lượng cho châu Âu trong tương lai. Họ tin rằng giá trị thực sự của sa mạc đến từ thực tế là nó khô và trống rỗng. Một số khu vực của Sahara đạt 45 độ C vào nhiều buổi chiều. Nói cách khác, nó là một kho năng lượng mặt trời tự nhiên khổng lồ.",
+        "mainIdea": "Sa mạc Sahara đang được xem xét như một nguồn năng lượng mặt trời khổng lồ tiềm năng cho châu Âu"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "A few years ago, scientists began to calculate just how much energy the Sahara holds. They were astonished at the answer. In theory, a 90,600 square kilometre chunk of the Sahara - smaller than Portugal and a little over 1% of its total area - could yield the same amount of electricity as all the world’s power plants combined. A smaller square of 15,500 square kilometres - about the size of Connecticut - could provide electricity for Europe’s 500 million people. 'I admit I was sceptical until 1 did the calculations myself,’ says Michael Pawlyn, director of Exploration Architecture, one of three British environmental companies comprising the Sahara Forest Project, which is testing solar plants in Oman and the United Arab Emirates. Pawlyn calls the Sahara’s potential ’staggering’.",
+        "translation": "Cách đây vài năm, các nhà khoa học bắt đầu tính toán Sahara chứa bao nhiêu năng lượng. Họ đã ngạc nhiên trước câu trả lời. Về lý thuyết, một khối 90.600 km² của Sahara - nhỏ hơn Bồ Đào Nha và hơn 1% tổng diện tích của nó - có thể tạo ra lượng điện tương đương với tất cả các nhà máy điện trên thế giới cộng lại. Một hình vuông nhỏ hơn 15.500 km² - khoảng bằng kích thước của Connecticut - có thể cung cấp điện cho 500 triệu người châu Âu. 'Tôi thừa nhận tôi hoài nghi cho đến khi tôi tự tính toán,' Michael Pawlyn, giám đốc Exploration Architecture, một trong ba công ty môi trường Anh bao gồm Dự án Rừng Sahara, đang thử nghiệm các nhà máy năng lượng mặt trời ở Oman và Các Tiểu vương quốc Ả Rập Thống nhất, nói. Pawlyn gọi tiềm năng của Sahara là 'đáng kinh ngạc'.",
+        "mainIdea": "Tính toán cho thấy một phần nhỏ sa mạc Sahara có thể tạo ra đủ điện cho toàn châu Âu hoặc thế giới"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "At the moment, no one is proposing the creation of a solar power station the size of a small country. But a relatively well-developed technology exists, which proponents say could turn the Sahara’s heat and sunlight into a major source of electricity - Concentrating Solar Power [CSP], Unlike solar panels, which convert sunlight directly into electricity, CSP utilises mirrors which focus light on water pipes or boilers to produce very hot steam to operate the turbines of generators. Small CSP plants have produced power in California’s Mojave Desert since the 1980s. The Sahara Forest Project proposes building CSP plants in areas below sea level (the Sahara has several such depressions) so that sea water can flow into them. This water would then be purified and used for powering turbines and washing dust off the mirrors. Waste water would then supply irrigation to areas around the stations, creating lush oases - hence the ’forest’ in the group’s name.",
+        "translation": "Hiện tại, không ai đề xuất việc tạo ra một nhà máy năng lượng mặt trời có kích thước của một quốc gia nhỏ. Nhưng một công nghệ tương đối phát triển tốt tồn tại, mà những người ủng hộ nói có thể biến nhiệt và ánh sáng mặt trời của Sahara thành nguồn điện chính - Năng lượng Mặt trời Tập trung [CSP]. Không giống như các tấm pin mặt trời chuyển đổi ánh sáng mặt trời trực tiếp thành điện, CSP sử dụng gương tập trung ánh sáng vào ống nước hoặc nồi hơi để tạo ra hơi nước rất nóng để vận hành tuabin của máy phát điện. Các nhà máy CSP nhỏ đã sản xuất điện ở sa mạc Mojave của California từ những năm 1980. Dự án Rừng Sahara đề xuất xây dựng các nhà máy CSP ở các khu vực dưới mực nước biển (Sahara có một số chỗ trũng như vậy) để nước biển có thể chảy vào chúng. Nước này sau đó sẽ được làm sạch và sử dụng để cung cấp năng lượng cho tuabin và rửa bụi khỏi gương. Nước thải sau đó sẽ cung cấp tưới tiêu cho các khu vực xung quanh các trạm, tạo ra các ốc đảo tươi tốt - do đó có 'rừng' trong tên của nhóm.",
+        "mainIdea": "Công nghệ CSP có thể biến năng lượng mặt trời Sahara thành điện, sử dụng nước biển và tạo ra ốc đảo xanh"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "But producing Significant quantities of electricity means building huge arrays of mirrors and pipes across hundreds of miles of remote desert, which is expensive. Gerry Wolff, an engineer who heads DESERTEC, an international consortium of solar-power scientists, says they have estimated it will cost about $59 billion to begin transmitting power from the Sahara by 2020.",
+        "translation": "Nhưng sản xuất lượng điện đáng kể có nghĩa là xây dựng các dãy gương và ống khổng lồ trên hàng trăm dặm sa mạc xa xôi, điều này rất tốn kém. Gerry Wolff, một kỹ sư đứng đầu DESERTEC, một tập đoàn quốc tế các nhà khoa học năng lượng mặt trời, nói họ đã ước tính sẽ tốn khoảng 59 tỷ đô la để bắt đầu truyền tải điện từ Sahara vào năm 2020.",
+        "mainIdea": "Xây dựng nhà máy CSP ở Sahara rất tốn kém, ước tính 59 tỷ đô la để bắt đầu vào 2020"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "Building plants is just part of the challenge. One of the drawbacks to CSP technology is that it works at maximum efficiency only in sunny, hot climates - and deserts tend to be distant from population centres. To supply Europe with 20% of its electricity needs, more than 19,300 kilometres of cables would need to be laid under the Mediterranean, says Gunnar Asplund, head of HVDC research at ABB Power Technologies in Ludvika, Sweden. Indeed, to use renewable sources of power, including solar, wind and tidal, Europe will need to build completely new electrical grids. That’s because existing infrastructures, built largely for the coal- fired plants that supply 80% of Europe’s power, would not be suitable for carrying the amount of electricity generated by the Sahara. Germany’s government-run Aerospace Centre, which researches energy, estimates that replacing those lines could raise the cost of building solar plants in the Sahara and sending significant amounts of power to Europe to about $485 billion over the next 40 years. Generous government subsidies will be needed. ‘Of course it costs a lot of money,’ says Asplund. ‘It’s a lot cheaper to burn coal than to make solar power in the Sahara.’",
+        "translation": "Xây dựng nhà máy chỉ là một phần của thách thức. Một trong những hạn chế của công nghệ CSP là nó hoạt động với hiệu suất tối đa chỉ ở khí hậu nắng, nóng - và sa mạc có xu hướng xa các trung tâm dân cư. Để cung cấp cho châu Âu 20% nhu cầu điện, hơn 19.300 km cáp sẽ cần được đặt dưới Địa Trung Hải, Gunnar Asplund, trưởng bộ phận nghiên cứu HVDC tại ABB Power Technologies ở Ludvika, Thụy Điển nói. Thật vậy, để sử dụng các nguồn năng lượng tái tạo, bao gồm mặt trời, gió và thủy triều, châu Âu sẽ cần xây dựng hoàn toàn lưới điện mới. Đó là vì cơ sở hạ tầng hiện có, được xây dựng phần lớn cho các nhà máy than cung cấp 80% năng lượng châu Âu, sẽ không phù hợp để mang lượng điện được tạo ra bởi Sahara. Trung tâm Hàng không Vũ trụ do chính phủ Đức điều hành, nghiên cứu về năng lượng, ước tính rằng việc thay thế các đường dây đó có thể tăng chi phí xây dựng các nhà máy năng lượng mặt trời ở Sahara và gửi lượng điện đáng kể đến châu Âu lên khoảng 485 tỷ đô la trong 40 năm tới. Trợ cấp hào phóng của chính phủ sẽ là cần thiết. 'Tất nhiên nó tốn rất nhiều tiền,' Asplund nói. 'Đốt than rẻ hơn nhiều so với tạo năng lượng mặt trời ở Sahara.'",
+        "mainIdea": "Thách thức lớn là xây dựng cáp và lưới điện mới, chi phí lên tới 485 tỷ đô la và cần trợ cấp chính phủ"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Meanwhile, some companies are getting started. Seville engineering company Abengoa is building one solar- thermal plant in Algeria and another in Morocco, while a third is being built in Egypt by a Spanish-Japanese joint venture. The next step will be to get cables in place. Although the European Parliament has passed a law that aids investors who help the continent reach its goal of getting 20% of itg power from renewable energy by 2020, it could take years to create the necessary infrastructure.",
+        "translation": "Trong khi đó, một số công ty đang bắt đầu. Công ty kỹ thuật Seville Abengoa đang xây dựng một nhà máy năng lượng mặt trời nhiệt ở Algeria và một nhà máy khác ở Morocco, trong khi một nhà máy thứ ba đang được xây dựng ở Ai Cập bởi một liên doanh Tây Ban Nha-Nhật Bản. Bước tiếp theo sẽ là đặt cáp vào vị trí. Mặc dù Nghị viện Châu Âu đã thông qua luật hỗ trợ các nhà đầu tư giúp lục địa đạt mục tiêu nhận 20% năng lượng từ năng lượng tái tạo vào năm 2020, có thể mất nhiều năm để tạo ra cơ sở hạ tầng cần thiết.",
+        "mainIdea": "Một số công ty đã bắt đầu xây dựng nhà máy ở Bắc Phi, nhưng cần thời gian để xây dựng cơ sở hạ tầng"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "Nicholas Dunlop, secretary-general of the London-based NGO e-Parliament, thinks companies should begin transmitting small amounts of solar power as soon as the North African plants begin operating, by linking a few cable lines under the Med. 'I call it the Lego method,’ he says. ‘Build it piece by piece.’ If It can be shown that power from the Sahara can be produced profitably, he says, companies and governments will soon jump in. If they do, perhaps airplane passengers flying across the Sahara will one day count the mirrors and patches of green instead of staring at sand.",
+        "translation": "Nicholas Dunlop, tổng thư ký của NGO e-Parliament có trụ sở tại London, nghĩ rằng các công ty nên bắt đầu truyền tải lượng nhỏ năng lượng mặt trời ngay khi các nhà máy Bắc Phi bắt đầu hoạt động, bằng cách kết nối một vài đường cáp dưới Địa Trung Hải. 'Tôi gọi nó là phương pháp Lego,' anh nói. 'Xây dựng từng mảnh một.' Nếu có thể chứng minh rằng năng lượng từ Sahara có thể được sản xuất có lợi nhuận, anh nói, các công ty và chính phủ sẽ sớm nhảy vào. Nếu họ làm vậy, có lẽ hành khách máy bay bay qua Sahara một ngày nào đó sẽ đếm gương và mảng xanh thay vì nhìn chằm chằm vào cát.",
+        "mainIdea": "Cách tiếp cận từng bước nhỏ có thể khả thi hơn, và nếu thành công sẽ thu hút nhiều đầu tư hơn"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: fill in the blanks with the following words",
+        "wordBank": [
+          "estimated",
+          "generate",
+          "cable",
+          "Solar",
+          "tidal",
+          "combine",
+          "skeptical",
+          "proposed",
+          "politics",
+          "operated",
+          "transmitted",
+          "convert",
+          "regarded",
+          "infrastructure",
+          "reach",
+          "invest",
+          "proponents"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "He's ____ that it would take him two years to save up enough for a car.",
+            "answer": "estimated",
+            "translation": "Anh ấy ước tính rằng sẽ mất hai năm để anh ấy tiết kiệm đủ tiền mua xe."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "The new construction project will ____ 500 new jobs.",
+            "answer": "generate",
+            "translation": "Dự án xây dựng mới sẽ tạo ra 500 việc làm mới."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "You should disconnect the ____ before repair the equipment",
+            "answer": "cable",
+            "translation": "Bạn nên ngắt kết nối cáp trước khi sửa chữa thiết bị."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "____ and ____ energy are two popular forms of renewable energy",
+            "answer": "Solar/tidal",
+            "translation": "Năng lượng mặt trời và năng lượng thủy triều là hai dạng năng lượng tái tạo phổ biến."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "Hydrogen and oxygen ____ to form water.",
+            "answer": "combine",
+            "translation": "Hydro và oxy kết hợp để tạo thành nước."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "I'm a bit ____ about his chances of success.",
+            "answer": "skeptical",
+            "translation": "Tôi hơi nghi ngờ về cơ hội thành công của anh ấy."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "The government ____ a long-term 50 percent increase in taxes",
+            "answer": "proposed",
+            "translation": "Chính phủ đề xuất tăng thuế dài hạn 50%."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "The group is trying to get more women into ____.",
+            "answer": "politics",
+            "translation": "Nhóm đang cố gắng đưa nhiều phụ nữ hơn vào chính trị."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "For several years she ____ a garage given by her father.",
+            "answer": "operated",
+            "translation": "Trong nhiều năm, cô ấy đã vận hành một gara được cha cô tặng."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "The information is _____ electronically to the central computer.",
+            "answer": "transmitted",
+            "translation": "Thông tin được truyền tải điện tử đến máy tính trung tâm."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Could we _____ the small bedroom into a second bathroom?",
+            "answer": "convert",
+            "translation": "Chúng ta có thể chuyển đổi phòng ngủ nhỏ thành phòng tắm thứ hai không?"
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Her parents always _____ her as the smartest of their children.",
+            "answer": "regarded",
+            "translation": "Bố mẹ cô ấy luôn coi cô ấy là người thông minh nhất trong các con của họ."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "The war has badly damaged the country's _____ .",
+            "answer": "infrastructure",
+            "translation": "Chiến tranh đã làm hư hại nghiêm trọng cơ sở hạ tầng của đất nước."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "We hope to _____ agreement soon on the new trade policy.",
+            "answer": "reach",
+            "translation": "Chúng tôi hy vọng sớm đạt được thỏa thuận về chính sách thương mại mới."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "The company will _____ five million in the project.",
+            "answer": "invest",
+            "translation": "Công ty sẽ đầu tư năm triệu vào dự án."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "She is among the most outspoken _____ of the plan.",
+            "answer": "proponents",
+            "translation": "Cô ấy là một trong những người ủng hộ thẳng thắn nhất của kế hoạch."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "metadata": {
+    "unit": "Unit 5",
+    "title": "Crop-growing skyscrapers"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Accommodate",
+      "pronunciation": "/əˈkɑm·əˌdeɪt/",
+      "pos": "v",
+      "meaning": "cung cấp",
+      "definition": "To render fit, suitable, or correspondent; to adapt.",
+      "exampleSimple": "to accommodate ourselves to circumstances"
+    },
+    {
+      "id": "word_002",
+      "word": "Implement",
+      "pronunciation": "/ˈɪm.plə.ment/",
+      "pos": "v",
+      "meaning": "được thực thi, đưa vào sử dụng",
+      "definition": "A tool or instrument for working with.",
+      "exampleSimple": "They carried an assortment of gardening implements in the truck."
+    },
+    {
+      "id": "word_003",
+      "word": "Proponent",
+      "pronunciation": "/prəˈpoʊ.nənt/",
+      "pos": "n",
+      "meaning": "người ủng hộ, người đề xuất ý tưởng nào đó",
+      "definition": "Making proposals; proposing.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Construct",
+      "pronunciation": "/kənˈstrʌkt/",
+      "pos": "v",
+      "meaning": "lắp ráp",
+      "definition": "To build or form (something) by assembling parts.",
+      "exampleSimple": "We constructed the radio from spares."
+    },
+    {
+      "id": "word_005",
+      "word": "Despoil",
+      "pronunciation": "/dɪˈspɔɪl/",
+      "pos": "v",
+      "meaning": "bỏ hoang",
+      "definition": "To plunder; to pillage; take spoil from.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Evolve",
+      "pronunciation": "/ɪˈvɒlv/",
+      "pos": "v",
+      "meaning": "tiến hóa",
+      "definition": "To move in regular procession through a system.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Shelter",
+      "pronunciation": "/ˈʃel.t̬ɚ/",
+      "pos": "n",
+      "meaning": "chỗ trú",
+      "definition": "To provide cover from damage or harassment; to shield; to protect.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Take one's toll (on sth)",
+      "pronunciation": "/toʊl/",
+      "pos": "v",
+      "meaning": "tạo ra tác động xấu/ gây hại lên cái gì đó",
+      "definition": "Take one's toll (on sth)",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Infectious",
+      "pronunciation": "/ɪnˈfek.ʃəs/",
+      "pos": "adj",
+      "meaning": "có thể lây lan, lây nhiễm lẫn nhau",
+      "definition": "(of an illness) Transmitted from one person to another, usually through the air breathed.",
+      "exampleSimple": "Cancer is not infectious."
+    },
+    {
+      "id": "word_010",
+      "word": "Compost",
+      "pronunciation": "/ˈkɑːm.poʊst/",
+      "pos": "v",
+      "meaning": "ủ phân",
+      "definition": "To produce compost, let organic matter decay into fertilizer.",
+      "exampleSimple": "If you compost your grass clippings, you can improve your soil."
+    },
+    {
+      "id": "word_011",
+      "word": "Be exposed to sth",
+      "pronunciation": "/ɪkˈspoʊz/",
+      "pos": "v",
+      "meaning": "bị phơi nhiễm, tiếp xúc với cái gì đó",
+      "definition": "Be exposed to sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Aspiration",
+      "pronunciation": "/ˌæs.pəˈreɪ.ʃən/",
+      "pos": "n",
+      "meaning": "khát khao, ước vọng",
+      "definition": "The act of aspiring or ardently desiring; an ardent wish or desire, chiefly after what is elevated or spiritual (with common adjunct adpositions being to and of).",
+      "exampleSimple": "Morgan has an aspiration of winning the game."
+    },
+    {
+      "id": "word_013",
+      "word": "Tray",
+      "pronunciation": "/treɪ/",
+      "pos": "n",
+      "meaning": "cái khay",
+      "definition": "To place (items) on a tray",
+      "exampleSimple": "Be sure to tray eggs with the large end up."
+    },
+    {
+      "id": "word_014",
+      "word": "The elements",
+      "pronunciation": "/ˈel.ə.mənts/",
+      "pos": "n",
+      "meaning": "bad weather",
+      "definition": "The elements",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Rigour",
+      "pronunciation": "/ˈrɪɡ.ɚ/",
+      "pos": "n",
+      "meaning": "sự khắc nghiệt",
+      "definition": "Severity or strictness.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Subject A to B",
+      "pronunciation": "/ˈsʌb.dʒekt/",
+      "pos": "v",
+      "meaning": "làm cho A phải chịu cái B",
+      "definition": "Subject A to B",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Practice",
+      "pronunciation": "/ˈpræk.tɪs/",
+      "pos": "n",
+      "meaning": "cách thức thực thi",
+      "definition": "To repeat (an activity) as a way of improving one's skill in that activity.",
+      "exampleSimple": "You should practise playing piano every day."
+    },
+    {
+      "id": "word_018",
+      "word": "Scale sth up",
+      "pronunciation": "/skeɪl/",
+      "pos": "v",
+      "meaning": "gia tăng quy mô",
+      "definition": "Scale sth up",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Optimum",
+      "pronunciation": "/ˈɑːp.tə.məm/",
+      "pos": "adj",
+      "meaning": "tối ưu",
+      "definition": "The best or most advantageous; surpassing all others.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Prohibitively",
+      "pronunciation": "/proʊˈhɪb.ə.t̬ɪv.li/",
+      "pos": "adv",
+      "meaning": "một cách quá đắt (Prohibitive: quá đắt)",
+      "definition": "In a prohibitive manner.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Variation",
+      "pronunciation": "/ˌver.iˈeɪ.ʃən/",
+      "pos": "n",
+      "meaning": "biến thể",
+      "definition": "The act of varying; a partial change in the form, position, state, or qualities of a thing.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Detrimental",
+      "pronunciation": "/ˌdet.rəˈmen.t̬əl/",
+      "pos": "adj",
+      "meaning": "gây hại, có tác động tiêu cực",
+      "definition": "Causing damage or harm.",
+      "exampleSimple": "Smoking tobacco can be detrimental to your health."
+    },
+    {
+      "id": "word_023",
+      "word": "Stack",
+      "pronunciation": "/stæk/",
+      "pos": "v",
+      "meaning": "chất chồng lên nhau",
+      "definition": "To arrange in a stack, or to add to an existing stack.",
+      "exampleSimple": "Please stack those chairs in the corner."
+    },
+    {
+      "id": "word_024",
+      "word": "Non-edible",
+      "pronunciation": "/ˌnɑːnˈed.ə.bəl/",
+      "pos": "adj",
+      "meaning": "không ăn được, không dùng để ăn (Edible: có thể ăn được)",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Apply sth to sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "áp dụng cái gì đó vào cái gì đó",
+      "definition": "Apply sth to sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Conservative estimate",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "ước tính gần đúng",
+      "definition": "Conservative estimate",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Demographic trend",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "xu hướng dân số",
+      "definition": "Demographic trend",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Be laid waste",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "bị phá hủy",
+      "definition": "Be laid waste",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Hothouse",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "nhà kính",
+      "definition": "(of a child) To provide with an enriched environment with the aim of stimulating academic development.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_030",
+      "word": "(Be in) vogue",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "được ưa chuộng",
+      "definition": "(Be in) vogue",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Urban renewal",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự đổi mới đô thị",
+      "definition": "Urban renewal",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_032",
+      "word": "Year-round",
+      "pronunciation": "",
+      "pos": "adj",
+      "meaning": "quanh năm",
+      "definition": "Operating or continuing throughout the year.",
+      "exampleSimple": "This is a year-round business, so we can't afford holidays."
+    },
+    {
+      "id": "word_033",
+      "word": "Eventual",
+      "pronunciation": "/ə-/",
+      "pos": "adj",
+      "meaning": "sau cùng",
+      "definition": "Finally resulting or occuring (after a period of time).",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_034",
+      "word": "Ecosystem",
+      "pronunciation": "/ˈiːkəʊˌsɪstəm/",
+      "pos": "n",
+      "meaning": "hệ sinh thái",
+      "definition": "A system formed by an ecological community and its environment that functions as a unit.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_035",
+      "word": "Sacrifice",
+      "pronunciation": "/ˈsækɹɪfaɪs/",
+      "pos": "v",
+      "meaning": "hy sinh",
+      "definition": "To offer (something) as a gift to a deity.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_036",
+      "word": "Horizontal farming",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "canh tác ngang",
+      "definition": "Horizontal farming",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_037",
+      "word": "Ecozone",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "vùng sinh thái",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_038",
+      "word": "Food-bearing plants",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "các cây trồng cho ra thức ăn",
+      "definition": "Food-bearing plants",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_039",
+      "word": "Verdant",
+      "pronunciation": "/ˈvɝ.dənt/",
+      "pos": "n",
+      "meaning": "đồng cỏ xanh tươi",
+      "definition": "Green in colour.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_040",
+      "word": "Monsoon",
+      "pronunciation": "/mɒnˈsuːn/",
+      "pos": "n",
+      "meaning": "gió mùa",
+      "definition": "Any of a number of winds associated with regions where most rain falls during a particular season.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_041",
+      "word": "For instance",
+      "pronunciation": "",
+      "pos": "",
+      "meaning": "ví dụ",
+      "definition": "For instance",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_042",
+      "word": "Crop failure",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự mất mùa",
+      "definition": "Crop failure",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_043",
+      "word": "Herbicide",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "thuốc diệt cỏ",
+      "definition": "A substance used to kill plants.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_044",
+      "word": "Pesticide",
+      "pronunciation": "/ˈpɛstɨsaɪd/",
+      "pos": "n",
+      "meaning": "thuốc diệt côn trùng",
+      "definition": "Anything, especially a synthetic substance but also any substance (e.g. sulfur), or virus, bacterium, or other organism, which kills or suppresses the activities of pests.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_045",
+      "word": "Agricultural interface",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "bề mặt nông nghiệp",
+      "definition": "Agricultural interface",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_046",
+      "word": "Tractor",
+      "pronunciation": "/ˈtɹæktə/",
+      "pos": "n",
+      "meaning": "máy kéo",
+      "definition": "To prepare (land) with a tractor.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_047",
+      "word": "Plough",
+      "pronunciation": "/plaʊ/",
+      "pos": "n",
+      "meaning": "máy cày",
+      "definition": "To use a plough on to prepare for planting.",
+      "exampleSimple": "I've still got to plough that field."
+    },
+    {
+      "id": "word_048",
+      "word": "Efficiency",
+      "pronunciation": "/ɪˈfɪʃn̩si/",
+      "pos": "n",
+      "meaning": "sự tối ưu",
+      "definition": "The extent to which time is well used for the intended task.",
+      "exampleSimple": "The efficiency of the planning department is deplorable."
+    },
+    {
+      "id": "word_049",
+      "word": "Appear",
+      "pronunciation": "/əˈpiːɹ/",
+      "pos": "v",
+      "meaning": "dường như, có vẻ như",
+      "definition": "To come or be in sight; to be in view; to become visible.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_050",
+      "word": "Likelihood",
+      "pronunciation": "/ˈlaɪklihʊd/",
+      "pos": "n",
+      "meaning": "khả năng có thể xảy ra được",
+      "definition": "The probability of a specified outcome; the chance of something happening; probability; the state or degree of being probable.",
+      "exampleSimple": "In all likelihood the meeting will be cancelled."
+    },
+    {
+      "id": "word_051",
+      "word": "Undoubted problems",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "những vấn đề không thể chối cãi",
+      "definition": "Undoubted problems",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "Crop-growing skyscrapers",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "By the year 2050, nearly 80% of the Earth's population will live in urban centres. Applying the most conservative estimates to current demographic trends, the human population will increase by about three billion people by then. An estimated 109 hectares of new land (about 20% larger than Brazil) will be needed to grow enough food to feed them, if traditional farming methods continue as they are practised today. At present, throughout the world, over 80% of the land that is suitable for raising crops is in use. Historically, some 15% of that has been laid waste by poor management practices. What can be done to ensure enough food for the world's population to live on?",
+        "translation": "By the year 2050, nearly 80% of the Earth's population will live in urban centres. Applying the most conservative estimates to current demographic trends, the human population will increase by about three billion people by then. An estimated 109 hectares of new land (about 20% larger than Brazil) will be needed to grow enough food to feed them, if traditional farming methods continue as they are practised today. At present, throughout the world, over 80% of the land that is suitable for raising crops is in use. Historically, some 15% of that has been laid waste by poor management practices. What can be done to ensure enough food for the world's population to live on?",
+        "mainIdea": "By 2050, population growth will require 109 hectares of new farmland if traditional farming continues, but most suitable land is already in use"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "The concept of indoor farming is not new, since hothouse production of tomatoes and other produce has been in vogue for some time. What is new is the urgent need to scale up this technology to accommodate another three billion people. Many believe an entirely new approach to indoor farming is required, employing cutting-edge technologies. One such proposal is for the 'Vertical Farm'. The concept is of multi-storey buildings in which food crops are grown in environmentally controlled conditions. Situated in the heart of urban centres, they would drastically reduce the amount of transportation required to bring food to consumers. Vertical farms would need to be efficient, cheap to construct and safe to operate. If successfully implemented, proponents claim, vertical farms offer the promise of urban renewal, sustainable production of a safe and varied food supply (through year-round production of all crops), and the eventual repair of ecosystems that have been sacrificed for horizontal farming.",
+        "translation": "The concept of indoor farming is not new, since hothouse production of tomatoes and other produce has been in vogue for some time. What is new is the urgent need to scale up this technology to accommodate another three billion people. Many believe an entirely new approach to indoor farming is required, employing cutting-edge technologies. One such proposal is for the 'Vertical Farm'. The concept is of multi-storey buildings in which food crops are grown in environmentally controlled conditions. Situated in the heart of urban centres, they would drastically reduce the amount of transportation required to bring food to consumers. Vertical farms would need to be efficient, cheap to construct and safe to operate. If successfully implemented, proponents claim, vertical farms offer the promise of urban renewal, sustainable production of a safe and varied food supply (through year-round production of all crops), and the eventual repair of ecosystems that have been sacrificed for horizontal farming.",
+        "mainIdea": "Vertical farms are proposed as a new indoor farming solution using multi-storey buildings in urban centers to produce food year-round and reduce transportation"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "It took humans 10,000 years to learn how to grow most of the crops we now take for granted. Along the way, we despoiled most of the land we worked, often turning verdant, natural ecozones into semi-arid deserts. Within that same time frame, we evolved into an urban species, in which 60% of the human population now lives vertically in cities. This means that, for the majority, we humans have shelter from the elements, yet we subject our food-bearing plants to the rigours of the great outdoors and can do no more than hope for a good weather year. However, more often than not now, due to a rapidly changing climate, that is not what happens. Massive floods, long droughts, hurricanes and severe monsoons take their toll each year, destroying millions of tons of valuable crops.",
+        "translation": "It took humans 10,000 years to learn how to grow most of the crops we now take for granted. Along the way, we despoiled most of the land we worked, often turning verdant, natural ecozones into semi-arid deserts. Within that same time frame, we evolved into an urban species, in which 60% of the human population now lives vertically in cities. This means that, for the majority, we humans have shelter from the elements, yet we subject our food-bearing plants to the rigours of the great outdoors and can do no more than hope for a good weather year. However, more often than not now, due to a rapidly changing climate, that is not what happens. Massive floods, long droughts, hurricanes and severe monsoons take their toll each year, destroying millions of tons of valuable crops.",
+        "mainIdea": "Humans have shelter from weather but subject crops to outdoor conditions, where climate change causes massive crop losses from floods, droughts, and severe weather"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "The supporters of vertical farming claim many potential advantages for the system. For instance, crops would be produced all year round, as they would be kept in artificially controlled, optimum growing conditions. There would be no weather-related crop failures due to droughts, floods or pests. All the food could be grown organically, eliminating the need for herbicides, pesticides and fertilisers. The system would greatly reduce the incidence of many infectious diseases that are acquired at the agricultural interface. Although the system would consume energy, it would return energy to the grid via methane generation from composting nonedible parts of plants. It would also dramatically reduce fossil fuel use, by cutting out the need for tractors, ploughs and shipping.",
+        "translation": "The supporters of vertical farming claim many potential advantages for the system. For instance, crops would be produced all year round, as they would be kept in artificially controlled, optimum growing conditions. There would be no weather-related crop failures due to droughts, floods or pests. All the food could be grown organically, eliminating the need for herbicides, pesticides and fertilisers. The system would greatly reduce the incidence of many infectious diseases that are acquired at the agricultural interface. Although the system would consume energy, it would return energy to the grid via methane generation from composting nonedible parts of plants. It would also dramatically reduce fossil fuel use, by cutting out the need for tractors, ploughs and shipping.",
+        "mainIdea": "Vertical farming offers advantages including year-round production, no weather-related failures, organic growth, disease reduction, and lower fossil fuel use"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "A major drawback of vertical farming, however, is that the plants would require artificial light. Without it, those plants nearest the windows would be exposed to more sunlight and grow more quickly, reducing the efficiency of the system. Single-storey greenhouses have the benefit of natural overhead light; even so, many still need artificial lighting. A multi-storey facility with no natural overhead light would require far more. Generating enough light could be prohibitively expensive, unless cheap, renewable energy is available, and this appears to be rather a future aspiration than a likelihood for the near future.",
+        "translation": "A major drawback of vertical farming, however, is that the plants would require artificial light. Without it, those plants nearest the windows would be exposed to more sunlight and grow more quickly, reducing the efficiency of the system. Single-storey greenhouses have the benefit of natural overhead light; even so, many still need artificial lighting. A multi-storey facility with no natural overhead light would require far more. Generating enough light could be prohibitively expensive, unless cheap, renewable energy is available, and this appears to be rather a future aspiration than a likelihood for the near future.",
+        "mainIdea": "A major drawback of vertical farming is the prohibitively expensive cost of providing artificial light for all plants without cheap renewable energy"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "One variation on vertical farming that has been developed is to grow plants in stacked trays that move on rails. Moving the trays allows the plants to get enough sunlight. This system is already in operation, and works well within a single-storey greenhouse with light reaching it from above: it is not certain, however, that it can be made to work without that overhead natural light.",
+        "translation": "Một biến thể của canh tác theo chiều dọc đã được phát triển là trồng cây trong các khay chồng lên nhau di chuyển trên ray. Di chuyển các khay cho phép cây nhận đủ ánh sáng mặt trời. Hệ thống này đã đang hoạt động và hoạt động tốt trong nhà kính một tầng với ánh sáng chiếu từ phía trên xuống: tuy nhiên, không chắc chắn rằng nó có thể hoạt động mà không có ánh sáng tự nhiên từ trên cao đó.",
+        "mainIdea": "A variation using moving stacked trays works in single-storey greenhouses with overhead light, but may not work in multi-storey buildings"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "Vertical farming is an attempt to address the undoubted problems that we face in producing enough food for a growing population. At the moment, though, more needs to be done to reduce the detrimental impact it would have on the environment, particularly as regards the use of energy. While it is possible that much of our food will be grown in skyscrapers in future, most experts currently believe it is far more likely that we will simply use the space available on urban rooftops.",
+        "translation": "Vertical farming is an attempt to address the undoubted problems that we face in producing enough food for a growing population. At the moment, though, more needs to be done to reduce the detrimental impact it would have on the environment, particularly as regards the use of energy. While it is possible that much of our food will be grown in skyscrapers in future, most experts currently believe it is far more likely that we will simply use the space available on urban rooftops.",
+        "mainIdea": "Vertical farming addresses food production problems but needs to reduce environmental impact, with experts believing urban rooftops are more likely to be used"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Choose the most suitable word to fill in the blanks - Group 1",
+        "wordBank": [
+          "take its toll",
+          "despoil",
+          "construct",
+          "shelter",
+          "proponent",
+          "implement",
+          "evolving",
+          "infectious",
+          "accommodate"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "Working too much can ________ on your health.",
+            "answer": "take its toll",
+            "translation": ""
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Pollution continues to ________ nature.",
+            "answer": "despoil",
+            "translation": ""
+          },
+          {
+            "id": "fib_003",
+            "sentence": "They plan to ________ a new building downtown.",
+            "answer": "construct",
+            "translation": ""
+          },
+          {
+            "id": "fib_004",
+            "sentence": "The ________ helps a lot of homeless people.",
+            "answer": "shelter",
+            "translation": ""
+          },
+          {
+            "id": "fib_005",
+            "sentence": "She really doesn't use plastic bags, she's a ________ of green energy.",
+            "answer": "proponent",
+            "translation": ""
+          },
+          {
+            "id": "fib_006",
+            "sentence": "Let's ________ the new rules now.",
+            "answer": "implement",
+            "translation": ""
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Technology keeps ________ quickly.",
+            "answer": "evolving",
+            "translation": ""
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Laughter is ________ and can cheer anyone up.",
+            "answer": "infectious",
+            "translation": ""
+          },
+          {
+            "id": "fib_009",
+            "sentence": "The hotel can ________ many guests.",
+            "answer": "accommodate",
+            "translation": ""
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Choose the most suitable word to fill in the blanks - Group 2",
+        "wordBank": [
+          "compost",
+          "subject",
+          "aspiration",
+          "tray",
+          "take its toll",
+          "rigour",
+          "scale up",
+          "practice"
+        ],
+        "questions": [
+          {
+            "id": "fib_010",
+            "sentence": "Leftover food (đồ ăn còn thừa) can be used to ________ for plants.",
+            "answer": "compost",
+            "translation": ""
+          },
+          {
+            "id": "fib_011",
+            "sentence": "It is a common ________ in agriculture to apply no artificial fertilizers.",
+            "answer": "practice",
+            "translation": ""
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Being in the sun for too long can ________ on your skin.",
+            "answer": "take its toll",
+            "translation": ""
+          },
+          {
+            "id": "fib_013",
+            "sentence": "Students should learn about different cultures to ________ their knowledge.",
+            "answer": "scale up",
+            "translation": ""
+          },
+          {
+            "id": "fib_014",
+            "sentence": "In restaurants, they usually use a ________ for serving food.",
+            "answer": "tray",
+            "translation": ""
+          },
+          {
+            "id": "fib_015",
+            "sentence": "My ________ is to travel the world.",
+            "answer": "aspiration",
+            "translation": ""
+          },
+          {
+            "id": "fib_016",
+            "sentence": "You need ________ to succeed in your goals.",
+            "answer": "rigour",
+            "translation": ""
+          },
+          {
+            "id": "fib_017",
+            "sentence": "The experiment (thí nghiệm) will ________ one thing to another.",
+            "answer": "subject",
+            "translation": ""
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Choose the most suitable word to fill in the blanks - Group 3",
+        "wordBank": [
+          "scale up",
+          "variations",
+          "optimum",
+          "prohibitively",
+          "detrimental",
+          "stack",
+          "non-edible"
+        ],
+        "questions": [
+          {
+            "id": "fib_018",
+            "sentence": "The company wants to ________ production to meet demand.",
+            "answer": "scale up",
+            "translation": ""
+          },
+          {
+            "id": "fib_019",
+            "sentence": "The luxury car was ________ expensive for most.",
+            "answer": "prohibitively",
+            "translation": ""
+          },
+          {
+            "id": "fib_020",
+            "sentence": "Some plants have fruits that are ________",
+            "answer": "non-edible",
+            "translation": ""
+          },
+          {
+            "id": "fib_021",
+            "sentence": "The ________ temperature for this plant (cây trồng) to grow is 25°C.",
+            "answer": "optimum",
+            "translation": ""
+          },
+          {
+            "id": "fib_022",
+            "sentence": "Smoking is ________ to your health.",
+            "answer": "detrimental",
+            "translation": ""
+          },
+          {
+            "id": "fib_023",
+            "sentence": "Please ________ the chairs after using them.",
+            "answer": "stack",
+            "translation": ""
+          },
+          {
+            "id": "fib_024",
+            "sentence": "There's a lot of ________ in the colors available.",
+            "answer": "variations",
+            "translation": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,7 +3,6 @@
     "unit": "Unit 4",
     "title": "Should we try to bring extinct species back to life?"
   },
-
   "vocabulary": [
     {
       "id": "word_001",
@@ -606,7 +605,6 @@
       }
     }
   ],
-
   "reading": {
     "title": "Should we try to bring extinct species back to life?",
     "paragraphs": [
@@ -651,6 +649,246 @@
         "text": "While the prospect of bringing extinct animals back to life might capture imaginations, it is, of course, far easier to try to save an existing species which is merely threatened with extinction. 'Many of the technologies that people have in mind when they think about de-extinction can be used as a form of \\\"genetic rescue\\\",' explains Shapiro. She prefers to focus the debate on how this emerging technology could be used to fully understand why various species went extinct in the first place, and therefore how we could use it to make genetic modifications which could prevent mass extinctions in the future. 'I would also say there's an incredible moral hazard to not do anything at all,' she continues. 'We know that what we are doing today is not enough, and we have to be willing to take some calculated and measured risks.'",
         "translation": "Mặc dù triển vọng đưa động vật tuyệt chủng trở lại cuộc sống có thể thu hút trí tưởng tượng, tất nhiên, việc cố gắng cứu một loài hiện tại chỉ đang bị đe dọa tuyệt chủng dễ dàng hơn nhiều. 'Nhiều công nghệ mà mọi người nghĩ đến khi họ nghĩ về tái sinh loài tuyệt chủng có thể được sử dụng như một hình thức \\\"cứu hộ di truyền\\\",' Shapiro giải thích. Cô thích tập trung cuộc tranh luận vào cách công nghệ mới nổi này có thể được sử dụng để hiểu đầy đủ tại sao các loài khác nhau tuyệt chủng ngay từ đầu, và do đó chúng ta có thể sử dụng nó như thế nào để thực hiện các sửa đổi di truyền có thể ngăn chặn sự tuyệt chủng hàng loạt trong tương lai. 'Tôi cũng sẽ nói rằng có một rủi ro đạo đức khó tin nếu không làm gì cả,' cô tiếp tục. 'Chúng ta biết rằng những gì chúng ta đang làm hôm nay là chưa đủ, và chúng ta phải sẵn sàng chấp nhận một số rủi ro được tính toán và đo lường.'",
         "mainIdea": "De-extinction technology is better used for genetic rescue and preventing future extinctions"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Fill in the blanks - Group 1",
+        "wordBank": [
+          "flock",
+          "migration",
+          "spectacle",
+          "existence",
+          "specimens",
+          "premise",
+          "cloning",
+          "embryo"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "We saw the extraordinary (bất ngờ, đặc biệt, kì lạ) .................... of an elderly lady climbing a tree to rescue her cat.",
+            "answer": "spectacle",
+            "translation": "Chúng tôi đã thấy cảnh tượng phi thường của một bà lão trèo cây để cứu con mèo của bà."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Could you explain the basic .................... of your opinion?",
+            "answer": "premise",
+            "translation": "Bạn có thể giải thích giả thuyết cơ bản của ý kiến của bạn không?"
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The shepherd (người chăn cừu) is bringing his .................... down from the hills.",
+            "answer": "flock",
+            "translation": "Người chăn cừu đang đưa đàn cừu của mình xuống từ đồi."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "Scientists have long been interested in human .................... .",
+            "answer": "cloning",
+            "translation": "Các nhà khoa học từ lâu đã quan tâm đến việc nhân bản con người."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "He has a collection of rare insect .................... .",
+            "answer": "specimens",
+            "translation": "Anh ấy có một bộ sưu tập mẫu vật côn trùng quý hiếm."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "Between the eighth week of development and birth, a human .................... is called a foetus (bào thai, thai nhi).",
+            "answer": "embryo",
+            "translation": "Giữa tuần thứ tám phát triển và sinh, phôi người được gọi là bào thai."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Scientists track (theo dõi, theo dấu) bird populations and .................... patterns.",
+            "answer": "migration",
+            "translation": "Các nhà khoa học theo dõi quần thể chim và mô hình di cư."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Many people question (đặt câu hỏi, nghi ngờ) the .................... of God.",
+            "answer": "existence",
+            "translation": "Nhiều người đặt câu hỏi về sự tồn tại của Chúa."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Fill in the blanks - Group 2",
+        "wordBank": [
+          "trials",
+          "strive",
+          "carnivores",
+          "occupied",
+          "syndrome",
+          "threatened",
+          "contagious",
+          "pops up"
+        ],
+        "questions": [
+          {
+            "id": "fib_009",
+            "sentence": "I'm fully .................... writing a report.",
+            "answer": "occupied",
+            "translation": "Tôi hoàn toàn bận rộn viết báo cáo."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Instead of using \"try to do sth\", you now can use the phrase \".................... to do sth\" with the same meaning.",
+            "answer": "strive",
+            "translation": "Thay vì sử dụng \"try to do sth\", bây giờ bạn có thể sử dụng cụm từ \"strive to do sth\" với cùng nghĩa."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Lions and tigers are .................... .",
+            "answer": "carnivores",
+            "translation": "Sư tử và hổ là động vật ăn thịt."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "She's one of those movie stars who .................... everywhere, on TV, in magazines, on Broadway.",
+            "answer": "pops up",
+            "translation": "Cô ấy là một trong những ngôi sao điện ảnh xuất hiện khắp nơi, trên TV, trong tạp chí, trên Broadway."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "They .................... the shopkeeper with a gun.",
+            "answer": "threatened",
+            "translation": "Họ đe dọa người bán hàng bằng súng."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "They're doing clinical .................... on a new drug.",
+            "answer": "trials",
+            "translation": "Họ đang thử nghiệm lâm sàng một loại thuốc mới."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "Early diagnosis of the .................... is difficult, but it is important to begin treatment as soon as possible.",
+            "answer": "syndrome",
+            "translation": "Chẩn đoán sớm hội chứng là khó khăn, nhưng việc bắt đầu điều trị càng sớm càng tốt là quan trọng."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "Fear is .................... .",
+            "answer": "contagious",
+            "translation": "Sợ hãi dễ lây lan."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Fill in the blanks - Group 3",
+        "wordBank": [
+          "burned out",
+          "reverse",
+          "identical",
+          "template",
+          "hybrid",
+          "outcome",
+          "breeding"
+        ],
+        "questions": [
+          {
+            "id": "fib_017",
+            "sentence": "We have to do something to .................... the trend of people moving away to seek work.",
+            "answer": "reverse",
+            "translation": "Chúng ta phải làm gì đó để đảo ngược xu hướng người ta di chuyển đi để tìm việc."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "The two rooms were completely .................... .",
+            "answer": "identical",
+            "translation": "Hai căn phòng hoàn toàn giống hệt nhau."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "His main income comes from .................... cattle.",
+            "answer": "breeding",
+            "translation": "Thu nhập chính của anh ấy đến từ việc chăn nuôi gia súc."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "We used the structure of his report as the .................... for ours.",
+            "answer": "template",
+            "translation": "Chúng tôi đã sử dụng cấu trúc báo cáo của anh ấy làm mẫu cho báo cáo của chúng tôi."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "When we lost power, many refrigerators and air conditioners .................... .",
+            "answer": "burned out",
+            "translation": "Khi mất điện, nhiều tủ lạnh và máy điều hòa bị hỏng."
+          },
+          {
+            "id": "fib_022",
+            "sentence": "The animal looks like a .................... of a zebra and a horse.",
+            "answer": "hybrid",
+            "translation": "Con vật trông giống như con lai của ngựa vằn và ngựa."
+          },
+          {
+            "id": "fib_023",
+            "sentence": "It's too early to predict the .................... of the meeting.",
+            "answer": "outcome",
+            "translation": "Còn quá sớm để dự đoán kết quả của cuộc họp."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "title": "Task 2: Fill in the blanks - Group 4",
+        "wordBank": [
+          "regenerate",
+          "thrived",
+          "disturbance",
+          "pinpoint",
+          "preserve",
+          "mitigate"
+        ],
+        "questions": [
+          {
+            "id": "fib_024",
+            "sentence": "His business .................... in the years before the war.",
+            "answer": "thrived",
+            "translation": "Việc kinh doanh của anh ấy phát triển mạnh trong những năm trước chiến tranh."
+          },
+          {
+            "id": "fib_025",
+            "sentence": "We want to .................... the character (đặc điểm đặc sắc, riêng biệt) of the town while improving the facilities.",
+            "answer": "preserve",
+            "translation": "Chúng tôi muốn bảo tồn đặc điểm của thị trấn trong khi cải thiện cơ sở vật chất."
+          },
+          {
+            "id": "fib_026",
+            "sentence": "His girlfriend was also arrested (bị bắt giữ) for causing a .................... .",
+            "answer": "disturbance",
+            "translation": "Bạn gái của anh ấy cũng bị bắt vì gây rối."
+          },
+          {
+            "id": "fib_027",
+            "sentence": "It is unclear how to .................... the effects of tourism on the island.",
+            "answer": "mitigate",
+            "translation": "Không rõ làm thế nào để giảm nhẹ tác động của du lịch trên đảo."
+          },
+          {
+            "id": "fib_028",
+            "sentence": "A lizard can .................... its tail.",
+            "answer": "regenerate",
+            "translation": "Một con thằn lằn có thể tái sinh đuôi của nó."
+          },
+          {
+            "id": "fib_029",
+            "sentence": "Emergency workers at the site are still unable to .................... the cause of the explosion.",
+            "answer": "pinpoint",
+            "translation": "Nhân viên cứu hộ tại hiện trường vẫn không thể xác định chính xác nguyên nhân của vụ nổ."
+          }
+        ]
       }
     ]
   }

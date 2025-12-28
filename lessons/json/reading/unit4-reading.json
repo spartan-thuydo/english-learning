@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "unit": "Unit 4",
+    "title": "SEARCHING FOR NEW MEDICINES"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Disease",
+      "pronunciation": "/ˈdɪˌziːz/",
+      "pos": "n",
+      "meaning": "bệnh tật",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Constantly",
+      "pronunciation": "/ˈkɒn.stənt.li/",
+      "pos": "adv",
+      "meaning": "liên tục",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Cure",
+      "pronunciation": "/kjʊr/",
+      "pos": "n,v",
+      "meaning": "sự chữa trị/chữa trị",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Common",
+      "pronunciation": "/ˈkɒm.ən/",
+      "pos": "adj",
+      "meaning": "phổ biến",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Miracle",
+      "pronunciation": "/ˈmɪr.ə.kl̩/",
+      "pos": "n",
+      "meaning": "phép màu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Fortunate",
+      "pronunciation": "/ˈfɔː.tʃə.nət/",
+      "pos": "adj",
+      "meaning": "may mắn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Convince",
+      "pronunciation": "/kənˈvɪns/",
+      "pos": "v",
+      "meaning": "thuyết phục",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Religion",
+      "pronunciation": "/rɪˈlɪdʒ.ən/",
+      "pos": "n",
+      "meaning": "tôn giáo",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Powder",
+      "pronunciation": "/ˈpaʊ.dər/",
+      "pos": "n",
+      "meaning": "bột",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Bark",
+      "pronunciation": "/bɑːk/",
+      "pos": "n",
+      "meaning": "vỏ cây",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Ingredient",
+      "pronunciation": "/ɪnˈɡriː.di.ənt/",
+      "pos": "n",
+      "meaning": "thành phần",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Ancient",
+      "pronunciation": "/ˈeɪn.ʃənt/",
+      "pos": "adj",
+      "meaning": "cổ xưa",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Fever",
+      "pronunciation": "/ˈfiː.vər/",
+      "pos": "n",
+      "meaning": "cơn sốt",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Collect",
+      "pronunciation": "/kəˈlek.t/",
+      "pos": "v",
+      "meaning": "thu thập",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Sample",
+      "pronunciation": "/ˈsæm.pəl/",
+      "pos": "n",
+      "meaning": "mẫu, hàng mẫu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Contain",
+      "pronunciation": "/kənˈteɪnd/",
+      "pos": "v",
+      "meaning": "chứa đựng",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Mixture",
+      "pronunciation": "/ˈmɪks.tʃər/",
+      "pos": "n",
+      "meaning": "hỗn hợp",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Treat",
+      "pronunciation": "/triːt/",
+      "pos": "v",
+      "meaning": "điều trị",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Widely",
+      "pronunciation": "/ˈwaɪd.li/",
+      "pos": "adv",
+      "meaning": "rộng rãi",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Tablet",
+      "pronunciation": "/ˈtæb.lət/",
+      "pos": "n",
+      "meaning": "viên thuốc",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Growth",
+      "pronunciation": "/ɡrəʊθ/",
+      "pos": "n",
+      "meaning": "sự phát triển",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Certain",
+      "pronunciation": "/ˈsɜː.tən/",
+      "pos": "adj",
+      "meaning": "một vài cái nhất định",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Priority",
+      "pronunciation": "/prɪˈɒr.ɪ.ti/",
+      "pos": "n",
+      "meaning": "sự ưu tiên",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Destroy",
+      "pronunciation": "/dɪˈstrɔɪ/",
+      "pos": "v",
+      "meaning": "phá hủy",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Fear",
+      "pronunciation": "/fɪər/",
+      "pos": "n,v",
+      "meaning": "nỗi sợ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Village",
+      "pronunciation": "/ˈvɪl.ɪdʒ/",
+      "pos": "n",
+      "meaning": "làng mạc",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Native",
+      "pronunciation": "/ˈneɪ.tɪv/",
+      "pos": "adj",
+      "meaning": "bản địa",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_028",
+      "word": "Disappear",
+      "pronunciation": "/ˌdɪs.əˈpɪər/",
+      "pos": "v",
+      "meaning": "biến mất",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_029",
+      "word": "Translator",
+      "pronunciation": "/trænsˈleɪ.tər/",
+      "pos": "n",
+      "meaning": "người dịch",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_030",
+      "word": "Send sb into",
+      "pronunciation": "/sɛnd ˈɪntuː/",
+      "pos": "v",
+      "meaning": "gửi ai đến đâu đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_031",
+      "word": "Rainforest",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "rừng mưa nhiệt đới",
+      "definition": "",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "SEARCHING FOR NEW MEDICINES",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "Over time new diseases develop that cannot be cured with the medicines we have. Also many medicines, that once cured common diseases, sometimes lose their power to cure. For these reasons, modern drug companies are constantly looking for new medicines, to help doctors cure both new and common diseases. One place that drug companies are looking is in the rainforests of the world. Scientists believe that new plants from the rainforests or simple medicines from rainforest peoples, might be sources for future miracle drugs.",
+        "translation": "",
+        "mainIdea": "Modern drug companies constantly search for new medicines in rainforests because diseases evolve and old medicines lose effectiveness"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "Four hundred years ago, just such a miracle drug was found to cure malaria. In 1633, a fortunate event happened. A Spanish priest was sent to Peru. He wanted to convince local people there to follow his religion. While he was teaching, however, he learned something. The village healer, the only doctor the people had ever known, was making a powder from the bark of the cinchona tree. He used this powder to cure malaria. The priest brought some of this miracle powder home to Europe, where malaria was a serious disease at the time. Europeans began using the bark to cure malaria. Soon Europeans started to do overseas searches for sources of the tree bark. After many years, scientists found out about the ingredient in the tree bark that cured malaria. It was quinine. By 1827, quinine was commercially produced and became the main treatment for malaria throughout the world. By the 1960s, however, quinine's ability to kill the malaria parasite had declined, because the parasite was becoming resistant to it.",
+        "translation": "",
+        "mainIdea": "A Spanish priest discovered cinchona bark cured malaria in Peru, leading to quinine production, but its effectiveness declined by the 1960s"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "About this time, another fortunate event occurred. Scientists in China were digging up ancient cities. One city was a place, where people had lived 2,000 years earlier. The scientists found that the ancient people had used a plant, called wormwood, to cure fevers. Scientists collected living samples of the plant to test. They found that wormwood contained Artemisinin. This chemical killed malaria parasites. Today, Artemisinin is used in various mixtures with other drugs, such as Artemisinin Combination Therapy, or ACT) to treat people who have malaria.",
+        "translation": "",
+        "mainIdea": "Chinese scientists discovered ancient wormwood contained Artemisinin, which kills malaria parasites and is now used in ACT treatment"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "Aspirin is another ancient medicine. Its history dates back over 2,000 years, when ancient Greek doctors made tea from willow bark, to reduce pain and lower fever. People continued to use willow bark as a home remedy for centuries. Modern scientists identified salicylic acid, as the special ingredient in the bark, that reduce pain and fever. Soon, drug companies were making aspirin tablets containing salicylic acid. Today, aspirin is one of the most widely used drugs in the world. Around 100 billion aspirin tablets are produced each year.",
+        "translation": "",
+        "mainIdea": "Aspirin originated from ancient Greek willow bark remedies, and is now one of the world's most widely used drugs with 100 billion tablets produced yearly"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "Not all medical histories are centuries old. The story of taxol is an example of how miracle drugs are still being found in the world's forests. In 1966, scientists discovered a powerful chemical in the bark of the Pacific yew tree. This chemical could stop cell growth. They believed it would be useful in treating the unnatural cell growth of cancer. Soon, Taxol was being used in intensive treatments for certain kinds of cancer. Scientists think that many medicines may still be hidden in the rainforests of the world. As a result, over 100 companies that make drugs are searching for new rainforest plants and testing them for possible medical use.",
+        "translation": "",
+        "mainIdea": "Taxol discovered in Pacific yew tree bark in 1966 treats cancer by stopping cell growth, showing miracle drugs are still being found"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "Unfortunately, access to these rainforest plants is quickly disappearing. Logging companies are cutting down the rainforest trees and selling the wood. Commercial developers are clearing the land for houses, farms, towns, and roads. Clearly, the priorities of the scientists conflict with the priorities of the business people. The scientists want time to find plants that might cure diseases. The business people want to make money from the plants that grow there. Experts believe that about 50,000 species of plants, animals, and insects disappear every year because rainforests are being destroyed. Scientists fear that when rainforest species disappear, many possible cures for diseases will disappear with them. They also fear that when rainforests disappear, the villages of native people, who live there, will also disappear. When the people leave, their healers also leave. These practitioners are the only individuals, who know the secrets of healing sick people, with forest plants.",
+        "translation": "",
+        "mainIdea": "Rainforest destruction by logging and development causes 50,000 species to disappear yearly, threatening potential disease cures and native healing knowledge"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "In fact, most modern drugs made from plants came from simple cures that village healers created from nearby plants. As a result, modern drug companies are sending scientists, together with local translators, to work cooperatively with these village healers, to learn their secrets, before those secrets are lost forever. Drug companies are also sending teams of workers into the rainforests to gather plants to test. If company scientists find a useful cure in a plant they test, they will identify the chemicals in the plant. Then, the company can produce a medicine that is chemically the same. Before rainforests disappear completely, scientists want to gather as many medical secrets as possible. Soon, however, it may be too late to learn the rainforest's secrets!",
+        "translation": "",
+        "mainIdea": "Drug companies work with village healers to learn plant medicine secrets before rainforests and traditional knowledge disappear forever"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Group 1",
+        "wordBank": [
+          "disease",
+          "constantly",
+          "cure",
+          "common",
+          "miracle",
+          "fortunate",
+          "convince",
+          "religion"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "He checks his phone __________. He is addicted (nghiện) to his phone",
+            "answer": "constantly",
+            "translation": ""
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Doctors want to find a __________ for his disease.",
+            "answer": "cure",
+            "translation": ""
+          },
+          {
+            "id": "fib_003",
+            "sentence": "Feeling tired after work is normal and __________. Everybody does.",
+            "answer": "common",
+            "translation": ""
+          },
+          {
+            "id": "fib_004",
+            "sentence": "It was hard to __________ him to try new food. He is very picky (kén chọn)",
+            "answer": "convince",
+            "translation": ""
+          },
+          {
+            "id": "fib_005",
+            "sentence": "People find comfort in their __________, mine is in the buddha (phật giáo)",
+            "answer": "religion",
+            "translation": ""
+          },
+          {
+            "id": "fib_006",
+            "sentence": "Malaria is a dangerous __________. It kills millions of people every year.",
+            "answer": "disease",
+            "translation": ""
+          },
+          {
+            "id": "fib_007",
+            "sentence": "I feel __________ to have good friends like you all.",
+            "answer": "fortunate",
+            "translation": ""
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Seeing him being able to walk again is like a __________.",
+            "answer": "miracle",
+            "translation": ""
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Group 2",
+        "wordBank": [
+          "ingredient",
+          "ancient",
+          "fever",
+          "collect",
+          "sample",
+          "contain",
+          "mixture",
+          "treat"
+        ],
+        "questions": [
+          {
+            "id": "fib_009",
+            "sentence": "How much water do you think this bottle can __________?",
+            "answer": "contain",
+            "translation": ""
+          },
+          {
+            "id": "fib_010",
+            "sentence": "When you're hot and shaky (run rẩy), you might have a __________.",
+            "answer": "fever",
+            "translation": ""
+          },
+          {
+            "id": "fib_011",
+            "sentence": "Mix red and blue to make a __________ of colors.",
+            "answer": "mixture",
+            "translation": ""
+          },
+          {
+            "id": "fib_012",
+            "sentence": "Let's go to the supermarket to find some __________ for our dinner tonight.",
+            "answer": "ingredient",
+            "translation": ""
+          },
+          {
+            "id": "fib_013",
+            "sentence": "I like to _______ books of Harry Potter, they are my favorite.",
+            "answer": "collect",
+            "translation": ""
+          },
+          {
+            "id": "fib_014",
+            "sentence": "The doctor will help __________ you if you're sick.",
+            "answer": "treat",
+            "translation": ""
+          },
+          {
+            "id": "fib_015",
+            "sentence": "They found an old __________ object in the sand. They might be 1000 years old",
+            "answer": "ancient",
+            "translation": ""
+          },
+          {
+            "id": "fib_016",
+            "sentence": "You only give customers a small ________to try, don't use the large one.",
+            "answer": "sample",
+            "translation": ""
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Group 3",
+        "wordBank": [
+          "growth",
+          "priority",
+          "destroyed",
+          "village",
+          "native",
+          "certain",
+          "powder",
+          "bark",
+          "widely",
+          "tablet",
+          "disappeared",
+          "translator"
+        ],
+        "questions": [
+          {
+            "id": "fib_017",
+            "sentence": "The earthquake (động đất) __________ the buildings completely.",
+            "answer": "destroyed",
+            "translation": ""
+          },
+          {
+            "id": "fib_018",
+            "sentence": "I like football to a __________ extent (mức độ). But not so much.",
+            "answer": "certain",
+            "translation": ""
+          },
+          {
+            "id": "fib_019",
+            "sentence": "A small town is called a __________.",
+            "answer": "village",
+            "translation": ""
+          },
+          {
+            "id": "fib_020",
+            "sentence": "Safety comes first. It is a __________.",
+            "answer": "priority",
+            "translation": ""
+          },
+          {
+            "id": "fib_021",
+            "sentence": "The plant's __________ was really fast. We took care of it well.",
+            "answer": "growth",
+            "translation": ""
+          },
+          {
+            "id": "fib_022",
+            "sentence": "They've lived here for years; they're __________ people.",
+            "answer": "native",
+            "translation": ""
+          },
+          {
+            "id": "fib_023",
+            "sentence": "This dish (món ăn) needs a bit of chili (ớt) __________ for a better flavor.",
+            "answer": "powder",
+            "translation": ""
+          },
+          {
+            "id": "fib_024",
+            "sentence": "She took a small __________ of aspirin for her headache (Cơn đau đầu).",
+            "answer": "tablet",
+            "translation": ""
+          },
+          {
+            "id": "fib_025",
+            "sentence": "English is spoken __________ around the world.",
+            "answer": "widely",
+            "translation": ""
+          },
+          {
+            "id": "fib_026",
+            "sentence": "They hired a __________ to help them translate Japanese and Chinese.",
+            "answer": "translator",
+            "translation": ""
+          },
+          {
+            "id": "fib_027",
+            "sentence": "Just like that, she __________ and never returned. We really miss her.",
+            "answer": "disappeared",
+            "translation": ""
+          },
+          {
+            "id": "fib_028",
+            "sentence": "Cinnamon (quế) is actually made from the __________ of the cinnamon tree.",
+            "answer": "bark",
+            "translation": ""
+          }
+        ]
+      }
+    ]
+  }
+}

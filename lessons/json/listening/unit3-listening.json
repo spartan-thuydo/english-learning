@@ -10,7 +10,8 @@
       "meaning": "tham gia vào cái gì đó",
       "definition": "tham gia vào cái gì đó",
       "id": "word_001",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Involve sth",
@@ -18,7 +19,8 @@
       "meaning": "to include someone or something in an activity:",
       "definition": "to include someone or something in an activity:",
       "id": "word_002",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Commitment",
@@ -26,7 +28,8 @@
       "meaning": "sự cam kết",
       "definition": "sự cam kết",
       "id": "word_003",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Give up sth",
@@ -34,7 +37,8 @@
       "meaning": "từ bỏ cái gì đó",
       "definition": "từ bỏ cái gì đó",
       "id": "word_004",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Get back to work",
@@ -42,7 +46,8 @@
       "meaning": "Quay trở lại làm việc",
       "definition": "Quay trở lại làm việc",
       "id": "word_005",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Get your hands dirty",
@@ -50,7 +55,8 @@
       "meaning": "làm công việc chân tay/ làm các việc khó khăn",
       "definition": "làm công việc chân tay/ làm các việc khó khăn",
       "id": "word_006",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Job applicants",
@@ -58,7 +64,8 @@
       "meaning": "ứng viên",
       "definition": "ứng viên",
       "id": "word_007",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Feel valued by other people",
@@ -66,7 +73,8 @@
       "meaning": "cảm thấy được ghi nhận bởi mọi người",
       "definition": "cảm thấy được ghi nhận bởi mọi người",
       "id": "word_008",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Potential customers",
@@ -74,7 +82,8 @@
       "meaning": "khách hàng tiềm năng",
       "definition": "khách hàng tiềm năng",
       "id": "word_009",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "A conservation project",
@@ -82,7 +91,8 @@
       "meaning": "dự án bảo tồn",
       "definition": "dự án bảo tồn",
       "id": "word_010",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Fancy doing sth",
@@ -90,7 +100,8 @@
       "meaning": "to want to do something",
       "definition": "to want to do something",
       "id": "word_011",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Keep up with sth",
@@ -98,7 +109,8 @@
       "meaning": "to do whatever is necessary to stay level or equal with someone or something",
       "definition": "to do whatever is necessary to stay level or equal with someone or something",
       "id": "word_012",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Host an event",
@@ -106,15 +118,17 @@
       "meaning": "to provide the space and other things necessary for a special event",
       "definition": "to provide the space and other things necessary for a special event",
       "id": "word_013",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Section",
-      "pronunciation": "",
+      "pronunciation": "/ˈsɛkʃən/",
       "meaning": "one of the parts that something is divided into",
       "definition": "one of the parts that something is divided into",
       "id": "word_014",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     },
     {
       "word": "Complete the form",
@@ -122,7 +136,8 @@
       "meaning": "hoàn thành mẫu đơn",
       "definition": "hoàn thành mẫu đơn",
       "id": "word_015",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Provide training",
@@ -130,15 +145,17 @@
       "meaning": "cung cấp đào tạo",
       "definition": "cung cấp đào tạo",
       "id": "word_016",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Tablet",
-      "pronunciation": "",
+      "pronunciation": "/ˈtæblət/",
       "meaning": "máy tính bảng",
       "definition": "máy tính bảng",
       "id": "word_017",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     },
     {
       "word": "Suite",
@@ -146,7 +163,8 @@
       "meaning": "a set of rooms",
       "definition": "a set of rooms",
       "id": "word_018",
-      "exampleSimple": ""
+      "exampleSimple": "the ambassador's suite",
+      "pos": "noun"
     },
     {
       "word": "Pair",
@@ -154,7 +172,8 @@
       "meaning": "nhóm, đôi, ghép nhóm",
       "definition": "nhóm, đôi, ghép nhóm",
       "id": "word_019",
-      "exampleSimple": ""
+      "exampleSimple": "The wedding guests were paired boy/girl and groom's party/bride's party.",
+      "pos": "verb"
     },
     {
       "word": "Tend to do something",
@@ -162,15 +181,17 @@
       "meaning": "có xu hướng làm gì đó",
       "definition": "có xu hướng làm gì đó",
       "id": "word_020",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Outdated",
-      "pronunciation": "",
+      "pronunciation": "/aʊtˈdeɪtɪd/",
       "meaning": "lỗi thời",
       "definition": "lỗi thời",
       "id": "word_021",
-      "exampleSimple": ""
+      "exampleSimple": "His outdated wordprocessing software could not read the files I sent.",
+      "pos": "adjective"
     },
     {
       "word": "Be keen to do something",
@@ -178,15 +199,17 @@
       "meaning": "thích làm gì đó",
       "definition": "thích làm gì đó",
       "id": "word_022",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Dismissive",
-      "pronunciation": "",
+      "pronunciation": "/dɪsˈmɪs.ɪv/",
       "meaning": "thái độ miễn cường, lơ đi, không thích, không để ý",
       "definition": "thái độ miễn cường, lơ đi, không thích, không để ý",
       "id": "word_023",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "adjective"
     },
     {
       "word": "A form of communication",
@@ -194,7 +217,8 @@
       "meaning": "hình thức giao tiếp",
       "definition": "hình thức giao tiếp",
       "id": "word_024",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Keep your brain active",
@@ -202,7 +226,8 @@
       "meaning": "giữ cho trí não hoạt động",
       "definition": "giữ cho trí não hoạt động",
       "id": "word_025",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Order groceries online",
@@ -210,7 +235,8 @@
       "meaning": "order hàng tạp hóa",
       "definition": "order hàng tạp hóa",
       "id": "word_026",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Come in handy",
@@ -218,7 +244,8 @@
       "meaning": "hữu ích, có ích",
       "definition": "hữu ích, có ích",
       "id": "word_027",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     }
   ],
   "fillInTheBlanks": {

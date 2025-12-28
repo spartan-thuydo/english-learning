@@ -1,0 +1,517 @@
+{
+  "metadata": {
+    "unit": "Unit 4",
+    "title": "What's in a Name?"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Strategy",
+      "pronunciation": "/ˈstrætədʒi/",
+      "pos": "n",
+      "meaning": "chiến lược",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Packaging",
+      "pronunciation": "/ˈpækɪdʒɪŋ/",
+      "pos": "n",
+      "meaning": "việc đóng gói",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Complex",
+      "pronunciation": "/ˈkɒmplɛks/",
+      "pos": "adj",
+      "meaning": "phức tạp",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Invoke",
+      "pronunciation": "/ɪnˈvoʊk/",
+      "pos": "v",
+      "meaning": "gợi lên",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_005",
+      "word": "Pronounce",
+      "pronunciation": "/prəˈnaʊns/",
+      "pos": "v",
+      "meaning": "phát âm",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Consultant",
+      "pronunciation": "/kənˈsʌltənt/",
+      "pos": "n",
+      "meaning": "tư vấn viên, người tư vấn",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Syllable",
+      "pronunciation": "/ˈsɪləbəl/",
+      "pos": "n",
+      "meaning": "âm tiết",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Length",
+      "pronunciation": "/lɛŋθ/",
+      "pos": "n",
+      "meaning": "độ dài",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_009",
+      "word": "Factor",
+      "pronunciation": "/ˈfæktər/",
+      "pos": "n",
+      "meaning": "yếu tố",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Confuse",
+      "pronunciation": "/kənˈfjuz/",
+      "pos": "v",
+      "meaning": "bối rối",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_011",
+      "word": "Hint",
+      "pronunciation": "/hɪnt/",
+      "pos": "v",
+      "meaning": "ngụ ý",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_012",
+      "word": "Medication",
+      "pronunciation": "/ˌmɛdəˈkeɪʃən/",
+      "pos": "n",
+      "meaning": "thuốc",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Represent sth",
+      "pronunciation": "/ˌrɛprɪˈzɛnt/",
+      "pos": "v",
+      "meaning": "đại diện cho cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Sound",
+      "pronunciation": "/saʊnd/",
+      "pos": "v",
+      "meaning": "nghe có vẻ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Descriptive",
+      "pronunciation": "/dɪˈskrɪptɪv/",
+      "pos": "adj",
+      "meaning": "mang tính mô tả",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Bandage",
+      "pronunciation": "/ˈbændɪdʒ/",
+      "pos": "n",
+      "meaning": "băng cá nhân",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Aim at sth",
+      "pronunciation": "/eɪm æt/",
+      "pos": "v",
+      "meaning": "hướng đến cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Associate A with B",
+      "pronunciation": "/əˈsoʊsiˌeɪt wɪð/",
+      "pos": "v",
+      "meaning": "liên hệ A với B",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_019",
+      "word": "Sex",
+      "pronunciation": "/sɛks/",
+      "pos": "n",
+      "meaning": "giới tính",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Feminine",
+      "pronunciation": "/ˈfɛmənɪn/",
+      "pos": "adj",
+      "meaning": "thuộc về giới tính nữ",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_021",
+      "word": "Export",
+      "pronunciation": "/ɪkˈspɔrt/",
+      "pos": "v",
+      "meaning": "xuất khẩu",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_022",
+      "word": "Mind",
+      "pronunciation": "/maɪnd/",
+      "pos": "n",
+      "meaning": "tâm trí",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Implicit",
+      "pronunciation": "/ɪmˈplɪsɪt/",
+      "pos": "adj",
+      "meaning": "mang tính ẩn ý",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Explicit",
+      "pronunciation": "/ɪkˈsplɪsɪt/",
+      "pos": "adj",
+      "meaning": "mang tính rõ ràng",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_025",
+      "word": "Hire",
+      "pronunciation": "/haɪr/",
+      "pos": "v",
+      "meaning": "thuê",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Specialize in",
+      "pronunciation": "/ˈspɛʃəˌlaɪz ɪn/",
+      "pos": "v",
+      "meaning": "chuyên về cái gì đó",
+      "definition": "",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_027",
+      "word": "Principle",
+      "pronunciation": "/ˈprɪnsəpəl/",
+      "pos": "n",
+      "meaning": "nguyên tắc",
+      "definition": "",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "What's in a Name?",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "One of the most important tasks in marketing a new product is giving it a name. When talking about marketing, the quality of a product is not as important as the quality of the name it is given. This is because marketing is not about the product; it is about selling the product. Marketers use strategies such as attractive packaging, catchy slogans, and other ways to encourage consumers to buy their product. The most powerful marketing strategy; however, is giving a product a powerful name.",
+        "translation": "Một trong những nhiệm vụ quan trọng nhất trong việc tiếp thị một sản phẩm mới là đặt tên cho nó. Khi nói về tiếp thị, chất lượng của sản phẩm không quan trọng bằng chất lượng của cái tên được đặt cho nó. Điều này là vì tiếp thị không phải về sản phẩm; mà về việc bán sản phẩm. Các nhà tiếp thị sử dụng các chiến lược như bao bì hấp dẫn, khẩu hiệu hấp dẫn và các cách khác để khuyến khích người tiêu dùng mua sản phẩm của họ. Tuy nhiên, chiến lược tiếp thị mạnh mẽ nhất là đặt cho sản phẩm một cái tên mạnh mẽ.",
+        "mainIdea": "Đặt tên sản phẩm mạnh mẽ là chiến lược tiếp thị quan trọng nhất, quan trọng hơn chất lượng sản phẩm"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "To be powerful, the name must be easy to remember. In the early days of computers, there were several competing brands on the market, including Apple Il, Commodore Pet. IMSAI So8o, MITS Altair 8080, and Radio Shack TRS-80. In those days, most buyers knew very little about computers, so they were not able to judge the quality of one over the other. As a result, they rejected the computers with complex names. Instead, they chose the brands that invoked familiar ideas. They chose, of course, the Apple Il.",
+        "translation": "Để mạnh mẽ, cái tên phải dễ nhớ. Trong những ngày đầu của máy tính, có một số thương hiệu cạnh tranh trên thị trường, bao gồm Apple Il, Commodore Pet, IMSAI So8o, MITS Altair 8080 và Radio Shack TRS-80. Vào thời đó, hầu hết người mua biết rất ít về máy tính, vì vậy họ không thể đánh giá chất lượng của cái này so với cái kia. Kết quả là họ đã từ chối những máy tính có tên phức tạp. Thay vào đó, họ chọn những thương hiệu gợi lên những ý tưởng quen thuộc. Tất nhiên, họ đã chọn Apple Il.",
+        "mainIdea": "Tên sản phẩm phải dễ nhớ; người mua chọn Apple II thay vì tên máy tính phức tạp vì nó gợi lên ý tưởng quen thuộc"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "The name must also be easy to pronounce. If customers can't pronounce the name of a product, they won't buy it. A short name is easier to remember and to pronounce. According to research done by Strategic Name Development consultants, the best names have three or fewer syllables, such as Tums (antacid tablets), Xerox (copiers), or Cheerios (cereal). Many well-known names are longer, of course, such as Energizer (batteries) and Coca Cola (soft drinks), so length is not the only factor.",
+        "translation": "Cái tên cũng phải dễ phát âm. Nếu khách hàng không thể phát âm tên sản phẩm, họ sẽ không mua nó. Một cái tên ngắn dễ nhớ và dễ phát âm hơn. Theo nghiên cứu của các chuyên gia tư vấn Strategic Name Development, những cái tên tốt nhất có ba âm tiết trở xuống, chẳng hạn như Tums (viên thuốc kháng axit), Xerox (máy photocopy) hoặc Cheerios (ngũ cốc). Nhiều tên nổi tiếng dài hơn, tất nhiên, chẳng hạn như Energizer (pin) và Coca Cola (nước ngọt), vì vậy độ dài không phải là yếu tố duy nhất.",
+        "mainIdea": "Tên sản phẩm nên dễ phát âm, lý tưởng là có ba âm tiết trở xuống, mặc dù độ dài không phải yếu tố duy nhất"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "A product name should be unique. It shouldn't sound like the name of any other product, especially a competing product. Shoppers tend to confuse Breyer's Ice Cream with Dreyer's lce Cream and Rolex (watches) with Rolodex (desk indexes), for example.",
+        "translation": "Tên sản phẩm nên là duy nhất. Nó không nên nghe giống như tên của bất kỳ sản phẩm nào khác, đặc biệt là sản phẩm cạnh tranh. Ví dụ, người mua sắm có xu hướng nhầm lẫn kem Breyer với kem Dreyer và đồng hồ Rolex với bảng chỉ mục Rolodex.",
+        "mainIdea": "Tên sản phẩm phải độc đáo để tránh nhầm lẫn với sản phẩm cạnh tranh"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "In addition, an effective name should hint at what the product is used for. For example. Sleepeez is a sleeping medication and Windex is a window cleaner. A name should also be appropriate for the type of product it represents. Names of medicines should sound medical, names of foods should sound tasty: and names of domestic cleaning products should sound hard-working.",
+        "translation": "Ngoài ra, một cái tên hiệu quả nên gợi ý về công dụng của sản phẩm. Ví dụ, Sleepeez là thuốc ngủ và Windex là chất tẩy rửa cửa sổ. Một cái tên cũng nên phù hợp với loại sản phẩm mà nó đại diện. Tên thuốc nên nghe có vẻ y tế, tên thực phẩm nên nghe có vẻ ngon và tên sản phẩm làm sạch gia dụng nên nghe có vẻ chăm chỉ.",
+        "mainIdea": "Tên hiệu quả gợi ý công dụng sản phẩm và phù hợp với loại sản phẩm của chúng"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "An effective name also includes words, or parts of words that are positive and inviting. Sometimes, the product name sounds like another descriptive word that has a positive meaning. The pain reliever Aleve, for example. It sounds like \"relieve\". Band-Aid (a small plastic bandage) includes the word \"aid\". Frequently names of products aimed at high-income consumers usually advertise luxury. Consider the names of these cruise ship companies: Crystal, Princess. Royal Caribbean. And Celebrity.",
+        "translation": "Một cái tên hiệu quả cũng bao gồm các từ hoặc phần của từ mang tính tích cực và hấp dẫn. Đôi khi, tên sản phẩm nghe giống như một từ mô tả khác có ý nghĩa tích cực. Ví dụ, thuốc giảm đau Aleve nghe giống như \"relieve\" (làm dịu). Band-Aid (băng dán nhỏ bằng nhựa) bao gồm từ \"aid\" (trợ giúp). Thường xuyên tên của các sản phẩm nhắm đến người tiêu dùng thu nhập cao thường quảng cáo sự xa xỉ. Hãy xem xét tên của các công ty tàu du lịch này: Crystal, Princess, Royal Caribbean và Celebrity.",
+        "mainIdea": "Tên hiệu quả bao gồm từ và âm thanh tích cực; sản phẩm xa xỉ sử dụng tên quảng cáo sự xa xỉ"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "The letters within names are important, too. A survey administered by the above consultants asked English speakers about their reactions to various letters of the alphabet. The results showed that people associate the letters C, S, and B with something traditional, but associate the letters Q V. X, and Z with something innovative. Additionally people in the survey associated certain letters with one sex or the other. They considered the letters F, L, V, and W feminine, but the letters M, X, and Z masculine. It is not clear how those surveyed might react to the automobile names Volvo, Mazda, or Lexus.",
+        "translation": "Các chữ cái trong tên cũng quan trọng. Một cuộc khảo sát do các chuyên gia tư vấn nêu trên tiến hành đã hỏi những người nói tiếng Anh về phản ứng của họ với các chữ cái khác nhau trong bảng chữ cái. Kết quả cho thấy mọi người liên tưởng các chữ cái C, S và B với một cái gì đó truyền thống, nhưng liên tưởng các chữ cái Q, V, X và Z với một cái gì đó sáng tạo. Ngoài ra, những người được khảo sát liên tưởng một số chữ cái với một giới tính này hay giới tính khác. Họ cho rằng các chữ cái F, L, V và W mang tính nữ, nhưng các chữ cái M, X và Z mang tính nam. Không rõ những người được khảo sát sẽ phản ứng thế nào với tên xe ô tô Volvo, Mazda hoặc Lexus.",
+        "mainIdea": "Các chữ cái trong tên quan trọng; một số chữ cái được liên tưởng với truyền thống, đổi mới hoặc giới tính"
+      },
+      {
+        "id": "para_h",
+        "label": "H",
+        "text": "Marketers must also consider how a product name will translate in other languages if the product is exported. When the Chevrolet Nova automobile was exported to Argentina in the 1970s, some people predicted that it would sell poorly because in Spanish the two words \"No va\" mean \"It doesn't go.\" Fortunately \"nova\" (a bright star) is the same word in both Spanish and English.",
+        "translation": "Các nhà tiếp thị cũng phải xem xét cách tên sản phẩm sẽ được dịch sang các ngôn ngữ khác nếu sản phẩm được xuất khẩu. Khi xe ô tô Chevrolet Nova được xuất khẩu sang Argentina vào những năm 1970, một số người dự đoán rằng nó sẽ bán kém vì trong tiếng Tây Ban Nha hai từ \"No va\" có nghĩa là \"Nó không đi\". May mắn thay \"nova\" (một ngôi sao sáng) là cùng một từ trong cả tiếng Tây Ban Nha và tiếng Anh.",
+        "mainIdea": "Tên sản phẩm phải dịch tốt sang các ngôn ngữ khác khi sản phẩm được xuất khẩu"
+      },
+      {
+        "id": "para_i",
+        "label": "I",
+        "text": "Finally a name must not generate negative associations in the minds of consumers. Many words have an implicit message as well as an explicit meaning. Why for example, has no car manufacturer named a car the Elephant? Elephants are big, strong, and dependable, but they are also slow-moving, fat, and eat a lot. There used to be a weight-loss product called Aids. It disappeared once AIDS became a serious illness worldwide.",
+        "translation": "Cuối cùng, một cái tên không được tạo ra các liên tưởng tiêu cực trong tâm trí người tiêu dùng. Nhiều từ có thông điệp ẩn ý cũng như ý nghĩa rõ ràng. Ví dụ, tại sao không có nhà sản xuất ô tô nào đặt tên xe là Voi? Voi to lớn, mạnh mẽ và đáng tin cậy, nhưng chúng cũng di chuyển chậm, béo và ăn nhiều. Đã từng có một sản phẩm giảm cân có tên là Aids. Nó biến mất sau khi AIDS trở thành một căn bệnh nghiêm trọng trên toàn thế giới.",
+        "mainIdea": "Tên sản phẩm phải tránh các liên tưởng tiêu cực, cả ẩn ý và rõ ràng"
+      },
+      {
+        "id": "para_l",
+        "label": "L",
+        "text": "Corporations put forth great effort to find the right name for a new product. They often hire consultants who specialize in creating product names. Working with the principles above, they create several possible names. Then, they will check the names through one or more focus groups. These groups are made up of individuals from the group of the population that is most likely to buy the product, such as dog owners, frequent travelers, or senior citizens. When a focus group meets, they freely discuss what they like or don't like about the possible names. Once the right name is chosen, advertisements are widely published to introduce the new product to the buying public. Only time will tell if the important marketing decisions made earlier will be effective in selling the product.",
+        "translation": "Các tập đoàn nỗ lực rất nhiều để tìm cái tên phù hợp cho một sản phẩm mới. Họ thường thuê các chuyên gia tư vấn chuyên tạo tên sản phẩm. Làm việc với các nguyên tắc trên, họ tạo ra một số tên có thể. Sau đó, họ sẽ kiểm tra các tên thông qua một hoặc nhiều nhóm tập trung. Các nhóm này được tạo thành từ các cá nhân thuộc nhóm dân số có khả năng mua sản phẩm cao nhất, chẳng hạn như chủ chó, du khách thường xuyên hoặc người cao tuổi. Khi một nhóm tập trung gặp nhau, họ tự do thảo luận về những gì họ thích hoặc không thích về các tên có thể. Khi cái tên phù hợp được chọn, quảng cáo được công bố rộng rãi để giới thiệu sản phẩm mới với công chúng mua hàng. Chỉ có thời gian mới cho biết liệu các quyết định tiếp thị quan trọng được đưa ra trước đó có hiệu quả trong việc bán sản phẩm hay không.",
+        "mainIdea": "Các tập đoàn thuê chuyên gia tư vấn và sử dụng nhóm tập trung để kiểm tra tên theo các nguyên tắc này trước khi quảng cáo sản phẩm"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 2: Fill in the blanks - Group 1",
+        "wordBank": [
+          "Strategy",
+          "Packaging",
+          "Complex",
+          "Invoke",
+          "Pronounce",
+          "Consultant"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "The company's marketing .................... helped them increase sales by 30%.",
+            "answer": "Strategy",
+            "translation": "Chiến lược tiếp thị của công ty đã giúp họ tăng doanh số bán hàng 30%."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "The attractive .................... of the product caught the attention of many customers.",
+            "answer": "Packaging",
+            "translation": "Bao bì hấp dẫn của sản phẩm đã thu hút sự chú ý của nhiều khách hàng."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The instructions were too .................... for most people to understand.",
+            "answer": "Complex",
+            "translation": "Hướng dẫn quá phức tạp để hầu hết mọi người hiểu được."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "The brand name should .................... positive feelings in customers.",
+            "answer": "Invoke",
+            "translation": "Tên thương hiệu nên gợi lên cảm giác tích cực trong khách hàng."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "Can you .................... this word correctly?",
+            "answer": "Pronounce",
+            "translation": "Bạn có thể phát âm từ này đúng không?"
+          },
+          {
+            "id": "fib_006",
+            "sentence": "They hired a marketing .................... to help them develop a new brand name.",
+            "answer": "Consultant",
+            "translation": "Họ thuê một chuyên gia tư vấn tiếp thị để giúp họ phát triển tên thương hiệu mới."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: Fill in the blanks - Group 2",
+        "wordBank": [
+          "Syllable",
+          "Factor",
+          "Confuse",
+          "Hint",
+          "Medication",
+          "Represent"
+        ],
+        "questions": [
+          {
+            "id": "fib_007",
+            "sentence": "The word 'computer' has three .................... .",
+            "answer": "Syllable",
+            "translation": "Từ 'computer' có ba âm tiết."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "Price is an important .................... when choosing a product.",
+            "answer": "Factor",
+            "translation": "Giá cả là một yếu tố quan trọng khi chọn sản phẩm."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "Similar product names can .................... customers.",
+            "answer": "Confuse",
+            "translation": "Tên sản phẩm tương tự có thể làm khách hàng bối rối."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "The product name should .................... at what it does.",
+            "answer": "Hint",
+            "translation": "Tên sản phẩm nên ngụ ý về công dụng của nó."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "The doctor prescribed a new .................... for my headache.",
+            "answer": "Medication",
+            "translation": "Bác sĩ đã kê đơn thuốc mới cho cơn đau đầu của tôi."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "The logo should .................... the company's values.",
+            "answer": "Represent",
+            "translation": "Biểu tượng nên đại diện cho các giá trị của công ty."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 2: Fill in the blanks - Group 3",
+        "wordBank": [
+          "Descriptive",
+          "Bandage",
+          "Associate",
+          "Feminine",
+          "Export",
+          "Implicit"
+        ],
+        "questions": [
+          {
+            "id": "fib_013",
+            "sentence": "A .................... name tells you what the product is for.",
+            "answer": "Descriptive",
+            "translation": "Một cái tên mô tả cho bạn biết sản phẩm dùng để làm gì."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "She put a .................... on the cut on her finger.",
+            "answer": "Bandage",
+            "translation": "Cô ấy đã băng vết cắt trên ngón tay."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "Many people .................... the color red with danger.",
+            "answer": "Associate",
+            "translation": "Nhiều người liên tưởng màu đỏ với nguy hiểm."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "The letters F and L are considered .................... in English.",
+            "answer": "Feminine",
+            "translation": "Các chữ cái F và L được coi là nữ tính trong tiếng Anh."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "The company plans to .................... their products to other countries.",
+            "answer": "Export",
+            "translation": "Công ty có kế hoạch xuất khẩu sản phẩm của họ sang các nước khác."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "The .................... message in the advertisement was about luxury.",
+            "answer": "Implicit",
+            "translation": "Thông điệp ẩn ý trong quảng cáo là về sự xa xỉ."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "title": "Task 2: Fill in the blanks - Group 4",
+        "wordBank": [
+          "Explicit",
+          "Hire",
+          "Specialize",
+          "Principle"
+        ],
+        "questions": [
+          {
+            "id": "fib_019",
+            "sentence": "The instructions gave .................... details about how to use the product.",
+            "answer": "Explicit",
+            "translation": "Hướng dẫn đưa ra chi tiết rõ ràng về cách sử dụng sản phẩm."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "The company decided to .................... a new marketing team.",
+            "answer": "Hire",
+            "translation": "Công ty quyết định thuê một nhóm tiếp thị mới."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "This consulting firm .................... in creating brand names.",
+            "answer": "Specialize",
+            "translation": "Công ty tư vấn này chuyên về tạo tên thương hiệu."
+          },
+          {
+            "id": "fib_022",
+            "sentence": "One important .................... of naming is that the name should be easy to remember.",
+            "answer": "Principle",
+            "translation": "Một nguyên tắc quan trọng của việc đặt tên là cái tên phải dễ nhớ."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,7 +10,8 @@
       "meaning": "vui",
       "definition": "vui",
       "id": "word_001",
-      "exampleSimple": ""
+      "exampleSimple": "Her presentation pleased the executives.",
+      "pos": "verb"
     },
     {
       "word": "Purpose",
@@ -18,7 +19,8 @@
       "meaning": "mục tiêu",
       "definition": "mục tiêu",
       "id": "word_002",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Threat",
@@ -26,7 +28,8 @@
       "meaning": "nguy cơ",
       "definition": "nguy cơ",
       "id": "word_003",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Suffer",
@@ -34,7 +37,8 @@
       "meaning": "chịu đựng (cơn đau, chấn thương, chuyện buồn,…)",
       "definition": "chịu đựng (cơn đau, chấn thương, chuyện buồn,…)",
       "id": "word_004",
-      "exampleSimple": ""
+      "exampleSimple": "Is anyone here afraid of suffering hardship?",
+      "pos": "verb"
     },
     {
       "word": "Campaign",
@@ -42,7 +46,8 @@
       "meaning": "chiến dịch",
       "definition": "chiến dịch",
       "id": "word_005",
-      "exampleSimple": ""
+      "exampleSimple": "She campaigned for better social security.",
+      "pos": "verb"
     },
     {
       "word": "Employ",
@@ -50,7 +55,8 @@
       "meaning": "use",
       "definition": "use",
       "id": "word_006",
-      "exampleSimple": ""
+      "exampleSimple": "Yesterday our local garage employed a new mechanic.",
+      "pos": "verb"
     },
     {
       "word": "Charity",
@@ -58,7 +64,8 @@
       "meaning": "tổ chức từ thiện",
       "definition": "tổ chức từ thiện",
       "id": "word_007",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Raise people’s awareness of sth",
@@ -66,7 +73,8 @@
       "meaning": "nâng cao nhận thức của mọi người về cái gì đó",
       "definition": "nâng cao nhận thức của mọi người về cái gì đó",
       "id": "word_008",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Marine creatures",
@@ -74,7 +82,8 @@
       "meaning": "sinh vật biển",
       "definition": "sinh vật biển",
       "id": "word_009",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Monitor populations",
@@ -82,7 +91,8 @@
       "meaning": "giám sát dân số (ám chỉ số lượng loài cá heo trong bài)",
       "definition": "giám sát dân số (ám chỉ số lượng loài cá heo trong bài)",
       "id": "word_010",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Campaign against sth",
@@ -90,7 +100,8 @@
       "meaning": "tổ chức các chiến dịch chống lại điều gì đó",
       "definition": "tổ chức các chiến dịch chống lại điều gì đó",
       "id": "word_011",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "In the first place",
@@ -98,7 +109,8 @@
       "meaning": "in the beginning",
       "definition": "in the beginning",
       "id": "word_012",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Come across sth",
@@ -106,7 +118,8 @@
       "meaning": "tình cờ biết cái gì đó",
       "definition": "tình cờ biết cái gì đó",
       "id": "word_013",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Be/get hooked",
@@ -114,7 +127,8 @@
       "meaning": "nghiện cái gì đó",
       "definition": "nghiện cái gì đó",
       "id": "word_014",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Pollution",
@@ -122,7 +136,8 @@
       "meaning": "sự ô nhiễm",
       "definition": "sự ô nhiễm",
       "id": "word_015",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Conservation trust",
@@ -130,7 +145,8 @@
       "meaning": "tổ chức bảo tồn",
       "definition": "tổ chức bảo tồn",
       "id": "word_016",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Expertise",
@@ -138,7 +154,8 @@
       "meaning": "a high level of knowledge or skill",
       "definition": "a high level of knowledge or skill",
       "id": "word_017",
-      "exampleSimple": ""
+      "exampleSimple": "The scientist has expertise in the field of nuclear fusion.",
+      "pos": "noun"
     },
     {
       "word": "Haven",
@@ -146,7 +163,8 @@
       "meaning": "a safe or peaceful place",
       "definition": "a safe or peaceful place",
       "id": "word_018",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "verb"
     },
     {
       "word": "Exploration",
@@ -154,7 +172,8 @@
       "meaning": "sự khai thác",
       "definition": "sự khai thác",
       "id": "word_019",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Biologist",
@@ -162,7 +181,8 @@
       "meaning": "nhà sinh vật học",
       "definition": "nhà sinh vật học",
       "id": "word_020",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Observation",
@@ -170,7 +190,8 @@
       "meaning": "sự quan sát",
       "definition": "sự quan sát",
       "id": "word_021",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Shipping",
@@ -178,7 +199,8 @@
       "meaning": "vận chuyển",
       "definition": "vận chuyển",
       "id": "word_022",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": "noun"
     },
     {
       "word": "Fishing policy",
@@ -186,7 +208,8 @@
       "meaning": "chính sách đánh bắt cá",
       "definition": "chính sách đánh bắt cá",
       "id": "word_023",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Animal protection",
@@ -194,15 +217,17 @@
       "meaning": "bảo vệ động vật",
       "definition": "bảo vệ động vật",
       "id": "word_024",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Award",
-      "pronunciation": "",
+      "pronunciation": "/əˈwɔːd/",
       "meaning": "giải thưởng",
       "definition": "giải thưởng",
       "id": "word_025",
-      "exampleSimple": ""
+      "exampleSimple": "the arbitrators awarded damages to the complainant",
+      "pos": "verb"
     },
     {
       "word": "Make sth more widely publicized and understood",
@@ -210,7 +235,8 @@
       "meaning": "make something more popular",
       "definition": "make something more popular",
       "id": "word_026",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Do sth on a voluntary basis",
@@ -218,15 +244,17 @@
       "meaning": "làm gì đó trên cơ sở tự nguyện  give services on a voluntary basis",
       "definition": "làm gì đó trên cơ sở tự nguyện  give services on a voluntary basis",
       "id": "word_027",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Fairly",
-      "pronunciation": "",
+      "pronunciation": "/ˈfɛə(ɹ).li/",
       "meaning": "khá, tương đối",
       "definition": "khá, tương đối",
       "id": "word_028",
-      "exampleSimple": ""
+      "exampleSimple": "A jury is expected to ensure that the accused is fairly judged.",
+      "pos": "adverb"
     },
     {
       "word": "A huge number of sth",
@@ -234,7 +262,8 @@
       "meaning": "A huge number of sth",
       "definition": "A huge number of sth",
       "id": "word_029",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Go round",
@@ -242,7 +271,8 @@
       "meaning": "đi vòng quanh",
       "definition": "đi vòng quanh",
       "id": "word_030",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Changes in something",
@@ -250,7 +280,8 @@
       "meaning": "những thay đổi trong cái gì đó",
       "definition": "những thay đổi trong cái gì đó",
       "id": "word_031",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Hope to do something",
@@ -258,7 +289,8 @@
       "meaning": "hope to làm điều gì đó",
       "definition": "hope to làm điều gì đó",
       "id": "word_032",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Be able to do something",
@@ -266,7 +298,8 @@
       "meaning": "be able to làm điều gì đó",
       "definition": "be able to làm điều gì đó",
       "id": "word_033",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Give services",
@@ -274,23 +307,26 @@
       "meaning": "cung cấp dịch vụ",
       "definition": "cung cấp dịch vụ",
       "id": "word_034",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Từ vựng: more widely publicized and understood  Fairly  Go round / Changes",
       "pronunciation": "/ on a voluntary basis /",
-      "meaning": "",
-      "definition": "",
+      "meaning": "Từ vựng: được công bố rộng rãi và được hiểu rộng rãi hơn Fairly  Go round / Changes",
+      "definition": "Từ vựng: more widely publicized and understood  Fairly  Go round / Changes",
       "id": "word_035",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     },
     {
       "word": "Từ vựng: Hope to  Give services",
       "pronunciation": "/ Be able to /",
-      "meaning": "",
-      "definition": "",
+      "meaning": "Từ vựng: Hy vọng cung cấp dịch vụ",
+      "definition": "Từ vựng: Hope to  Give services",
       "id": "word_036",
-      "exampleSimple": ""
+      "exampleSimple": "",
+      "pos": ""
     }
   ],
   "fillInTheBlanks": {

@@ -1,0 +1,445 @@
+{
+  "metadata": {
+    "unit": "Unit 5",
+    "title": "STADIUMS: PAST, PRESENT AND FUTURE"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Medieval",
+      "pronunciation": "/ˌmed.iˈiː.vəl/",
+      "pos": "adj",
+      "meaning": "thuộc về thời trung cổ",
+      "definition": "Of or relating to the Middle Ages, the period from approximately 500 to 1500 AD.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Scepticism",
+      "pronunciation": "/ˈskep.tɪ.sɪ.zəm/",
+      "pos": "n",
+      "meaning": "sự hoài nghi",
+      "definition": "The practice or philosophy of being a skeptic.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Fall into disuse and disrepair",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "rơi vào sự không sử dụng và không được sửa chữa, ý ám chỉ rơi vào quên lãng",
+      "definition": "Fall into disuse and disrepair",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_004",
+      "word": "Drive",
+      "pronunciation": "/dɹaɪv/",
+      "pos": "v",
+      "meaning": "thúc đẩy",
+      "definition": "To provide an impetus for motion or other physical change, to move an object by means of the provision of force thereto.",
+      "exampleSimple": "You drive nails into wood with a hammer."
+    },
+    {
+      "id": "word_005",
+      "word": "Capacity",
+      "pronunciation": "/kəˈpæsɪti/",
+      "pos": "n",
+      "meaning": "sức chứa",
+      "definition": "Filling the allotted space.",
+      "exampleSimple": "There will be a capacity crowd at Busch stadium for the sixth game."
+    },
+    {
+      "id": "word_006",
+      "word": "Versatile",
+      "pronunciation": "/ˈvɜː.sə.taɪl/",
+      "pos": "adj",
+      "meaning": "linh hoạt, đa dụng",
+      "definition": "Capable of doing many things competently.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_007",
+      "word": "Fortress",
+      "pronunciation": "/ˈfɔːr.trəs/",
+      "pos": "n",
+      "meaning": "pháo đài",
+      "definition": "To furnish with a fortress or with fortresses; to guard, to fortify.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_008",
+      "word": "Convert",
+      "pronunciation": "/kənˈvɝːt/",
+      "pos": "v",
+      "meaning": "chuyển đổi",
+      "definition": "To transform or change (something) into another form, substance, state, or product.",
+      "exampleSimple": "A kettle converts water into steam."
+    },
+    {
+      "id": "word_009",
+      "word": "Venue",
+      "pronunciation": "/ˈven.juː/",
+      "pos": "n",
+      "meaning": "địa điểm",
+      "definition": "A theater, auditorium, arena, or other area designated for sporting or entertainment events.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_010",
+      "word": "Spectator",
+      "pronunciation": "/spekˈteɪ.t̬ɚ/",
+      "pos": "n",
+      "meaning": "khán giả",
+      "definition": "One who watches an event; especially, one held outdoors.",
+      "exampleSimple": "The cheering spectators watched the fireworks."
+    },
+    {
+      "id": "word_011",
+      "word": "Endure",
+      "pronunciation": "/ɪnˈdʊr/",
+      "pos": "v",
+      "meaning": "chịu đựng/ tồn tại",
+      "definition": "to suffer something difficult, unpleasant, or painful to continue to exist for a long time",
+      "exampleSimple": "The singer's popularity endured for decades."
+    },
+    {
+      "id": "word_012",
+      "word": "The fabric of the city",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "cấu trúc của thành phố",
+      "definition": "The fabric of the city",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_013",
+      "word": "Prison",
+      "pronunciation": "/ˈprɪz.ən/",
+      "pos": "n",
+      "meaning": "nhà tù",
+      "definition": "To imprison.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_014",
+      "word": "Revert to sth",
+      "pronunciation": "/rɪˈvɝːt/",
+      "pos": "v",
+      "meaning": "chuyển đổi trở lại thành cái gì đó",
+      "definition": "Revert to sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Ruin",
+      "pronunciation": "/ˈruː.ɪn/",
+      "pos": "v,n",
+      "meaning": "phá hủy/ sự đổ nát/ phế tích",
+      "definition": "To cause the fiscal ruin of.",
+      "exampleSimple": "With all these purchases, you surely mean to ruin us!"
+    },
+    {
+      "id": "word_016",
+      "word": "Embed sth in sth",
+      "pronunciation": "/ɪmˈbed/",
+      "pos": "v",
+      "meaning": "tích hợp, đính vào, gắn vào",
+      "definition": "Embed sth in sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_017",
+      "word": "Intend to do sth/ be intended for sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "có ý định làm gì đó/ phục vụ mục đích gì đó",
+      "definition": "Intend to do sth/ be intended for sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_018",
+      "word": "Concrete",
+      "pronunciation": "/ˈkɑːn.kriːt/",
+      "pos": "n",
+      "meaning": "bê tông",
+      "definition": "(usually transitive) To cover with or encase in concrete (building material).",
+      "exampleSimple": "I hate grass, so I concreted over my lawn."
+    },
+    {
+      "id": "word_019",
+      "word": "Scope",
+      "pronunciation": "/skoʊp/",
+      "pos": "n",
+      "meaning": "cơ hội, phạm vi",
+      "definition": "To perform a cursory investigation of; scope out.",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_020",
+      "word": "Reinforce",
+      "pronunciation": "/ˌriː.ɪnˈfɔːrs/",
+      "pos": "v",
+      "meaning": "củng cố",
+      "definition": "To strengthen, especially by addition or augmentation.",
+      "exampleSimple": "He reinforced the handle with a metal rod and a bit of tape."
+    },
+    {
+      "id": "word_021",
+      "word": "Blueprint",
+      "pronunciation": "/ˈbluː.prɪnt/",
+      "pos": "n",
+      "meaning": "một kế hoạch chi tiết giải thích cho cái gì đó",
+      "definition": "To make a blueprint for.",
+      "exampleSimple": "The architect blueprinted the renovation plan once the client had signed off."
+    },
+    {
+      "id": "word_022",
+      "word": "Integrate into sth",
+      "pronunciation": "/ˈɪn.t̬ə.ɡreɪt/",
+      "pos": "v",
+      "meaning": "tích hợp, hòa nhập vào cái gì đó",
+      "definition": "Integrate into sth",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_023",
+      "word": "Detect",
+      "pronunciation": "/dɪˈtekt/",
+      "pos": "v",
+      "meaning": "phát hiện",
+      "definition": "To discover or find by careful search, examination, or probing",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Fit",
+      "pronunciation": "/fɪt/",
+      "pos": "v",
+      "meaning": "to be suitable for something",
+      "definition": "To be suitable for.",
+      "exampleSimple": "It fits the purpose."
+    },
+    {
+      "id": "word_025",
+      "word": "Photovoltaic panel",
+      "pronunciation": "/ˌfoʊ.t̬oʊ.vɑːlˈteɪ.ɪk/",
+      "pos": "n",
+      "meaning": "tấm quang năng (thiết bị để thu nhận năng lượng từ ánh sáng mặt trời)",
+      "definition": "Photovoltaic panel",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_026",
+      "word": "Output",
+      "pronunciation": "/ˈaʊtpʊt/",
+      "pos": "n",
+      "meaning": "đầu ra, kết quả",
+      "definition": "To produce, create, or complete.",
+      "exampleSimple": "We output 1400 units last year."
+    },
+    {
+      "id": "word_027",
+      "word": "Acquire",
+      "pronunciation": "/əˈkwaɪɚ/",
+      "pos": "v",
+      "meaning": "gain or obtain sth",
+      "definition": "To get.",
+      "exampleSimple": ""
+    }
+  ],
+  "reading": {
+    "title": "STADIUMS: PAST, PRESENT AND FUTURE",
+    "paragraphs": [
+      {
+        "id": "para_a",
+        "label": "A",
+        "text": "Stadiums are among the oldest forms of urban architecture: vast stadiums where the public could watch sporting events were at the centre of Western city life as far back as the ancient Greek and Roman Empires, well before the construction of the great medieval cathedrals and the grand 19th- and 20th-century railway stations which dominated urban skylines in later eras. Today, however, stadiums are regarded with growing scepticism. Construction costs can soar above £1 billion, and stadiums finished for major events such as the Olympic games or the FIFA World Cup have notably fallen into disuse and disrepair. But this need not be the case. History shows that stadiums can drive urban development and adapt to the culture of every age. Even today, architects and planners are finding new ways to adapt the mono-functional sports arenas which became emblematic of modernisation during the 20th century.",
+        "translation": "Stadiums are among the oldest forms of urban architecture: vast stadiums where the public could watch sporting events were at the centre of Western city life as far back as the ancient Greek and Roman Empires, well before the construction of the great medieval cathedrals and the grand 19th- and 20th-century railway stations which dominated urban skylines in later eras. Today, however, stadiums are regarded with growing scepticism. Construction costs can soar above £1 billion, and stadiums finished for major events such as the Olympic games or the FIFA World Cup have notably fallen into disuse and disrepair. But this need not be the case. History shows that stadiums can drive urban development and adapt to the culture of every age. Even today, architects and planners are finding new ways to adapt the mono-functional sports arenas which became emblematic of modernisation during the 20th century.",
+        "mainIdea": "Stadiums are ancient urban architecture forms that are now viewed with scepticism due to high costs and disuse, but history shows they can drive development and adapt"
+      },
+      {
+        "id": "para_b",
+        "label": "B",
+        "text": "The Amphitheatre of Arles in southwest France, with a capacity of 25,000 spectators, is perhaps the best example of just how versatile stadiums can be. Built by the Romans in 90 AD, it became a fortress with four towers after the fifth century, and was then transformed into a village containing more than 200 houses. With the growing interest in conservation during the 19th century, it was converted back into an arena for the staging of bullfights, thereby returning the structure to its original use as a venue for public spectacles. Another example is the imposing arena of Verona in northern Italy, with space for 30,000 spectators, which was built 60 years before the Arles Amphitheatre and 40 years before Rome's famous colosseum. It has endured the centuries and is currently considered one of the world's prime sites for opera, thanks to its outstanding acoustics.",
+        "translation": "The Amphitheatre of Arles in southwest France, with a capacity of 25,000 spectators, is perhaps the best example of just how versatile stadiums can be. Built by the Romans in 90 AD, it became a fortress with four towers after the fifth century, and was then transformed into a village containing more than 200 houses. With the growing interest in conservation during the 19th century, it was converted back into an arena for the staging of bullfights, thereby returning the structure to its original use as a venue for public spectacles. Another example is the imposing arena of Verona in northern Italy, with space for 30,000 spectators, which was built 60 years before the Arles Amphitheatre and 40 years before Rome's famous colosseum. It has endured the centuries and is currently considered one of the world's prime sites for opera, thanks to its outstanding acoustics.",
+        "mainIdea": "The Amphitheatre of Arles and Verona arena demonstrate stadium versatility through their transformations over centuries"
+      },
+      {
+        "id": "para_c",
+        "label": "C",
+        "text": "The area in the centre of the Italian town of Lucca, known as the Piazza Dell'anfiteatro, is yet another impressive example of an Amphitheatre becoming absorbed into the fabric of the city. The site evolved in a similar way to arles and was progressively filled with buildings from the middle ages until the 19th century, variously used as houses, a salt depot and a prison. But rather than reverting to an arena, it became a market square, designed by romanticist architect Lorenzo Nottolini. Today, the ruins of the Amphitheatre remain embedded in the various shops and residences surrounding the public square.",
+        "translation": "The area in the centre of the Italian town of Lucca, known as the Piazza Dell'anfiteatro, is yet another impressive example of an Amphitheatre becoming absorbed into the fabric of the city. The site evolved in a similar way to arles and was progressively filled with buildings from the middle ages until the 19th century, variously used as houses, a salt depot and a prison. But rather than reverting to an arena, it became a market square, designed by romanticist architect Lorenzo Nottolini. Today, the ruins of the Amphitheatre remain embedded in the various shops and residences surrounding the public square.",
+        "mainIdea": "Lucca's Amphitheatre was absorbed into the city fabric and transformed into a market square with ruins embedded in surrounding buildings"
+      },
+      {
+        "id": "para_d",
+        "label": "D",
+        "text": "There are many similarities between modern stadiums and the ancient Amphitheatres intended for games. But some of the flexibility was lost at the beginning of the 20th century, as stadiums were developed using new products such as steel and reinforced concrete, and made use of bright lights for night-time matches. Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots. These factors mean that they may not be as accessible to the general public, require more energy to run and contribute to urban heat.",
+        "translation": "There are many similarities between modern stadiums and the ancient Amphitheatres intended for games. But some of the flexibility was lost at the beginning of the 20th century, as stadiums were developed using new products such as steel and reinforced concrete, and made use of bright lights for night-time matches. Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots. These factors mean that they may not be as accessible to the general public, require more energy to run and contribute to urban heat.",
+        "mainIdea": "Modern stadiums lost flexibility with 20th-century materials and suburban locations, becoming less accessible and more energy-intensive"
+      },
+      {
+        "id": "para_e",
+        "label": "E",
+        "text": "But many of today's most innovative architects see scope for the stadium to help improve the city. Among the current strategies, two seem to be having particular success: the stadium as an urban hub, and as a power plant. There's a growing trend for stadiums to be equipped with public spaces and services that serve a function beyond sport, such as hotels, retail outlets, conference centres, restaurants and bars, children's playgrounds and green space. Creating mixed-use developments such as this reinforces compactness and multi-functionality, making more efficient use of land and helping to regenerate urban spaces. This opens the space up to families and a wider cross-section of society, instead of catering only to sportspeople and supporters. There have been many examples of this in the UK: the mixed-use facilities at Wembley and Old Trafford have become a blueprint for many other stadiums in the world.",
+        "translation": "But many of today's most innovative architects see scope for the stadium to help improve the city. Among the current strategies, two seem to be having particular success: the stadium as an urban hub, and as a power plant. There's a growing trend for stadiums to be equipped with public spaces and services that serve a function beyond sport, such as hotels, retail outlets, conference centres, restaurants and bars, children's playgrounds and green space. Creating mixed-use developments such as this reinforces compactness and multi-functionality, making more efficient use of land and helping to regenerate urban spaces. This opens the space up to families and a wider cross-section of society, instead of catering only to sportspeople and supporters. There have been many examples of this in the UK: the mixed-use facilities at Wembley and Old Trafford have become a blueprint for many other stadiums in the world.",
+        "mainIdea": "Modern architects see stadiums as urban hubs with mixed-use developments that serve broader society beyond sports"
+      },
+      {
+        "id": "para_f",
+        "label": "F",
+        "text": "The phenomenon of stadiums as power stations has arisen from the idea that energy problems can be overcome by integrating interconnected buildings by means of a smart grid, which is an electricity supply network that uses digital communications technology to detect and react to local changes in usage, without significant energy losses. Stadiums are ideal for these purposes, because their canopies have a large surface area for fitting photovoltaic panels and rise high enough (more than 40 metres) to make use of micro wind turbines. Freiburg Mage Solar stadium in Germany is the first of a new wave of stadiums as power plants, which also includes the Amsterdam arena and the Kaohsiung stadium. The latter, inaugurated in 2009, has 8,844 photovoltaic panels producing up to 1.14 gwh of electricity annually. This reduces the annual output of carbon dioxide by 660 tons and supplies up to 80 percent of the surrounding area when the stadium is not in use. This is proof that a stadium can serve its city, and have a decidedly positive impact in terms of reduction of CO2 emissions.",
+        "translation": "The phenomenon of stadiums as power stations has arisen from the idea that energy problems can be overcome by integrating interconnected buildings by means of a smart grid, which is an electricity supply network that uses digital communications technology to detect and react to local changes in usage, without significant energy losses. Stadiums are ideal for these purposes, because their canopies have a large surface area for fitting photovoltaic panels and rise high enough (more than 40 metres) to make use of micro wind turbines. Freiburg Mage Solar stadium in Germany is the first of a new wave of stadiums as power plants, which also includes the Amsterdam arena and the Kaohsiung stadium. The latter, inaugurated in 2009, has 8,844 photovoltaic panels producing up to 1.14 gwh of electricity annually. This reduces the annual output of carbon dioxide by 660 tons and supplies up to 80 percent of the surrounding area when the stadium is not in use. This is proof that a stadium can serve its city, and have a decidedly positive impact in terms of reduction of CO2 emissions.",
+        "mainIdea": "Stadiums as power stations use smart grids and photovoltaic panels to generate clean energy and reduce CO2 emissions"
+      },
+      {
+        "id": "para_g",
+        "label": "G",
+        "text": "Sporting arenas have always been central to the life and culture of cities. In every era, the stadium has acquired new value and uses: from military fortress to residential village, public space to theatre and most recently a field for experimentation in advanced engineering. The stadium of today now brings together multiple functions, thus helping cities to create a sustainable future.",
+        "translation": "Các đấu trường thể thao luôn là trung tâm của đời sống và văn hóa thành phố. Trong mỗi thời đại, sân vận động đã có được giá trị và công dụng mới: từ pháo đài quân sự đến ngôi làng dân cư, không gian công cộng đến nhà hát và gần đây nhất là lĩnh vực thử nghiệm kỹ thuật tiên tiến. Sân vận động ngày nay hiện tập hợp nhiều chức năng, do đó giúp các thành phố tạo ra một tương lai bền vững.",
+        "mainIdea": "Stadiums have evolved across eras to serve multiple functions and now help cities create sustainable futures"
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 1: choose the most suitable word to complete the following sentences - Group 1",
+        "wordBank": [
+          "versatile",
+          "prison",
+          "detected",
+          "ruined",
+          "acquired",
+          "disrepair",
+          "medieval",
+          "integrate",
+          "concrete"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "His family …………. the property (bất động sản) in 1985.",
+            "answer": "acquired",
+            "translation": ""
+          },
+          {
+            "id": "fib_002",
+            "sentence": "Some sounds cannot be …………. by the human ear.",
+            "answer": "detected",
+            "translation": ""
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The building has fallen into …………. over the years.",
+            "answer": "disrepair",
+            "translation": ""
+          },
+          {
+            "id": "fib_004",
+            "sentence": "This tradition (truyền thống) dates back to (có từ khi) …………. times.",
+            "answer": "medieval",
+            "translation": ""
+          },
+          {
+            "id": "fib_005",
+            "sentence": "It's very difficult to …………. yourself into a society whose culture is so different from your own.",
+            "answer": "integrate",
+            "translation": ""
+          },
+          {
+            "id": "fib_006",
+            "sentence": "A leather jacket (áo khoác da) is a timeless and …………. garment (quần áo) that can be worn in all seasons.",
+            "answer": "versatile",
+            "translation": ""
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Huge modern hotels have …………. the natural habitat of many species.",
+            "answer": "ruined",
+            "translation": ""
+          },
+          {
+            "id": "fib_008",
+            "sentence": "She went to/was sent to …………. for six months",
+            "answer": "prison",
+            "translation": ""
+          },
+          {
+            "id": "fib_009",
+            "sentence": "Don't walk on the …………. until it has set (cô đặc lại, cố định lại).",
+            "answer": "concrete",
+            "translation": ""
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 1: choose the most suitable word to complete the following sentences - Group 2",
+        "wordBank": [
+          "intended for",
+          "scope",
+          "spectators",
+          "endured",
+          "fit",
+          "photovoltaic panels",
+          "revert to",
+          "reinforced"
+        ],
+        "questions": [
+          {
+            "id": "fib_010",
+            "sentence": "Homeowners are encouraged to install …………. on their roofs.",
+            "answer": "photovoltaic panels",
+            "translation": ""
+          },
+          {
+            "id": "fib_011",
+            "sentence": "With her qualifications, I'm sure she will …………. the job perfectly.",
+            "answer": "fit",
+            "translation": ""
+          },
+          {
+            "id": "fib_012",
+            "sentence": "The course (khóa học) is …………. intermediate-level students.",
+            "answer": "intended for",
+            "translation": ""
+          },
+          {
+            "id": "fib_013",
+            "sentence": "I'm afraid that question is beyond/outside the …………. of my lecture. So i cannot give you an answer.",
+            "answer": "scope",
+            "translation": ""
+          },
+          {
+            "id": "fib_014",
+            "sentence": "They won 4–0 in front of over 40,000 cheering (tính từ: đang hò reo) …………...",
+            "answer": "spectators",
+            "translation": ""
+          },
+          {
+            "id": "fib_015",
+            "sentence": "The political system established in 1400 …………. until about 1650.",
+            "answer": "endured",
+            "translation": ""
+          },
+          {
+            "id": "fib_016",
+            "sentence": "I hate talking to him because everytime we talk, the conversation will always …………. money every five minutes. I hate talking about money or something like that in a relationship.",
+            "answer": "revert to",
+            "translation": ""
+          },
+          {
+            "id": "fib_017",
+            "sentence": "His behaviour merely ………….my dislike of him.",
+            "answer": "reinforced",
+            "translation": ""
+          }
+        ]
+      }
+    ]
+  }
+}

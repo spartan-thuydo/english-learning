@@ -1,24 +1,79 @@
 {
   "lessons": [
     {
-      "id": "unit4-should-we-try",
-      "fileName": "unit4-should-we-try.json",
-      "typeLesson": "reading"
-    }, 
-    {
       "id": "unit1-listening",
-      "fileName": "unit1-listening.json",
+      "fileName": "listening/unit1-listening.json",
       "typeLesson": "listening"
     },
     {
       "id": "unit2-listening",
-      "fileName": "unit2-listening.json",
+      "fileName": "listening/unit2-listening.json",
       "typeLesson": "listening"
     },
     {
       "id": "unit3-listening",
-      "fileName": "unit3-listening.json",
+      "fileName": "listening/unit3-listening.json",
       "typeLesson": "listening"
+    },
+    {
+      "id": "unit1-reading",
+      "fileName": "reading/unit1-reading.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit2-reading-australian",
+      "fileName": "reading/unit2-reading-australian.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit2-reading-autumn",
+      "fileName": "reading/unit2-reading-autumn.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit3-reading-malaria",
+      "fileName": "reading/unit3-reading-malaria.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit3-reading-mekete",
+      "fileName": "reading/unit3-reading-mekete.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit3-reading-sahara",
+      "fileName": "reading/unit3-reading-sahara.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit4-reading",
+      "fileName": "reading/unit4-reading.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit4-reading-name",
+      "fileName": "reading/unit4-reading-name.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit4-should-we-try",
+      "fileName": "reading/unit4-should-we-try.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit5-reading-crops",
+      "fileName": "reading/unit5-reading-crops.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit5-reading-organic",
+      "fileName": "reading/unit5-reading-organic.json",
+      "typeLesson": "reading"
+    },
+    {
+      "id": "unit5-reading-stadium",
+      "fileName": "reading/unit5-reading-stadium.json",
+      "typeLesson": "reading"
     }
   ]
 }

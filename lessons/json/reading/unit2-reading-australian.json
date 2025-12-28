@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "unit": "Unit 2",
+    "title": "Australian Culture and Culture Shock"
+  },
+  "vocabulary": [
+    {
+      "id": "word_001",
+      "word": "Surroundings",
+      "pronunciation": "/səˈraʊn.dɪŋz/",
+      "pos": "n",
+      "meaning": "nơi ở xung quanh",
+      "definition": "An outlying area; area in proximity to something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_002",
+      "word": "Adjust to sth",
+      "pronunciation": "/əˈdʒʌst/",
+      "pos": "v",
+      "meaning": "điều chỉnh cho phù hợp với cái gì đó, thích nghi với gì đó",
+      "definition": "To adapt to something",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_003",
+      "word": "Define",
+      "pronunciation": "/dɪˈfaɪn/",
+      "pos": "v",
+      "meaning": "định nghĩa, giải thích",
+      "definition": "To determine with precision",
+      "exampleSimple": "It's not who you are underneath, it's what you do that defines you."
+    },
+    {
+      "id": "word_004",
+      "word": "Discomfort",
+      "pronunciation": "/dɪˈskʌm.fɚt/",
+      "pos": "n",
+      "meaning": "sự khó chịu",
+      "definition": "A state of unease",
+      "exampleSimple": "You may feel a little discomfort for a few days after the operation."
+    },
+    {
+      "id": "word_005",
+      "word": "Identify",
+      "pronunciation": "/aɪˈden.t̬ə.faɪ/",
+      "pos": "v",
+      "meaning": "xác định",
+      "definition": "To recognize or establish",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_006",
+      "word": "Place a high value on sth",
+      "pronunciation": "/ˈvæl.juː/",
+      "pos": "v",
+      "meaning": "đặt một sự quan trọng lên cái gì đó, coi trọng cái gì đó",
+      "definition": "To consider something important",
+      "exampleSimple": "A lot of teenagers place a high value on being popular"
+    },
+    {
+      "id": "word_007",
+      "word": "Work out",
+      "pronunciation": "/wɝːk/",
+      "pos": "v",
+      "meaning": "tìm ra giải pháp",
+      "definition": "To find a solution to a problem or situation",
+      "exampleSimple": "The details of the deal are still being worked out."
+    },
+    {
+      "id": "word_008",
+      "word": "Circumstance",
+      "pronunciation": "/ˈsɝː.kəm.stæns/",
+      "pos": "n",
+      "meaning": "hoàn cảnh",
+      "definition": "A condition or fact",
+      "exampleSimple": "She died in suspicious circumstances."
+    },
+    {
+      "id": "word_009",
+      "word": "Take action",
+      "pronunciation": "/ˈæk.ʃən/",
+      "pos": "v",
+      "meaning": "hành động",
+      "definition": "To do something",
+      "exampleSimple": "It may already be too late to take action to prevent the loss of habitat these animals face."
+    },
+    {
+      "id": "word_010",
+      "word": "Be critical of sb/sth",
+      "pronunciation": "/ˈkrɪt̬.ɪ.kəl/",
+      "pos": "adj",
+      "meaning": "có thái độ chỉ trích",
+      "definition": "To express disapproval",
+      "exampleSimple": "My mother is always so critical of the way I dress!"
+    },
+    {
+      "id": "word_011",
+      "word": "Establish",
+      "pronunciation": "/ɪˈstæb.lɪʃ/",
+      "pos": "v",
+      "meaning": "thiết lập",
+      "definition": "To start or create",
+      "exampleSimple": "The two countries have established diplomatic relations."
+    },
+    {
+      "id": "word_012",
+      "word": "Consider sth/sb + adj",
+      "pronunciation": "/kənˈsɪd.ɚd/",
+      "pos": "v",
+      "meaning": "nghĩ cái gì, ai đó như thế nào đó",
+      "definition": "To think of something in a particular way",
+      "exampleSimple": "They will take any action that they consider necessary"
+    },
+    {
+      "id": "word_013",
+      "word": "Reject",
+      "pronunciation": "/rɪˈdʒekt/",
+      "pos": "v",
+      "meaning": "từ chối",
+      "definition": "To refuse to accept",
+      "exampleSimple": "I applied for ten jobs and got ten rejections."
+    },
+    {
+      "id": "word_014",
+      "word": "Initial enthusiasm",
+      "pronunciation": "/ɪˈnɪʃ.əl/",
+      "pos": "n",
+      "meaning": "sự nhiệt huyết, háo hức ban đầu",
+      "definition": "Early excitement",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_015",
+      "word": "Orientation",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "sự định hướng",
+      "definition": "The process of adapting",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_016",
+      "word": "Adapt to sth",
+      "pronunciation": "/əˈdæpt/",
+      "pos": "v",
+      "meaning": "thích nghi với cái gì đó",
+      "definition": "To adjust to new conditions",
+      "exampleSimple": "We had to adapt our plans to fit Jack's timetable."
+    },
+    {
+      "id": "word_017",
+      "word": "Be prepared to do sth",
+      "pronunciation": "/prɪˈperd/",
+      "pos": "v",
+      "meaning": "sẵn sàng làm gì đó",
+      "definition": "To be willing to do something",
+      "exampleSimple": "I don't mind explaining it to you, but I'm not prepared to do it for you."
+    },
+    {
+      "id": "word_018",
+      "word": "Last",
+      "pronunciation": "/læst/",
+      "pos": "v",
+      "meaning": "kéo dài",
+      "definition": "To continue to exist",
+      "exampleSimple": "The meeting lasted two hours."
+    },
+    {
+      "id": "word_019",
+      "word": "Pass sb by",
+      "pronunciation": "/pæs/",
+      "pos": "v",
+      "meaning": "bỏ lỡ",
+      "definition": "If an event or opportunity passes you by, you do not notice it",
+      "exampleSimple": "Do you ever feel that life is passing you by?"
+    },
+    {
+      "id": "word_020",
+      "word": "Matter",
+      "pronunciation": "/ˈmæt̬.ɚ/",
+      "pos": "n",
+      "meaning": "vấn đề, chủ đề",
+      "definition": "A subject or situation",
+      "exampleSimple": "Could I talk to you about a personal matter?"
+    },
+    {
+      "id": "word_021",
+      "word": "Turn into sth",
+      "pronunciation": "/tɜːn/",
+      "pos": "v",
+      "meaning": "biến thành",
+      "definition": "To change and become something different",
+      "exampleSimple": "Rain in the morning will turn into snow during the afternoon."
+    },
+    {
+      "id": "word_022",
+      "word": "Notice",
+      "pronunciation": "/ˈnəʊ.tɪs/",
+      "pos": "v",
+      "meaning": "chú ý, để ý",
+      "definition": "To become aware of",
+      "exampleSimple": "Did you notice how she did that?"
+    },
+    {
+      "id": "word_023",
+      "word": "Result in sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "dẫn đến cái gì đó",
+      "definition": "To cause something to happen",
+      "exampleSimple": ""
+    },
+    {
+      "id": "word_024",
+      "word": "Undergo",
+      "pronunciation": "/ˌʌn.dɚˈɡoʊ/",
+      "pos": "v",
+      "meaning": "trải qua",
+      "definition": "To experience something",
+      "exampleSimple": "He had to undergo a surgery due to the injury."
+    },
+    {
+      "id": "word_025",
+      "word": "Feature",
+      "pronunciation": "/ˈfiː.tʃər/",
+      "pos": "n",
+      "meaning": "đặc điểm",
+      "definition": "A characteristic",
+      "exampleSimple": "There are some cultural features that you should know when visiting Viet Nam"
+    }
+  ],
+  "reading": {
+    "title": "Australian Culture and Culture Shock",
+    "paragraphs": [
+      {
+        "id": "intro",
+        "label": "Introduction",
+        "text": "Sometimes work or study will take us out of our familiar surroundings to go and live in a different culture. The experience can be difficult, even shocking.",
+        "translation": "Đôi khi công việc hoặc học tập sẽ đưa chúng ta ra khỏi môi trường quen thuộc để đi sống trong một nền văn hóa khác. Trải nghiệm này có thể khó khăn, thậm chí gây sốc.",
+        "mainIdea": "Sống ở một nền văn hóa khác có thể là trải nghiệm khó khăn và gây sốc."
+      },
+      {
+        "id": "para_A",
+        "label": "A",
+        "text": "Almost everyone who studies, lives or works abroad has problems adjusting to a new culture. This response is usually referred to as \"culture shock\". Culture shock can be defined as \"the physical and emotional discomfort a person experiences when entering a culture different from their own\" (Weaver, 1993).",
+        "translation": "Hầu hết mọi người học tập, sinh sống hoặc làm việc ở nước ngoài đều gặp vấn đề khi thích nghi với một nền văn hóa mới. Phản ứng này thường được gọi là \"sốc văn hóa\". Sốc văn hóa có thể được định nghĩa là \"sự khó chịu về thể chất và tinh thần mà một người trải qua khi bước vào một nền văn hóa khác với nền văn hóa của họ\" (Weaver, 1993).",
+        "mainIdea": "Sốc văn hóa là sự khó chịu về thể chất và tinh thần khi thích nghi với nền văn hóa mới."
+      },
+      {
+        "id": "para_B",
+        "label": "B",
+        "text": "For people moving to Australia, Price (2001) has identified certain values which may cause culture shock. Firstly, he argues that Australians place a high value on independence and personal choice. This means that a teacher or course tutor will not tell students what to do, but will give them a number of options and suggest they work out which one is the best in their circumstances. It also means that they are expected to take action if something goes wrong and find resources and support for themselves.",
+        "translation": "Đối với những người chuyển đến Úc, Price (2001) đã xác định một số giá trị có thể gây ra sốc văn hóa. Đầu tiên, ông lập luận rằng người Úc đặt giá trị cao vào sự độc lập và lựa chọn cá nhân. Điều này có nghĩa là giáo viên hoặc người hướng dẫn khóa học sẽ không nói cho sinh viên phải làm gì, mà sẽ đưa ra cho họ một số lựa chọn và đề nghị họ tìm ra cái nào tốt nhất trong hoàn cảnh của họ. Điều này cũng có nghĩa là họ được kỳ vọng sẽ hành động nếu có gì đó không ổn và tự tìm nguồn lực và hỗ trợ cho bản thân.",
+        "mainIdea": "Người Úc coi trọng sự độc lập và lựa chọn cá nhân, mong đợi mọi người tự giải quyết vấn đề của mình."
+      },
+      {
+        "id": "para_C",
+        "label": "C",
+        "text": "Australians are also prepared to accept a range of opinions rather than believing there is one truth. This means that in an educational environment, students will be expected to form their own opinions and give the reasons for that point of view and the evidence for it.",
+        "translation": "Người Úc cũng sẵn sàng chấp nhận nhiều quan điểm khác nhau thay vì tin rằng chỉ có một sự thật. Điều này có nghĩa là trong môi trường giáo dục, sinh viên sẽ được kỳ vọng hình thành quan điểm riêng của họ và đưa ra lý do cho quan điểm đó cũng như bằng chứng cho nó.",
+        "mainIdea": "Người Úc chấp nhận nhiều quan điểm khác nhau và khuyến khích việc hình thành ý kiến cá nhân có bằng chứng."
+      },
+      {
+        "id": "para_D",
+        "label": "D",
+        "text": "Price also comments that Australians are uncomfortable with differences in status and hence idealise the idea of treating everyone equally. An illustration of this is that most adult Australians call each other by their first names. This concern with equality means that Australians are uncomfortable taking anything too seriously and are even ready to joke about themselves.",
+        "translation": "Price cũng nhận xét rằng người Úc cảm thấy không thoải mái với sự khác biệt về địa vị và do đó lý tưởng hóa ý tưởng đối xử bình đẳng với mọi người. Một minh họa cho điều này là hầu hết người Úc trưởng thành gọi nhau bằng tên. Mối quan tâm về bình đẳng này có nghĩa là người Úc cảm thấy không thoải mái khi coi bất cứ điều gì quá nghiêm túc và thậm chí sẵn sàng đùa về bản thân họ.",
+        "mainIdea": "Người Úc coi trọng sự bình đẳng, gọi nhau bằng tên và không quá nghiêm túc với mọi thứ."
+      },
+      {
+        "id": "para_E",
+        "label": "E",
+        "text": "Australians believe that life should have a balance between work and leisure time. As a result, some students may be critical of others who they consider as doing nothing but study.",
+        "translation": "Người Úc tin rằng cuộc sống nên có sự cân bằng giữa công việc và thời gian giải trí. Kết quả là, một số sinh viên có thể chỉ trích những người mà họ cho là không làm gì khác ngoài việc học.",
+        "mainIdea": "Người Úc tin vào sự cân bằng giữa công việc và giải trí, và có thể chỉ trích những ai chỉ học tập."
+      },
+      {
+        "id": "para_F",
+        "label": "F",
+        "text": "Australian notions of privacy mean that areas such as financial matters, appearance and relationships are only discussed with close friends. While people may volunteer such information, they may resent someone actually asking them unless the friendship is firmly established. Even then, it is considered very impolite to ask someone what they earn. With older people, it is also rude to ask how old they are, why they are not married or why they do not have children. It is also impolite to ask people how much they have paid for something, unless there is a very good reason for asking.",
+        "translation": "Quan niệm về sự riêng tư của người Úc có nghĩa là các lĩnh vực như vấn đề tài chính, ngoại hình và các mối quan hệ chỉ được thảo luận với bạn thân. Trong khi mọi người có thể tự nguyện cung cấp thông tin như vậy, họ có thể bực bội nếu ai đó thực sự hỏi họ trừ khi tình bạn được thiết lập vững chắc. Ngay cả khi đó, việc hỏi ai đó họ kiếm được bao nhiêu cũng được coi là rất bất lịch sự. Với người lớn tuổi, việc hỏi họ bao nhiêu tuổi, tại sao họ không kết hôn hoặc tại sao họ không có con cũng là bất lịch sự. Việc hỏi mọi người họ đã trả bao nhiêu tiền cho một thứ gì đó cũng là bất lịch sự, trừ khi có lý do rất chính đáng để hỏi.",
+        "mainIdea": "Người Úc coi trọng sự riêng tư và coi việc hỏi về tài chính, tuổi tác, hôn nhân là bất lịch sự."
+      },
+      {
+        "id": "para_G",
+        "label": "G",
+        "text": "Kohls (1996) describes culture shock as a process of change marked by four basic stages. During the first stage, the new arrival is excited to be in a new place, so this is often referred to as the \"honeymoon\" stage. Like a tourist, they are intrigued by all the new sights and sounds, new smells and tastes of their surroundings. They may have some problems, but usually they accept them as just part of the novelty. At this point, it is the similarities that stand out, and it seems to the newcomer that people everywhere and their way of life are very much alike. This period of euphoria may last from a couple of weeks to a month, but the letdown is inevitable.",
+        "translation": "Kohls (1996) mô tả sốc văn hóa như một quá trình thay đổi được đánh dấu bởi bốn giai đoạn cơ bản. Trong giai đoạn đầu tiên, người mới đến cảm thấy phấn khích khi ở một nơi mới, vì vậy giai đoạn này thường được gọi là giai đoạn \"trăng mật\". Giống như một khách du lịch, họ bị thu hút bởi tất cả những cảnh tượng và âm thanh mới, mùi hương và hương vị mới của môi trường xung quanh. Họ có thể gặp một số vấn đề, nhưng thường họ chấp nhận chúng như một phần của sự mới lạ. Tại thời điểm này, những điểm tương đồng nổi bật, và người mới đến có vẻ như mọi người ở khắp nơi và lối sống của họ rất giống nhau. Giai đoạn hưng phấn này có thể kéo dài từ vài tuần đến một tháng, nhưng sự thất vọng là không thể tránh khỏi.",
+        "mainIdea": "Giai đoạn đầu của sốc văn hóa là giai đoạn 'trăng mật' với sự phấn khích và hưng phấn về nơi mới."
+      },
+      {
+        "id": "para_H",
+        "label": "H",
+        "text": "During the second stage, known as the 'rejection' stage, the newcomer starts to experience difficulties due to the differences between the new culture and the way they were familiar with living. The initial enthusiasm turns into anger, frustration and depression. These feelings may have a strong effect on people and make them start rejecting the new culture so that they notice only the things that cause them trouble, which they then complain about. In addition, they may feel homesick, bored, withdrawn and irritable during this period as well.",
+        "translation": "Trong giai đoạn thứ hai, được gọi là giai đoạn 'từ chối', người mới đến bắt đầu gặp khó khăn do sự khác biệt giữa nền văn hóa mới và cách họ quen sống. Sự nhiệt tình ban đầu biến thành tức giận, thất vọng và trầm cảm. Những cảm giác này có thể có tác động mạnh mẽ đến mọi người và khiến họ bắt đầu từ chối nền văn hóa mới để họ chỉ chú ý đến những thứ gây rắc rối cho họ, sau đó họ phàn nàn về chúng. Ngoài ra, họ cũng có thể cảm thấy nhớ nhà, buồn chán, thu mình và khó chịu trong giai đoạn này.",
+        "mainIdea": "Giai đoạn thứ hai là giai đoạn 'từ chối' với sự tức giận, thất vọng và từ chối nền văn hóa mới."
+      },
+      {
+        "id": "para_I",
+        "label": "I",
+        "text": "Fortunately, most people gradually learn to adapt to the new culture and move on to the third stage, known as 'adjustment and reorientation'. As the newcomer begins to experience more frequently, they are able to understand some of the cultural features which passed by unnoticed earlier. Now the culture seems more familiar. As a result, they begin to develop problem-solving skills, and feelings of disorientation and worry no longer affect them.",
+        "translation": "May mắn thay, hầu hết mọi người dần dần học cách thích nghi với nền văn hóa mới và chuyển sang giai đoạn thứ ba, được gọi là 'điều chỉnh và định hướng lại'. Khi người mới đến bắt đầu trải nghiệm thường xuyên hơn, họ có thể hiểu một số đặc điểm văn hóa đã qua mà không được chú ý trước đó. Bây giờ nền văn hóa có vẻ quen thuộc hơn. Kết quả là, họ bắt đầu phát triển kỹ năng giải quyết vấn đề, và cảm giác mất phương hướng và lo lắng không còn ảnh hưởng đến họ nữa.",
+        "mainIdea": "Giai đoạn thứ ba là 'điều chỉnh và định hướng lại' khi người ta bắt đầu thích nghi và hiểu văn hóa mới."
+      },
+      {
+        "id": "para_K",
+        "label": "K",
+        "text": "In Kohls's model, in the fourth stage, newcomers undergo a process of adaptation. They have become familiar with the new culture, and this results in a feeling of direction and self-confidence. They have accepted the new food, drinks, habits and culture features and may even find themselves enjoying some of the very things that made them feel uncomfortable so much previously. In addition, they realise that the new culture has good and bad things to offer and that no way is really better than another just different.",
+        "translation": "Trong mô hình của Kohls, ở giai đoạn thứ tư, người mới đến trải qua một quá trình thích nghi. Họ đã trở nên quen thuộc với nền văn hóa mới, và điều này dẫn đến cảm giác có phương hướng và tự tin. Họ đã chấp nhận thức ăn, đồ uống, thói quen và các đặc điểm văn hóa mới và thậm chí có thể thấy mình thích một số thứ đã khiến họ cảm thấy rất khó chịu trước đây. Ngoài ra, họ nhận ra rằng nền văn hóa mới có những điều tốt và xấu để cung cấp và không có cách nào thực sự tốt hơn cách khác, chỉ khác nhau thôi.",
+        "mainIdea": "Giai đoạn thứ tư là giai đoạn thích nghi hoàn toàn với nền văn hóa mới và chấp nhận sự khác biệt."
+      }
+    ]
+  },
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "wordBank": ["Prepared", "Adjust", "Defined", "Surroundings", "Identify", "Discomfort"],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "People are not really ________ to talk about these kinds of personal problems.",
+            "answer": "prepared",
+            "translation": "Mọi người thực sự không sẵn sàng nói về những loại vấn đề cá nhân này."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "They lived in beautiful ________.",
+            "answer": "surroundings",
+            "translation": "Họ sống trong một môi trường xung quanh tuyệt đẹp."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "The lifestyle is so very different - it takes a while to __________ to that.",
+            "answer": "adjust",
+            "translation": "Lối sống rất khác - phải mất một lúc để thích nghi với điều đó."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "In the dictionary, 'reality' is __________ as 'the state of things as they are, rather than as they are imagined to be'.",
+            "answer": "defined",
+            "translation": "Trong từ điển, 'thực tế' được định nghĩa là 'trạng thái của sự vật như chúng đang là, chứ không phải như chúng được tưởng tượng'."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "I heard the _____________ in his voice, I don't think he is contentedly agree with our idea.",
+            "answer": "discomfort",
+            "translation": "Tôi nghe thấy sự khó chịu trong giọng nói của anh ấy, tôi không nghĩ anh ấy hài lòng đồng ý với ý tưởng của chúng tôi."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "The research will be used to ________ customers' needs.",
+            "answer": "identify",
+            "translation": "Nghiên cứu sẽ được sử dụng để xác định nhu cầu của khách hàng."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "wordBank": ["A high value", "Underwent", "Circumstance", "Work out", "Take action"],
+        "questions": [
+          {
+            "id": "fib_007",
+            "sentence": "After the accident, he ________ reconstructive surgery to rebuild his face.",
+            "answer": "underwent",
+            "translation": "Sau tai nạn, anh ấy đã trải qua phẫu thuật tái tạo để xây dựng lại khuôn mặt của mình."
+          },
+          {
+            "id": "fib_008",
+            "sentence": "A lot of teenagers don't place ________ on their parents' opinions.",
+            "answer": "a high value",
+            "translation": "Rất nhiều thanh thiếu niên không đặt giá trị cao vào ý kiến của cha mẹ họ."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "We need to ___________ a way of improving our overseas sales.",
+            "answer": "work out",
+            "translation": "Chúng ta cần tìm ra cách để cải thiện doanh số bán hàng ở nước ngoài của mình."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "Obviously we can't deal with the problem until we know all the ________.",
+            "answer": "circumstances",
+            "translation": "Rõ ràng là chúng ta không thể giải quyết vấn đề cho đến khi chúng ta biết tất cả các hoàn cảnh."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "We must ___________ to deal with the problem before it spreads to other areas.",
+            "answer": "take action",
+            "translation": "Chúng ta phải hành động để giải quyết vấn đề trước khi nó lan sang các khu vực khác."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "wordBank": ["Concern", "Features", "Last", "Noticed", "Critical"],
+        "questions": [
+          {
+            "id": "fib_012",
+            "sentence": "My ________ is that you're not getting enough work done.",
+            "answer": "concern",
+            "translation": "Mối quan tâm của tôi là bạn không hoàn thành đủ công việc."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "Our latest model of phone has several new ________.",
+            "answer": "features",
+            "translation": "Mẫu điện thoại mới nhất của chúng tôi có một số tính năng mới."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "She is very ________ of the way we bring up our children.",
+            "answer": "critical",
+            "translation": "Cô ấy rất chỉ trích về cách chúng tôi nuôi dạy con cái."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "He's working very efficiently at the moment, but it won't ________.",
+            "answer": "last",
+            "translation": "Anh ấy đang làm việc rất hiệu quả vào lúc này, nhưng điều đó sẽ không kéo dài."
+          },
+          {
+            "id": "fib_016",
+            "sentence": "He ________ that she was looking at him.",
+            "answer": "noticed",
+            "translation": "Anh ấy nhận thấy rằng cô ấy đang nhìn anh ấy."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "wordBank": ["Turned into", "Prepared", "Considered", "Establish", "Matters"],
+        "questions": [
+          {
+            "id": "fib_017",
+            "sentence": "There is a strong need to ______ effective communication links between staff, parents, pupils, and external bodies.",
+            "answer": "establish",
+            "translation": "Có nhu cầu mạnh mẽ để thiết lập các liên kết giao tiếp hiệu quả giữa nhân viên, phụ huynh, học sinh và các cơ quan bên ngoài."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "Anyone who gambles on the stock exchange has to be ___________ to lose money.",
+            "answer": "prepared",
+            "translation": "Bất kỳ ai đánh cược trên thị trường chứng khoán đều phải sẵn sàng mất tiền."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "Sarah ___________ her new friend generous and kind.",
+            "answer": "considered",
+            "translation": "Sarah coi người bạn mới của cô ấy là hào phóng và tốt bụng."
+          },
+          {
+            "id": "fib_020",
+            "sentence": "She may need your help with some business ___________.",
+            "answer": "matters",
+            "translation": "Cô ấy có thể cần sự giúp đỡ của bạn với một số vấn đề kinh doanh."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "Her enthusiasm for school ___________ disappointment after one day because she was not allowed to play much.",
+            "answer": "turned into",
+            "translation": "Sự nhiệt tình của cô ấy đối với trường học đã biến thành thất vọng sau một ngày vì cô ấy không được phép chơi nhiều."
+          }
+        ]
+      },
+      {
+        "id": "task_5",
+        "wordBank": ["Rejection", "Resulted in", "Bother", "Enthusiasm", "Adapt", "Pass"],
+        "questions": [
+          {
+            "id": "fib_022",
+            "sentence": "The government's ________ of the plans is a problem for us.",
+            "answer": "rejection",
+            "translation": "Sự từ chối các kế hoạch của chính phủ là một vấn đề đối với chúng tôi."
+          },
+          {
+            "id": "fib_023",
+            "sentence": "Children normally feel a lot of _________ about their first day at school.",
+            "answer": "enthusiasm",
+            "translation": "Trẻ em thường cảm thấy rất nhiệt tình về ngày đầu tiên đi học."
+          },
+          {
+            "id": "fib_024",
+            "sentence": "To remain competitive the company has to be able to _______ the changing market place.",
+            "answer": "adapt",
+            "translation": "Để duy trì tính cạnh tranh, công ty phải có khả năng thích nghi với thị trường đang thay đổi."
+          },
+          {
+            "id": "fib_025",
+            "sentence": "The fire ________ damage to their property.",
+            "answer": "resulted in",
+            "translation": "Vụ hỏa hoạn đã gây ra thiệt hại cho tài sản của họ."
+          },
+          {
+            "id": "fib_026",
+            "sentence": "I'm sorry to ________ you, but could you help me lift this suitcase?",
+            "answer": "bother",
+            "translation": "Tôi xin lỗi vì làm phiền bạn, nhưng bạn có thể giúp tôi nâng chiếc vali này không?"
+          },
+          {
+            "id": "fib_027",
+            "sentence": "We mustn't let this opportunity ________ us by.",
+            "answer": "pass",
+            "translation": "Chúng ta không được để cơ hội này bỏ lỡ."
+          }
+        ]
+      }
+    ]
+  }
+}
