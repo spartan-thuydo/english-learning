@@ -113,7 +113,16 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_013",
+      "word": "Propose",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "đề xuất",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_013"
+    },
+    {
+      "id": "word_014",
       "word": "Alternative",
       "pronunciation": "",
       "pos": "adj/n",
@@ -122,7 +131,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_014",
+      "id": "word_015",
       "word": "Restricted",
       "pronunciation": "",
       "pos": "adj",
@@ -131,7 +140,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_015",
+      "id": "word_016",
       "word": "Rely on",
       "pronunciation": "",
       "pos": "v",
@@ -140,7 +149,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_016",
+      "id": "word_017",
       "word": "Slippery",
       "pronunciation": "",
       "pos": "adj",
@@ -149,7 +158,34 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_017",
+      "word": "Household",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "hộ gia đình",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_018"
+    },
+    {
+      "word": "Regarding sth",
+      "pronunciation": "",
+      "pos": "pre",
+      "meaning": "về cái gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_019"
+    },
+    {
+      "word": "Locality",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "mang tính địa phương",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_020"
+    },
+    {
+      "id": "word_021",
       "word": "Determine",
       "pronunciation": "",
       "pos": "v",
@@ -158,7 +194,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_018",
+      "id": "word_022",
       "word": "Identify",
       "pronunciation": "",
       "pos": "v",
@@ -167,7 +203,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_019",
+      "id": "word_023",
       "word": "Burden",
       "pronunciation": "",
       "pos": "n",
@@ -176,7 +212,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_020",
+      "id": "word_024",
       "word": "Mobility",
       "pronunciation": "",
       "pos": "n",
@@ -185,7 +221,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_021",
+      "id": "word_025",
       "word": "Implement",
       "pronunciation": "",
       "pos": "v",
@@ -194,7 +230,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_022",
+      "id": "word_026",
       "word": "Export",
       "pronunciation": "",
       "pos": "n/v",
@@ -203,7 +239,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_023",
+      "id": "word_027",
       "word": "Goods",
       "pronunciation": "",
       "pos": "n",
@@ -212,7 +248,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_024",
+      "id": "word_028",
       "word": "Labour",
       "pronunciation": "",
       "pos": "n",
@@ -221,7 +257,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_025",
+      "id": "word_029",
       "word": "Operation",
       "pronunciation": "",
       "pos": "n",
@@ -230,7 +266,25 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_026",
+      "word": "It makes sense to do sth",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "hoàn toàn là hợp lí để làm gì đó",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_030"
+    },
+    {
+      "word": "Means",
+      "pronunciation": "",
+      "pos": "n",
+      "meaning": "phương thức",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_031"
+    },
+    {
+      "id": "word_032",
       "word": "Arduous",
       "pronunciation": "",
       "pos": "adj",
@@ -239,7 +293,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_027",
+      "id": "word_033",
       "word": "Be willing to do sth",
       "pronunciation": "",
       "pos": "v",
@@ -248,7 +302,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_028",
+      "id": "word_034",
       "word": "Promotion",
       "pronunciation": "",
       "pos": "n",
@@ -257,7 +311,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_029",
+      "id": "word_035",
       "word": "Degree",
       "pronunciation": "",
       "pos": "n",
@@ -266,7 +320,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_030",
+      "id": "word_036",
       "word": "Refinement",
       "pronunciation": "",
       "pos": "n",
@@ -275,7 +329,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_031",
+      "id": "word_037",
       "word": "Maintenance",
       "pronunciation": "",
       "pos": "n",
@@ -284,7 +338,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_032",
+      "id": "word_038",
       "word": "Fluctuate",
       "pronunciation": "",
       "pos": "v",
@@ -293,7 +347,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_033",
+      "id": "word_039",
       "word": "Motorised vehicle",
       "pronunciation": "",
       "pos": "n",
@@ -302,7 +356,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_034",
+      "id": "word_040",
       "word": "Carpenter",
       "pronunciation": "",
       "pos": "n",
@@ -311,7 +365,16 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_035",
+      "word": "Import",
+      "pronunciation": "",
+      "pos": "v",
+      "meaning": "nhập khẩu",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_041"
+    },
+    {
+      "id": "word_042",
       "word": "Poverty",
       "pronunciation": "",
       "pos": "n",
@@ -320,7 +383,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_036",
+      "id": "word_043",
       "word": "Modification",
       "pronunciation": "",
       "pos": "n",
@@ -329,7 +392,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_037",
+      "id": "word_044",
       "word": "Initiative",
       "pronunciation": "",
       "pos": "n",
@@ -338,7 +401,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_038",
+      "id": "word_045",
       "word": "Measure",
       "pronunciation": "",
       "pos": "n",
@@ -347,7 +410,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_039",
+      "id": "word_046",
       "word": "Assist",
       "pronunciation": "",
       "pos": "v",
@@ -356,7 +419,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_040",
+      "id": "word_047",
       "word": "Awareness",
       "pronunciation": "",
       "pos": "n",

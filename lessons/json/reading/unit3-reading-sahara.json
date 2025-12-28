@@ -23,7 +23,25 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_003",
+      "word": "Political",
+      "pronunciation": "/pəˈlɪt.ɪ.kəl/",
+      "pos": "adj",
+      "meaning": "thuộc về chính trị",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_003"
+    },
+    {
+      "word": "Politics",
+      "pronunciation": "/ˈpɒl.ɪ.tɪk/",
+      "pos": "n",
+      "meaning": "chính trị",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_004"
+    },
+    {
+      "id": "word_005",
       "word": "Solar energy",
       "pronunciation": "/ˈsəʊ.lər ˈen.ə.dʒi/",
       "pos": "n",
@@ -32,7 +50,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_004",
+      "id": "word_006",
       "word": "Calculate",
       "pronunciation": "/ˈkæl.kjə.leɪt/",
       "pos": "v",
@@ -41,7 +59,7 @@
       "exampleSimple": "The cost of the building has been calculated as/at over £5 million."
     },
     {
-      "id": "word_005",
+      "id": "word_007",
       "word": "Power plant",
       "pronunciation": "/ˈpaʊə ˌplɑːnt/",
       "pos": "n",
@@ -50,7 +68,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_006",
+      "id": "word_008",
       "word": "Combine",
       "pronunciation": "/kəmˈbaɪn/",
       "pos": "v",
@@ -59,7 +77,7 @@
       "exampleSimple": "I like to travel and make films, and I'm now able to combine the two."
     },
     {
-      "id": "word_007",
+      "id": "word_009",
       "word": "Skeptical",
       "pronunciation": "/ˈskep.tɪ.kəl/",
       "pos": "adj",
@@ -68,7 +86,7 @@
       "exampleSimple": "Many people remain skeptical about/of his claims."
     },
     {
-      "id": "word_008",
+      "id": "word_010",
       "word": "Comprise",
       "pronunciation": "/kəmˈpraɪz/",
       "pos": "v",
@@ -77,7 +95,7 @@
       "exampleSimple": "The course comprises a class book, a practice book, and a CD."
     },
     {
-      "id": "word_009",
+      "id": "word_011",
       "word": "Propose",
       "pronunciation": "/prəˈpəʊz/",
       "pos": "v",
@@ -86,7 +104,7 @@
       "exampleSimple": "He proposed dealing directly with the suppliers."
     },
     {
-      "id": "word_010",
+      "id": "word_012",
       "word": "Source",
       "pronunciation": "/sɔːs/",
       "pos": "n",
@@ -95,7 +113,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_011",
+      "id": "word_013",
       "word": "Convert A into B",
       "pronunciation": "/kənˈvɜːt/",
       "pos": "v",
@@ -104,7 +122,7 @@
       "exampleSimple": "Could we convert the small bedroom into a second bathroom?"
     },
     {
-      "id": "word_012",
+      "id": "word_014",
       "word": "Water pipe",
       "pronunciation": "/ˈwɔː.tər paɪp/",
       "pos": "n",
@@ -113,7 +131,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_013",
+      "id": "word_015",
       "word": "Boiler",
       "pronunciation": "/ˈbɔɪ.lər/",
       "pos": "n",
@@ -122,7 +140,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_014",
+      "id": "word_016",
       "word": "Turbine",
       "pronunciation": "/ˈtɜː.baɪn/",
       "pos": "n",
@@ -131,7 +149,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_015",
+      "id": "word_017",
       "word": "Generate",
       "pronunciation": "/ˈdʒen.ə.reɪt/",
       "pos": "v",
@@ -140,7 +158,25 @@
       "exampleSimple": "The wind farm generates enough electricity for 2,000 homes."
     },
     {
-      "id": "word_016",
+      "word": "Generator",
+      "pronunciation": "/ˈdʒen.ər.eɪ.tər/",
+      "pos": "n",
+      "meaning": "máy phát điện",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_018"
+    },
+    {
+      "word": "Generation",
+      "pronunciation": "/ˌdʒen.əˈreɪ.ʃən/",
+      "pos": "n",
+      "meaning": "việc tạo ra hoặc thế hệ",
+      "definition": "",
+      "exampleSimple": "",
+      "id": "word_019"
+    },
+    {
+      "id": "word_020",
       "word": "Estimate",
       "pronunciation": "/ˈes.tɪ.meɪt/",
       "pos": "v",
@@ -149,7 +185,7 @@
       "exampleSimple": "They estimate (that) the journey will take at least two weeks."
     },
     {
-      "id": "word_017",
+      "id": "word_021",
       "word": "Transmit",
       "pronunciation": "/trænzˈmɪt/",
       "pos": "v",
@@ -158,7 +194,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_018",
+      "id": "word_022",
       "word": "Drawback",
       "pronunciation": "/ˈdrɔː.bæk/",
       "pos": "n",
@@ -167,7 +203,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_019",
+      "id": "word_023",
       "word": "Efficiency",
       "pronunciation": "/ɪˈfɪʃ.ən.si/",
       "pos": "n",
@@ -176,7 +212,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_020",
+      "id": "word_024",
       "word": "Cable",
       "pronunciation": "/ˈkeɪ.bəl/",
       "pos": "n",
@@ -185,7 +221,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_021",
+      "id": "word_025",
       "word": "Tidal",
       "pronunciation": "/ˈtaɪ.dəl/",
       "pos": "adj",
@@ -194,7 +230,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_022",
+      "id": "word_026",
       "word": "Infrastructure",
       "pronunciation": "/ˈɪn.frəˌstrʌk.tʃər/",
       "pos": "n",
@@ -203,7 +239,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_023",
+      "id": "word_027",
       "word": "Electrical grid",
       "pronunciation": "/iˈlek.trɪ.kəl ɡrɪd/",
       "pos": "n",
@@ -212,7 +248,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_024",
+      "id": "word_028",
       "word": "Pass a law",
       "pronunciation": "/pɑːs ə lɔː/",
       "pos": "v",
@@ -221,7 +257,7 @@
       "exampleSimple": "The new government has just past a law to protect the right of citizens"
     },
     {
-      "id": "word_025",
+      "id": "word_029",
       "word": "Aid",
       "pronunciation": "/eɪd/",
       "pos": "v",
@@ -230,7 +266,7 @@
       "exampleSimple": "This project was designed to aid the poor"
     },
     {
-      "id": "word_026",
+      "id": "word_030",
       "word": "Investor",
       "pronunciation": "/ɪnˈves.tər/",
       "pos": "n",
@@ -239,7 +275,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_027",
+      "id": "word_031",
       "word": "Reach goals",
       "pronunciation": "/riːtʃ ɡəʊl/",
       "pos": "v",
@@ -248,7 +284,7 @@
       "exampleSimple": "He tried so hard to reach his goals"
     },
     {
-      "id": "word_028",
+      "id": "word_032",
       "word": "Operate",
       "pronunciation": "/ˈɒp.ər.eɪt/",
       "pos": "v",
@@ -257,7 +293,7 @@
       "exampleSimple": ""
     },
     {
-      "id": "word_029",
+      "id": "word_033",
       "word": "Stare at sth",
       "pronunciation": "/steər/",
       "pos": "v",

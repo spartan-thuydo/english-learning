@@ -540,55 +540,55 @@
             "id": "fib_001",
             "sentence": "Working too much can ________ on your health.",
             "answer": "take its toll",
-            "translation": ""
+            "translation": "Làm việc quá nhiều có thể ảnh hưởng đến sức khỏe của bạn."
           },
           {
             "id": "fib_002",
             "sentence": "Pollution continues to ________ nature.",
             "answer": "despoil",
-            "translation": ""
+            "translation": "Ô nhiễm tiếp tục phá hủy thiên nhiên."
           },
           {
             "id": "fib_003",
             "sentence": "They plan to ________ a new building downtown.",
             "answer": "construct",
-            "translation": ""
+            "translation": "Họ có kế hoạch xây dựng một tòa nhà mới ở trung tâm thành phố."
           },
           {
             "id": "fib_004",
             "sentence": "The ________ helps a lot of homeless people.",
             "answer": "shelter",
-            "translation": ""
+            "translation": "Tổ chức từ thiện giúp đỡ rất nhiều người vô gia cư."
           },
           {
             "id": "fib_005",
             "sentence": "She really doesn't use plastic bags, she's a ________ of green energy.",
             "answer": "proponent",
-            "translation": ""
+            "translation": "Cô ấy thực sự không sử dụng túi nhựa, cô ấy là người ủng hộ năng lượng xanh."
           },
           {
             "id": "fib_006",
             "sentence": "Let's ________ the new rules now.",
             "answer": "implement",
-            "translation": ""
+            "translation": "Hãy thực hiện các quy tắc mới ngay bây giờ."
           },
           {
             "id": "fib_007",
             "sentence": "Technology keeps ________ quickly.",
             "answer": "evolving",
-            "translation": ""
+            "translation": "Công nghệ tiếp tục phát triển nhanh chóng."
           },
           {
             "id": "fib_008",
             "sentence": "Laughter is ________ and can cheer anyone up.",
             "answer": "infectious",
-            "translation": ""
+            "translation": "Tiếng cười có tính lan tỏa và có thể làm bất kỳ ai vui lên."
           },
           {
             "id": "fib_009",
             "sentence": "The hotel can ________ many guests.",
             "answer": "accommodate",
-            "translation": ""
+            "translation": "Khách sạn có thể chứa nhiều khách."
           }
         ]
       },
@@ -610,49 +610,49 @@
             "id": "fib_010",
             "sentence": "Leftover food (đồ ăn còn thừa) can be used to ________ for plants.",
             "answer": "compost",
-            "translation": ""
+            "translation": "Thức ăn thừa có thể được sử dụng làm phân bón cho cây."
           },
           {
             "id": "fib_011",
             "sentence": "It is a common ________ in agriculture to apply no artificial fertilizers.",
             "answer": "practice",
-            "translation": ""
+            "translation": "Đó là một phương pháp phổ biến trong nông nghiệp là không sử dụng phân bón nhân tạo."
           },
           {
             "id": "fib_012",
             "sentence": "Being in the sun for too long can ________ on your skin.",
             "answer": "take its toll",
-            "translation": ""
+            "translation": "Ở dưới ánh mặt trời quá lâu có thể ảnh hưởng đến làn da của bạn."
           },
           {
             "id": "fib_013",
             "sentence": "Students should learn about different cultures to ________ their knowledge.",
             "answer": "scale up",
-            "translation": ""
+            "translation": "Học sinh nên tìm hiểu về các nền văn hóa khác nhau để mở rộng kiến thức của họ."
           },
           {
             "id": "fib_014",
             "sentence": "In restaurants, they usually use a ________ for serving food.",
             "answer": "tray",
-            "translation": ""
+            "translation": "Trong nhà hàng, họ thường sử dụng khay để phục vụ thức ăn."
           },
           {
             "id": "fib_015",
             "sentence": "My ________ is to travel the world.",
             "answer": "aspiration",
-            "translation": ""
+            "translation": "Tham vọng của tôi là đi du lịch vòng quanh thế giới."
           },
           {
             "id": "fib_016",
             "sentence": "You need ________ to succeed in your goals.",
             "answer": "rigour",
-            "translation": ""
+            "translation": "Bạn cần quyết tâm để thành công trong mục tiêu của mình."
           },
           {
             "id": "fib_017",
             "sentence": "The experiment (thí nghiệm) will ________ one thing to another.",
             "answer": "subject",
-            "translation": ""
+            "translation": "Thí nghiệm sẽ so sánh thứ này với thứ khác."
           }
         ]
       },
@@ -673,43 +673,43 @@
             "id": "fib_018",
             "sentence": "The company wants to ________ production to meet demand.",
             "answer": "scale up",
-            "translation": ""
+            "translation": "Công ty muốn tăng sản xuất để đáp ứng nhu cầu."
           },
           {
             "id": "fib_019",
             "sentence": "The luxury car was ________ expensive for most.",
             "answer": "prohibitively",
-            "translation": ""
+            "translation": "Chiếc xe sang quá đắt đối với hầu hết mọi người."
           },
           {
             "id": "fib_020",
             "sentence": "Some plants have fruits that are ________",
             "answer": "non-edible",
-            "translation": ""
+            "translation": "Một số loại cây có quả ăn được."
           },
           {
             "id": "fib_021",
             "sentence": "The ________ temperature for this plant (cây trồng) to grow is 25°C.",
             "answer": "optimum",
-            "translation": ""
+            "translation": "Nhiệt độ tối ưu cho cây trồng này phát triển là 25°C."
           },
           {
             "id": "fib_022",
             "sentence": "Smoking is ________ to your health.",
             "answer": "detrimental",
-            "translation": ""
+            "translation": "Hút thuốc có hại cho sức khỏe của bạn."
           },
           {
             "id": "fib_023",
             "sentence": "Please ________ the chairs after using them.",
             "answer": "stack",
-            "translation": ""
+            "translation": "Vui lòng xếp ghế sau khi sử dụng."
           },
           {
             "id": "fib_024",
             "sentence": "There's a lot of ________ in the colors available.",
             "answer": "variations",
-            "translation": ""
+            "translation": "Có rất nhiều sự đa dạng trong các màu sắc có sẵn."
           }
         ]
       }
