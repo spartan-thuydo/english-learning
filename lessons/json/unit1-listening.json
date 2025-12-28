@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "unit": "Unit 1",
+    "title": "Dolphin Conservation Trust"
+  },
+  "vocabulary": [
+    {
+      "word": "Pleased",
+      "pronunciation": "/pliːzd/",
+      "meaning": "vui",
+      "definition": "vui",
+      "id": "word_001",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Purpose",
+      "pronunciation": "/ˈpɝː.pəs/",
+      "meaning": "mục tiêu",
+      "definition": "mục tiêu",
+      "id": "word_002",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Threat",
+      "pronunciation": "/θret/",
+      "meaning": "nguy cơ",
+      "definition": "nguy cơ",
+      "id": "word_003",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Suffer",
+      "pronunciation": "/ˈsʌf.ər/",
+      "meaning": "chịu đựng (cơn đau, chấn thương, chuyện buồn,…)",
+      "definition": "chịu đựng (cơn đau, chấn thương, chuyện buồn,…)",
+      "id": "word_004",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Campaign",
+      "pronunciation": "/kæmˈpeɪn/",
+      "meaning": "chiến dịch",
+      "definition": "chiến dịch",
+      "id": "word_005",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Employ",
+      "pronunciation": "/ɪmˈplɔɪ/",
+      "meaning": "use",
+      "definition": "use",
+      "id": "word_006",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Charity",
+      "pronunciation": "/ˈtʃer.ə.t̬i/",
+      "meaning": "tổ chức từ thiện",
+      "definition": "tổ chức từ thiện",
+      "id": "word_007",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Raise people’s awareness of sth",
+      "pronunciation": "/reɪz/",
+      "meaning": "nâng cao nhận thức của mọi người về cái gì đó",
+      "definition": "nâng cao nhận thức của mọi người về cái gì đó",
+      "id": "word_008",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Marine creatures",
+      "pronunciation": "/məˈriːn/",
+      "meaning": "sinh vật biển",
+      "definition": "sinh vật biển",
+      "id": "word_009",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Monitor populations",
+      "pronunciation": "/ˈmɒn.ɪ.tər/",
+      "meaning": "giám sát dân số (ám chỉ số lượng loài cá heo trong bài)",
+      "definition": "giám sát dân số (ám chỉ số lượng loài cá heo trong bài)",
+      "id": "word_010",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Campaign against sth",
+      "pronunciation": "/kæmˈpeɪn/",
+      "meaning": "tổ chức các chiến dịch chống lại điều gì đó",
+      "definition": "tổ chức các chiến dịch chống lại điều gì đó",
+      "id": "word_011",
+      "exampleSimple": ""
+    },
+    {
+      "word": "In the first place",
+      "pronunciation": "",
+      "meaning": "in the beginning",
+      "definition": "in the beginning",
+      "id": "word_012",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Come across sth",
+      "pronunciation": "",
+      "meaning": "tình cờ biết cái gì đó",
+      "definition": "tình cờ biết cái gì đó",
+      "id": "word_013",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Be/get hooked",
+      "pronunciation": "",
+      "meaning": "nghiện cái gì đó",
+      "definition": "nghiện cái gì đó",
+      "id": "word_014",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Pollution",
+      "pronunciation": "/pəˈluː.ʃən/",
+      "meaning": "sự ô nhiễm",
+      "definition": "sự ô nhiễm",
+      "id": "word_015",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Conservation trust",
+      "pronunciation": "/trʌst/",
+      "meaning": "tổ chức bảo tồn",
+      "definition": "tổ chức bảo tồn",
+      "id": "word_016",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Expertise",
+      "pronunciation": "/ˌek.spɜːˈtiːz/",
+      "meaning": "a high level of knowledge or skill",
+      "definition": "a high level of knowledge or skill",
+      "id": "word_017",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Haven",
+      "pronunciation": "/ˈheɪ.vən/",
+      "meaning": "a safe or peaceful place",
+      "definition": "a safe or peaceful place",
+      "id": "word_018",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Exploration",
+      "pronunciation": "/ˌek.spləˈreɪ.ʃən/",
+      "meaning": "sự khai thác",
+      "definition": "sự khai thác",
+      "id": "word_019",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Biologist",
+      "pronunciation": "/baɪˈɑː.lə.dʒɪst/",
+      "meaning": "nhà sinh vật học",
+      "definition": "nhà sinh vật học",
+      "id": "word_020",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Observation",
+      "pronunciation": "/ˌɒb.zəˈveɪ.ʃən/",
+      "meaning": "sự quan sát",
+      "definition": "sự quan sát",
+      "id": "word_021",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Shipping",
+      "pronunciation": "/ˈʃɪp.ɪŋ/",
+      "meaning": "vận chuyển",
+      "definition": "vận chuyển",
+      "id": "word_022",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Fishing policy",
+      "pronunciation": "/ˈpɑː.lə.si/",
+      "meaning": "chính sách đánh bắt cá",
+      "definition": "chính sách đánh bắt cá",
+      "id": "word_023",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Animal protection",
+      "pronunciation": "",
+      "meaning": "bảo vệ động vật",
+      "definition": "bảo vệ động vật",
+      "id": "word_024",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Award",
+      "pronunciation": "",
+      "meaning": "giải thưởng",
+      "definition": "giải thưởng",
+      "id": "word_025",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Make sth more widely publicized and understood",
+      "pronunciation": "",
+      "meaning": "make something more popular",
+      "definition": "make something more popular",
+      "id": "word_026",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Do sth on a voluntary basis",
+      "pronunciation": "",
+      "meaning": "làm gì đó trên cơ sở tự nguyện  give services on a voluntary basis",
+      "definition": "làm gì đó trên cơ sở tự nguyện  give services on a voluntary basis",
+      "id": "word_027",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Fairly",
+      "pronunciation": "",
+      "meaning": "khá, tương đối",
+      "definition": "khá, tương đối",
+      "id": "word_028",
+      "exampleSimple": ""
+    },
+    {
+      "word": "A huge number of sth",
+      "pronunciation": "",
+      "meaning": "A huge number of sth",
+      "definition": "A huge number of sth",
+      "id": "word_029",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Go round",
+      "pronunciation": "",
+      "meaning": "đi vòng quanh",
+      "definition": "đi vòng quanh",
+      "id": "word_030",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Changes in something",
+      "pronunciation": "",
+      "meaning": "những thay đổi trong cái gì đó",
+      "definition": "những thay đổi trong cái gì đó",
+      "id": "word_031",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Hope to do something",
+      "pronunciation": "",
+      "meaning": "hope to làm điều gì đó",
+      "definition": "hope to làm điều gì đó",
+      "id": "word_032",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Be able to do something",
+      "pronunciation": "",
+      "meaning": "be able to làm điều gì đó",
+      "definition": "be able to làm điều gì đó",
+      "id": "word_033",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Give services",
+      "pronunciation": "",
+      "meaning": "cung cấp dịch vụ",
+      "definition": "cung cấp dịch vụ",
+      "id": "word_034",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Từ vựng: more widely publicized and understood  Fairly  Go round / Changes",
+      "pronunciation": "/ on a voluntary basis /",
+      "meaning": "",
+      "definition": "",
+      "id": "word_035",
+      "exampleSimple": ""
+    },
+    {
+      "word": "Từ vựng: Hope to  Give services",
+      "pronunciation": "/ Be able to /",
+      "meaning": "",
+      "definition": "",
+      "id": "word_036",
+      "exampleSimple": ""
+    }
+  ],
+  "fillInTheBlanks": {
+    "instructions": "Complete the sentences using the words from the box.",
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task 1: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Pleased",
+          "Purpose",
+          "Threat",
+          "Suffer",
+          "Campaign",
+          "Employ",
+          "Charity"
+        ],
+        "questions": [
+          {
+            "id": "fib_001",
+            "sentence": "We hope that we can have enough money to …………….. an expert.",
+            "answer": "employ",
+            "translation": "Chúng tôi hy vọng có đủ tiền để thuê một chuyên gia."
+          },
+          {
+            "id": "fib_002",
+            "sentence": "We're so …………………. that you're able to come to the wedding.",
+            "answer": "pleased",
+            "translation": "Chúng tôi rất vui vì bạn có thể đến đám cưới."
+          },
+          {
+            "id": "fib_003",
+            "sentence": "I think he ……………… a lot when his wife left him.",
+            "answer": "suffered",
+            "translation": "Tôi nghĩ anh ấy đã chịu đựng rất nhiều khi vợ anh ấy bỏ đi."
+          },
+          {
+            "id": "fib_004",
+            "sentence": "Our ……………. was supported by local residents",
+            "answer": "campaign",
+            "translation": "Chiến dịch của chúng tôi đã được cư dân địa phương ủng hộ."
+          },
+          {
+            "id": "fib_005",
+            "sentence": "UNICEF is an international …………...",
+            "answer": "charity",
+            "translation": "UNICEF là một tổ chức từ thiện quốc tế."
+          },
+          {
+            "id": "fib_006",
+            "sentence": "The ……………… of the research is to protect the dolphin and other marine creatures.",
+            "answer": "purpose",
+            "translation": "Mục đích của nghiên cứu là bảo vệ cá heo và các sinh vật biển khác."
+          },
+          {
+            "id": "fib_007",
+            "sentence": "Because of pollution and other …………., many creatures are pushed to the brink of extinction.",
+            "answer": "threats",
+            "translation": "Do ô nhiễm và các mối đe dọa khác, nhiều sinh vật bị đẩy đến bờ vực tuyệt chủng."
+          }
+        ]
+      },
+      {
+        "id": "task_2",
+        "title": "Task 2: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Raise people’s awareness of sth",
+          "Marine creatures",
+          "Monitor populations",
+          "Campaign against sth",
+          "In the first place",
+          "Come across sth",
+          "Be/get hooked",
+          "Pollution"
+        ],
+        "questions": [
+          {
+            "id": "fib_008",
+            "sentence": "He …………………… some old love letters.",
+            "answer": "came across",
+            "translation": "Anh ấy tình cờ tìm thấy vài bức thư tình cũ."
+          },
+          {
+            "id": "fib_009",
+            "sentence": "We were afraid she was getting ………. on TV, so we sold it.",
+            "answer": "hooked",
+            "translation": "Chúng tôi sợ cô ấy đang nghiện TV nên chúng tôi đã bán nó."
+          },
+          {
+            "id": "fib_010",
+            "sentence": "A biologist was employed to …………………….",
+            "answer": "monitor populations",
+            "translation": "Một nhà sinh vật học được thuê để giám sát quần thể."
+          },
+          {
+            "id": "fib_011",
+            "sentence": "He won the election in November by ………………. a tax increase.",
+            "answer": "campaigning against",
+            "translation": "Anh ấy đã thắng cử vào tháng 11 bằng cách vận động chống lại việc tăng thuế."
+          },
+          {
+            "id": "fib_012",
+            "sentence": "The leaflet has been produced with the aim of ……………………. of the disease.",
+            "answer": "raising people's awareness",
+            "translation": "Tờ rơi được sản xuất với mục đích nâng cao nhận thức của mọi người về căn bệnh này."
+          },
+          {
+            "id": "fib_013",
+            "sentence": "Blue whales are the largest ……………………. ever to have lived.",
+            "answer": "marine creatures",
+            "translation": "Cá voi xanh là sinh vật biển lớn nhất từng sống."
+          },
+          {
+            "id": "fib_014",
+            "sentence": "We should never have agreed to let him borrow the money ………………….",
+            "answer": "in the first place",
+            "translation": "Lẽ ra chúng ta không nên đồng ý cho anh ta vay tiền ngay từ đầu."
+          },
+          {
+            "id": "fib_015",
+            "sentence": "The company claims (khẳng định) it is not responsible for the ……………. in the river.",
+            "answer": "pollution",
+            "translation": "Công ty khẳng định không chịu trách nhiệm về ô nhiễm trong sông."
+          }
+        ]
+      },
+      {
+        "id": "task_3",
+        "title": "Task 3: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Conservation trust",
+          "Expertise",
+          "Haven",
+          "Exploration"
+        ],
+        "questions": [
+          {
+            "id": "fib_016",
+            "sentence": "The ……………for new sources of energy is vital for the future of our planet.",
+            "answer": "exploration",
+            "translation": "Việc khám phá các nguồn năng lượng mới rất quan trọng cho tương lai hành tinh của chúng ta."
+          },
+          {
+            "id": "fib_017",
+            "sentence": "He works for a charitable …………….",
+            "answer": "trust",
+            "translation": "Anh ấy làm việc cho một tổ chức từ thiện."
+          },
+          {
+            "id": "fib_018",
+            "sentence": "She has considerable …………. in French history.",
+            "answer": "expertise",
+            "translation": "Cô ấy có kiến thức chuyên môn đáng kể về lịch sử Pháp."
+          },
+          {
+            "id": "fib_019",
+            "sentence": "The garden was a …………… from the noise and bustle of the city.",
+            "answer": "haven",
+            "translation": "Khu vườn là nơi trú ẩn tránh tiếng ồn và sự hối hả của thành phố."
+          }
+        ]
+      },
+      {
+        "id": "task_4",
+        "title": "Task 4: check the meanings of the following words and do the exercises attached",
+        "wordBank": [
+          "Biologist",
+          "Observation",
+          "Shipping",
+          "Fishing policy",
+          "Animal protection",
+          "Award"
+        ],
+        "questions": [
+          {
+            "id": "fib_020",
+            "sentence": "Careful …………… of the experiment helped them find the solution.",
+            "answer": "observation",
+            "translation": "Việc quan sát cẩn thận thí nghiệm đã giúp họ tìm ra giải pháp."
+          },
+          {
+            "id": "fib_021",
+            "sentence": "Volunteers organized an …………… group to help shelter stray dogs.",
+            "answer": "animal protection",
+            "translation": "Các tình nguyện viên đã tổ chức một nhóm bảo vệ động vật để giúp những con chó hoang."
+          },
+          {
+            "id": "fib_022",
+            "sentence": "She received an …………… for her groundbreaking work in renewable energy.",
+            "answer": "award",
+            "translation": "Cô ấy nhận được giải thưởng cho công trình đột phá về năng lượng tái tạo."
+          },
+          {
+            "id": "fib_023",
+            "sentence": "The …………… spent the summer researching sea turtles.",
+            "answer": "biologist",
+            "translation": "Nhà sinh vật học đã dành mùa hè nghiên cứu rùa biển."
+          },
+          {
+            "id": "fib_024",
+            "sentence": "The new …………… limits the number of fish that can be caught each day.",
+            "answer": "shipping",
+            "translation": "Công ty cung cấp miễn phí vận chuyển cho đơn hàng trên $50."
+          }
+        ]
+      }
+    ]
+  }
+}
