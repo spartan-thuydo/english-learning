@@ -2,6 +2,8 @@
 
 Interactive English learning web application with reading comprehension and vocabulary practice.
 
+https://spartan-thuydo.github.io/english-learning/
+
 ## Features
 
 - **📖 Reading Comprehension**: Click any word to see its meaning instantly
