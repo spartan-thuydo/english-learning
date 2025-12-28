@@ -1,3 +1,6 @@
+/* Import Game Styles */
+@import './games.css';
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -82,6 +85,63 @@ body {
 .button--disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* Button Highlight Pulse Animation */
+@keyframes buttonHighlight {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.button--highlight-pulse {
+  animation: buttonHighlight 0.4s ease-out;
+}
+
+.button--highlight-pulse.button--primary {
+  animation-name: buttonHighlightPrimary;
+}
+
+.button--highlight-pulse.button--secondary {
+  animation-name: buttonHighlightSecondary;
+}
+
+@keyframes buttonHighlightPrimary {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes buttonHighlightSecondary {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
 }
 
 /* Card Component */
@@ -513,6 +573,7 @@ body {
 .vocabulary-page__meta {
   display: flex;
   gap: var(--spacing-sm);
+  align-items: center;
 }
 
 .vocabulary-page__sticky-controls {
@@ -534,27 +595,33 @@ body {
 .vocabulary-page__stats {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-bottom: var(--spacing-sm);
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 
 .stat {
   text-align: center;
   flex: 1;
+  min-width: 0;
 }
 
 .stat__value {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--primary-color);
+  line-height: 1.2;
 }
 
 .stat__label {
   display: block;
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-secondary);
   margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .vocabulary-page__progress-bar {
@@ -742,29 +809,31 @@ body {
 }
 
 .vocabulary-item__learned-btn {
-  font-size: 24px;
-  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  border-width: 1px;
 }
 
 .vocabulary-item__learned-btn.learned {
-  background-color: var(--success-color);
+  background-color: transparent;
   border-color: var(--success-color);
-  color: white;
+  color: var(--success-color);
 }
 
 .vocabulary-item__learned-btn.learned:hover {
-  background-color: #0d9668;
-  border-color: #0d9668;
+  background-color: #f0fdf4;
+  border-color: var(--success-color);
 }
 
 .vocabulary-item__learned-btn.unlearned {
-  background-color: #f1f5f9;
+  background-color: transparent;
   border-color: #cbd5e1;
   color: #94a3b8;
 }
 
 .vocabulary-item__learned-btn.unlearned:hover {
-  background-color: #e2e8f0;
+  background-color: #f8fafc;
   border-color: #94a3b8;
   color: #64748b;
 }
@@ -844,8 +913,24 @@ body {
     align-items: stretch;
   }
 
+  .vocabulary-page__progress {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
   .vocabulary-page__stats {
-    flex-direction: column;
-    gap: var(--spacing-lg);
+    gap: var(--spacing-xs);
+    margin-bottom: 6px;
+  }
+
+  .stat__value {
+    font-size: 16px;
+  }
+
+  .stat__label {
+    font-size: 9px;
+  }
+
+  .vocabulary-page__progress-bar {
+    height: 4px;
   }
 }

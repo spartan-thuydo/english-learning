@@ -65,6 +65,10 @@ export default function VocabularyPage() {
     navigate(buildRoute.reading(lessonId));
   };
 
+  const goToGames = () => {
+    navigate(buildRoute.games(lessonId));
+  };
+
   if (isLoading) {
     return <Loading fullScreen text="Loading vocabulary..." />;
   }
@@ -92,21 +96,28 @@ export default function VocabularyPage() {
   return (
     <div className="vocabulary-page">
       <header className="vocabulary-page__header">
-        <Button variant="secondary" onClick={() => navigate('/')}>
-          ← Home
-        </Button>
+        <div className="vocabulary-page__nav-buttons">
+          <Button variant="secondary" onClick={() => navigate('/')}>
+            ← Home
+          </Button>
+          <Button variant="secondary" onClick={goToReading}>
+            Reading
+          </Button>
+        </div>
 
         <div className="vocabulary-page__title-section">
-          <h1>Vocabulary</h1>
           {lessonInfo && (
             <div className="vocabulary-page__meta">
-              <span className="badge">{lessonInfo.unit}</span>
+              <h1>Vocabulary</h1>
+              <div className="vocabulary-page__unit">
+                <span className="badge">{lessonInfo.unit}</span>
+              </div>
             </div>
           )}
         </div>
 
-        <Button variant="primary" onClick={goToReading}>
-          ← Reading
+        <Button variant="primary" onClick={goToGames}>
+          Play Games to Practice →
         </Button>
       </header>
 
@@ -144,12 +155,6 @@ export default function VocabularyPage() {
         />
       </div>
 
-      <div className="vocabulary-page__games-section">
-        <h2>Practice Games</h2>
-        <p className="vocabulary-page__coming-soon">
-          🎮 Games coming soon! (Flash cards, Word scramble, Multiple choice, etc.)
-        </p>
-      </div>
     </div>
   );
 }

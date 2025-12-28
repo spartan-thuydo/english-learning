@@ -11,7 +11,7 @@ export default function VocabularyList({
   onMarkUnlearned
 }) {
   const [searchTerm, setSearchTerm] = useState('');
-  const [filter, setFilter] = useState('all'); // 'all', 'learned', 'unlearned'
+  const [filter, setFilter] = useState('unlearned'); // 'all', 'learned', 'unlearned' - default: unlearned
 
   const filteredVocabulary = vocabulary.filter(word => {
     // Search filter
@@ -49,10 +49,10 @@ export default function VocabularyList({
 
           <div className="vocabulary-list__filters">
             <button
-              className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-              onClick={() => setFilter('all')}
+              className={`filter-btn ${filter === 'unlearned' ? 'active' : ''}`}
+              onClick={() => setFilter('unlearned')}
             >
-              All ({stats.total})
+              Unlearned ({stats.unlearned})
             </button>
             <button
               className={`filter-btn ${filter === 'learned' ? 'active' : ''}`}
@@ -61,10 +61,10 @@ export default function VocabularyList({
               Learned ({stats.learned})
             </button>
             <button
-              className={`filter-btn ${filter === 'unlearned' ? 'active' : ''}`}
-              onClick={() => setFilter('unlearned')}
+              className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
+              onClick={() => setFilter('all')}
             >
-              Unlearned ({stats.unlearned})
+              All ({stats.total})
             </button>
           </div>
         </div>

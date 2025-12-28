@@ -1,7 +1,9 @@
+import { forwardRef } from 'react';
+
 /**
  * Button Component - Reusable button with variants
  */
-export default function Button({
+const Button = forwardRef(function Button({
   children,
   onClick,
   variant = 'primary',
@@ -10,7 +12,7 @@ export default function Button({
   type = 'button',
   className = '',
   ...props
-}) {
+}, ref) {
   const baseClasses = 'button';
   const variantClasses = `button--${variant}`;
   const sizeClasses = `button--${size}`;
@@ -26,6 +28,7 @@ export default function Button({
 
   return (
     <button
+      ref={ref}
       type={type}
       className={classes}
       onClick={onClick}
@@ -35,4 +38,6 @@ export default function Button({
       {children}
     </button>
   );
-}
+});
+
+export default Button;

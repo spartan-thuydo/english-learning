@@ -14,6 +14,8 @@ class StorageService {
     return allProgress[lessonId] || {
       learnedWords: [],
       completedExercises: [],
+      flashcardKnownWords: [],
+      flashcardReviewWords: [],
       lastAccessed: null
     };
   }
@@ -44,6 +46,33 @@ class StorageService {
       progress.lastAccessed = new Date().toISOString();
       this.saveLessonProgress(lessonId, progress);
     }
+  }
+
+  /**
+   * Get flashcard game progress
+   * @param {string} lessonId
+   * @returns {Object} { knownWords: string[], reviewWords: string[] }
+   */
+  getFlashcardProgress(lessonId) {
+    const progress = this.getLessonProgress(lessonId);
+    return {
+      knownWords: progress.flashcardKnownWords || [],
+      reviewWords: progress.flashcardReviewWords || []
+    };
+  }
+
+  /**
+   * Save flashcard game progress
+   * @param {string} lessonId
+   * @param {string[]} knownWords - Array of word IDs
+   * @param {string[]} reviewWords - Array of word IDs
+   */
+  saveFlashcardProgress(lessonId, knownWords, reviewWords) {
+    const progress = this.getLessonProgress(lessonId);
+    progress.flashcardKnownWords = knownWords;
+    progress.flashcardReviewWords = reviewWords;
+    progress.lastAccessed = new Date().toISOString();
+    this.saveLessonProgress(lessonId, progress);
   }
 
   /**
